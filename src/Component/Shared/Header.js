@@ -70,29 +70,27 @@ const Header = (props) => {
                 <li
                   className={
                     isServicesMainPage
-                      ? "colorWhite fw-400"
+                      ? "colorWhite fw-500"
                       : isOurWorkPage
-                      ? "colorWhite fw-400"
-                      : "colorGrey fw-400"
+                      ? "colorWhite fw-500"
+                      : "colorGrey fw-500"
                   }
-                >
-                  <Link to="/">Home</Link>
-                </li>
+                ></li>
                 <li
                   // onMouseOver={hoverStart}
                   onMouseMove={hoverStart}
                   // onMouseLeave={hoverEnd}
                   className={
                     isServicesMainPage
-                      ? "colorWhite fw-400"
+                      ? "colorWhite fw-500"
                       : isOurWorkPage
-                      ? "colorWhite fw-400"
-                      : "colorGrey fw-400"
+                      ? "colorWhite fw-500"
+                      : "colorGrey fw-500"
                   }
                 >
                   <Link to="/servicesMain">Services</Link>
                   <div className="openServiceMenu ">
-                    <div className="row w-100">
+                    <div className="row w-100 align-items-center">
                       <div className="col-lg-4">
                         <ul className="dropdown_menu">
                           <li>
@@ -244,7 +242,7 @@ const Header = (props) => {
                       : "colorGrey fw-400"
                   }
                 >
-                  <Link to="about-us">About Us</Link>
+                  <Link to="about-us">About Us </Link>
                 </li>
                 <li className="colorRed fw-400">
                   <Link to="contact-us" className="lets_talk_link">

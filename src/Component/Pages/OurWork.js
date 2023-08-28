@@ -1029,7 +1029,7 @@ const OurWork = (props) => {
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/vardhman"
+                        href="/"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1052,7 +1052,7 @@ const OurWork = (props) => {
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/welspungroup"
+                        href="/canadian-woods"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1123,7 +1123,7 @@ const OurWork = (props) => {
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/mcdowell"
+                        href="/jindal-SAW"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1194,6 +1194,7 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </div>
+
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/thumbnails/all_projects/malik.svg"
@@ -1325,20 +1326,21 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </div>
+
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/bad.svg"
+                    src="/images/thumbnails/all_projects/i2m.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name">Goodricke</h2>
+                      <h2 className="proj_name">I2M</h2>
                       <p className="proj_type">Web Development</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/goodricke"
+                        href="/i2m"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1364,7 +1366,7 @@ const OurWork = (props) => {
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/our-work"
+                        href="/welpsun-group"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1377,7 +1379,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/floor.svg"
+                    src="/images/thumbnails/all_projects/conindia.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1398,10 +1400,33 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/webm.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">Local 2030</h2>
+                      <p className="proj_type">Web Development</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/local2030"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/cook.svg"
+                    src="/images/thumbnails/all_projects/mc.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1422,6 +1447,29 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/gray2333.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">256 Grays</h2>
+                      <p className="proj_type">Web Development</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/256grays"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           ) : (
@@ -1432,21 +1480,21 @@ const OurWork = (props) => {
               <div className="projectsGalleryL">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-1.png"
+                    src="/images/thumbnails/all_projects/dodhia.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">
-                        Elleys’ <br />
-                        Electronic
+                        Dodhia Textile <br />
+                        Film
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/elleyselectrics"
+                        href="/dodhia-textiles"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1459,20 +1507,176 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-2.png"
+                    src="/images/thumbnails/all_projects/pipeline.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">
-                        Goodricke <br />
+                        Welpsun BKG <br />
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/our-work"
+                        href="/welpsunBKG"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/dit.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        DHC International
+                        <br />
+                        Teaser
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/DHCinternational-teaser"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/ricv.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Rockman Industries
+                        <br />
+                        Corporate Video
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/rockman-industries"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/dhci.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        DHC International <br />
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/DHCinternational"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/speakevent.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Speak Event <br />
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/speak-event"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/kfm.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Kuku FM
+                        <br />
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/kukufm"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/recipe.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Recipe
+                        <br />
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/recipe"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1487,18 +1691,18 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-5.png"
+                    src="/images/thumbnails/all_projects/vardhman.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name">Memoria</h2>
-                      <p className="proj_type">Print</p>
+                      <h2 className="proj_name">Vardhman</h2>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/memoria"
+                        href="/vardhman"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1511,21 +1715,20 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-6.png"
+                    src="/images/thumbnails/all_projects/vjy1.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">
-                        Notandas <br />
-                        Jewellery
+                        Vijay Sales <br />
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/notandas"
+                        href="/vijaysales"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1538,18 +1741,156 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-7.png"
+                    src="/images/thumbnails/all_projects/hyd.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name">Vardhaman</h2>
-                      <p className="proj_type">Web Development</p>
+                      <h2 className="proj_name">
+                        Rockman Advanced
+                        <br />
+                        Composites
+                      </h2>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/vardhman"
+                        href="/rockman-advance-comp"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/dhf.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Dodhia Corporate
+                        <br />
+                        Film
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/dodhia-corporate-film"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/icicipru.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        ICICI Prudential
+                        <br />
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/icici-prudential"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/isolus.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Isolus
+                        <br />
+                      
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/rockman-advance-comp"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/hyd.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Rockman Advanced
+                        <br />
+                        Composites
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/rockman-advance-comp"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/hyd.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Rockman Advanced
+                        <br />
+                        Composites
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/rockman-advance-comp"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1564,14 +1905,14 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-26.png"
+                    src="/images/thumbnails/all_projects/proj-26.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">Welspun India</h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1588,7 +1929,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-9.png"
+                    src="/images/thumbnails/all_projects/proj-9.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1612,7 +1953,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-10.png"
+                    src="/images/thumbnails/all_projects/proj-10.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1643,7 +1984,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryL">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-1.png"
+                    src="/images/thumbnails/all_projects/proj-1.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1653,7 +1994,7 @@ const OurWork = (props) => {
                         Elleys’ <br />
                         Electronic
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1670,7 +2011,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-2.png"
+                    src="/images/thumbnails/all_projects/proj-2.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1679,7 +2020,7 @@ const OurWork = (props) => {
                       <h2 className="proj_name">
                         Goodricke <br />
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1698,7 +2039,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-5.png"
+                    src="/images/thumbnails/all_projects/proj-5.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1722,7 +2063,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-6.png"
+                    src="/images/thumbnails/all_projects/proj-6.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1732,7 +2073,7 @@ const OurWork = (props) => {
                         Notandas <br />
                         Jewellery
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1749,14 +2090,14 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-7.png"
+                    src="/images/thumbnails/all_projects/proj-7.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">Vardhaman</h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1775,14 +2116,14 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-26.png"
+                    src="/images/thumbnails/all_projects/proj-26.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">Welspun India</h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1799,7 +2140,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-9.png"
+                    src="/images/thumbnails/all_projects/proj-9.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1823,7 +2164,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-10.png"
+                    src="/images/thumbnails/all_projects/proj-10.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1854,7 +2195,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryL">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-1.png"
+                    src="/images/thumbnails/all_projects/proj-1.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1864,7 +2205,7 @@ const OurWork = (props) => {
                         Elleys’ <br />
                         Electronic
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1881,7 +2222,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-2.png"
+                    src="/images/thumbnails/all_projects/proj-2.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1890,7 +2231,7 @@ const OurWork = (props) => {
                       <h2 className="proj_name">
                         Goodricke <br />
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1909,7 +2250,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-5.png"
+                    src="/images/thumbnails/all_projects/proj-5.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1933,7 +2274,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-6.png"
+                    src="/images/thumbnails/all_projects/proj-6.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1943,7 +2284,7 @@ const OurWork = (props) => {
                         Notandas <br />
                         Jewellery
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1960,14 +2301,14 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-7.png"
+                    src="/images/thumbnails/all_projects/proj-7.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">Vardhaman</h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -1986,14 +2327,14 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-26.png"
+                    src="/images/thumbnails/all_projects/proj-26.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">Welspun India</h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -2010,7 +2351,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-9.png"
+                    src="/images/thumbnails/all_projects/proj-9.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2034,7 +2375,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-10.png"
+                    src="/images/thumbnails/all_projects/proj-10.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2065,7 +2406,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryL">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-1.png"
+                    src="/images/thumbnails/all_projects/proj-1.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2075,7 +2416,7 @@ const OurWork = (props) => {
                         Elleys’ <br />
                         Electronic
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -2092,7 +2433,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-2.png"
+                    src="/images/thumbnails/all_projects/proj-2.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2101,7 +2442,7 @@ const OurWork = (props) => {
                       <h2 className="proj_name">
                         Goodricke <br />
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -2120,7 +2461,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-5.png"
+                    src="/images/thumbnails/all_projects/proj-5.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2144,7 +2485,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-6.png"
+                    src="/images/thumbnails/all_projects/proj-6.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2154,7 +2495,7 @@ const OurWork = (props) => {
                         Notandas <br />
                         Jewellery
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -2171,14 +2512,14 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-7.png"
+                    src="/images/thumbnails/all_projects/proj-7.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">Vardhaman</h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -2197,14 +2538,14 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-26.png"
+                    src="/images/thumbnails/all_projects/proj-26.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">Welspun India</h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -2221,7 +2562,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-9.png"
+                    src="/images/thumbnails/all_projects/proj-9.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2245,7 +2586,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-10.png"
+                    src="/images/thumbnails/all_projects/proj-10.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
