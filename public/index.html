@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,16 +46,21 @@
         $(".menu").removeClass("active");
       });
 
-      $(".hover-box").mouseover(function () {
-        $(".child-first").css("visibility", "hidden");
-        $(".image-box:first-child").css("width", "100px");
-        $(".image-box:first-child .col-content").show();
-      });
-      $(".hover-box").mouseout(function () {
-        $(".child-first").css("visibility", "visible");
-        $(".image-box:first-child").css("width", "400px");
-        $(".image-box:first-child .col-content").hide();
-      });
+      $('body').on('mouseover', '.inner_service_img_pill', function (){
+        $(this).addClass('inner_service_img_pill_big');
+        $(this).siblings().removeClass('inner_service_img_pill_big');
+      })
+
+      // $(".hover-box").mouseover(function () {
+      //   $(".child-first").css("visibility", "hidden");
+      //   $(".image-box:first-child").css("width", "100px");
+      //   $(".image-box:first-child .col-content").show();
+      // });
+      // $(".hover-box").mouseout(function () {
+      //   $(".child-first").css("visibility", "visible");
+      //   $(".image-box:first-child").css("width", "400px");
+      //   $(".image-box:first-child .col-content").hide();
+      // });
     </script>
   </body>
 </html>

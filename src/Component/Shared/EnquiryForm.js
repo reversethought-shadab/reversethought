@@ -117,9 +117,9 @@ const EnquiryForm = (props) => {
       )}
       {errorMessage && <div className="alert alert-danger">{errorMessage}</div>}
       <button className="colorWhite fw-800 enquireNowButton" onClick={showForm}>
-        <Icon icon="ph:arrow-up-bold" vFlip={true} />
-        Enquiry Form
-        <Icon icon="ph:arrow-up-bold" />
+        <Icon icon="ph:arrow-right-bold" />
+        <span>Enquiry Form</span>
+        <Icon icon="ph:arrow-left-bold" />
       </button>
       <div
         className="enquiryForm"
@@ -134,9 +134,9 @@ const EnquiryForm = (props) => {
             <Icon icon="iconamoon:close-thin" />
           </div>
           <button className="colorWhite fw-800 submitButton" type="submit">
-            <Icon icon="ph:arrow-up-bold" vFlip={true} />
-            Submit
-            <Icon icon="ph:arrow-up-bold" />
+            <Icon icon="ph:arrow-right-bold" />
+            <span>Submit</span>
+            <Icon icon="ph:arrow-left-bold" />
           </button>
           <p className="colorWhite fw-800">Enquiry form</p>
           <span className="colorWhite fw-800">

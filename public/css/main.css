@@ -841,12 +841,8 @@ input {
 .header_content_container header nav ul li .lets_talk_link:hover::after {
   transform: scale(1);
 }
-.header_content_container header nav ul li .lets_talk_link:hover span {
+.header_content_container header nav ul li .lets_talk_link:hover span, .header_content_container header nav ul li .lets_talk_link:hover svg {
   color: #000000;
-}
-.header_content_container header nav ul li .lets_talk_link:hover svg {
-  color: #000000;
-  transform: rotate(90deg);
 }
 @media (min-width: 1440px) {
   .header_content_container header nav ul li .lets_talk_link {
@@ -868,7 +864,6 @@ input {
   display: flex;
   justify-content: space-around;
   z-index: 1;
-  opacity: 0;
   background: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -1006,7 +1001,7 @@ input {
 @media (min-width: 1440px) {
   .header_content_container header nav ul li .openServiceMenu {
     width: 1200px;
-    height: 600px;
+    height: 550px;
     border: 1px solid #ececec;
     padding: 40px;
     top: 40px;
@@ -1023,7 +1018,7 @@ input {
   color: #545454 !important;
 }
 .header_content_container header nav ul li .openServiceMenu .dropdown_menu li:not(:last-child) {
-  margin-bottom: 2.4890190337vw;
+  margin-bottom: 4.39238653vw;
   font-size: 30px;
   font-weight: 600;
   margin-top: 23px;
@@ -1041,7 +1036,6 @@ input {
 }
 .header_content_container header nav ul li:hover .openServiceMenu {
   transform: scaleY(1) translateX(-44%);
-  opacity: 1;
 }
 .header_content_container header nav ul li a {
   all: unset;
@@ -3914,7 +3908,7 @@ header.blackBg {
 }
 
 .ourWork h1 {
-  margin: 3.6603221083vw 0 3.6603221083vw;
+  margin: 6.588579795vw 0 6.2957540264vw;
 }
 .ourWork .gridSystem {
   display: grid;
@@ -4178,7 +4172,7 @@ header.blackBg {
 }
 
 .ourWorkSlider {
-  padding: 2.9282576867vw 0 2.9282576867vw;
+  padding: 9.663250366vw 0 10.980966325vw;
 }
 .ourWorkSlider .sectionHead {
   margin-bottom: 5.5636896047vw;
@@ -4192,7 +4186,7 @@ header.blackBg {
   height: 4.0995607613vw;
   background: #000;
   border-radius: 100%;
-  z-index: 0;
+  z-index: 9;
   top: -4.2459736457vw;
 }
 @media (min-width: 1440px) {

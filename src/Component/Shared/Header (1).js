@@ -11,7 +11,7 @@ const Header = (props) => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [hovered, setHovered] = useState(false);
   const toggleHover = () => setHovered(!hovered);
-
+  
   const hoverStart = () => {
     setShowDropdown(true);
   };
@@ -42,7 +42,7 @@ const Header = (props) => {
     headerClassName = pageClassNames[currentPage];
   }
 
-  let seviceDropdownImg = document.querySelector(".inner_service_img_pill");
+  let seviceDropdownImg = document.querySelector('.inner_service_img_pill');
   console.log(seviceDropdownImg);
   // seviceDropdownImg.addEventListener('hover', function(){
   //   seviceDropdownImg.classList.add('.inner_service_img_pill_big')
@@ -97,72 +97,29 @@ const Header = (props) => {
                       : "colorGrey fw-500 service_link"
                   }
                 >
-                  <Link to="/servicesMain">
-                    Services <Icon icon="uis:angle-down" />
-                  </Link>
+                  <Link to="/servicesMain">Services <Icon icon="uis:angle-down" /></Link>
                   <div className="openServiceMenu ">
                     <div className="service_menu">
                       <ul>
-                        <li>
-                          <a href="/websiteDesign">Website / App</a>
-                        </li>
-                        <li>
-                          <a href="/Video-production-Services">
-                            Video Production
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/Digital-Marketing-Services">
-                            Digital Marketing
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/Creative-Services">Creative Design</a>
-                        </li>
-                        <li>
-                          <a href="/Digital-Activation-Services">
-                            Digital Activations
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/Photography">Photography</a>
-                        </li>
+                        <li><a href="/websiteDesign">Website / App</a></li>
+                        <li><a href="/Video-production-Services">Video Production</a></li>
+                        <li><a href="/Digital-Marketing-Services">Digital Marketing</a></li>
+                        <li><a href="/Creative-Services">Creative Design</a></li>
+                        <li><a href="/Digital-Activation-Services">Digital Activations</a></li>
+                        <li><a href="/Photography">Photography</a></li>
                       </ul>
                     </div>
                     <div className="service_img">
                       <div className="service_img_flex">
-                        <img
-                          className="inner_service_img_pill inner_service_img_pill_big"
-                          src="/images/menu/app.jpg"
-                          alt=""
-                        />
-                        <img
-                          className="inner_service_img_pill"
-                          src="/images/menu/ar.jpg"
-                          alt=""
-                        />
-                        <img
-                          className="inner_service_img_pill"
-                          src="/images/menu/print.jpg"
-                          alt=""
-                        />
-                        <img
-                          className="inner_service_img_pill"
-                          src="/images/menu/digital.jpg"
-                          alt=""
-                        />
-                        <img
-                          className="inner_service_img_pill"
-                          src="/images/menu/video.jpg"
-                          alt=""
-                        />
-                        <img
-                          className="inner_service_img_pill"
-                          src="/images/menu/web.jpg"
-                          alt=""
-                        />
+                        <img className="inner_service_img_pill inner_service_img_pill_big" src="/images/menu/app.jpg" alt=""/>
+                        <img className="inner_service_img_pill" src="/images/menu/ar.jpg" alt="" />
+                        <img className="inner_service_img_pill" src="/images/menu/print.jpg" alt="" />
+                        <img className="inner_service_img_pill" src="/images/menu/digital.jpg" alt="" />
+                        <img className="inner_service_img_pill" src="/images/menu/video.jpg" alt="" />
+                        <img className="inner_service_img_pill" src="/images/menu/web.jpg" alt="" />
                       </div>
                     </div>
+                    
                   </div>
                 </li>
                 <li
