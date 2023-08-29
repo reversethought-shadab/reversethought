@@ -80,7 +80,10 @@ import AlkemArFilters from "./Component/Pages/work/digital_activation/AlkemArFil
 import AmazonSambav from "./Component/Pages/work/digital_activation/AmazonSambhav";
 import LorealMatrix from "./Component/Pages/work/digital_activation/LorealMatrix";
 import Commercial from "./Component/Pages/work/photography/Commercial";
-
+import Sitemap from "./Component/Pages/Sitemap";
+import PrivacyPolicy from "./Component/Pages/PrivacyPolicy";
+import Faq from "./Component/Pages/Faq";
+import TermsOfUse from "./Component/Pages/TermsOfUse";
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isCursorOver, setIsCursorOver] = useState(false);
@@ -207,6 +210,43 @@ function App() {
             path="/servicesMain"
             element={
               <Services
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
+              />
+            }
+          />
+          <Route
+            path="/faq"
+            element={
+              <Faq
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
+              />
+            }
+          />
+          <Route
+            path="/privacy-policy"
+            element={
+              <PrivacyPolicy
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
+              />
+            }
+          />
+          <Route
+            path="/sitemap"
+            element={
+              <Sitemap
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
+              />
+            }
+          />
+
+          <Route
+            path="/terms-of-use"
+            element={
+              <TermsOfUse
                 mouseEnterOnBlack={handleMouseEnterBlack}
                 mouseLeaveOnBlack={handleMouseLeaveBlack}
               />

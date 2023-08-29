@@ -245,14 +245,47 @@ const Footer = (props) => {
           <div className="content_container">
             <div className="footerEnd">
               <p className="colorWhite fw-200">
-                © Copyright 2023 | Reverse Thought Creative Studio Pvt. Ltd. |
-                All Rights Reserved.
+                © Copyright 2023 &nbsp;&nbsp;| &nbsp; &nbsp; Reverse Thought
+                Creative Studio Pvt. Ltd. &nbsp;&nbsp; | &nbsp;&nbsp; All Rights
+                Reserved.
               </p>
               <ul>
-                <li className="colorWhite fw-200">FAQs</li>
-                <li className="colorWhite fw-200">Privacy Policy</li>
-                <li className="colorWhite fw-200">Terms of Use</li>
-                <li className="colorWhite fw-200">Sitemap</li>
+                <li>
+                  {" "}
+                  <a
+                    className=" colorWhite fw-200 text-decoration-none "
+                    href="/faq"
+                  >
+                    FAQs{" "}
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    className=" colorWhite fw-200 text-decoration-none "
+                    href="/privacy-policy"
+                  >
+                    Privacy Policy{" "}
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    className=" colorWhite fw-200 text-decoration-none "
+                    href="/terms-of-use"
+                  >
+                    Terms of Use{" "}
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    className=" colorWhite fw-200 text-decoration-none "
+                    href="/sitemap"
+                  >
+                    Sitemap{" "}
+                  </a>{" "}
+                </li>
               </ul>
             </div>
           </div>

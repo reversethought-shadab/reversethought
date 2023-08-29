@@ -16,7 +16,7 @@ const AlkemLaboratories = (props) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -97,11 +97,7 @@ const AlkemLaboratories = (props) => {
                   <span className="colorGrey fw-400">Sony Camera</span>
                 </div>
               </div>
-              <Link
-                to=""
-                className="unsetAll"
-                target="_blank"
-              >
+              <Link to="" className="unsetAll" target="_blank">
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />
               </Link>
@@ -185,7 +181,10 @@ const AlkemLaboratories = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/videography/alkem/Maskgroup.svg" alt="work" />
+                  <img
+                    src="/images/our-work/videography/alkem/Maskgroup.svg"
+                    alt="work"
+                  />
                 </div>
                 <h2 className="colorBlack fw-800">Nems Labs</h2>
                 <span className="colorGrey fw-400">Video Production</span>

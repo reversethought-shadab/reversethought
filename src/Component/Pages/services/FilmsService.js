@@ -25,7 +25,7 @@ const FilmsService = (props) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -143,8 +143,8 @@ const FilmsService = (props) => {
                 <div
                   className={
                     activeTab === 0
-                    ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                    : "whatWeDoTabsResult"
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
                   }
                 >
                   <p className="colorBlack fw-400">
@@ -166,8 +166,8 @@ const FilmsService = (props) => {
                 <div
                   className={
                     activeTab === 1
-                    ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                    : "whatWeDoTabsResult"
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
                   }
                 >
                   <p className="colorBlack fw-400">
@@ -191,12 +191,12 @@ const FilmsService = (props) => {
               )}
               {activeTab === 2 && (
                 <div
-                className={
-                  activeTab === 2
-                  ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                  : "whatWeDoTabsResult"
-                }
-              >
+                  className={
+                    activeTab === 2
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
+                  }
+                >
                   <p className="colorBlack fw-400">
                     Let’s energise and elevate your website presence, with the
                     right balance of business strategy and user excitement. We
@@ -220,8 +220,8 @@ const FilmsService = (props) => {
                 <div
                   className={
                     activeTab === 3
-                    ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                    : "whatWeDoTabsResult"
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
                   }
                 >
                   <p className="colorBlack fw-400">

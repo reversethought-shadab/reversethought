@@ -25,7 +25,7 @@ const FilmsService = (props) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -87,7 +87,7 @@ const FilmsService = (props) => {
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
             <img src="/images/icons/line.svg" alt="line" />
-            Our Photography  Services
+            Our Photography Services
           </h2>
           <div className="row m-0 whatwedoTabs">
             <div className="col-sm-6 p-0 whatwedoTabsL">
@@ -143,12 +143,16 @@ const FilmsService = (props) => {
                 <div
                   className={
                     activeTab === 0
-                    ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                    : "whatWeDoTabsResult"
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
                   }
                 >
                   <p className="colorBlack fw-400">
-                  Professionally shot pictures can attract attention, shape customer opinions and create a positive image of the organisation. Whether your product is for retail or institutional use, a good image makes the difference between acceptance and rejection.
+                    Professionally shot pictures can attract attention, shape
+                    customer opinions and create a positive image of the
+                    organisation. Whether your product is for retail or
+                    institutional use, a good image makes the difference between
+                    acceptance and rejection.
                   </p>
                   <a
                     href="/our-work"
@@ -164,8 +168,8 @@ const FilmsService = (props) => {
                 <div
                   className={
                     activeTab === 1
-                    ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                    : "whatWeDoTabsResult"
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
                   }
                 >
                   <p className="colorBlack fw-400">
@@ -189,12 +193,12 @@ const FilmsService = (props) => {
               )}
               {activeTab === 2 && (
                 <div
-                className={
-                  activeTab === 2
-                  ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                  : "whatWeDoTabsResult"
-                }
-              >
+                  className={
+                    activeTab === 2
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
+                  }
+                >
                   <p className="colorBlack fw-400">
                     Let’s energise and elevate your website presence, with the
                     right balance of business strategy and user excitement. We
@@ -218,8 +222,8 @@ const FilmsService = (props) => {
                 <div
                   className={
                     activeTab === 3
-                    ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                    : "whatWeDoTabsResult"
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
                   }
                 >
                   <p className="colorBlack fw-400">

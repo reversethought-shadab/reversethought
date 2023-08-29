@@ -26,7 +26,7 @@ const DigitalMarketingServices = (props) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -57,7 +57,6 @@ const DigitalMarketingServices = (props) => {
     ],
   };
 
- 
   return (
     <>
       <section className="servicePageSection webServicePageSection digitalservices position-relative">

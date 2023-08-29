@@ -16,7 +16,7 @@ const Memoria = (props) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -198,7 +198,7 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/m2.png" alt="work" />
+                  <img src="/images/our-work/m1.png" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Memoria</h2>
                 <span className="colorGrey fw-400">Website Design</span>
