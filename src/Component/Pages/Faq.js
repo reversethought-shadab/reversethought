@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useEffect } from "react";
 import { Accordion } from "react-bootstrap-accordion";
 import WOW from "wowjs";
