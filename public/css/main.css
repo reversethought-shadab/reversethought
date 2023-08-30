@@ -3037,7 +3037,7 @@ header.blackBg {
 @media (max-width: 767px) {
   .enquireNowButton span {
     margin: 0 10px;
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 .enquireNowButton svg {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { Accordion } from "react-bootstrap-accordion";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import WOW from "wowjs";
 import { Icon } from "@iconify/react";

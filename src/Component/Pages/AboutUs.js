@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import WOW from "wowjs";
 import News from "../Shared/News";
 import WhatWeHaveDone from "../Shared/WhatWeHaveDone";
@@ -41,9 +41,15 @@ const AboutUs = (props) => {
               <span>Watch the Agency Reel!</span>
             </p>
 
-            <h4 className="serviceKeyPoints colorBlack fw-800 wow animate__animated animate__fadeInUp animation_delay_300ms">Agility.</h4>
-            <h4 className="serviceKeyPoints colorBlack fw-800 wow animate__animated animate__fadeInUp animation_delay_500ms">Strategy.</h4>
-            <h4 className="serviceKeyPoints colorRed fw-800 wow animate__animated animate__fadeInUp animation_delay_700ms">Technology.</h4>
+            <h4 className="serviceKeyPoints colorBlack fw-800 wow animate__animated animate__fadeInUp animation_delay_300ms">
+              Agility.
+            </h4>
+            <h4 className="serviceKeyPoints colorBlack fw-800 wow animate__animated animate__fadeInUp animation_delay_500ms">
+              Strategy.
+            </h4>
+            <h4 className="serviceKeyPoints colorRed fw-800 wow animate__animated animate__fadeInUp animation_delay_700ms">
+              Technology.
+            </h4>
             <img
               src="/images/about-us.png"
               className="about-us"
@@ -52,7 +58,7 @@ const AboutUs = (props) => {
           </div>
         </div>
       </section>
-      
+
       <section className="aboitUsSectionwwd whatWeDo">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
@@ -64,35 +70,55 @@ const AboutUs = (props) => {
               <ul>
                 <li
                   onClick={() => handleTabClick(0)}
-                  className={activeTab === 0 ? "wow animate__animated animate__fadeInUp active" : "wow animate__animated animate__fadeInUp"}
+                  className={
+                    activeTab === 0
+                      ? "wow animate__animated animate__fadeInUp active"
+                      : "wow animate__animated animate__fadeInUp"
+                  }
                 >
                   <span className="fw-800">01</span>
                   Websites/App
                 </li>
                 <li
                   onClick={() => handleTabClick(1)}
-                  className={activeTab === 1 ? "wow animate__animated animate__fadeInUp active" : "wow animate__animated animate__fadeInUp"}
+                  className={
+                    activeTab === 1
+                      ? "wow animate__animated animate__fadeInUp active"
+                      : "wow animate__animated animate__fadeInUp"
+                  }
                 >
                   <span className="fw-800">02</span>
                   Video Production
                 </li>
                 <li
                   onClick={() => handleTabClick(2)}
-                  className={activeTab === 2 ? "wow animate__animated animate__fadeInUp active" : "wow animate__animated animate__fadeInUp"}
+                  className={
+                    activeTab === 2
+                      ? "wow animate__animated animate__fadeInUp active"
+                      : "wow animate__animated animate__fadeInUp"
+                  }
                 >
                   <span className="fw-800">03</span>
                   Digital Marketing
                 </li>
                 <li
                   onClick={() => handleTabClick(3)}
-                  className={activeTab === 3 ? "wow animate__animated animate__fadeInUp active" : "wow animate__animated animate__fadeInUp"}
+                  className={
+                    activeTab === 3
+                      ? "wow animate__animated animate__fadeInUp active"
+                      : "wow animate__animated animate__fadeInUp"
+                  }
                 >
                   <span className="fw-800">04</span>
                   Creative Design
                 </li>
                 <li
                   onClick={() => handleTabClick(4)}
-                  className={activeTab === 4 ? "wow animate__animated animate__fadeInUp active" : "wow animate__animated animate__fadeInUp"}
+                  className={
+                    activeTab === 4
+                      ? "wow animate__animated animate__fadeInUp active"
+                      : "wow animate__animated animate__fadeInUp"
+                  }
                 >
                   <span className="fw-800">05</span>
                   Digital Activations
@@ -101,7 +127,13 @@ const AboutUs = (props) => {
             </div>
             <div className="col-sm-6 p-0 whatwedoTabsR">
               {activeTab === 0 && (
-                <div className={activeTab === 0 ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft" : "whatWeDoTabsResult"}>
+                <div
+                  className={
+                    activeTab === 0
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
+                  }
+                >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">UI/UX</li>
                     <li className="colorBlack fw-800">Backend Development</li>
@@ -110,7 +142,13 @@ const AboutUs = (props) => {
                     <li className="colorBlack fw-800">WordPress Development</li>
                   </ul>
                   <p className="colorBlack fw-400">
-                  Let’s energize and elevate your website presence, with the right balance of business strategy and user excitement. We conceptualize, strategise, design and develop websites and apps that establish new design standards in the industry, while performing flawlessly on various devices. We focus heavily on user experience & brand upliftment by leveraging design, content and technology. 
+                    Let’s energize and elevate your website presence, with the
+                    right balance of business strategy and user excitement. We
+                    conceptualize, strategise, design and develop websites and
+                    apps that establish new design standards in the industry,
+                    while performing flawlessly on various devices. We focus
+                    heavily on user experience & brand upliftment by leveraging
+                    design, content and technology.
                   </p>
                   <a
                     href="/websiteDesign"
@@ -123,16 +161,29 @@ const AboutUs = (props) => {
                 </div>
               )}
               {activeTab === 1 && (
-                <div className={activeTab === 1 ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft" : "whatWeDoTabsResult"}>
+                <div
+                  className={
+                    activeTab === 1
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
+                  }
+                >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">Concept & Scripting</li>
-                    <li className="colorBlack fw-800">On-ground & Drone Shoot</li>
+                    <li className="colorBlack fw-800">
+                      On-ground & Drone Shoot
+                    </li>
                     <li className="colorBlack fw-800">Graphics & Animation</li>
                     <li className="colorBlack fw-800">Motion Graphics</li>
                     <li className="colorBlack fw-800">2d Animation</li>
                   </ul>
                   <p className="colorBlack fw-400">
-                    A video is the best marketing tool for business. We conceptualize and produce a broad range of videos from corporate profiles to specific application videos. Through a mix of on-ground & aerial photography, graphics, animation and many more styles we can produce any kind of film for any application that you can think of. 
+                    A video is the best marketing tool for business. We
+                    conceptualize and produce a broad range of videos from
+                    corporate profiles to specific application videos. Through a
+                    mix of on-ground & aerial photography, graphics, animation
+                    and many more styles we can produce any kind of film for any
+                    application that you can think of.
                   </p>
                   <a
                     href="/Video-production-Services"
@@ -145,17 +196,32 @@ const AboutUs = (props) => {
                 </div>
               )}
               {activeTab === 2 && (
-                <div className={activeTab === 2 ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft" : "whatWeDoTabsResult"}>
+                <div
+                  className={
+                    activeTab === 2
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
+                  }
+                >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">SEO</li>
-                    <li className="colorBlack fw-800">Social Media Marketing</li>
+                    <li className="colorBlack fw-800">
+                      Social Media Marketing
+                    </li>
                     <li className="colorBlack fw-800">Performance Marketing</li>
                     <li className="colorBlack fw-800">Integrated Marketing</li>
                     <li className="colorBlack fw-800">Google Advertising</li>
-                    <li className="colorBlack fw-800">SMS & Whatsapp Campaigns</li>
+                    <li className="colorBlack fw-800">
+                      SMS & Whatsapp Campaigns
+                    </li>
                   </ul>
                   <p className="colorBlack fw-400">
-                    If your business isn’t online and visible to your customers, you’re missing out on a crucial opportunity to grow. Through a range of tools such as SEO, SEM as well as social media marketing we create the right strategy and content to achieve your business goals both organically and through influencer and paid marketing. 
+                    If your business isn’t online and visible to your customers,
+                    you’re missing out on a crucial opportunity to grow. Through
+                    a range of tools such as SEO, SEM as well as social media
+                    marketing we create the right strategy and content to
+                    achieve your business goals both organically and through
+                    influencer and paid marketing.
                   </p>
                   <a
                     href="/Digital-Marketing-Services"
@@ -168,15 +234,29 @@ const AboutUs = (props) => {
                 </div>
               )}
               {activeTab === 3 && (
-                <div className={activeTab === 3 ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft" : "whatWeDoTabsResult"}>
+                <div
+                  className={
+                    activeTab === 3
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
+                  }
+                >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">Print design</li>
-                    <li className="colorBlack fw-800">Social Media Creatives</li>
+                    <li className="colorBlack fw-800">
+                      Social Media Creatives
+                    </li>
                     <li className="colorBlack fw-800">Logo & Identity</li>
-                    <li className="colorBlack fw-800">Internal Communication</li>
+                    <li className="colorBlack fw-800">
+                      Internal Communication
+                    </li>
                   </ul>
                   <p className="colorBlack fw-400">
-                  Creativity is the backbone of our agency and the reason for us to do what we do. We design all kinds of branding materials as well as collaterals that captivate and effectively send the message across. We handle the design and content for all kinds of digital and print creatives .
+                    Creativity is the backbone of our agency and the reason for
+                    us to do what we do. We design all kinds of branding
+                    materials as well as collaterals that captivate and
+                    effectively send the message across. We handle the design
+                    and content for all kinds of digital and print creatives .
                   </p>
                   <a
                     href="/Creative-Services"
@@ -189,14 +269,28 @@ const AboutUs = (props) => {
                 </div>
               )}
               {activeTab === 4 && (
-                <div className={activeTab === 4 ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft" : "whatWeDoTabsResult"}>
+                <div
+                  className={
+                    activeTab === 4
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
+                  }
+                >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">AR Filters</li>
-                    <li className="colorBlack fw-800">SMS & Whatsapp Campaigns</li>
-                    <li className="colorBlack fw-800">Digital Hoarding Video Ads</li>
+                    <li className="colorBlack fw-800">
+                      SMS & Whatsapp Campaigns
+                    </li>
+                    <li className="colorBlack fw-800">
+                      Digital Hoarding Video Ads
+                    </li>
                   </ul>
                   <p className="colorBlack fw-400">
-                  Break the clutter and engage your audience through custom developed digital activations in the form of apps, games, filters and more. We work closely with your team to develop concepts that add weight to your messaging and develop the assets to execute your campaign.
+                    Break the clutter and engage your audience through custom
+                    developed digital activations in the form of apps, games,
+                    filters and more. We work closely with your team to develop
+                    concepts that add weight to your messaging and develop the
+                    assets to execute your campaign.
                   </p>
                   <a
                     href="/Digital-Activation-Services"
@@ -212,8 +306,6 @@ const AboutUs = (props) => {
           </div>
         </div>
       </section>
-
-      
 
       <WhatWeHaveDone />
 

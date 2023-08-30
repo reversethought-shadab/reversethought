@@ -166,23 +166,22 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </div>
-
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-2.png"
+                    src="/images/thumbnails/all_projects/aym2.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">
-                        Goodricke <br />
+                        Aym Syntex <br />
                       </h2>
                       <p className="proj_type">Web Development</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/goodricke"
+                        href="/our-work"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -194,18 +193,18 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/aym1.svg"
+                    src="/images/thumbnails/all_projects/uluru.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name">Welspun India</h2>
-                      <p className="proj_type">Web Development</p>
+                      <h2 className="proj_name">Tiger</h2>
+                      <p className="proj_type">Digital Marketing</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/welspungroup"
+                        href="/tiger"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -218,18 +217,21 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/indusind.svg"
+                    src="/images/thumbnails/all_projects/dchem.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name">IndusInd Bank</h2>
-                      <p className="proj_type">Digital Marketing</p>
+                      <h2 className="proj_name">
+                        Dodhia Chemical
+                        <br />
+                      </h2>
+                      <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/indusind"
+                        href="/dodhiachemicals"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -263,214 +265,23 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/kukufm.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">KUKU FM</h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/kukufm"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/recipe.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">
-                        Recipe <br />
-                      </h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/recipe"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/calendar.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">RSBL Calendar</h2>
-                      <p className="proj_type">Creative Design</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/rsbl-calendar"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/speakhealth.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Speak Health</h2>
-                      <p className="proj_type">Animation & Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/speak-health"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/rainbow.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Vardhaman</h2>
-                      <p className="proj_type">Web Development</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/vardhman"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/gaming.png"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">One Game Arcade</h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/one-gaming-arcade"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/days8.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Dabur</h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/dabur"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/cook.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Texprocil</h2>
-                      <p className="proj_type">Web Development</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/texprocil"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
               </div>
 
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-5.png"
+                    src="/images/thumbnails/all_projects/matrix.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name">Memoria</h2>
-                      <p className="proj_type">Web Development</p>
+                      <h2 className="proj_name">L'Oréal Matrix</h2>
+                      <p className="proj_type">Digital Activation</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/Memoria"
+                        href="/loreal-matrix"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -483,21 +294,20 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-6.png"
+                    src="/images/thumbnails/all_projects/phone.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">
-                        Notandas <br />
-                        Jewellery
+                        MPUH <br />
                       </h2>
-                      <p className="proj_type">Web Development</p>
+                      <p className="proj_type">Digital Marketing</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/notandas"
+                        href="/"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -581,201 +391,6 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/carnival.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">
-                        On Carnival <br />
-                        Furniture
-                      </h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/our-work"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/sos.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Speed Of Sound </h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/speed-of-sound"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/alkem.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Alkem Laboratories</h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/alkem-laboratories"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/dhc.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">HDC Internation</h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/HDCinternational"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/alkemar.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">
-                        Alkem AR <br />
-                      </h2>
-                      <p className="proj_type">Digital Activation</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/alkem-ar-filters"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/onegaming.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">
-                        One Gaming <br />
-                        Arcade
-                      </h2>
-                      <p className="proj_type">Animation & Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/one-gaming-arcade"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/matrix.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">L'Oréal Matrix</h2>
-                      <p className="proj_type">Digital Activation</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/loreal-matrix"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/hero.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">One Game Arcade</h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/one-gaming-aracde"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
               </div>
 
               <div className="projectsGalleryR">
@@ -793,30 +408,6 @@ const OurWork = (props) => {
                     <div className="bottom_overview">
                       <a
                         href="/welspungroup"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/projects/all-projects/proj-9.png"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Dabur</h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/our-work"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -852,18 +443,21 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/tea.svg"
+                    src="/images/thumbnails/all_projects/dorado.svg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name">Goodricke</h2>
+                      <h2 className="proj_name">
+                        Dorado Ivory
+                        <br />
+                      </h2>
                       <p className="proj_type">Video Production</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/welspungroup"
+                        href="/dorado-ivory"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -873,243 +467,6 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/bad.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Dabur</h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/our-work"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/neoniche.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Neo Niche</h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/mcdowell"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/skygreens.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Skygreens</h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/welspungroup"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/qr678.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Q678</h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/our-work"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/jeasons.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Jesons</h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/jesons"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/ljm.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">LJM</h2>
-                      <p className="proj_type">Creative Design</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/notandas"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/dell.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Dell</h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/canadian.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Canadian Wood</h2>
-                      <p className="proj_type">Video Production</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/canadian-woods"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/car.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">One Game Arcade</h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/welspungroup"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="project_box wow animate__animated animate__fadeInUp">
-                  <img
-                    src="/images/thumbnails/all_projects/essential.svg"
-                    alt="Project"
-                    className="img-fluid w-100"
-                  />
-                  <div className="project_overview">
-                    <div className="top_overview">
-                      <h2 className="proj_name">Dabur</h2>
-                      <p className="proj_type">Digital Marketing</p>
-                    </div>
-                    <div className="bottom_overview">
-                      <a
-                        href="/our-work"
-                        className="unsetAll"
-                        onClick={() => window.scrollTo(0, 0)}
-                      >
-                        <span className="commonViewAll">View Our Projects</span>
-                        <Icon icon="clarity:arrow-line" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/thumbnails/all_projects/jindal.svg"
@@ -1124,6 +481,61 @@ const OurWork = (props) => {
                     <div className="bottom_overview">
                       <a
                         href="/jindal-SAW"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/ship.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        Nagarkot
+                        <br />
+                        Logistics
+                      </h2>
+                      <p className="proj_type">Logistics</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/nagarkot-logistics"
+                        className="unsetAll"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        <span className="commonViewAll">View Our Projects</span>
+                        <Icon icon="clarity:arrow-line" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="project_box wow animate__animated animate__fadeInUp">
+                  <img
+                    src="/images/thumbnails/all_projects/dit.svg"
+                    alt="Project"
+                    className="img-fluid w-100"
+                  />
+                  <div className="project_overview">
+                    <div className="top_overview">
+                      <h2 className="proj_name">
+                        DHC International
+                        <br />
+                        Teaser
+                      </h2>
+                      <p className="proj_type">Video Production</p>
+                    </div>
+                    <div className="bottom_overview">
+                      <a
+                        href="/DHCinternational-teaser"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -2155,7 +1567,7 @@ const OurWork = (props) => {
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">
-                        MPUH Nadiad <br />
+                        MPUH <br />
                       </h2>
                       <p className="proj_type">Digital Marketing</p>
                     </div>
