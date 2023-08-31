@@ -140,7 +140,7 @@ const IndusInd = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/icici-prudential" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -149,18 +149,18 @@ const IndusInd = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/IndusInd/speak_health.svg"
+                    src="/images/thumbnails/all_projects/nps.webp"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Speak Health</h2>
+                <h2 className="colorBlack fw-800">Icici Prundential</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/indusind" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -177,7 +177,7 @@ const IndusInd = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/speak-health" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -185,16 +185,16 @@ const IndusInd = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/dabur/ds1.svg" alt="work" />
+                  <img src="/images/our-work/dabur/ds3.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dabur</h2>
+                <h2 className="colorBlack fw-800">Speak Health</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/speed-of-sound" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -202,9 +202,12 @@ const IndusInd = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/IndusInd/spht.svg" alt="work" />
+                  <img
+                    src="/images/our-work/speed_of_sound/mainbanner.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Speak Health</h2>
+                <h2 className="colorBlack fw-800">Speed Of Sound</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>

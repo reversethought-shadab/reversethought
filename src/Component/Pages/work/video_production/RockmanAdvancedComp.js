@@ -175,7 +175,7 @@ const RockmanAdvancedComp = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/jesons-tech-centre" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -184,18 +184,18 @@ const RockmanAdvancedComp = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/videography/rockmanadvancedcomp/Maskgroup.svg"
+                    src="/images/our-work/videography/jesons/214.svg"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Rockman Value Film</h2>
+                <h2 className="colorBlack fw-800">Jesons</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/dodhiachemicals" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -203,16 +203,19 @@ const RockmanAdvancedComp = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/ninthCSR.svg" alt="work" />
+                  <img
+                    src="/images/our-work/videography/dodhiachem/243.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Group</h2>
+                <h2 className="colorBlack fw-800">Dodhia Chemicals</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/kukufm" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -220,18 +223,19 @@ const RockmanAdvancedComp = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/tenthCSR.png" alt="work" />
+                  <img
+                    src="/images/our-work/videography/kukufm/243.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">
-                  ICICI Prudential Life Insurance
-                </h2>
+                <h2 className="colorBlack fw-800">Kuku FM</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/rockman-industries" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -239,9 +243,12 @@ const RockmanAdvancedComp = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/ricv.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dummy</h2>
+                <h2 className="colorBlack fw-800">Rockman Industries</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

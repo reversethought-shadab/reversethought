@@ -157,7 +157,7 @@ const Grays256 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/vardhman" className="colorWhite fw-800">
+                  <a href="/aym-syntex" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -166,18 +166,18 @@ const Grays256 = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/websites/256grays/Maskgroup.svg"
+                    src="/images/our-work/websites/nagarkot/Maskgroup.svg"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Vardhman</h2>
+                <h2 className="colorBlack fw-800">Aym Syntex</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/malil-architecture" className="colorWhite fw-800">
+                  <a href="/malik-architecture" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -194,7 +194,7 @@ const Grays256 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/welspungroup" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -202,7 +202,7 @@ const Grays256 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/vardhman/s1.svg" alt="work" />
+                  <img src="/images/our-work/welspun-group.svg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Welpsun Group</h2>
                 <span className="colorGrey fw-400">Website Design</span>
@@ -211,7 +211,7 @@ const Grays256 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/vardhman" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -219,9 +219,9 @@ const Grays256 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img src="/images/our-work/vardhman/mainv.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Vardhman</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

@@ -173,7 +173,7 @@ const QR678 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/alkemlaboratories" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -182,18 +182,21 @@ const QR678 = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/videography/qr6/Maskgroup.svg"
+                    src="/images/our-work/videography/canadian-wood/maskgroup.svg"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Nems Labs</h2>
+                <h2 className="colorBlack fw-800">Alkem Laboratories</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a
+                    href="/dodhia-corporate-film"
+                    className="colorWhite fw-800"
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -201,16 +204,19 @@ const QR678 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/ninthCSR.svg" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/dcf.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Group</h2>
+                <h2 className="colorBlack fw-800">Dodhia Corporate</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/welpsunGroupCorpFilm" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -218,10 +224,13 @@ const QR678 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/tenthCSR.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/hp.webp"
+                    alt="work"
+                  />
                 </div>
                 <h2 className="colorBlack fw-800">
-                  ICICI Prudential Life Insurance
+                  Welpsun Group (Corp. Film )
                 </h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
@@ -229,7 +238,7 @@ const QR678 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/recipe" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -237,9 +246,12 @@ const QR678 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/our-work/videography/recipe/214.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dummy</h2>
+                <h2 className="colorBlack fw-800">Recipe</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

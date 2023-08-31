@@ -26,10 +26,19 @@ const DigitalMarketingServices = (props) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
@@ -412,53 +421,99 @@ const DigitalMarketingServices = (props) => {
         </div>
       </section>
 
-      <section className="ourWorkSection">
+      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
+          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
-            Our Works
+            More Works
           </h2>
-          <Slider
-            {...settings}
-            className="wow animate__animated animate__slideInUp"
-          >
+          <Slider {...settings}>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/speak-health" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/ICICI_Prudential/slide1.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Speak Health</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/advance-solution" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/advance_solution/mainbanner.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">advance solution </h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/dabur" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/our-work/dabur/maind.svg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Dabur</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/tiger" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/thumbnails/all_projects/uluru.webp"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Tiger</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
           </Slider>
-          <a
-            href="/our-work"
+          <Link
+            to="/our-work"
             className="unsetAll"
-            // onClick={() => window.scrollTo(0, 0)}
+            onClick={() => window.scrollTo(0, 0)}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />
-          </a>
+          </Link>
         </div>
       </section>
     </>

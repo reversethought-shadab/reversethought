@@ -173,7 +173,7 @@ const Recipe2 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/canadian-woods" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -182,18 +182,18 @@ const Recipe2 = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/videography/recipe2/Maskgroup.svg"
+                    src="/images/thumbnails/all_projects/cw.webp"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Nems Labs</h2>
+                <h2 className="colorBlack fw-800">Canadian Woods</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/qr678" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -201,16 +201,19 @@ const Recipe2 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/ninthCSR.svg" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/scalp.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Group</h2>
+                <h2 className="colorBlack fw-800">QR678</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/dorado-ivory" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -218,18 +221,19 @@ const Recipe2 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/tenthCSR.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/dorado.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">
-                  ICICI Prudential Life Insurance
-                </h2>
+                <h2 className="colorBlack fw-800">Dorado Ivory</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/isolus" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -237,9 +241,12 @@ const Recipe2 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/isolus.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dummy</h2>
+                <h2 className="colorBlack fw-800">iSolus</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

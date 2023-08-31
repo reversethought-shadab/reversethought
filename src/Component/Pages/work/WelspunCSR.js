@@ -177,7 +177,10 @@ const WelspunCSR = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a
+                    href="/dodhia-corporate-film"
+                    className="colorWhite fw-800"
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -185,16 +188,19 @@ const WelspunCSR = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/eightCSR.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/dcf.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Welspun BKG</h2>
+                <h2 className="colorBlack fw-800">Dodhia Corporate Film </h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/neo-niche" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -202,16 +208,19 @@ const WelspunCSR = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/ninthCSR.svg" alt="work" />
+                  <img
+                    src="/images/our-work/videography/neoniche/214.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dell</h2>
+                <h2 className="colorBlack fw-800">Neo Niche</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/welspunCSR" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -219,18 +228,16 @@ const WelspunCSR = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/tenthCSR.png" alt="work" />
+                  <img src="/images/our-work/CSR/mainCSR.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">
-                  ICICI Prudential Life Insurance
-                </h2>
+                <h2 className="colorBlack fw-800">Welspun CSR</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/vardhman" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -238,9 +245,12 @@ const WelspunCSR = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/50.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dummy</h2>
+                <h2 className="colorBlack fw-800">Vardhman</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

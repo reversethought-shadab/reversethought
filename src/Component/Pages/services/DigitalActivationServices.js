@@ -25,10 +25,19 @@ const DigitalActivationServices = (props) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
@@ -394,53 +403,105 @@ const DigitalActivationServices = (props) => {
         </div>
       </section>
 
-      <section className="ourWorkSection">
+      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
+          <h2 className="sectionHead colorBlack fw-800">
             <img src="/images/icons/line.svg" alt="line" />
-            Our Works
+            More Works
           </h2>
-          <Slider
-            {...settings}
-            className="wow animate__animated animate__slideInUp"
-          >
+          <Slider {...settings}>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/amazon-sambhav" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/digital_activation/alkemar/Maskgroup.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Amazon Sambhav</h2>
+                <span className="colorGrey fw-400">
+                  Ar Filter Design & Development
+                </span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/alkem-ar-filters" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/digital_activation/alkemar/Maskgroup2.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Ar Filers</h2>
+                <span className="colorGrey fw-400">
+                  Ar Filter Design & Development
+                </span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/mcdowell" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/our-work/mcdowell.svg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">McDowell's No.1</h2>
+                <span className="colorGrey fw-400">
+                  Ar Filter Design & Development
+                </span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/loreal-matrix" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/digital_activation/loreal/AYM1.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">L'Oréal Matrix</h2>
+                <span className="colorGrey fw-400">Digital Activations</span>
               </div>
             </div>
           </Slider>
-          <a
-            href="/our-work"
+          <Link
+            to="/our-work"
             className="unsetAll"
-            // onClick={() => window.scrollTo(0, 0)}
+            onClick={() => window.scrollTo(0, 0)}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />
-          </a>
+          </Link>
         </div>
       </section>
     </>

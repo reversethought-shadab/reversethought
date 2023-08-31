@@ -151,7 +151,7 @@ const ICICIPrudential = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/texprocil" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -159,16 +159,19 @@ const ICICIPrudential = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/mc.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Texprocil</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/aym-syntex" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -176,16 +179,19 @@ const ICICIPrudential = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/our-work/websites/aymsyntax/Image267.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">AYM Syntex</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/mcdowell" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -193,16 +199,16 @@ const ICICIPrudential = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img src="/images/our-work/mcdowell.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">McDowell's No.1</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/welspunBKG" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -210,9 +216,9 @@ const ICICIPrudential = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img src="/images/our-work/BKG/1.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Welspun BKG</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

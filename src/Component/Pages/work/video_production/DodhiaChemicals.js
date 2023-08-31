@@ -173,7 +173,7 @@ const DodhiaChemicals = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/DHCInternational" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -186,7 +186,7 @@ const DodhiaChemicals = (props) => {
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Nems Labs</h2>
+                <h2 className="colorBlack fw-800">DHC International</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
@@ -213,7 +213,10 @@ const DodhiaChemicals = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a
+                    href="/icici-prundential-life-insurance"
+                    className="colorWhite fw-800"
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -232,7 +235,10 @@ const DodhiaChemicals = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a
+                    href="/DHCinternational-teaser"
+                    className="colorWhite fw-800"
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -240,9 +246,12 @@ const DodhiaChemicals = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/dit.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dummy</h2>
+                <h2 className="colorBlack fw-800">DHC International Teaser</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

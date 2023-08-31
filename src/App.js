@@ -840,7 +840,7 @@ function App() {
             }
           />
           <Route
-            path="/welpsunBKG"
+            path="/welspunBKG"
             element={
               <WelspunBKG
                 mouseEnterOnBlack={handleMouseEnterBlack}

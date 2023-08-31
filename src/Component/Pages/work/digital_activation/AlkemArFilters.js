@@ -154,7 +154,7 @@ const AlkemArFilters = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/amazon-sambhav" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -176,7 +176,7 @@ const AlkemArFilters = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/alkem-ar-filters" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -198,7 +198,7 @@ const AlkemArFilters = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/mcdowell" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -206,12 +206,9 @@ const AlkemArFilters = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/digital_activation/alkemar/Maskgroup1.svg"
-                    alt="work"
-                  />
+                  <img src="/images/our-work/mcdowell.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Canadian Woods</h2>
+                <h2 className="colorBlack fw-800">McDowell's No.1</h2>
                 <span className="colorGrey fw-400">
                   Ar Filter Design & Development
                 </span>
@@ -220,7 +217,7 @@ const AlkemArFilters = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/loreal-matrix" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -228,10 +225,13 @@ const AlkemArFilters = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/our-work/digital_activation/loreal/AYM1.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">L'Oréal Matrix</h2>
+                <span className="colorGrey fw-400">Digital Activations</span>
               </div>
             </div>
           </Slider>

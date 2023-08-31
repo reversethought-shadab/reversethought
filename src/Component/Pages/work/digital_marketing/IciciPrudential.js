@@ -142,7 +142,7 @@ const IciciPrudential = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/speak-health" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -162,41 +162,7 @@ const IciciPrudential = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/our-work/dabur/ds2.svg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">advance_solution Bank</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/our-work/dabur/ds1.svg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Dabur</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/advance-solution" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -205,11 +171,48 @@ const IciciPrudential = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/advance_solution/spht.svg"
+                    src="/images/our-work/advance_solution/mainbanner.svg"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Speak Health</h2>
+                <h2 className="colorBlack fw-800">advance solution </h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/dabur" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/our-work/dabur/maind.svg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Dabur</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/tiger" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/thumbnails/all_projects/uluru.webp"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Tiger</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>

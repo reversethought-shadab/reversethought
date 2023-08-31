@@ -173,7 +173,7 @@ const Recipe = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/DHCInternational" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -182,18 +182,18 @@ const Recipe = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/videography/recipe/Maskgroup.svg"
+                    src="/images/our-work/videography/dodhiachem/Maskgroup.svg"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Nems Labs</h2>
+                <h2 className="colorBlack fw-800">DHC International</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/vijaysales" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -201,16 +201,22 @@ const Recipe = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/ninthCSR.svg" alt="work" />
+                  <img
+                    src="/images/our-work/videography/dhcinternationteaser/msk2.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Group</h2>
+                <h2 className="colorBlack fw-800">Vijay Sales</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a
+                    href="/icici-prundential-life-insurance"
+                    className="colorWhite fw-800"
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -229,7 +235,10 @@ const Recipe = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a
+                    href="/DHCinternational-teaser"
+                    className="colorWhite fw-800"
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -237,9 +246,12 @@ const Recipe = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/dit.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Dummy</h2>
+                <h2 className="colorBlack fw-800">DHC International Teaser</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

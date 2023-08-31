@@ -146,7 +146,7 @@ const McDowellNo1 = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800">
+          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -154,7 +154,7 @@ const McDowellNo1 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/notandas" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -162,16 +162,16 @@ const McDowellNo1 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img src="/images/our-work/notandas/main.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Notandas</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/continuum-india" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -179,16 +179,19 @@ const McDowellNo1 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/our-work/websites/continuumindia/OnPaste1.svg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Continuum India</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/i2m" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -196,26 +199,29 @@ const McDowellNo1 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/i2m.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">I2M</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/256grays" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
-                      src="/images/icons/toparrowWhite.svg"
+                      src="/images/thumbnails/all_projects/gray2333.webp"
                       alt="toparrow"
                       className="img-fluid"
                     />
                   </a>
                   <img src="/images/work.png" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">256grays</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

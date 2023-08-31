@@ -165,7 +165,7 @@ const AymSyntex = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/local2030" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -174,7 +174,7 @@ const AymSyntex = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/websites/aymsyntax/Maskgroup.svg"
+                    src="/images/thumbnails/all_projects/webm.webp"
                     alt="work"
                   />
                 </div>
@@ -185,7 +185,7 @@ const AymSyntex = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/goodricke" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -193,16 +193,19 @@ const AymSyntex = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/tea.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
+                <h2 className="colorBlack fw-800">Goodricke</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/elleyselectrics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -210,16 +213,16 @@ const AymSyntex = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/vardhman/s1.svg" alt="work" />
+                  <img src="/images/our-work/elleys-electrics.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welpsun Group</h2>
+                <h2 className="colorBlack fw-800">Elleys’ Electrics</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/nagarkot-logistics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -227,9 +230,12 @@ const AymSyntex = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/thumbnails/all_projects/ship.webp"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Nagarkot Logistics</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

@@ -978,9 +978,8 @@ const OurWork = (props) => {
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name">
-                        Rockman Industries
+                        Rockman Industries Corp
                         <br />
-                        Corporate Video
                       </h2>
                       <p className="proj_type">Video Production</p>
                     </div>
@@ -1247,7 +1246,7 @@ const OurWork = (props) => {
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/rockman-advance-comp"
+                        href="/isolus"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -1448,7 +1447,7 @@ const OurWork = (props) => {
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/neoniche"
+                        href="/neo-niche"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >

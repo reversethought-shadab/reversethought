@@ -416,7 +416,7 @@ const FilmsService = (props) => {
         </div>
       </section>
 
-      <section className="ourWorkSection">
+      {/* <section className="ourWorkSection">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
             <img src="/images/icons/line.svg" alt="line" />
@@ -464,7 +464,7 @@ const FilmsService = (props) => {
             <Icon icon="clarity:arrow-line" />
           </a>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
