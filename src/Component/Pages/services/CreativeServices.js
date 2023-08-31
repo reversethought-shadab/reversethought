@@ -369,53 +369,102 @@ const CreativeServices = (props) => {
         </div>
       </section>
 
-      <section className="ourWorkSection">
+      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
+          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
-            Our Works
+            More Works
           </h2>
-          <Slider
-            {...settings}
-            className="wow animate__animated animate__slideInUp"
-          >
+          <Slider {...settings}>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/Memoria" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/creative_design/aymbrochure/Maskgroup.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Memoria</h2>
+                <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/rsbl-calendar" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/thumbnails/all_projects/calendar.webp"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">RSBL Calendar</h2>
+                <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/aym-syntex-brochure" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/creative_design/aymbrochure/AYM1.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Aym Syntex Brochure</h2>
+                <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <div className="imgHoverEffect position-relative">
+                  <a href="/aym-syntex" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/websites/aymsyntax/Image267.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">AYM Syntex</h2>
+                <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
           </Slider>
-          <a
-            href="/our-work"
+          <Link
+            to="/our-work"
             className="unsetAll"
-            // onClick={() => window.scrollTo(0, 0)}
+            onClick={() => window.scrollTo(0, 0)}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />
-          </a>
+          </Link>
         </div>
       </section>
     </>

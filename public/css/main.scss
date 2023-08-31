@@ -2632,7 +2632,7 @@ header.blackBg {
     margin-right: 20 * $desk + vw;
     img {
       width: 100%;
-      max-height: 280 * $desk + vw;
+      max-height: 130 * $desk + vw;
       object-fit: cover;
       @include for-phone-only {
         max-height: 200px;
