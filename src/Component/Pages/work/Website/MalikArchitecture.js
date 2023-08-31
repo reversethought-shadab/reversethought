@@ -164,7 +164,7 @@ const MalikArchitecture = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/nagarkot-logistics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -184,7 +184,7 @@ const MalikArchitecture = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/malik-architecture" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -201,7 +201,7 @@ const MalikArchitecture = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/welspunGroup" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -218,7 +218,7 @@ const MalikArchitecture = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="#" className="colorWhite fw-800">
+                  <a href="/malik-architecture" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -228,7 +228,7 @@ const MalikArchitecture = (props) => {
                   </a>
                   <img src="/images/work.png" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

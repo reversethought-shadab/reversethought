@@ -858,12 +858,13 @@ input {
   position: absolute;
   left: 50%;
   top: 3.6603221083vw;
-  transform: scaleY(0) translateX(-50%);
+  transform: scaleY(0) translateX(-38%);
   transform-origin: top;
-  transition: 0.5s all;
+  transition: 0.3s all;
   display: flex;
   justify-content: space-around;
   z-index: 1;
+  opacity: 0;
   background: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -1035,7 +1036,8 @@ input {
   display: none;
 }
 .header_content_container header nav ul li:hover .openServiceMenu {
-  transform: scaleY(1) translateX(-44%);
+  transform: scaleY(1) translateX(-38%);
+  opacity: 1;
 }
 .header_content_container header nav ul li a {
   all: unset;
@@ -4222,7 +4224,7 @@ header.blackBg {
 }
 .ourWorkSlider .slick-slider .sliderInner img {
   width: 100%;
-  max-height: 20.4978038067vw;
+  height: 20.4978038067vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -4297,7 +4299,9 @@ header.blackBg {
   transition: 0.5s all;
 }
 .ourWorkSlider .slick-slider .sliderInner .imgHoverEffect a img {
-  max-width: 0.7755490483vw;
+  max-width: 0.8487554905vw;
+  height: 15px;
+  margin-left: 9px;
 }
 .ourWorkSlider .slick-slider .slick-dots {
   display: none !important;

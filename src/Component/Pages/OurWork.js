@@ -168,7 +168,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/aym2.svg"
+                    src="/images/thumbnails/all_projects/aym2.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -193,7 +193,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/uluru.svg"
+                    src="/images/thumbnails/all_projects/uluru.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -217,7 +217,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dchem.svg"
+                    src="/images/thumbnails/all_projects/dchem.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -244,7 +244,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/icicipro.svg"
+                    src="/images/thumbnails/all_projects/icicipro.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -270,7 +270,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/matrix.svg"
+                    src="/images/thumbnails/all_projects/matrix.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -294,7 +294,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/phone.svg"
+                    src="/images/thumbnails/all_projects/phone.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -343,7 +343,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/malik.svg"
+                    src="/images/thumbnails/all_projects/malik.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -370,7 +370,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/vijayseles.svg"
+                    src="/images/thumbnails/all_projects/vijayseles.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -443,7 +443,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dorado.svg"
+                    src="/images/thumbnails/all_projects/dorado.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -469,7 +469,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/jindal.svg"
+                    src="/images/thumbnails/all_projects/jindal.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -493,7 +493,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/ship.svg"
+                    src="/images/thumbnails/all_projects/ship.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -520,7 +520,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dit.svg"
+                    src="/images/thumbnails/all_projects/dit.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -583,7 +583,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/aym2.svg"
+                    src="/images/thumbnails/all_projects/aym2.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -609,7 +609,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/malik.svg"
+                    src="/images/thumbnails/all_projects/malik.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -638,7 +638,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/ship.svg"
+                    src="/images/thumbnails/all_projects/ship.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -717,7 +717,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/tea.svg"
+                    src="/images/thumbnails/all_projects/tea.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -741,7 +741,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/i2m.svg"
+                    src="/images/thumbnails/all_projects/i2m.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -767,7 +767,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/piplines.png"
+                    src="/images/thumbnails/all_projects/piplines.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -791,7 +791,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/conindia.png"
+                    src="/images/thumbnails/all_projects/conindia.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -814,7 +814,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/webm.svg"
+                    src="/images/thumbnails/all_projects/webm.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -838,7 +838,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/mc.svg"
+                    src="/images/thumbnails/all_projects/mc.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -861,7 +861,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/gray2333.svg"
+                    src="/images/thumbnails/all_projects/gray2333.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -892,7 +892,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryL">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dodhia.svg"
+                    src="/images/thumbnails/all_projects/dodhia.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -919,7 +919,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/pipeline.svg"
+                    src="/images/thumbnails/all_projects/pipeline.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -944,7 +944,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dit.svg"
+                    src="/images/thumbnails/all_projects/dit.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -971,7 +971,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/ricv.svg"
+                    src="/images/thumbnails/all_projects/ricv.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -998,7 +998,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dhci.svg"
+                    src="/images/thumbnails/all_projects/dhci.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1023,7 +1023,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/speakevent.svg"
+                    src="/images/thumbnails/all_projects/speakevent.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1048,7 +1048,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/kfm.svg"
+                    src="/images/thumbnails/all_projects/kfm.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1074,7 +1074,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/recipe.svg"
+                    src="/images/thumbnails/all_projects/recipe.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1103,7 +1103,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/50.svg"
+                    src="/images/thumbnails/all_projects/50.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1127,7 +1127,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/vjy1.svg"
+                    src="/images/thumbnails/all_projects/vjy1.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1153,7 +1153,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/hyd.svg"
+                    src="/images/thumbnails/all_projects/hyd.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1180,7 +1180,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dcf.svg"
+                    src="/images/thumbnails/all_projects/dcf.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1207,7 +1207,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/icicipru.svg"
+                    src="/images/thumbnails/all_projects/icicipru.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1233,7 +1233,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/isolus.svg"
+                    src="/images/thumbnails/all_projects/isolus.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1259,7 +1259,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/sphealth.png"
+                    src="/images/thumbnails/all_projects/sphealth.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1285,7 +1285,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dchem.svg"
+                    src="/images/thumbnails/all_projects/dchem.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1311,7 +1311,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/cw.svg"
+                    src="/images/thumbnails/all_projects/cw.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1337,7 +1337,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dorado.svg"
+                    src="/images/thumbnails/all_projects/dorado.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1366,7 +1366,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/ideas.svg"
+                    src="/images/thumbnails/all_projects/ideas.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1390,7 +1390,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/hp.svg"
+                    src="/images/thumbnails/all_projects/hp.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1414,7 +1414,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/wcsr.svg"
+                    src="/images/thumbnails/all_projects/wcsr.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1437,7 +1437,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/neoniche.svg"
+                    src="/images/thumbnails/all_projects/neoniche.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1460,7 +1460,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/al.svg"
+                    src="/images/thumbnails/all_projects/al.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1483,7 +1483,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/gson.svg"
+                    src="/images/thumbnails/all_projects/gson.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1506,7 +1506,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/vijay.png"
+                    src="/images/thumbnails/all_projects/vijay.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1529,7 +1529,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/scalp.svg"
+                    src="/images/thumbnails/all_projects/scalp.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1560,7 +1560,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryL">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/phone.svg"
+                    src="/images/thumbnails/all_projects/phone.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1586,7 +1586,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/49.svg"
+                    src="/images/thumbnails/all_projects/49.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1611,7 +1611,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/trade.svg"
+                    src="/images/thumbnails/all_projects/trade.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1637,7 +1637,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/nps.svg"
+                    src="/images/thumbnails/all_projects/nps.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1661,7 +1661,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/dabur2.svg"
+                    src="/images/thumbnails/all_projects/dabur2.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1687,7 +1687,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/flex.svg"
+                    src="/images/thumbnails/all_projects/flex.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1710,7 +1710,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/freely.svg"
+                    src="/images/thumbnails/all_projects/freely.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1733,7 +1733,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/skygreens.svg"
+                    src="/images/thumbnails/all_projects/skygreens.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1759,7 +1759,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/earth.svg"
+                    src="/images/thumbnails/all_projects/earth.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1783,7 +1783,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/education.svg"
+                    src="/images/thumbnails/all_projects/education.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1807,7 +1807,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/ready.svg"
+                    src="/images/thumbnails/all_projects/ready.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1830,7 +1830,7 @@ const OurWork = (props) => {
                 </div>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/uluru.svg"
+                    src="/images/thumbnails/all_projects/uluru.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1861,7 +1861,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryL">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/ayms.svg"
+                    src="/images/thumbnails/all_projects/ayms.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1888,7 +1888,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/ljmm.svg"
+                    src="/images/thumbnails/all_projects/ljmm.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1916,7 +1916,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/scaling.svg"
+                    src="/images/thumbnails/all_projects/scaling.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1942,7 +1942,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/calendar.svg"
+                    src="/images/thumbnails/all_projects/calendar.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1966,7 +1966,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/memo.svg"
+                    src="/images/thumbnails/all_projects/memo.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -1997,7 +1997,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryL">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/score.svg"
+                    src="/images/thumbnails/all_projects/score.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2024,7 +2024,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/ljmm.svg"
+                    src="/images/thumbnails/all_projects/ljmm.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2052,7 +2052,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryM">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/mcdowells.svg"
+                    src="/images/thumbnails/all_projects/mcdowells.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2078,7 +2078,7 @@ const OurWork = (props) => {
               <div className="projectsGalleryR">
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/matrix.svg"
+                    src="/images/thumbnails/all_projects/matrix.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
@@ -2102,7 +2102,7 @@ const OurWork = (props) => {
 
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/thumbnails/all_projects/works.svg"
+                    src="/images/thumbnails/all_projects/works.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />

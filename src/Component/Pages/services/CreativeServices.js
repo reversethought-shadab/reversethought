@@ -382,28 +382,28 @@ const CreativeServices = (props) => {
             <div>
               <div className="sliderInner">
                 <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
