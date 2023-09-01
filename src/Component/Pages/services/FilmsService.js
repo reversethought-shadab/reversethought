@@ -25,19 +25,10 @@ const FilmsService = (props) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 2.5,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
-      {
-        breakpoint: 1440,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
       {
         breakpoint: 1024,
         settings: {
