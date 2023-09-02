@@ -4112,7 +4112,8 @@ max-width: 100vw;
       margin-right: 20 * $desk + vw;
       img {
         width: 100%;
-        height: 280 * $desk + vw;
+        max-height: 20.4978038067vw;
+        -o-object-fit: cover;
         object-fit: cover;
       }
       h2 {
