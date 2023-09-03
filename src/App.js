@@ -84,6 +84,10 @@ import Sitemap from "./Component/Pages/Sitemap";
 import PrivacyPolicy from "./Component/Pages/PrivacyPolicy";
 import Faq from "./Component/Pages/Faq";
 import TermsOfUse from "./Component/Pages/TermsOfUse";
+import AymLeafLets from "./Component/Pages/work/creative_design/AymLeafLets";
+import LjmLogo from "./Component/Pages/work/creative_design/LjmLogo";
+import AymStallDesign from "./Component/Pages/work/creative_design/AymStallDesign";
+import TataCsrReport from "./Component/Pages/work/creative_design/TataCsrReport";
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isCursorOver, setIsCursorOver] = useState(false);
@@ -174,6 +178,11 @@ function App() {
           mouseEnterOnRed={handleMouseEnterRed}
           mouseLeaveOnRed={handleMouseLeaveRed}
         />
+        {/* <EnquiryForm
+          mouseEnterOnRed={handleMouseEnterBlack}
+          mouseLeaveOnRed={handleMouseLeaveBlack}
+        /> */}
+
         <Menu
           //closeModal={closeModal}
           mouseEnterOnRed={handleMouseEnterRed}
@@ -391,6 +400,42 @@ function App() {
             path="/dodhia-textiles"
             element={
               <DodhiaTextiles
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
+              />
+            }
+          />
+          <Route
+            path="/tatacsr-report"
+            element={
+              <TataCsrReport
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
+              />
+            }
+          />
+          <Route
+            path="/aymstall-design"
+            element={
+              <AymStallDesign
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
+              />
+            }
+          />
+          <Route
+            path="/ljmlogo"
+            element={
+              <LjmLogo
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
+              />
+            }
+          />
+          <Route
+            path="/aymleaflets"
+            element={
+              <AymLeafLets
                 mouseEnterOnBlack={handleMouseEnterBlack}
                 mouseLeaveOnBlack={handleMouseLeaveBlack}
               />
@@ -740,7 +785,7 @@ function App() {
             }
           />
           <Route
-            path="/patel-urology-hospital"
+            path="/mpuh"
             element={
               <PatelUrologyHospital
                 mouseEnterOnBlack={handleMouseEnterBlack}

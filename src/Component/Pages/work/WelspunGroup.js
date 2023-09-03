@@ -169,7 +169,7 @@ const WelspunGroup = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800">
+          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -177,10 +177,7 @@ const WelspunGroup = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/dodhia-corporate-film"
-                    className="colorWhite fw-800"
-                  >
+                  <a href="/welspunGroup" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -188,19 +185,16 @@ const WelspunGroup = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dcf.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/welpsunindia.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Corporate Film </h2>
-                <span className="colorGrey fw-400">Video Production</span>
+                <h2 className="colorBlack fw-800">Welpsun Group</h2>
+                <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/neo-niche" className="colorWhite fw-800">
+                  <a href="/goodricke" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -208,19 +202,16 @@ const WelspunGroup = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/neoniche/214.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/goodricke.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Neo Niche</h2>
-                <span className="colorGrey fw-400">Video Production</span>
+                <h2 className="colorBlack fw-800">Goodricke</h2>
+                <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/welspunCSR" className="colorWhite fw-800">
+                  <a href="/elleyselectrics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -228,16 +219,16 @@ const WelspunGroup = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/mainCSR.svg" alt="work" />
+                  <img src="/images/cards/web/ellys.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welspun CSR</h2>
-                <span className="colorGrey fw-400">Video Production</span>
+                <h2 className="colorBlack fw-800">Elleys’ Electrics</h2>
+                <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/vardhman" className="colorWhite fw-800">
+                  <a href="/nagarkot-logistics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -245,17 +236,13 @@ const WelspunGroup = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/50.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/nagarkot.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Vardhman</h2>
-                <span className="colorGrey fw-400">Video Production</span>
+                <h2 className="colorBlack fw-800">Nagarkot Logistics</h2>
+                <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
           </Slider>
-
           <Link
             to="/our-work"
             className="unsetAll"

@@ -156,7 +156,7 @@ const MalikArchitecture = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800">
+          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -164,7 +164,7 @@ const MalikArchitecture = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/texprocil" className="colorWhite fw-800">
+                  <a href="/welspunGroup" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -172,19 +172,16 @@ const MalikArchitecture = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/mc.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/welpsunindia.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Texprocil</h2>
+                <h2 className="colorBlack fw-800">Welpsun Group</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/aym-syntex" className="colorWhite fw-800">
+                  <a href="/goodricke" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -192,19 +189,16 @@ const MalikArchitecture = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/websites/aymsyntax/Image267.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/goodricke.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">AYM Syntex</h2>
+                <h2 className="colorBlack fw-800">Goodricke</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/mcdowell" className="colorWhite fw-800">
+                  <a href="/elleyselectrics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -212,16 +206,16 @@ const MalikArchitecture = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/mcdowell.svg" alt="work" />
+                  <img src="/images/cards/web/ellys.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">McDowell's No.1</h2>
+                <h2 className="colorBlack fw-800">Elleys’ Electrics</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/welspunBKG" className="colorWhite fw-800">
+                  <a href="/nagarkot-logistics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -229,14 +223,13 @@ const MalikArchitecture = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/BKG/1.svg" alt="work" />
+                  <img src="/images/cards/web/nagarkot.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welspun BKG</h2>
+                <h2 className="colorBlack fw-800">Nagarkot Logistics</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
           </Slider>
-
           <Link
             to="/our-work"
             className="unsetAll"

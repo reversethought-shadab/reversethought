@@ -156,7 +156,7 @@ const I2M = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
+          <h2 className="sectionHead colorBlack fw-800">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -164,7 +164,7 @@ const I2M = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/local2030" className="colorWhite fw-800">
+                  <a href="/256grays" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -172,19 +172,16 @@ const I2M = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/webm.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/256.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Local2030</h2>
+                <h2 className="colorBlack fw-800">Grays256</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/goodricke" className="colorWhite fw-800">
+                  <a href="/aym-syntex" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -192,19 +189,16 @@ const I2M = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/tea.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/aymsyntex.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Goodricke</h2>
+                <h2 className="colorBlack fw-800">AYM Syntex</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/elleyselectrics" className="colorWhite fw-800">
+                  <a href="/vardhman" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -212,16 +206,16 @@ const I2M = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/elleys-electrics.svg" alt="work" />
+                  <img src="/images/cards/web/vardhman.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Elleys’ Electrics</h2>
+                <h2 className="colorBlack fw-800">Vardhman</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/nagarkot-logistics" className="colorWhite fw-800">
+                  <a href="/continuum-india" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -229,16 +223,14 @@ const I2M = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/ship.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/contindia.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Nagarkot Logistics</h2>
+                <h2 className="colorBlack fw-800">Continuum India</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
           </Slider>
+
           <Link
             to="/our-work"
             className="unsetAll"

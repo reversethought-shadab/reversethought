@@ -149,7 +149,7 @@ const Local2030 = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
+          <h2 className="sectionHead colorBlack fw-800">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -157,7 +157,7 @@ const Local2030 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/notandas" className="colorWhite fw-800">
+                  <a href="/256grays" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -165,9 +165,43 @@ const Local2030 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/notandas/main.svg" alt="work" />
+                  <img src="/images/cards/web/256.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Notandas</h2>
+                <h2 className="colorBlack fw-800">Grays256</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/aym-syntex" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/aymsyntex.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">AYM Syntex</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/vardhman" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/vardhman.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Vardhman</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
@@ -182,53 +216,14 @@ const Local2030 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/websites/continuumindia/OnPaste1.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/contindia.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Continuum India</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/i2m" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/i2m.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">I2M</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/256grays" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/thumbnails/all_projects/gray2333.webp"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/work.png" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">256grays</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
           </Slider>
+
           <Link
             to="/our-work"
             className="unsetAll"

@@ -160,7 +160,7 @@ const Welpsun = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/aym-syntex" className="colorWhite fw-800">
+                  <a href="/welspunGroup" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -168,44 +168,7 @@ const Welpsun = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/websites/nagarkot/Maskgroup.svg"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Aym Syntex</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/malik-architecture" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/work.png" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/welspungroup" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/our-work/welspun-group.svg" alt="work" />
+                  <img src="/images/cards/web/welpsunindia.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Welpsun Group</h2>
                 <span className="colorGrey fw-400">Website Design</span>
@@ -214,7 +177,7 @@ const Welpsun = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/vardhman" className="colorWhite fw-800">
+                  <a href="/goodricke" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -222,9 +185,43 @@ const Welpsun = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/vardhman/mainv.svg" alt="work" />
+                  <img src="/images/cards/web/goodricke.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Vardhman</h2>
+                <h2 className="colorBlack fw-800">Goodricke</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/elleyselectrics" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/ellys.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Elleys’ Electrics</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/nagarkot-logistics" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/nagarkot.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Nagarkot Logistics</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

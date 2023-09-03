@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import axios from "axios";
-import {ThreeCircles} from 'react-loader-spinner'
+import { ThreeCircles } from "react-loader-spinner";
 
 const EnquiryForm = (props) => {
   const [isFormVisible, setIsFormVisible] = useState(false);
@@ -36,64 +36,62 @@ const EnquiryForm = (props) => {
     };
 
     let data = new FormData();
-      Object.keys(formData).forEach(key => data.append(key,formData[key]));
-      const headers = {
-        'Content-Type': 'multipart/form-data'
+    Object.keys(formData).forEach((key) => data.append(key, formData[key]));
+    const headers = {
+      "Content-Type": "multipart/form-data",
     };
 
     // const url = "http://111.118.212.37/mail/"
-    const url = "https://uat.reversethought.com/mail/"
+    const url = "https://uat.reversethought.com/mail/";
 
     axios
-    .post(url, data, {
-        headers
+      .post(url, data, {
+        headers,
       })
-      .then(response => {
+      .then((response) => {
         // Handle successful response
-        if(response.status === 200){
-          setSuccessMessage('Thanks for contacting us. We will reach you very soon.');
+        if (response.status === 200) {
+          setSuccessMessage(
+            "Thanks for contacting us. We will reach you very soon."
+          );
+        } else {
+          setSuccessMessage("");
         }
-        else{
-          setSuccessMessage('')
-        }
-          
 
         setTimeout(() => {
-          setSuccessMessage('');
+          setSuccessMessage("");
         }, 3000);
-        
-        setErrorMessage('');
+
+        setErrorMessage("");
         //setFullName('');
-        setUsername('')
-        setCompanyName('');
-        setEmail('');
-        setNumber('');
+        setUsername("");
+        setCompanyName("");
+        setEmail("");
+        setNumber("");
         //setMobNo('');
         //setSource('');
         //setBudget('');
-        setInterestedIn('');
+        setInterestedIn("");
         //setActiveItems('')
         setIsLoading(false);
-        
       })
-      .catch(error => {
+      .catch((error) => {
         if (error.response.status === 400) {
           const errorList = error.response.data.errors;
-          const errorMessages = Object.entries(errorList).map((value) => value[1]);
+          const errorMessages = Object.entries(errorList).map(
+            (value) => value[1]
+          );
           setErrorMessage(errorMessages.join(", "));
+        } else {
+          setErrorMessage("");
         }
-        
-        else{
-          setErrorMessage('')
-        }
-        
-        setTimeout(() => {
-          setErrorMessage('');
-        }, 3000);
-        setSuccessMessage('');
-        setIsLoading(false);
-    });
 
+        setTimeout(() => {
+          setErrorMessage("");
+        }, 3000);
+        setSuccessMessage("");
+        setIsLoading(false);
+      });
 
     // axios
     // .post("https://uat.reversethought.com/mail/", formData)
@@ -116,7 +114,12 @@ const EnquiryForm = (props) => {
         <div className="alert alert-success">{successMessage}</div>
       )}
       {errorMessage && <div className="alert alert-danger">{errorMessage}</div>}
-      <button className="colorWhite fw-800 enquireNowButton" onClick={showForm}>
+      <button
+        className="colorWhite fw-800 enquireNowButton"
+        onClick={showForm}
+        onMouseEnter={props.mouseEnterOnBlack}
+        onMouseLeave={props.mouseLeaveOnBlack}
+      >
         <Icon icon="ph:arrow-right-bold" />
         <span>Enquiry Form</span>
         <Icon icon="ph:arrow-left-bold" />
@@ -164,7 +167,9 @@ const EnquiryForm = (props) => {
               required
               onChange={(e) => setInterestedIn(e.target.value)}
             >
-              <option value="" selected disabled hidden>I’m Interested in....*</option>
+              <option value="" selected disabled hidden>
+                I’m Interested in....*
+              </option>
               <option value="Web Design">Web Design</option>
               <option value="Graphic Design">Graphic Design</option>
             </select>
@@ -188,8 +193,7 @@ const EnquiryForm = (props) => {
         </form>
       </div>
 
-      {
-      isLoading && 
+      {isLoading && (
         <>
           <div className="spinnerCss"></div>
           <ThreeCircles
@@ -205,7 +209,7 @@ const EnquiryForm = (props) => {
             middleCircleColor=""
           />
         </>
-      }
+      )}
     </>
   );
 };

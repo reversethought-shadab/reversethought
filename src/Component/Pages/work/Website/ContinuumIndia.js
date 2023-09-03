@@ -157,7 +157,7 @@ const ContinuumIndia = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/local2030" className="colorWhite fw-800">
+                  <a href="/welspunGroup" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -165,12 +165,9 @@ const ContinuumIndia = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/webm.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/welpsunindia.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Local2030</h2>
+                <h2 className="colorBlack fw-800">Welpsun Group</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
@@ -185,10 +182,7 @@ const ContinuumIndia = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/tea.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/goodricke.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Goodricke</h2>
                 <span className="colorGrey fw-400">Website Design</span>
@@ -205,7 +199,7 @@ const ContinuumIndia = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/elleys-electrics.svg" alt="work" />
+                  <img src="/images/cards/web/ellys.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Elleys’ Electrics</h2>
                 <span className="colorGrey fw-400">Website Design</span>
@@ -222,10 +216,7 @@ const ContinuumIndia = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/ship.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/nagarkot.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Nagarkot Logistics</h2>
                 <span className="colorGrey fw-400">Website Design</span>

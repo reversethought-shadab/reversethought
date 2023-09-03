@@ -157,7 +157,7 @@ const Texprocile = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/notandas" className="colorWhite fw-800">
+                  <a href="/welspunGroup" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -165,16 +165,16 @@ const Texprocile = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/notandas/main.svg" alt="work" />
+                  <img src="/images/cards/web/welpsunindia.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Notandas</h2>
+                <h2 className="colorBlack fw-800">Welpsun Group</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/continuum-india" className="colorWhite fw-800">
+                  <a href="/goodricke" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -182,19 +182,16 @@ const Texprocile = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/websites/continuumindia/OnPaste1.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/goodricke.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Continuum India</h2>
+                <h2 className="colorBlack fw-800">Goodricke</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/i2m" className="colorWhite fw-800">
+                  <a href="/elleyselectrics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -202,29 +199,26 @@ const Texprocile = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/i2m.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/ellys.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">I2M</h2>
+                <h2 className="colorBlack fw-800">Elleys’ Electrics</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/256grays" className="colorWhite fw-800">
+                  <a href="/nagarkot-logistics" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
-                      src="/images/thumbnails/all_projects/gray2333.webp"
+                      src="/images/icons/toparrowWhite.svg"
                       alt="toparrow"
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img src="/images/cards/web/nagarkot.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">256grays</h2>
+                <h2 className="colorBlack fw-800">Nagarkot Logistics</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

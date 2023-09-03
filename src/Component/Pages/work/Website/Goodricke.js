@@ -156,48 +156,11 @@ const Goodricke = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
+          <h2 className="sectionHead colorBlack fw-800">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
           <Slider {...settings}>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/notandas" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/our-work/notandas/main.svg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Notandas</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/continuum-india" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/our-work/websites/continuumindia/OnPaste1.svg"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Continuum India</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
@@ -209,10 +172,7 @@ const Goodricke = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/i2m.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/web/i2m.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">I2M</h2>
                 <span className="colorGrey fw-400">Website Design</span>
@@ -221,21 +181,56 @@ const Goodricke = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/256grays" className="colorWhite fw-800">
+                  <a href="/malik-architecture" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
-                      src="/images/thumbnails/all_projects/gray2333.webp"
+                      src="/images/icons/toparrowWhite.svg"
                       alt="toparrow"
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img src="/images/cards/web/malik.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">256grays</h2>
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/notandas" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/notandas.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Notandas</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/texprocile" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/texprocile.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Texprocile</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>
           </Slider>
+
           <Link
             to="/our-work"
             className="unsetAll"
