@@ -102,12 +102,17 @@ const Menu = (props) => {
                     Creative Design
                   </a>
                 </li>
-                <li className="colorWhite fw-300">
+                <li className="colorWhite text-white fw-300">
                   <a
                     href="/Digital-Activation-Services"
                     onClick={props.closeModal}
                   >
                     Digital Activations
+                  </a>
+                </li>
+                <li className="colorWhite text-wite fw-300">
+                  <a href="/Photography" onClick={props.closeModal}>
+                    PhotoGraphy
                   </a>
                 </li>
               </ul>

@@ -173,7 +173,7 @@ const SpeakEvent = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/canadian-woods" className="colorWhite fw-800">
+                  <a href="/jesons-tech-centre" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -181,19 +181,16 @@ const SpeakEvent = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/cw.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/jesons.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Canadian Woods</h2>
+                <h2 className="colorBlack fw-800">Jesons</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/qr678" className="colorWhite fw-800">
+                  <a href="/dodhiachemicals" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -201,19 +198,16 @@ const SpeakEvent = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/scalp.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/chemical.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">QR678</h2>
+                <h2 className="colorBlack fw-800">Dodhia Chemicals</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/dorado-ivory" className="colorWhite fw-800">
+                  <a href="/kukufm" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -221,32 +215,9 @@ const SpeakEvent = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dorado.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/kukufm.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dorado Ivory</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/isolus" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/isolus.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">iSolus</h2>
+                <h2 className="colorBlack fw-800">Kuku FM</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

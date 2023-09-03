@@ -142,6 +142,13 @@ const Footer = (props) => {
                     >
                       Digital Activations
                     </a>
+                    <a
+                      href="/Photography"
+                      className="unsetAll"
+                      // onClick={() => window.scrollTo(0, 0)}
+                    >
+                      Photography
+                    </a>
                   </ul>
                 </div>
                 <div className="footer_nav_links">
@@ -154,13 +161,13 @@ const Footer = (props) => {
                     >
                       Blogs
                     </a>
-                    <a
+                    {/* <a
                       href="/careers"
                       className="unsetAll"
                       // onClick={() => window.scrollTo(0, 0)}
                     >
                       News
-                    </a>
+                    </a> */}
                     <a
                       href="/careers"
                       className="unsetAll"

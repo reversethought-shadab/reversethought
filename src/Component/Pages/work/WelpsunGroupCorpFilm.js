@@ -177,49 +177,6 @@ const WelpsunGroupCorpFilm = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/dodhia-corporate-film"
-                    className="colorWhite fw-800"
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dcf.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Dodhia Corporate Film </h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/neo-niche" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/our-work/videography/neoniche/214.svg"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Neo Niche</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
                   <a href="/welspunCSR" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
@@ -228,7 +185,7 @@ const WelpsunGroupCorpFilm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/mainCSR.svg" alt="work" />
+                  <img src="/images/cards/video/welpsuncsr.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Welspun CSR</h2>
                 <span className="colorGrey fw-400">Video Production</span>
@@ -237,7 +194,7 @@ const WelpsunGroupCorpFilm = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/vardhman" className="colorWhite fw-800">
+                  <a href="/vijaysales" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -245,12 +202,43 @@ const WelpsunGroupCorpFilm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/50.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/vijaysales.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Vardhman</h2>
+                <h2 className="colorBlack fw-800">vijay sales</h2>
+                <span className="colorGrey fw-400">Video Production</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/welspunBKG" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/video/welpsun.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Welspun BKG</h2>
+                <span className="colorGrey fw-400">Video Production</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/recipe" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/video/recipe.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Recipe</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

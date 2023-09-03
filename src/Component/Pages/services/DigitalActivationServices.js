@@ -413,7 +413,7 @@ const DigitalActivationServices = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/digital_activation/alkemar/Maskgroup.svg"
+                    src="/images/cards/Digital-activation/amazon.jpg"
                     alt="work"
                   />
                 </div>
@@ -456,7 +456,10 @@ const DigitalActivationServices = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/mcdowell.svg" alt="work" />
+                  <img
+                    src="/images/cards/Digital-activation/mcdowll.jpg"
+                    alt="work"
+                  />
                 </div>
                 <h2 className="colorBlack fw-800">McDowell's No.1</h2>
                 <span className="colorGrey fw-400">
@@ -476,7 +479,7 @@ const DigitalActivationServices = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/digital_activation/loreal/AYM1.svg"
+                    src="/images/cards/Digital-activation/loreal.jpg"
                     alt="work"
                   />
                 </div>

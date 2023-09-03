@@ -165,7 +165,7 @@ const Memoria = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/Memoria" className="colorWhite fw-800">
+                  <a href="/ljmlogo" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -173,19 +173,16 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/creative_design/aymbrochure/Maskgroup.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/Creative/ljm.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Memoria</h2>
+                <h2 className="colorBlack fw-800">LJM Logo</h2>
                 <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/rsbl-calendar" className="colorWhite fw-800">
+                  <a href="/aymstall-design" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -193,19 +190,16 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/calendar.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/Creative/chair.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">RSBL Calendar</h2>
+                <h2 className="colorBlack fw-800">AYM Stall Design</h2>
                 <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/aym-syntex-brochure" className="colorWhite fw-800">
+                  <a href="/tatacsr-report" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -213,19 +207,16 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/creative_design/aymbrochure/AYM1.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/Creative/empower.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Aym Syntex Brochure</h2>
+                <h2 className="colorBlack fw-800">TATA CSR Report</h2>
                 <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/aym-syntex" className="colorWhite fw-800">
+                  <a href="/aymleaflets" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -233,12 +224,9 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/websites/aymsyntax/Image267.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/Creative/scaling.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">AYM Syntex</h2>
+                <h2 className="colorBlack fw-800">AYM Leaf Lets</h2>
                 <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>

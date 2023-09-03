@@ -140,7 +140,7 @@ const SpeedOfSound = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/sky-greens" className="colorWhite fw-800">
+                  <a href="/dabur" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -148,10 +148,41 @@ const SpeedOfSound = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/skygreens.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/dabur.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Dabur</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/mpuh" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/mpuh.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">MPUH </h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/skygreens" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/skygreens.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Skygreens</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
@@ -160,7 +191,7 @@ const SpeedOfSound = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/indusind" className="colorWhite fw-800">
+                  <a href="/tiger" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -168,52 +199,9 @@ const SpeedOfSound = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/education.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/tiger.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">IndusInd Bank</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/icici-prudential" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/nps.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Icici Prudential</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/jindal-SAW" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/earth.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Jindal SAW</h2>
+                <h2 className="colorBlack fw-800">Tiger</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>

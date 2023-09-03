@@ -173,7 +173,7 @@ const DodiaTextiles = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/alkemlaboratories" className="colorWhite fw-800">
+                  <a href="/rockman-advance-comp" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -181,12 +181,28 @@ const DodiaTextiles = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/canadian-wood/maskgroup.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/hyd.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Alkem Laboratories</h2>
+                <h2 className="colorBlack fw-800">
+                  ROckman Advanced Composites{" "}
+                </h2>
+                <span className="colorGrey fw-400">Video Production</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/welpGroupCorpFilm" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/video/pipeline.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Welpsun Group Corp Film</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
@@ -194,7 +210,7 @@ const DodiaTextiles = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/dodhia-corporate-film"
+                    href="/DHCinternational-teaser"
                     className="colorWhite fw-800"
                   >
                     View Projects &nbsp;
@@ -204,54 +220,9 @@ const DodiaTextiles = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dcf.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/DHCT.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Corporate</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/welpsunGroupCorpFilm" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/hp.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">
-                  Welpsun Group (Corp. Film )
-                </h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/recipe" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/our-work/videography/recipe/214.svg"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Recipe</h2>
+                <h2 className="colorBlack fw-800">DHC International Teaser</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

@@ -166,7 +166,6 @@ const RockmanIndustries = (props) => {
           </div>
         </div>
       </section>
-
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800">
@@ -177,10 +176,7 @@ const RockmanIndustries = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/dodhia-corporate-film"
-                    className="colorWhite fw-800"
-                  >
+                  <a href="/icici-prudential" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -188,19 +184,16 @@ const RockmanIndustries = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dcf.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/icicipru.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Corporate Film </h2>
+                <h2 className="colorBlack fw-800">Icici Prudential</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/neo-niche" className="colorWhite fw-800">
+                  <a href="/recipe" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -208,19 +201,16 @@ const RockmanIndustries = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/neoniche/214.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/recipe.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Neo Niche</h2>
+                <h2 className="colorBlack fw-800">Recipe</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/welspunCSR" className="colorWhite fw-800">
+                  <a href="/speak-event" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -228,16 +218,16 @@ const RockmanIndustries = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/mainCSR.svg" alt="work" />
+                  <img src="/images/cards/video/speakevent.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welspun CSR</h2>
+                <h2 className="colorBlack fw-800">Speak Event</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/vardhman" className="colorWhite fw-800">
+                  <a href="/qr678" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -245,12 +235,9 @@ const RockmanIndustries = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/50.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/car.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Vardhman</h2>
+                <h2 className="colorBlack fw-800">QR678</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

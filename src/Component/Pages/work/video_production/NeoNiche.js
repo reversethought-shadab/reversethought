@@ -173,7 +173,7 @@ const NeoNiche = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/jesons-tech-centre" className="colorWhite fw-800">
+                  <a href="/icici-prudential" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -181,19 +181,16 @@ const NeoNiche = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/jesons/214.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/icicipru.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Jesons</h2>
+                <h2 className="colorBlack fw-800">Icici Prudential</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/dodhiachemicals" className="colorWhite fw-800">
+                  <a href="/recipe" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -201,19 +198,16 @@ const NeoNiche = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/dodhiachem/243.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/recipe.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Chemicals</h2>
+                <h2 className="colorBlack fw-800">Recipe</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/kukufm" className="colorWhite fw-800">
+                  <a href="/speak-event" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -221,19 +215,16 @@ const NeoNiche = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/kukufm/243.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/speakevent.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Kuku FM</h2>
+                <h2 className="colorBlack fw-800">Speak Event</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/rockman-industries" className="colorWhite fw-800">
+                  <a href="/qr678" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -241,12 +232,9 @@ const NeoNiche = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/ricv.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/car.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Rockman Industries</h2>
+                <h2 className="colorBlack fw-800">QR678</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

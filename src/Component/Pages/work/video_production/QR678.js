@@ -173,7 +173,7 @@ const QR678 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/alkemlaboratories" className="colorWhite fw-800">
+                  <a href="/welspunCSR" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -181,22 +181,16 @@ const QR678 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/canadian-wood/maskgroup.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/welpsuncsr.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Alkem Laboratories</h2>
+                <h2 className="colorBlack fw-800">Welspun CSR</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/dodhia-corporate-film"
-                    className="colorWhite fw-800"
-                  >
+                  <a href="/vijaysales" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -204,19 +198,16 @@ const QR678 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dcf.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/vijaysales.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Corporate</h2>
+                <h2 className="colorBlack fw-800">vijay sales</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/welpsunGroupCorpFilm" className="colorWhite fw-800">
+                  <a href="/welspunBKG" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -224,14 +215,9 @@ const QR678 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/hp.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/welpsun.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">
-                  Welpsun Group (Corp. Film )
-                </h2>
+                <h2 className="colorBlack fw-800">Welspun BKG</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
@@ -246,10 +232,7 @@ const QR678 = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/recipe/214.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/recipe.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Recipe</h2>
                 <span className="colorGrey fw-400">Video Production</span>

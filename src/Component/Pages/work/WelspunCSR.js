@@ -177,10 +177,7 @@ const WelspunCSR = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/dodhia-corporate-film"
-                    className="colorWhite fw-800"
-                  >
+                  <a href="/canadian-woods" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -188,19 +185,16 @@ const WelspunCSR = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dcf.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/cw.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Corporate Film </h2>
+                <h2 className="colorBlack fw-800">Canadian Woods</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/neo-niche" className="colorWhite fw-800">
+                  <a href="/DHCinternational" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -208,19 +202,16 @@ const WelspunCSR = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/neoniche/214.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/DHCI.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Neo Niche</h2>
+                <h2 className="colorBlack fw-800">DHC International</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/welspunCSR" className="colorWhite fw-800">
+                  <a href="/dorado-ivory" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -228,32 +219,13 @@ const WelspunCSR = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/mainCSR.svg" alt="work" />
+                  <img src="/images/cards/video/dorado.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welspun CSR</h2>
+                <h2 className="colorBlack fw-800">Dorado Ivory</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/vardhman" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/50.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Vardhman</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
+            <div></div>
           </Slider>
 
           <Link

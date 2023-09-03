@@ -181,10 +181,7 @@ const KukuFm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/cw.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/cw.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Canadian Woods</h2>
                 <span className="colorGrey fw-400">Video Production</span>
@@ -193,7 +190,7 @@ const KukuFm = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/qr678" className="colorWhite fw-800">
+                  <a href="/DHCinternational" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -201,12 +198,9 @@ const KukuFm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/scalp.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/DHCI.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">QR678</h2>
+                <h2 className="colorBlack fw-800">DHC International</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
@@ -221,35 +215,13 @@ const KukuFm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dorado.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/dorado.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Dorado Ivory</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/isolus" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/isolus.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">iSolus</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
+            <div></div>
           </Slider>
 
           <Link

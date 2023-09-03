@@ -146,7 +146,7 @@ const McDowellNo1 = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
+          <h2 className="sectionHead colorBlack fw-800">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -154,24 +154,7 @@ const McDowellNo1 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/notandas" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/our-work/notandas/main.svg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Notandas</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/continuum-india" className="colorWhite fw-800">
+                  <a href="/amazon-sambhav" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -180,18 +163,20 @@ const McDowellNo1 = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/our-work/websites/continuumindia/OnPaste1.svg"
+                    src="/images/cards/Digital-activation/amazon.jpg"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Continuum India</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">Amazon Sambhav</h2>
+                <span className="colorGrey fw-400">
+                  Ar Filter Design & Development
+                </span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/i2m" className="colorWhite fw-800">
+                  <a href="/alkem-ar-filters" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -200,29 +185,56 @@ const McDowellNo1 = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/thumbnails/all_projects/i2m.webp"
+                    src="/images/our-work/digital_activation/alkemar/Maskgroup2.svg"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">I2M</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">Ar Filers</h2>
+                <span className="colorGrey fw-400">
+                  Ar Filter Design & Development
+                </span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/256grays" className="colorWhite fw-800">
+                  <a href="/mcdowell" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
-                      src="/images/thumbnails/all_projects/gray2333.webp"
+                      src="/images/icons/toparrowWhite.svg"
                       alt="toparrow"
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/work.png" alt="work" />
+                  <img
+                    src="/images/cards/Digital-activation/mcdowll.jpg"
+                    alt="work"
+                  />
                 </div>
-                <h2 className="colorBlack fw-800">256grays</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">McDowell's No.1</h2>
+                <span className="colorGrey fw-400">
+                  Ar Filter Design & Development
+                </span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/loreal-matrix" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/cards/Digital-activation/loreal.jpg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">L'Oréal Matrix</h2>
+                <span className="colorGrey fw-400">Digital Activations</span>
               </div>
             </div>
           </Slider>

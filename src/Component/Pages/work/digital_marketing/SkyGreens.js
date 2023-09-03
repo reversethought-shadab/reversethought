@@ -140,7 +140,7 @@ const SkyGreens = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/icici-prudential" className="colorWhite fw-800">
+                  <a href="/dabur" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -148,19 +148,16 @@ const SkyGreens = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/nps.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/dabur.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Icici Prundential</h2>
+                <h2 className="colorBlack fw-800">Dabur</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/indusind" className="colorWhite fw-800">
+                  <a href="/mpuh" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -168,16 +165,16 @@ const SkyGreens = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/dabur/ds2.svg" alt="work" />
+                  <img src="/images/cards/digital/mpuh.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">IndusInd Bank</h2>
+                <h2 className="colorBlack fw-800">MPUH </h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/speak-health" className="colorWhite fw-800">
+                  <a href="/skygreens" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -185,16 +182,16 @@ const SkyGreens = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/dabur/ds3.svg" alt="work" />
+                  <img src="/images/cards/digital/skygreens.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Speak Health</h2>
+                <h2 className="colorBlack fw-800">Skygreens</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/speed-of-sound" className="colorWhite fw-800">
+                  <a href="/tiger" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -202,12 +199,9 @@ const SkyGreens = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/speed_of_sound/mainbanner.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/tiger.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Speed Of Sound</h2>
+                <h2 className="colorBlack fw-800">Tiger</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>

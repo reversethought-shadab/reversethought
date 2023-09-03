@@ -424,7 +424,7 @@ const FilmsService = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/DHCInternational" className="colorWhite fw-800">
+                  <a href="/dodhia-textiles" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -432,12 +432,9 @@ const FilmsService = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/dodhiachem/Maskgroup.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/aym.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">DHC International</h2>
+                <h2 className="colorBlack fw-800">Dodhia Textiles</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
@@ -464,10 +461,7 @@ const FilmsService = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/icici-prundential-life-insurance"
-                    className="colorWhite fw-800"
-                  >
+                  <a href="/rockman-values-film" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -475,34 +469,9 @@ const FilmsService = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/CSR/tenthCSR.png" alt="work" />
+                  <img src="/images/cards/video/idea.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">
-                  ICICI Prudential Life Insurance
-                </h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/DHCinternational-teaser"
-                    className="colorWhite fw-800"
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dit.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">DHC International Teaser</h2>
+                <h2 className="colorBlack fw-800">Rockman Value Film</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

@@ -2476,6 +2476,16 @@ header.blackBg {
   transition-delay: 0.9s;
   transform: translateY(0px);
 }
+.menu.active .menuMain .menuMainL .customGap li:nth-child(6) {
+  opacity: 1;
+  transition-delay: 1s;
+  transform: translateY(0px);
+}
+.menu.active .menuMain .menuMainL .customGap li:nth-child(7) {
+  opacity: 1;
+  transition-delay: 1.1s;
+  transform: translateY(0px);
+}
 .menu.active .menuMain .menuMainL .customGap li:hover {
   opacity: 0.5;
 }

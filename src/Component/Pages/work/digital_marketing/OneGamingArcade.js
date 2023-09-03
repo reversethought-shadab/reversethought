@@ -140,7 +140,7 @@ const OneGamingArcade = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/sky-greens" className="colorWhite fw-800">
+                  <a href="/speed-of-sound" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -148,12 +148,9 @@ const OneGamingArcade = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/skygreens.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/sos.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Skygreens</h2>
+                <h2 className="colorBlack fw-800">Speed Of Sounds</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
@@ -168,10 +165,7 @@ const OneGamingArcade = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/education.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/indus.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">IndusInd Bank</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
@@ -188,19 +182,16 @@ const OneGamingArcade = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/nps.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/icici.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Icici Prudential</h2>
+                <h2 className="colorBlack fw-800">Icici Prundential</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/jindal-SAW" className="colorWhite fw-800">
+                  <a href="/icici-pension-fund" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -208,12 +199,9 @@ const OneGamingArcade = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/earth.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/yoga.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Jindal SAW</h2>
+                <h2 className="colorBlack fw-800">ICICI Pension Fund</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>

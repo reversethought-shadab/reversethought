@@ -181,10 +181,7 @@ const JesonsTechCentre = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/jesons/214.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/jesons.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Jesons</h2>
                 <span className="colorGrey fw-400">Video Production</span>
@@ -201,10 +198,7 @@ const JesonsTechCentre = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/dodhiachem/243.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/chemical.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Dodhia Chemicals</h2>
                 <span className="colorGrey fw-400">Video Production</span>
@@ -221,32 +215,9 @@ const JesonsTechCentre = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/kukufm/243.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/kukufm.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Kuku FM</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/rockman-industries" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/ricv.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Rockman Industries</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

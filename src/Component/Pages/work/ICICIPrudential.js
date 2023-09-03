@@ -143,7 +143,7 @@ const ICICIPrudential = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800">
+          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -151,7 +151,7 @@ const ICICIPrudential = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/texprocil" className="colorWhite fw-800">
+                  <a href="/speed-of-sound" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -159,19 +159,16 @@ const ICICIPrudential = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/mc.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/sos.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Texprocil</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">Speed Of Sounds</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/aym-syntex" className="colorWhite fw-800">
+                  <a href="/indusind" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -179,19 +176,16 @@ const ICICIPrudential = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/websites/aymsyntax/Image267.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/indusind.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">AYM Syntex</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">IndusInd Bank</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/mcdowell" className="colorWhite fw-800">
+                  <a href="/icici-pension-fund" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -199,16 +193,16 @@ const ICICIPrudential = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/mcdowell.svg" alt="work" />
+                  <img src="/images/cards/digital/icici.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">McDowell's No.1</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">Icici Pension Fund</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/welspunBKG" className="colorWhite fw-800">
+                  <a href="/icici-pension-fund" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -216,14 +210,13 @@ const ICICIPrudential = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/BKG/1.svg" alt="work" />
+                  <img src="/images/cards/digital/yoga.svg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welspun BKG</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">ICICI Pension Fund</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
           </Slider>
-
           <Link
             to="/our-work"
             className="unsetAll"

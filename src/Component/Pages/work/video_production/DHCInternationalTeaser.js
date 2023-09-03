@@ -175,7 +175,7 @@ const DHCInternationalTeaser = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/alkemlaboratories" className="colorWhite fw-800">
+                  <a href="/canadian-woods" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -183,22 +183,16 @@ const DHCInternationalTeaser = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/canadian-wood/maskgroup.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/cw.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Alkem Laboratories</h2>
+                <h2 className="colorBlack fw-800">Canadian Woods</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/dodhia-corporate-film"
-                    className="colorWhite fw-800"
-                  >
+                  <a href="/DHCinternational" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -206,19 +200,16 @@ const DHCInternationalTeaser = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dcf.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/DHCI.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Corporate</h2>
+                <h2 className="colorBlack fw-800">DHC International</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/welpsunGroupCorpFilm" className="colorWhite fw-800">
+                  <a href="/dorado-ivory" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -226,37 +217,13 @@ const DHCInternationalTeaser = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/hp.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/dorado.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">
-                  Welpsun Group (Corp. Film )
-                </h2>
+                <h2 className="colorBlack fw-800">Dorado Ivory</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/recipe" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/our-work/videography/recipe/214.svg"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Recipe</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
+            <div></div>
           </Slider>
 
           <Link

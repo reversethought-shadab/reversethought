@@ -173,7 +173,7 @@ const DHCInternational = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/canadian-woods" className="colorWhite fw-800">
+                  <a href="/dodhia-textiles" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -181,19 +181,16 @@ const DHCInternational = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/cw.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/aym.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Canadian Woods</h2>
+                <h2 className="colorBlack fw-800">Dodhia Textiles</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/qr678" className="colorWhite fw-800">
+                  <a href="/vijaysales" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -202,18 +199,18 @@ const DHCInternational = (props) => {
                     />
                   </a>
                   <img
-                    src="/images/thumbnails/all_projects/scalp.webp"
+                    src="/images/our-work/videography/dhcinternationteaser/msk2.svg"
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">QR678</h2>
+                <h2 className="colorBlack fw-800">Vijay Sales</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/dorado-ivory" className="colorWhite fw-800">
+                  <a href="/rockman-values-film" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -221,32 +218,9 @@ const DHCInternational = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dorado.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/idea.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dorado Ivory</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/isolus" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/isolus.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">iSolus</h2>
+                <h2 className="colorBlack fw-800">Rockman Value Film</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

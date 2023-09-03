@@ -140,7 +140,7 @@ const Tiger = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/icici-prudential" className="colorWhite fw-800">
+                  <a href="/mpuh" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -148,29 +148,9 @@ const Tiger = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/nps.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/mpuh.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Icici Prundential</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/indusind" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/our-work/dabur/ds2.svg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">IndusInd Bank</h2>
+                <h2 className="colorBlack fw-800">MPUH</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
@@ -185,9 +165,26 @@ const Tiger = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/dabur/ds3.svg" alt="work" />
+                  <img src="/images/cards/digital/sh.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Speak Health</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/sky-greens" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/skygreens.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Skygreens</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
@@ -202,10 +199,7 @@ const Tiger = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/speed_of_sound/mainbanner.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/sos.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Speed Of Sound</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>

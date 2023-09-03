@@ -175,7 +175,7 @@ const IciciPrudentialLifeInsurance = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/canadian-woods" className="colorWhite fw-800">
+                  <a href="/rockman-advance-comp" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -183,19 +183,18 @@ const IciciPrudentialLifeInsurance = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/cw.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/hyd.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Canadian Woods</h2>
+                <h2 className="colorBlack fw-800">
+                  ROckman Advanced Composites{" "}
+                </h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/qr678" className="colorWhite fw-800">
+                  <a href="/welpGroupCorpFilm" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -203,19 +202,19 @@ const IciciPrudentialLifeInsurance = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/scalp.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/pipeline.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">QR678</h2>
+                <h2 className="colorBlack fw-800">Welpsun Group Corp Film</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/dorado-ivory" className="colorWhite fw-800">
+                  <a
+                    href="/DHCinternational-teaser"
+                    className="colorWhite fw-800"
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -223,32 +222,9 @@ const IciciPrudentialLifeInsurance = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/dorado.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/DHCT.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dorado Ivory</h2>
-                <span className="colorGrey fw-400">Video Production</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/isolus" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/thumbnails/all_projects/isolus.webp"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">iSolus</h2>
+                <h2 className="colorBlack fw-800">DHC International Teaser</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

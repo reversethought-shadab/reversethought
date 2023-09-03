@@ -142,46 +142,6 @@ const PatelUrologySolution = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/speak-health" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/our-work/ICICI_Prudential/slide1.svg"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">Speak Health</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a href="/advance-solution" className="colorWhite fw-800">
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img
-                    src="/images/our-work/advance_solution/mainbanner.svg"
-                    alt="work"
-                  />
-                </div>
-                <h2 className="colorBlack fw-800">advance solution </h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
                   <a href="/dabur" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
@@ -190,9 +150,43 @@ const PatelUrologySolution = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/our-work/dabur/maind.svg" alt="work" />
+                  <img src="/images/cards/digital/dabur.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Dabur</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/mpuh" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/mpuh.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">MPUH </h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a href="/skygreens" className="colorWhite fw-800">
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/skygreens.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Skygreens</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
@@ -207,10 +201,7 @@ const PatelUrologySolution = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/thumbnails/all_projects/uluru.webp"
-                    alt="work"
-                  />
+                  <img src="/images/cards/digital/tiger.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Tiger</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>
