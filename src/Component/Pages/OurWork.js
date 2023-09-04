@@ -477,7 +477,7 @@ const OurWork = (props) => {
 
               <div className="projectsGalleryR">
                 <a
-                  href="/welpsun-group"
+                  href="/welspunGroup"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -494,7 +494,7 @@ const OurWork = (props) => {
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/welpsun-group"
+                          href="/welspunGroup"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -514,14 +514,16 @@ const OurWork = (props) => {
                 >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
-                      src="/images/projects/all-projects/proj-10.png"
+                      src="/images/thumbnails/all_projects/mcd.jpg"
                       alt="Project"
                       className="img-fluid w-100"
                     />
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">McDowell's</h2>
-                        <p className="proj_type text-black">App</p>
+                        <p className="proj_type text-black">
+                          Digital Activations
+                        </p>
                       </div>
                       <div className="bottom_overview">
                         <a
@@ -952,7 +954,7 @@ const OurWork = (props) => {
 
               <div className="projectsGalleryR">
                 <a
-                  href="/welpsun-group"
+                  href="/welspunGroup"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -969,7 +971,7 @@ const OurWork = (props) => {
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/welpsun-group"
+                          href="/welspunGroup"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -2736,7 +2738,7 @@ const OurWork = (props) => {
                 >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
-                      src="/images/thumbnails/all_projects/mcdowells.webp"
+                      src="/images/thumbnails/all_projects/mcd.jpg"
                       alt="Project"
                       className="img-fluid w-100"
                     />

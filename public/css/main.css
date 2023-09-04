@@ -1640,7 +1640,7 @@ header.blackBg {
 .ourRecentClients .gridSystem img {
   filter: grayscale(1);
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.1s;
   display: block;
   pointer-events: all;
 }
@@ -1648,19 +1648,19 @@ header.blackBg {
   transition-delay: 0s;
 }
 .ourRecentClients .gridSystem img:nth-child(6n+2) {
-  transition-delay: 0.15s;
+  transition-delay: 0.1s;
 }
 .ourRecentClients .gridSystem img:nth-child(6n+3) {
-  transition-delay: 0.3s;
+  transition-delay: 0.1s;
 }
 .ourRecentClients .gridSystem img:nth-child(6n+4) {
-  transition-delay: 0.45s;
+  transition-delay: 0.1s;
 }
 .ourRecentClients .gridSystem img:nth-child(6n+5) {
-  transition-delay: 0.6s;
+  transition-delay: 0.1s;
 }
 .ourRecentClients .gridSystem img:nth-child(6n+6) {
-  transition-delay: 0.75s;
+  transition-delay: 0.1s;
 }
 .ourRecentClients .gridSystem img.animated {
   opacity: 1;
@@ -1673,19 +1673,19 @@ header.blackBg {
     transition-delay: 0s;
   }
   .ourRecentClients .gridSystem img:nth-child(6n+2) {
-    transition-delay: 0.15s;
+    transition-delay: 0.1s;
   }
   .ourRecentClients .gridSystem img:nth-child(6n+3) {
-    transition-delay: 0.3s;
+    transition-delay: 0.1s;
   }
   .ourRecentClients .gridSystem img:nth-child(6n+4) {
-    transition-delay: 0.45s;
+    transition-delay: 0.1s;
   }
   .ourRecentClients .gridSystem img:nth-child(6n+5) {
-    transition-delay: 0.6s;
+    transition-delay: 0.1s;
   }
   .ourRecentClients .gridSystem img:nth-child(6n+6) {
-    transition-delay: 0.75s;
+    transition-delay: 0.1s;
   }
 }
 @media (max-width: 1366px) {
@@ -1693,13 +1693,13 @@ header.blackBg {
     transition-delay: 0s;
   }
   .ourRecentClients .gridSystem img:nth-child(4n+2) {
-    transition-delay: 0.15s;
+    transition-delay: 0.1s;
   }
   .ourRecentClients .gridSystem img:nth-child(4n+3) {
-    transition-delay: 0.3s;
+    transition-delay: 0.1s;
   }
   .ourRecentClients .gridSystem img:nth-child(4n+4) {
-    transition-delay: 0.45s;
+    transition-delay: 0.1s;
   }
 }
 @media (max-width: 767px) {
@@ -1707,10 +1707,10 @@ header.blackBg {
     transition-delay: 0s;
   }
   .ourRecentClients .gridSystem img:nth-child(3n+2) {
-    transition-delay: 0.15s;
+    transition-delay: 0.1s;
   }
   .ourRecentClients .gridSystem img:nth-child(3n+3) {
-    transition-delay: 0.3s;
+    transition-delay: 0.1s;
   }
 }
 @media (max-width: 576px) {
@@ -1718,7 +1718,7 @@ header.blackBg {
     transition-delay: 0s;
   }
   .ourRecentClients .gridSystem img:nth-child(2n+2) {
-    transition-delay: 0.25s;
+    transition-delay: 0.1s;
   }
 }
 

@@ -77,16 +77,15 @@ const Home = (props) => {
         </div>
       </section>
 
-      <section
-        className="projectPreview"
-        ref={projectPreview}
-      >
+      <section className="projectPreview" ref={projectPreview}>
         <div className="content_container">
           <div className="projectGalleryMain">
             <div className="projectsGalleryL">
-              <a href="/elleyselectrics" 
-        onMouseEnter={props.onMouseEnter}
-        onMouseLeave={props.onMouseLeave}>
+              <a
+                href="/elleyselectrics"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+              >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   {" "}
                   <img
@@ -115,9 +114,11 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="/goodricke" 
-              onMouseEnter={props.onMouseEnter}
-              onMouseLeave={props.onMouseLeave}>
+              <a
+                href="/goodricke"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+              >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-2.png"
@@ -146,11 +147,12 @@ const Home = (props) => {
               </a>
             </div>
 
-            <div className="projectsGalleryM"
-            >
-              <a href="/Memoria"
-              onMouseEnter={props.onMouseEnter}
-              onMouseLeave={props.onMouseLeave}>
+            <div className="projectsGalleryM">
+              <a
+                href="/Memoria"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+              >
                 {" "}
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
@@ -176,9 +178,11 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="/notandas"
-              onMouseEnter={props.onMouseEnter}
-              onMouseLeave={props.onMouseLeave}>
+              <a
+                href="/notandas"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+              >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-6.png"
@@ -206,9 +210,11 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="/vardhman" 
-              onMouseEnter={props.onMouseEnter}
-              onMouseLeave={props.onMouseLeave}>
+              <a
+                href="/vardhman"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+              >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-7.png"
@@ -235,21 +241,21 @@ const Home = (props) => {
               </a>
             </div>
 
-            <div className="projectsGalleryR"
-            >
-              <a href="/welspunGroup"
-              onMouseEnter={props.onMouseEnter}
-              onMouseLeave={props.onMouseLeave}
+            <div className="projectsGalleryR">
+              <a
+                href="/welspunGroup"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
               >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-26.png"
+                    src="/images/thumbnails/all_projects/welp.png"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name text-dark">Welspun India</h2>
+                      <h2 className="proj_name text-dark">Welspun Group</h2>
                       <p className="proj_type  text-dark">Web Development</p>
                     </div>
                     <div className="bottom_overview">
@@ -265,24 +271,27 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="/dabur"
-              onMouseEnter={props.onMouseEnter}
-              onMouseLeave={props.onMouseLeave}
+              <a
+                href="/icici-pension-fund"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
               >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-9.png"
+                    src="/images/thumbnails/all_projects/nps.webp"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name text-dark">Dabur</h2>
+                      <h2 className="proj_name text-dark">
+                        Icici Pension Fund{" "}
+                      </h2>
                       <p className="proj_type  text-dark">Digital Marketing</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href=""
+                        href="/icici-pension-fund"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
@@ -293,20 +302,23 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href=""
-              onMouseEnter={props.onMouseEnter}
-              onMouseLeave={props.onMouseLeave}
+              <a
+                href="/mcdowell"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
               >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
-                    src="/images/projects/all-projects/proj-10.png"
+                    src="/images/thumbnails/all_projects/mcd.jpg"
                     alt="Project"
                     className="img-fluid w-100"
                   />
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name text-dark">McDowell's</h2>
-                      <p className="proj_type  text-dark">App</p>
+                      <p className="proj_type  text-dark">
+                        Digital Activations
+                      </p>
                     </div>
                     <div className="bottom_overview">
                       <a
@@ -441,7 +453,7 @@ const Home = (props) => {
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
                     onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -478,7 +490,7 @@ const Home = (props) => {
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
                     onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -518,7 +530,7 @@ const Home = (props) => {
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
                     onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -555,7 +567,7 @@ const Home = (props) => {
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
                     onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -591,7 +603,7 @@ const Home = (props) => {
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
                     onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -627,7 +639,7 @@ const Home = (props) => {
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
                     onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -741,7 +753,13 @@ const Home = (props) => {
           </h2>
           <div className="gridSystem">
             <div className="gridSystemInner wow animate__animated animate__fadeInUp">
-              <img src="/images/blogs.svg" alt="blog" className="w-100" />
+              <a
+                href="/"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+              >
+                <img src="/images/blogs.svg" alt="blog" className="w-100" />
+              </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
               <h4 className="colorBlack fw-800">
                 What are the differences in designing B2B & B2C websites?
@@ -758,7 +776,13 @@ const Home = (props) => {
               </div>
             </div>
             <div className="gridSystemInner wow animate__animated animate__fadeInUp animation_delay_100ms">
-              <img src="/images/blogs.svg" alt="blog" className="w-100" />
+              <a
+                href="/"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+              >
+                <img src="/images/blogs.svg" alt="blog" className="w-100" />
+              </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
               <h4 className="colorBlack fw-800">
                 What are the differences in designing B2B & B2C websites?
@@ -775,7 +799,13 @@ const Home = (props) => {
               </div>
             </div>
             <div className="gridSystemInner wow animate__animated animate__fadeInUp animation_delay_200ms">
-              <img src="/images/blogs.svg" alt="blog" className="w-100" />
+              <a
+                href="/"
+                onMouseEnter={props.onMouseEnter}
+                onMouseLeave={props.onMouseLeave}
+              >
+                <img src="/images/blogs.svg" alt="blog" className="w-100" />
+              </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
               <h4 className="colorBlack fw-800">
                 What are the differences in designing B2B & B2C websites?

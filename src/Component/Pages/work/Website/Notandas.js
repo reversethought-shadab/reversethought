@@ -102,13 +102,13 @@ const Notandas = (props) => {
             <div className="gridSystemInner">
               <div className="d-flex customGap">
                 <img
-                  src="/images/our-work/notandas/notan5.svg"
-                  alt="elleys-1"
+                  src="/images/our-work/websites/Notandas1.png"
+                  alt="notandas"
                   className="img-fluid w-100 wow animate__animated animate__fadeInRight"
                 />
                 <img
-                  src="/images/our-work/notandas/Notan4.svg"
-                  alt="elleys-2"
+                  src="/images/our-work/websites/Notandas2.png"
+                  alt="notandas"
                   className="img-fluid w-100 wow animate__animated animate__fadeInRight animate__delay-0.9s"
                 />
               </div>
@@ -126,26 +126,26 @@ const Notandas = (props) => {
           <div className="row m-0">
             <div className="col-12 p-0 fullWidth wow animate__animated animate__slideInDown">
               <img
-                src="/images/our-work/service1.svg"
+                src="/images/our-work/websites/main1.png"
                 alt="service1"
                 className="w-100"
               />
             </div>
             <div className="col-sm-6 p-0 leftImg wow animate__animated animate__slideInLeft">
               <img
-                src="/images/our-work/service2.svg"
+                src="/images/our-work/websites/long.png"
                 alt="service2"
                 className="w-100 h-100"
               />
             </div>
             <div className="col-sm-6 p-0 rightImg wow animate__animated animate__slideInRight">
               <img
-                src="/images/our-work/service3.svg"
+                src="/images/our-work/websites/short1.png"
                 alt="service3"
                 className="w-100"
               />
               <img
-                src="/images/our-work/service4.svg"
+                src="/images/our-work/websites/short2.png"
                 alt="service4"
                 className="w-100"
               />
