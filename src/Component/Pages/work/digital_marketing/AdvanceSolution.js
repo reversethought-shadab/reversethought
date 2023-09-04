@@ -90,10 +90,6 @@ const AdvanceSolution = (props) => {
                   </span>
                 </div>
               </div>
-              <Link to="" className="unsetAll" target="_blank">
-                <span className="commonViewAll">Check Post</span>
-                <Icon icon="clarity:arrow-line" />
-              </Link>
             </div>
             <div className="gridSystemInner">
               <div className="d-flex customGap">

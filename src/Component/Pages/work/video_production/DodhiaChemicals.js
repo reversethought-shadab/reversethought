@@ -97,7 +97,11 @@ const DodhiaChemicals = (props) => {
                   <span className="colorGrey fw-400">Sony Camera</span>
                 </div>
               </div>
-              <Link to="/" className="unsetAll" target="_blank">
+              <Link
+                to="/https://www.youtube.com/watch?v=_hbu0CUFKMg&list=PLxUEiGuaWBw9Ny5EajTgz5z0zdVt1YgCb"
+                className="unsetAll"
+                target="_blank"
+              >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />
               </Link>

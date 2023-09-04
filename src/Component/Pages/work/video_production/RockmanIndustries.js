@@ -98,7 +98,7 @@ const RockmanIndustries = (props) => {
                 </div>
               </div>
               <Link
-                to="/https://www.rockman.in/"
+                to="https://www.youtube.com/watch?v=wQpzrXo2_NQ&list=PLxUEiGuaWBw9Ny5EajTgz5z0zdVt1YgCb"
                 className="unsetAll"
                 target="_blank"
               >

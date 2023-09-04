@@ -97,7 +97,11 @@ const VijaySales2 = (props) => {
                   <span className="colorGrey fw-400">Sony Camera</span>
                 </div>
               </div>
-              <Link to="/" className="unsetAll" target="_blank">
+              <Link
+                to="https://www.youtube.com/watch?v=AQ9rj-QaC1Q"
+                className="unsetAll"
+                target="_blank"
+              >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />
               </Link>

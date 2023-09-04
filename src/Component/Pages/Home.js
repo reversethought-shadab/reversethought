@@ -635,7 +635,7 @@ const Home = (props) => {
                     assets to execute your campaign.
                   </p>
                   <a
-                    href="/Digital-Activation-Services"
+                    href="/Photography"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
                     onMouseEnter={props.onMouseEnterSmall}
@@ -761,7 +761,11 @@ const Home = (props) => {
                 <img src="/images/blogs.svg" alt="blog" className="w-100" />
               </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
-              <h4 className="colorBlack fw-800">
+              <h4
+                className="colorBlack fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
                 What are the differences in designing B2B & B2C websites?
               </h4>
               <div className="d-flex align-items-center blogs_archive_footer">
@@ -784,7 +788,11 @@ const Home = (props) => {
                 <img src="/images/blogs.svg" alt="blog" className="w-100" />
               </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
-              <h4 className="colorBlack fw-800">
+              <h4
+                className="colorBlack fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
                 What are the differences in designing B2B & B2C websites?
               </h4>
               <div className="d-flex align-items-center blogs_archive_footer">
@@ -807,7 +815,11 @@ const Home = (props) => {
                 <img src="/images/blogs.svg" alt="blog" className="w-100" />
               </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
-              <h4 className="colorBlack fw-800">
+              <h4
+                className="colorBlack fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
                 What are the differences in designing B2B & B2C websites?
               </h4>
               <div className="d-flex align-items-center blogs_archive_footer">

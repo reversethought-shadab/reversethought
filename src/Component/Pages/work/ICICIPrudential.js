@@ -89,10 +89,6 @@ const ICICIPrudential = (props) => {
                   </span>
                 </div>
               </div>
-              <a href="/our-work" className="unsetAll">
-                <span className="commonViewAll">Check Posts</span>
-                <Icon icon="clarity:arrow-line" />
-              </a>
             </div>
             <div className="gridSystemInner h-100">
               <div className="row m-0 imageView noGap iciciImageView h-100">

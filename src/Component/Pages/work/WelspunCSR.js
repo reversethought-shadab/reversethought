@@ -98,7 +98,7 @@ const WelspunCSR = (props) => {
                 </div>
               </div>
               <Link
-                to="/https://www.welspun.com/"
+                to="https://www.youtube.com/watch?v=Fwtnd0-1NmA"
                 className="unsetAll"
                 target="_blank"
               >
