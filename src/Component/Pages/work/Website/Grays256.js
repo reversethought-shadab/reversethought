@@ -94,7 +94,11 @@ const Grays256 = (props) => {
                   </span>
                 </div>
               </div>
-              <Link to="/" className="unsetAll" target="_blank">
+              <Link
+                to="https://www.256grays.com/"
+                className="unsetAll"
+                target="_blank"
+              >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />
               </Link>

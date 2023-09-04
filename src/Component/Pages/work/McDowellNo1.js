@@ -55,8 +55,8 @@ const McDowellNo1 = (props) => {
             McDowell's No.1
           </h1>
           <img
-            src="/images/our-work/mcdowell.svg"
-            alt="icici"
+            src="/images/our-work/digital_activation/mcdowellbanner.png"
+            alt="mcdowell"
             className="img-fluid w-100 wow animate__animated animate__fadeIn"
           />
           <div className="gridSystem">

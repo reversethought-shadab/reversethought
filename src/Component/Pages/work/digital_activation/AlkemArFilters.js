@@ -55,7 +55,7 @@ const AlkemArFilters = (props) => {
             Alkem AR Filters
           </h1>
           <img
-            src="/images/our-work/digital_activation/alkemar/image_259.svg"
+            src="/images/our-work/digital_activation/alkem.png"
             alt="icici"
             className="img-fluid w-100 wow animate__animated animate__fadeIn"
           />

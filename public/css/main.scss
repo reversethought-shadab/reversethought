@@ -4016,17 +4016,17 @@ header.blackBg {
   background-color: #fff !important;
   padding: 0;
   .content_container{
-max-width: 100vw;
+ max-width: 100vw;
   }
   }
 
 .serviceImageSection {
   @include black-Bg;
-  padding: 60 * $desk + vw 0 86 * $desk + vw;
+  padding: 60 * $desk + vw 0 30 * $desk + vw;
   .fullWidth {
-    margin-bottom: 51 * $desk + vw;
+    margin-bottom: 40 * $desk + vw;
     @media #{$md_lg_desk} {
-      margin-bottom: 51px;
+      margin-bottom: 40px;
     }
   }
   .leftImg {

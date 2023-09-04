@@ -94,7 +94,11 @@ const I2M = (props) => {
                   </span>
                 </div>
               </div>
-              <Link to="/" className="unsetAll" target="_blank">
+              <Link
+                to="https://www.bizdesignlab.com/lab.html"
+                className="unsetAll"
+                target="_blank"
+              >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />
               </Link>

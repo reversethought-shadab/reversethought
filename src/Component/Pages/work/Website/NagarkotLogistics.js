@@ -94,7 +94,11 @@ const NagarkotLogistics = (props) => {
                   </span>
                 </div>
               </div>
-              <Link to="/" className="unsetAll" target="_blank">
+              <Link
+                to="https://nagarkot.co.in/"
+                className="unsetAll"
+                target="_blank"
+              >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />
               </Link>
