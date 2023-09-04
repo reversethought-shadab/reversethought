@@ -117,8 +117,8 @@ const EnquiryForm = (props) => {
       <button
         className="colorWhite fw-800 enquireNowButton"
         onClick={showForm}
-        onMouseEnter={props.mouseEnterOnBlack}
-        onMouseLeave={props.mouseLeaveOnBlack}
+        onMouseEnter={props.mouseEnterOnRed}
+        onMouseLeave={props.mouseLeaveOnRed}
       >
         <Icon icon="ph:arrow-right-bold" />
         <span>Enquiry Form</span>

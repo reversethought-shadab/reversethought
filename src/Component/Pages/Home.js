@@ -64,6 +64,8 @@ const Home = (props) => {
           <span
             className="colorBlack fw-500 watch_reel_txt wow"
             onClick={watch_reel}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <img
               src="/images/icons/play.svg"
@@ -77,14 +79,14 @@ const Home = (props) => {
 
       <section
         className="projectPreview"
-        onMouseEnter={props.onMouseEnter}
-        onMouseLeave={props.onMouseLeave}
         ref={projectPreview}
       >
         <div className="content_container">
           <div className="projectGalleryMain">
             <div className="projectsGalleryL">
-              <a href="/elleyselectrics">
+              <a href="/elleyselectrics" 
+        onMouseEnter={props.onMouseEnter}
+        onMouseLeave={props.onMouseLeave}>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   {" "}
                   <img
@@ -113,7 +115,9 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="/goodricke">
+              <a href="/goodricke" 
+              onMouseEnter={props.onMouseEnter}
+              onMouseLeave={props.onMouseLeave}>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-2.png"
@@ -142,8 +146,11 @@ const Home = (props) => {
               </a>
             </div>
 
-            <div className="projectsGalleryM">
-              <a href="/Memoria">
+            <div className="projectsGalleryM"
+            >
+              <a href="/Memoria"
+              onMouseEnter={props.onMouseEnter}
+              onMouseLeave={props.onMouseLeave}>
                 {" "}
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
@@ -169,7 +176,9 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="/notandas">
+              <a href="/notandas"
+              onMouseEnter={props.onMouseEnter}
+              onMouseLeave={props.onMouseLeave}>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-6.png"
@@ -197,7 +206,9 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="/vardhman">
+              <a href="/vardhman" 
+              onMouseEnter={props.onMouseEnter}
+              onMouseLeave={props.onMouseLeave}>
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-7.png"
@@ -224,8 +235,12 @@ const Home = (props) => {
               </a>
             </div>
 
-            <div className="projectsGalleryR">
-              <a href="/welspunGroup">
+            <div className="projectsGalleryR"
+            >
+              <a href="/welspunGroup"
+              onMouseEnter={props.onMouseEnter}
+              onMouseLeave={props.onMouseLeave}
+              >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-26.png"
@@ -250,7 +265,10 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="/dabur">
+              <a href="/dabur"
+              onMouseEnter={props.onMouseEnter}
+              onMouseLeave={props.onMouseLeave}
+              >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-9.png"
@@ -275,7 +293,10 @@ const Home = (props) => {
                   </div>
                 </div>
               </a>
-              <a href="">
+              <a href=""
+              onMouseEnter={props.onMouseEnter}
+              onMouseLeave={props.onMouseLeave}
+              >
                 <div className="project_box wow animate__animated animate__fadeInUp">
                   <img
                     src="/images/projects/all-projects/proj-10.png"
@@ -419,6 +440,8 @@ const Home = (props) => {
                     href="/websiteDesign"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -454,6 +477,8 @@ const Home = (props) => {
                     href="/Video-production-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -492,6 +517,8 @@ const Home = (props) => {
                     href="/Digital-Marketing-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -527,6 +554,8 @@ const Home = (props) => {
                     href="/Creative-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -561,6 +590,8 @@ const Home = (props) => {
                     href="/Digital-Activation-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -595,6 +626,8 @@ const Home = (props) => {
                     href="/Digital-Activation-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -763,6 +796,8 @@ const Home = (props) => {
             href="/blogs"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View All Blogs</span>
             <Icon icon="clarity:arrow-line" />

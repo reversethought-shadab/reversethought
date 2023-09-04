@@ -87,11 +87,7 @@ const OurWork = (props) => {
 
   return (
     <>
-      <section
-        className="projectsGallery"
-        onMouseEnter={props.onMouseEnter}
-        onMouseLeave={props.onMouseLeave}
-      >
+      <section className="projectsGallery">
         <div className="content_container">
           <ul className="projectSectiontabs p-0 m-0 d-flex justify-content-between align-items-center wow animate__animated animate__fadeIn">
             <li
@@ -140,7 +136,11 @@ const OurWork = (props) => {
           {isACtive === 0 ? (
             <div className="projectGalleryMain">
               <div className="projectsGalleryL">
-                <a href="/elleyselectrics">
+                <a
+                  href="/elleyselectrics"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   {" "}
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
@@ -171,7 +171,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="aym-syntex">
+                <a
+                  href="aym-syntex"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/aym2.webp"
@@ -200,23 +204,27 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/tiger">
+                <a
+                  href="/jindal-SAW"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
-                      src="/images/thumbnails/all_projects/uluru.webp"
+                      src="/images/thumbnails/all_projects/earth.webp"
                       alt="Project"
                       className="img-fluid w-100"
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">Tiger</h2>
+                        <h2 className="proj_name text-black">Jindal SAW</h2>
                         <p className="proj_type text-black">
                           Digital Marketing
                         </p>
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/tiger"
+                          href="/jindal-SAW"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -229,7 +237,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/dodhiachemicals">
+                <a
+                  href="/dodhiachemicals"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/dchem.webp"
@@ -259,16 +271,22 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/iciciprudential">
+                <a
+                  href="/icici-pension-fund"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
-                      src="/images/thumbnails/all_projects/icicipro.webp"
+                      src="/images/thumbnails/all_projects/nps.webp"
                       alt="Project"
                       className="img-fluid w-100"
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">Icici Pro </h2>
+                        <h2 className="proj_name text-black">
+                          Icici Pension Fund{" "}
+                        </h2>
                         <p className="proj_type text-black">
                           Digital Marketing
                         </p>
@@ -291,10 +309,14 @@ const OurWork = (props) => {
               </div>
 
               <div className="projectsGalleryM">
-                <a href="/loreal-matrix">
+                <a
+                  href="/loreal-matrix"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
-                      src="/images/thumbnails/all_projects/matrix.webp"
+                      src="/images/thumbnails/all_projects/loreal.jpg"
                       alt="Project"
                       className="img-fluid w-100"
                     />
@@ -320,7 +342,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/mpuh">
+                <a
+                  href="/mpuh"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/phone.webp"
@@ -351,7 +377,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/vardhman">
+                <a
+                  href="/vardhman"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/projects/all-projects/proj-7.png"
@@ -378,7 +408,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/malik-architecture">
+                <a
+                  href="/malik-architecture"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/malik.webp"
@@ -408,7 +442,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/vijay-sales">
+                <a
+                  href="/vijay-sales"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/vijayseles.webp"
@@ -438,21 +476,25 @@ const OurWork = (props) => {
               </div>
 
               <div className="projectsGalleryR">
-                <a href="/welspungroup">
+                <a
+                  href="/welpsun-group"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
-                      src="/images/projects/all-projects/proj-26.png"
+                      src="/images/thumbnails/all_projects/welp.png"
                       alt="Project"
                       className="img-fluid w-100"
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">Welspun India</h2>
+                        <h2 className="proj_name text-black">Welspun Group</h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/welspungroup"
+                          href="/welpsun-group"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -465,7 +507,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/mcdowll">
+                <a
+                  href="/mcdowll"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/projects/all-projects/proj-10.png"
@@ -492,7 +538,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/dorado-ivory">
+                <a
+                  href="/dorado-ivory"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/dorado.webp"
@@ -522,21 +572,25 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/jindal-SAW">
+                <a
+                  href="/tiger"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
-                      src="/images/thumbnails/all_projects/jindal.webp"
+                      src="/images/thumbnails/all_projects/tigerlong.png"
                       alt="Project"
                       className="img-fluid w-100"
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">Jindal SAW</h2>
+                        <h2 className="proj_name text-black">Tiger</h2>
                         <p className="proj_type text-black">Video production</p>
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/jindal-SAW"
+                          href="/tiger"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -549,7 +603,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/nagarkot-logistics">
+                <a
+                  href="/nagarkot-logistics"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/ship.webp"
@@ -580,7 +638,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/DHCinternational-teaser">
+                <a
+                  href="/DHCinternational-teaser"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/dit.webp"
@@ -620,7 +682,11 @@ const OurWork = (props) => {
           {isACtive === 1 ? (
             <div className="projectGalleryMain">
               <div className="projectsGalleryL">
-                <a href="/elleyselectrics">
+                <a
+                  href="/elleyselectrics"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/projects/all-projects/proj-1.png"
@@ -650,7 +716,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/aym-syntex">
+                <a
+                  href="/aym-syntex"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/aymwebsite.jpg"
@@ -679,7 +749,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/malik-architecture">
+                <a
+                  href="/malik-architecture"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/malik.webp"
@@ -712,7 +786,11 @@ const OurWork = (props) => {
               </div>
 
               <div className="projectsGalleryM">
-                <a href="/nagarkot-logistics">
+                <a
+                  href="/nagarkot-logistics"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/ship.webp"
@@ -743,7 +821,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/notandas">
+                <a
+                  href="/notandas"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/projects/all-projects/proj-6.png"
@@ -773,7 +855,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/vardhman">
+                <a
+                  href="/vardhman"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/projects/all-projects/proj-7.png"
@@ -800,7 +886,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/goodricke">
+                <a
+                  href="/goodricke"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/gdricke.jpg"
@@ -827,7 +917,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/i2m">
+                <a
+                  href="/i2m"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/i2m.webp"
@@ -857,7 +951,11 @@ const OurWork = (props) => {
               </div>
 
               <div className="projectsGalleryR">
-                <a href="/welpsun-group">
+                <a
+                  href="/welpsun-group"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/welp.png"
@@ -884,7 +982,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/continuum-india">
+                <a
+                  href="/continuum-india"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/conindia.webp"
@@ -913,7 +1015,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/local2030">
+                <a
+                  href="/local2030"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/webm.webp"
@@ -940,7 +1046,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/texprocile">
+                <a
+                  href="/texprocile"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/mc.webp"
@@ -967,7 +1077,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/256grays">
+                <a
+                  href="/256grays"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/gray2333.webp"
@@ -1002,7 +1116,11 @@ const OurWork = (props) => {
           {isACtive === 2 ? (
             <div className="projectGalleryMain">
               <div className="projectsGalleryL">
-                <a href="/dodhia-textiles">
+                <a
+                  href="/dodhia-textiles"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/dodhia.webp"
@@ -1032,7 +1150,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/welspunBKG">
+                <a
+                  href="/welspunBKG"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/pipeline.webp"
@@ -1061,7 +1183,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/DHCinternational-teaser">
+                <a
+                  href="/DHCinternational-teaser"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/dit.webp"
@@ -1092,7 +1218,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/rockman-industries">
+                <a
+                  href="/rockman-industries"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/ricv.webp"
@@ -1122,7 +1252,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="DHCinternational">
+                <a
+                  href="DHCinternational"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/dhci.webp"
@@ -1151,7 +1285,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/speak-event">
+                <a
+                  href="/speak-event"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/speakevent.webp"
@@ -1180,7 +1318,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/kukufm">
+                <a
+                  href="/kukufm"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/kfm.webp"
@@ -1210,7 +1352,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/recipe">
+                <a
+                  href="/recipe"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/recipe.webp"
@@ -1243,7 +1389,11 @@ const OurWork = (props) => {
               </div>
 
               <div className="projectsGalleryM">
-                <a href="/vardhman">
+                <a
+                  href="/vardhman"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/50.webp"
@@ -1270,7 +1420,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/vijay-sale">
+                <a
+                  href="/vijay-sale"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/vjy1.webp"
@@ -1299,7 +1453,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/rockman-advance-comp">
+                <a
+                  href="/rockman-advance-comp"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/hyd.webp"
@@ -1330,7 +1488,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/dodhia-corporate-film">
+                <a
+                  href="/dodhia-corporate-film"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/dcf.webp"
@@ -1361,7 +1523,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/icici-prudential">
+                <a
+                  href="/icici-prudential"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/icicipru.webp"
@@ -1391,7 +1557,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/isolus">
+                <a
+                  href="/isolus"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/isolus.webp"
@@ -1421,7 +1591,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/speak-health">
+                <a
+                  href="/speak-health"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/sphealth.webp"
@@ -1451,7 +1625,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/dodhiachemicals">
+                <a
+                  href="/dodhiachemicals"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/dchem.webp"
@@ -1481,7 +1659,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/canadian-woods">
+                <a
+                  href="/canadian-woods"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/cw.webp"
@@ -1511,7 +1693,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/qr678">
+                <a
+                  href="/qr678"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/scalp.webp"
@@ -1541,7 +1727,11 @@ const OurWork = (props) => {
               </div>
 
               <div className="projectsGalleryR">
-                <a href="/rockman-values-film">
+                <a
+                  href="/rockman-values-film"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/ideas.webp"
@@ -1570,7 +1760,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/welpsunGroupCorpFilm">
+                <a
+                  href="/welpsunGroupCorpFilm"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/hp.webp"
@@ -1599,7 +1793,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/welspunCSR">
+                <a
+                  href="/welspunCSR"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/wcsr.webp"
@@ -1626,7 +1824,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/neo-niche">
+                <a
+                  href="/neo-niche"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/nche.jpg"
@@ -1653,7 +1855,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/alkemlaboratories">
+                <a
+                  href="/alkemlaboratories"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/al.webp"
@@ -1682,7 +1888,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/jesons-tech-centre">
+                <a
+                  href="/jesons-tech-centre"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/gson.webp"
@@ -1709,7 +1919,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/vijay-sales2">
+                <a
+                  href="/vijay-sales2"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/vijay.webp"
@@ -1736,7 +1950,11 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-                <a href="/dorado-ivory">
+                <a
+                  href="/dorado-ivory"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
                       src="/images/thumbnails/all_projects/vlast.svg"

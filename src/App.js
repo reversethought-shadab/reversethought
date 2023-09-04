@@ -94,6 +94,7 @@ function App() {
   const [isCursorOverBlack, setIsCursorOverBlack] = useState(false);
   const [isCursorOverRed, setIsCursorOverRed] = useState(false);
   const [isCursorOverFooter, setIsCursorOverFooter] = useState(false);
+  const [isCursorOverRedSmall, setIsCursorOverRedSmall] = useState(false);
 
   useEffect(() => {
     const updatePosition = (e) => {
@@ -114,6 +115,15 @@ function App() {
   const handleMouseLeaveRed = () => {
     setIsCursorOverRed(false);
   };
+
+  const handleMouseEnterRedSmall = () => {
+    setIsCursorOverRedSmall(true);
+  };
+
+  const handleMouseLeaveRedSmall = () => {
+    setIsCursorOverRedSmall(false);
+  };
+
   const handleMouseEnter = () => {
     setIsCursorOver(true);
   };
@@ -161,6 +171,8 @@ function App() {
             ? "active white"
             : isCursorOverRed
             ? "white-Cursor"
+            : isCursorOverRedSmall
+            ? "active_small"
             : // : isCursorOverFooter
               // ? "active white"
               ""
@@ -208,6 +220,8 @@ function App() {
               <Home
                 //modalActive={modalActive}
                 //closeModal={closeModal}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
                 mouseEnterOnBlack={handleMouseEnterBlack}
@@ -951,6 +965,8 @@ function App() {
             path="/our-work"
             element={
               <OurWork
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 mouseEnterOnBlack={handleMouseEnterBlack}
                 mouseLeaveOnBlack={handleMouseLeaveBlack}
               />
