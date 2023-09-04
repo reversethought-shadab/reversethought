@@ -89,7 +89,7 @@ const Dabur = (props) => {
                 </div>
               </div>
               <Link to="" className="unsetAll" target="_blank">
-                <span className="commonViewAll">Check website</span>
+                <span className="commonViewAll">Check Post</span>
                 <Icon icon="clarity:arrow-line" />
               </Link>
             </div>
