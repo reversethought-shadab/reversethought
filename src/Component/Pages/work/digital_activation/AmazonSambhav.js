@@ -55,7 +55,7 @@ const AmazonSambav = (props) => {
             Amazon Sambhav
           </h1>
           <img
-            src="/images/our-work/digital_activation/amazon/main.svg"
+            src="/images/our-work/digital_activation/amazon/amazonmain.png"
             alt="amazon"
             className="img-fluid w-100 wow animate__animated animate__fadeIn"
           />
@@ -99,16 +99,16 @@ const AmazonSambav = (props) => {
                   <img src="/images/icons/toparrow.svg" alt="toparrow" />
                 </span>
               </Link> */}
-              <Link
+              {/* <Link
                 to="/our-work"
                 className="unsetAll"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <span className="commonViewAll">Check Posts</span>
                 <Icon icon="clarity:arrow-line" />
-              </Link>
+              </Link> */}
             </div>
-            <div className="gridSystemInner">
+            {/* <div className="gridSystemInner">
               <div className="d-flex customGap">
                 <img
                   src="/images/our-work/digital_activation/amazon/281.svg"
@@ -121,7 +121,7 @@ const AmazonSambav = (props) => {
                   className="img-fluid w-100 wow animate__animated animate__fadeInRight animate__delay-0.9s"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

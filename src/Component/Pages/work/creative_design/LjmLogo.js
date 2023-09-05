@@ -111,7 +111,7 @@ const LjmLogo = (props) => {
       </section>
 
       <section
-        className=" serviceImageSection-3"
+        className=" serviceImageSection"
         onMouseEnter={props.mouseEnterOnBlack}
         onMouseLeave={props.mouseLeaveOnBlack}
       >

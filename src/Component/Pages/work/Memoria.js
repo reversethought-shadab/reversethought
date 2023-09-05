@@ -127,7 +127,7 @@ const Memoria = (props) => {
       </section>
 
       <section
-        className="serviceImageSection-2"
+        className="serviceImageSection"
         onMouseEnter={props.mouseEnterOnBlack}
         onMouseLeave={props.mouseLeaveOnBlack}
       >
@@ -174,7 +174,7 @@ const Memoria = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/welspunGroup"
+                    href="/ljmlogo"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -186,17 +186,17 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/web/welpsunindia.jpg" alt="work" />
+                  <img src="/images/cards/Creative/ljm.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welpsun Group</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">LJM Logo</h2>
+                <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/goodricke"
+                    href="/aymstall-design"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -208,17 +208,17 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/web/goodricke.jpg" alt="work" />
+                  <img src="/images/cards/Creative/chair.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Goodricke</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">AYM Stall Design</h2>
+                <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/elleyselectrics"
+                    href="/tatacsr-report"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -230,17 +230,17 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/web/ellys.jpg" alt="work" />
+                  <img src="/images/cards/Creative/empower.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Elleys’ Electrics</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">TATA CSR Report</h2>
+                <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/nagarkot-logistics"
+                    href="/aymleaflets"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -252,10 +252,10 @@ const Memoria = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/web/nagarkot.jpg" alt="work" />
+                  <img src="/images/cards/Creative/scaling.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Nagarkot Logistics</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">AYM Leaf Lets</h2>
+                <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
           </Slider>

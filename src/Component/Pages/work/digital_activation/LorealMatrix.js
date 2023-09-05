@@ -99,14 +99,14 @@ const LorealMatrix = (props) => {
                   <img src="/images/icons/toparrow.svg" alt="toparrow" />
                 </span>
               </Link> */}
-              <Link
+              {/* <Link
                 to="/our-work"
                 className="unsetAll"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <span className="commonViewAll">Check Posts</span>
                 <Icon icon="clarity:arrow-line" />
-              </Link>
+              </Link> */}
             </div>
             <div className="gridSystemInner">
               <div className="d-flex align-items-center customGap">
