@@ -106,7 +106,7 @@ const MalikArchitecture = (props) => {
             <div className="gridSystemInner">
               <div className="d-flex customGap">
                 <img
-                  src="/images/our-work/websites/malikarchitecture/m31.svg"
+                  src="/images/our-work/websites/malikarchitecture/malik.png"
                   alt="malikarchitecture UI"
                   className="img-fluid w-100 wow animate__animated animate__fadeInRight"
                 />

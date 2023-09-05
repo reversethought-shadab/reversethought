@@ -421,17 +421,17 @@ const AboutUs = (props) => {
           </div>
           <div className="imageScrollBar wow animate__animated animate__slideInUp">
             <img
-              src="/images/team-3.svg"
+              src="/images/about/group.png"
               alt="Our Team"
               className="img-fluid"
             />
             <img
-              src="/images/team-1.svg"
+              src="/images/about/office.jpg"
               alt="Our Team"
               className="img-fluid"
             />
             <img
-              src="/images/team-2.svg"
+              src="/images/about/tushar-sunidhi.jpg"
               alt="Our Team"
               className="img-fluid"
             />

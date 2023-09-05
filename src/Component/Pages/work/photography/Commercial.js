@@ -154,7 +154,7 @@ const Commercial = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="#"
+                    href="/commercial"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -166,18 +166,13 @@ const Commercial = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/digital_activation/alkemar/Maskgroup.svg"
-                    alt="work"
-                  />
+                  <img src="/images/commercial.png" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Amazon Sambhav</h2>
-                <span className="colorGrey fw-400">
-                  Ar Filter Design & Development
-                </span>
+                <h2 className="colorBlack fw-800">Commercial</h2>
+                <span className="colorGrey fw-400">Photography</span>
               </div>
             </div>
-            <div>
+            {/* <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
@@ -203,8 +198,8 @@ const Commercial = (props) => {
                   Ar Filter Design & Development
                 </span>
               </div>
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
@@ -252,12 +247,14 @@ const Commercial = (props) => {
                 <h2 className="colorBlack fw-800">Malikh Architecture</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
-            </div>
+            </div> */}
           </Slider>
           <Link
             to="/our-work"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />
