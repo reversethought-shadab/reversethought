@@ -2840,6 +2840,52 @@ const OurWork = (props) => {
           ) : (
             ""
           )}
+          {isACtive === 6 ? (
+            <div className="projectGalleryMain">
+              <div className="projectsGalleryL">
+                <a
+                  href="/commercial"
+                  onMouseEnter={props.onMouseEnter}
+                  onMouseLeave={props.onMouseLeave}
+                >
+                  <div className="project_box wow animate__animated animate__fadeInUp">
+                    <img
+                      src="/images/thumbnails/all_projects/commercial.png"
+                      alt="Project"
+                      className="img-fluid w-100"
+                    />
+                    <div className="project_overview">
+                      <div className="top_overview">
+                        <h2 className="proj_name text-black">
+                          Commercial
+                          <br />
+                        </h2>
+                        <p className="proj_type text-black">Photography</p>
+                      </div>
+                      <div className="bottom_overview">
+                        <a
+                          href="/commercial"
+                          className="unsetAll"
+                          onClick={() => window.scrollTo(0, 0)}
+                        >
+                          <span className="commonViewAll">
+                            View Our Projects
+                          </span>
+                          <Icon icon="clarity:arrow-line" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div className="projectsGalleryM"></div>
+
+              <div className="projectsGalleryR"></div>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </section>
       <section className="weareintheNews customPaddingClass">

@@ -3308,7 +3308,6 @@ header.blackBg {
       &:active {
         background: transparent;
       }
-
       @media #{$md_lg_desk} {
         font-size: 14px;
         line-height: 24px;
@@ -3335,8 +3334,15 @@ header.blackBg {
         }
       }
     }
-    select option {
-      background-color: #000;
+    select .options {
+      background-color: #212121;
+      color: #ececec;
+      line-height: 20px;
+      padding: 15px !important;
+      &:hover{
+        background-color: #212121 !important;
+        color: #e31e24 !important;
+      }
     }
   }
   form.visible {

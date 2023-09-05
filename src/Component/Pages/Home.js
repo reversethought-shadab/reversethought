@@ -285,7 +285,7 @@ const Home = (props) => {
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name text-dark">
-                        Icici Pension Fund{" "}
+                        ICICI Pension Fund{" "}
                       </h2>
                       <p className="proj_type  text-dark">Digital Marketing</p>
                     </div>
@@ -709,6 +709,7 @@ const Home = (props) => {
                 src="/images/achievements/achievement-1.svg"
                 alt="achievements"
                 className="img-fluid"
+                style={{ height: "25px" }}
               />
               <p className="colorBlack fw-800">Oscars of Indian Ad Awards</p>
             </div>
@@ -717,6 +718,7 @@ const Home = (props) => {
                 src="/images/achievements/achievement-2.svg"
                 alt="achievements"
                 className="img-fluid"
+                style={{ height: "25px" }}
               />
               <p className="colorBlack fw-800">Oscars of Indian Ad Awards</p>
             </div>

@@ -3348,8 +3348,15 @@ header.blackBg {
     margin-bottom: 16px;
   }
 }
-.enquiryForm form select option {
-  background-color: #000;
+.enquiryForm form select .options {
+  background-color: #212121;
+  color: #ececec;
+  line-height: 20px;
+  padding: 15px !important;
+}
+.enquiryForm form select .options:hover {
+  background-color: #212121 !important;
+  color: #e31e24 !important;
 }
 .enquiryForm form.visible {
   opacity: 1;

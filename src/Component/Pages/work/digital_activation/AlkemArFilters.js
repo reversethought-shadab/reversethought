@@ -137,8 +137,8 @@ const AlkemArFilters = (props) => {
       >
         <div className="content_container">
           <img
-            src="/images/our-work/digital_activation/alkemar/image_259.svg"
-            alt="icici"
+            src="/images/our-work/digital_activation/arfilter.png"
+            alt="ar filter"
             className="img-fluid w-100 wow animate__animated animate__fadeIn"
           />
         </div>

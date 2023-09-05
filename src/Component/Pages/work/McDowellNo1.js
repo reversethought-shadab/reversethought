@@ -129,8 +129,8 @@ const McDowellNo1 = (props) => {
       >
         <div className="content_container">
           <img
-            src="/images/our-work/mcdowell.svg"
-            alt="icici"
+            src="/images/our-work/digital_activation/mcdi.png"
+            alt="mcd"
             className="img-fluid w-100 wow animate__animated animate__fadeIn"
           />
         </div>

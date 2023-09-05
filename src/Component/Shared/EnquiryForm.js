@@ -180,8 +180,27 @@ const EnquiryForm = (props) => {
               <option value="" selected disabled hidden>
                 I’m Interested in....*
               </option>
-              <option value="Web Design">Web Design</option>
-              <option value="Graphic Design">Graphic Design</option>
+              <option className="options py-5" value="Web Design">
+                Web Design
+              </option>
+              <option className="options py-5" value="Graphic Design">
+                Graphic Design
+              </option>
+              <option className="options py-5" value="Video Production">
+                Video Production
+              </option>
+              <option className="options py-5" value="Creative Design">
+                Creative Design
+              </option>
+              <option className="options py-5" value="Digital Activations">
+                Digital Activations
+              </option>
+              <option className="options py-5" value="Digital Marketing">
+                Digital Marketing
+              </option>
+              <option className="options py-5" value=" Photography">
+                Photography
+              </option>
             </select>
             <input
               type="email"

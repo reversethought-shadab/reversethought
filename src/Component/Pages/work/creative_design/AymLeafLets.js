@@ -52,7 +52,7 @@ const AymLeafLets = (props) => {
       <section className="ourWork">
         <div className="content_container">
           <h1 className="projectHeading colorBlack fw-800 text-center wow animate__animated animate__fadeIn">
-            AYM Leaf Lets
+            AYM Leaflets
           </h1>
           <img
             src="/images/our-work/creative_design/leaf/first.svg"
