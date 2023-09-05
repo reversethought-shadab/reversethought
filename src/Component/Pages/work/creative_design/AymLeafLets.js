@@ -157,7 +157,12 @@ const AymLeafLets = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/Memoria" className="colorWhite fw-800">
+                  <a
+                    href="/Memoria"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -174,7 +179,12 @@ const AymLeafLets = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/rsbl-calendar" className="colorWhite fw-800">
+                  <a
+                    href="/rsbl-calendar"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -191,7 +201,12 @@ const AymLeafLets = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/aym-syntex-brochure" className="colorWhite fw-800">
+                  <a
+                    href="/aym-syntex-brochure"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -211,6 +226,8 @@ const AymLeafLets = (props) => {
                   <a
                     href="/aym-syntex-annual-report"
                     className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     View Projects &nbsp;
                     <img
@@ -230,6 +247,8 @@ const AymLeafLets = (props) => {
             to="/our-work"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />

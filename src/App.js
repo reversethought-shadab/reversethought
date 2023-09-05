@@ -60,6 +60,7 @@ import RockmanIndustries from "./Component/Pages/work/video_production/RockmanIn
 import RockmanValuesFilm from "./Component/Pages/work/video_production/RockmanValuesFilm";
 import SpeakEvent from "./Component/Pages/work/video_production/SpeakEvent";
 import SpeakHealth from "./Component/Pages/work/video_production/SpeakHealth";
+import SpeakHealthDigital from "./Component/Pages/work/digital_marketing/SpeakHealth";
 import VijaySales from "./Component/Pages/work/video_production/VijaySales";
 import VijaySales2 from "./Component/Pages/work/video_production/VijaySales2";
 import RsblCalendar from "./Component/Pages/work/creative_design/RsblCalendar";
@@ -88,6 +89,7 @@ import AymLeafLets from "./Component/Pages/work/creative_design/AymLeafLets";
 import LjmLogo from "./Component/Pages/work/creative_design/LjmLogo";
 import AymStallDesign from "./Component/Pages/work/creative_design/AymStallDesign";
 import TataCsrReport from "./Component/Pages/work/creative_design/TataCsrReport";
+
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isCursorOver, setIsCursorOver] = useState(false);
@@ -569,6 +571,15 @@ function App() {
             path="/speak-health"
             element={
               <SpeakHealth
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
+              />
+            }
+          />
+          <Route
+            path="/speak-health2"
+            element={
+              <SpeakHealthDigital
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />

@@ -136,7 +136,12 @@ const IndusInd = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/tiger" className="colorWhite fw-800">
+                  <a
+                    href="/tiger"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -153,7 +158,12 @@ const IndusInd = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/indusind" className="colorWhite fw-800">
+                  <a
+                    href="/indusind"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -170,7 +180,12 @@ const IndusInd = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/one-gaming-arcade" className="colorWhite fw-800">
+                  <a
+                    href="/one-gaming-arcade"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -187,7 +202,12 @@ const IndusInd = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/jindalSAW" className="colorWhite fw-800">
+                  <a
+                    href="/jindalSAW"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -206,6 +226,8 @@ const IndusInd = (props) => {
             to="/our-work"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />

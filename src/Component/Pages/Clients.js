@@ -61,7 +61,11 @@ const Clients = (props) => {
               </span>
               we have been extremely lucky to have worked with diverse clients.
             </p>
-            <p className="colorBlack watch_reel_txt mb-0 mt-0 wow animate__animated animate__fadeInUp animation_delay_500ms">
+            <p
+              className="colorBlack watch_reel_txt mb-0 mt-0 wow animate__animated animate__fadeInUp animation_delay_500ms"
+              onMouseEnter={props.onMouseEnterSmall}
+              onMouseLeave={props.onMouseLeaveSmall}
+            >
               <img
                 src="/images/icons/play.svg"
                 alt="play"
@@ -145,17 +149,14 @@ const Clients = (props) => {
                   className="openQuote"
                   style={{ transform: "rotate(180deg)" }}
                 />
-                Having lived in India for over 10 years as MD of foreign
-                companies. Part of my work is our global marketing and branding
-                initiatives to benefit from the Indian talents vs cost
-                advantages. Although the Indian web and graphics design is
-                increasingly getting more organized. I’ve always found it
-                difficult to find local partners that understand our vision,
-                aesthetics, and respect Timelines. While servicing us
-                efficiently and at a reasonable cost. I was lucky to top find
-                all of these qualities in reverse thought through Tushar Garg
-                and his team. We have now been collaborating from Over 5 years
-                and never looked back.
+                Working with Reverse Thought was such a great experience! I
+                received a referral from a friend that used their services a few
+                years ago and she had nothing but great things to say and
+                recommended that I use them to create my website. Now I can say
+                the same! With the time difference as an obstacle they were very
+                patient with me and my ideas easy to communicate with and gave
+                great creative opinions where they saw fit. Thank you so very
+                much!!!
                 <img
                   src="/images/quote.png"
                   alt="quote"
@@ -163,9 +164,9 @@ const Clients = (props) => {
                 />
               </p>
               <div className="peopleProfiles">
-                <p className="colorRed fw-800">Youri D. Hermans</p>
+                <p className="colorRed fw-800">NIA LAUDERDALE</p>
                 <span className="colorRed fw-400">
-                  Co-founder, EMW & ex MD of SDG India
+                  CHICAGO, IL USA - WWW.SOLEYSTUDIOS.COM
                 </span>
               </div>
             </div>
@@ -177,17 +178,9 @@ const Clients = (props) => {
                   className="openQuote"
                   style={{ transform: "rotate(180deg)" }}
                 />
-                Having lived in India for over 10 years as MD of foreign
-                companies. Part of my work is our global marketing and branding
-                initiatives to benefit from the Indian talents vs cost
-                advantages. Although the Indian web and graphics design is
-                increasingly getting more organized. I’ve always found it
-                difficult to find local partners that understand our vision,
-                aesthetics, and respect Timelines. While servicing us
-                efficiently and at a reasonable cost. I was lucky to top find
-                all of these qualities in reverse thought through Tushar Garg
-                and his team. We have now been collaborating from Over 5 years
-                and never looked back.
+                We needed a quality website developed in a very rapid manner.
+                Tushar's company was extremely helpful to accomplish this goal.
+                We gave him very little time to put it together.
                 <img
                   src="/images/quote.png"
                   alt="quote"
@@ -195,9 +188,9 @@ const Clients = (props) => {
                 />
               </p>
               <div className="peopleProfiles">
-                <p className="colorRed fw-800">Youri D. Hermans</p>
+                <p className="colorRed fw-800">RAJ SONI</p>
                 <span className="colorRed fw-400">
-                  Co-founder, EMW & ex MD of SDG India
+                  PRESIDENT, KAARAN JEWELERS, HOUSE OF RAAJ
                 </span>
               </div>
             </div>

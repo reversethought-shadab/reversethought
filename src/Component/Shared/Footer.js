@@ -59,7 +59,11 @@ const Footer = (props) => {
                   src="/images/icons/rt-footer-logo.svg"
                   alt="rt-footer-logo"
                 />
-                <h4 className="colorWhite fw-800">
+                <h4
+                  className="colorWhite fw-800"
+                  onMouseEnter={props.onMouseEnterSmall}
+                  onMouseLeave={props.onMouseLeaveSmall}
+                >
                   We’re your Design <br /> Multiverse
                 </h4>
               </div>

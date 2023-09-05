@@ -147,7 +147,10 @@ const AymStallDesign = (props) => {
         </div>
       </section>
 
-      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
+      <section
+        className="   onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall} wow animate__animated animate__slideInLeft"
+      >
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
@@ -157,7 +160,12 @@ const AymStallDesign = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/Memoria" className="colorWhite fw-800">
+                  <a
+                    href="/Memoria"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -174,7 +182,12 @@ const AymStallDesign = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/rsbl-calendar" className="colorWhite fw-800">
+                  <a
+                    href="/rsbl-calendar"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -191,7 +204,12 @@ const AymStallDesign = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/aym-syntex-brochure" className="colorWhite fw-800">
+                  <a
+                    href="/aym-syntex-brochure"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -211,6 +229,8 @@ const AymStallDesign = (props) => {
                   <a
                     href="/aym-syntex-annual-report"
                     className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     View Projects &nbsp;
                     <img
@@ -230,6 +250,8 @@ const AymStallDesign = (props) => {
             to="/our-work"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />

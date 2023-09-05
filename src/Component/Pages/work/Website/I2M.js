@@ -168,7 +168,12 @@ const I2M = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/256grays" className="colorWhite fw-800">
+                  <a
+                    href="/256grays"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -185,7 +190,12 @@ const I2M = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/aym-syntex" className="colorWhite fw-800">
+                  <a
+                    href="/aym-syntex"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -202,7 +212,12 @@ const I2M = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/vardhman" className="colorWhite fw-800">
+                  <a
+                    href="/vardhman"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -219,7 +234,12 @@ const I2M = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/continuum-india" className="colorWhite fw-800">
+                  <a
+                    href="/continuum-india"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -239,6 +259,8 @@ const I2M = (props) => {
             to="/our-work"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />

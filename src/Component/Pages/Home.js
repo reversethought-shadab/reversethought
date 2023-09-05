@@ -163,7 +163,7 @@ const Home = (props) => {
                   <div className="project_overview">
                     <div className="top_overview">
                       <h2 className="proj_name text-dark">Memoria</h2>
-                      <p className="proj_type  text-dark">Print</p>
+                      <p className="proj_type  text-dark">Creative Design</p>
                     </div>
                     <div className="bottom_overview">
                       <a

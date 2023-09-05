@@ -3428,9 +3428,11 @@ header.blackBg {
       img {
         // max-width: 253 * $desk + vw;
         height: 279 * $desk + vw;
-        filter: grayscale(1);
         transition: 0.4s all;
         object-fit: contain;
+        &:hover{
+          filter: grayscale(1);
+        }
 
         @include for-phone-only-576 {
           height: 150px;

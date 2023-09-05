@@ -448,7 +448,7 @@ const DigitalMarketingServices = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/speak-health"
+                    href="/speak-health2"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -523,8 +523,6 @@ const DigitalMarketingServices = (props) => {
           </Link>
         </div>
       </section>{" "}
-      onMouseEnter={props.onMouseEnterSmall}
-      onMouseLeave={props.onMouseLeaveSmall}
     </>
   );
 };

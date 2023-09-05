@@ -369,18 +369,90 @@ const FilmsService = (props) => {
             </p>
             {/* <div className="d-flex align-items-center"> */}
             <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
-              <li className="colorWhite fw-800">CSS</li>
-              <li className="colorWhite fw-800">HTML 5</li>
-              <li className="colorWhite fw-800">JavaScript</li>
-              <li className="colorWhite fw-800">PHP</li>
-              <li className="colorWhite fw-800">Microsoft.net</li>
-              <li className="colorWhite fw-800">AngularJS</li>
-              <li className="colorWhite fw-800">MySQL.</li>
-              <li className="colorWhite fw-800">IOS</li>
-              <li className="colorWhite fw-800">Android</li>
-              <li className="colorWhite fw-800">Prestashop</li>
-              <li className="colorWhite fw-800">Magento</li>
-              <li className="colorWhite fw-800">WordPress</li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                CSS
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                HTML 5
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                JavaScript
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                PHP
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                Microsoft.net
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                AngularJS
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                MySQL.
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                IOS
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                Android
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                Prestashop
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                Magento
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                WordPress
+              </li>
             </ul>
             {/* </div> */}
           </div>
@@ -433,7 +505,7 @@ const FilmsService = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/dodhia-textiles"
+                    href="/icici-prudential"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -445,9 +517,9 @@ const FilmsService = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/video/aym.jpg" alt="work" />
+                  <img src="/images/cards/video/icicipru.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Dodhia Textiles</h2>
+                <h2 className="colorBlack fw-800">Icici Prudential</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
@@ -455,7 +527,7 @@ const FilmsService = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/vijaysales"
+                    href="/recipe"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -467,12 +539,9 @@ const FilmsService = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img
-                    src="/images/our-work/videography/dhcinternationteaser/msk2.svg"
-                    alt="work"
-                  />
+                  <img src="/images/cards/video/recipe.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Vijay Sales</h2>
+                <h2 className="colorBlack fw-800">Recipe</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
@@ -480,7 +549,7 @@ const FilmsService = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/rockman-values-film"
+                    href="/speak-event"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -492,9 +561,32 @@ const FilmsService = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/video/idea.jpg" alt="work" />
+                  <img src="/images/cards/video/speakevent.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Rockman Value Film</h2>
+                <h2 className="colorBlack fw-800">Speak Event</h2>
+                <span className="colorGrey fw-400">Video Production</span>
+              </div>
+            </div>
+
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/qr678"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/video/car.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">QR678</h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>

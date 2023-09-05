@@ -3450,10 +3450,12 @@ header.blackBg {
 }
 .ourValueSection .gridSystem .gridSystemInner img {
   height: 20.4245973646vw;
-  filter: grayscale(1);
   transition: 0.4s all;
   -o-object-fit: contain;
      object-fit: contain;
+}
+.ourValueSection .gridSystem .gridSystemInner img:hover {
+  filter: grayscale(1);
 }
 @media (max-width: 576px) {
   .ourValueSection .gridSystem .gridSystemInner img {

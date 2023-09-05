@@ -141,8 +141,18 @@ const EnquiryForm = (props) => {
             <span>Submit</span>
             <Icon icon="ph:arrow-left-bold" />
           </button>
-          <p className="colorWhite fw-800">Enquiry form</p>
-          <span className="colorWhite fw-800">
+          <p
+            className="colorWhite fw-800"
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
+          >
+            Enquiry form
+          </p>
+          <span
+            className="colorWhite fw-800"
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
+          >
             Fill in the details below and will get back to you shortly.
           </span>
           <div>

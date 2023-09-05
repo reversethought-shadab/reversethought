@@ -375,18 +375,90 @@ const WebService = (props) => {
             </p>
             {/* <div className="d-flex align-items-center"> */}
             <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
-              <li className="colorWhite fw-800">CSS</li>
-              <li className="colorWhite fw-800">HTML 5</li>
-              <li className="colorWhite fw-800">JavaScript</li>
-              <li className="colorWhite fw-800">PHP</li>
-              <li className="colorWhite fw-800">Microsoft.net</li>
-              <li className="colorWhite fw-800">AngularJS</li>
-              <li className="colorWhite fw-800">MySQL.</li>
-              <li className="colorWhite fw-800">IOS</li>
-              <li className="colorWhite fw-800">Android</li>
-              <li className="colorWhite fw-800">Prestashop</li>
-              <li className="colorWhite fw-800">Magento</li>
-              <li className="colorWhite fw-800">WordPress</li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                CSS
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                HTML 5
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                JavaScript
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                PHP
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                Microsoft.net
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                AngularJS
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                MySQL.
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                IOS
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                Android
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                Prestashop
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                Magento
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                WordPress
+              </li>
             </ul>
             {/* </div> */}
           </div>
@@ -442,6 +514,8 @@ const WebService = (props) => {
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     View Projects &nbsp;
                     <img
@@ -462,6 +536,8 @@ const WebService = (props) => {
                   <a
                     href="/malik-architecture"
                     className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
                   >
@@ -486,6 +562,8 @@ const WebService = (props) => {
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     View Projects &nbsp;
                     <img
@@ -506,6 +584,8 @@ const WebService = (props) => {
                   <a
                     href="/texprocile"
                     className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
                   >

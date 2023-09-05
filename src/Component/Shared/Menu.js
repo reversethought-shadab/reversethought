@@ -26,7 +26,11 @@ const Menu = (props) => {
           >
             <div className="d-flex customGap">
               <ul className="mainPages">
-                <li className="colorWhite fw-800">
+                <li
+                  className="colorWhite fw-800"
+                  onMouseEnter={props.onMouseEnterSmall}
+                  onMouseLeave={props.onMouseLeaveSmall}
+                >
                   <a href="/" onClick={props.closeModal}>
                     Home &nbsp;
                     <img
@@ -35,7 +39,8 @@ const Menu = (props) => {
                     />
                   </a>
                 </li>
-                {/* <li className="colorWhite fw-800">
+                {/* <li className="colorWhite fw-800"    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}>
                   <a href="/servicesMain" onClick={props.closeModal}>
                     Services &nbsp;
                     <img
@@ -44,7 +49,11 @@ const Menu = (props) => {
                     />
                   </a>
                 </li> */}
-                <li className="colorWhite fw-800">
+                <li
+                  className="colorWhite fw-800"
+                  onMouseEnter={props.onMouseEnterSmall}
+                  onMouseLeave={props.onMouseLeaveSmall}
+                >
                   <a href="/our-work" onClick={props.closeModal}>
                     Our Work &nbsp;
                     <img
@@ -53,7 +62,11 @@ const Menu = (props) => {
                     />
                   </a>
                 </li>
-                <li className="colorWhite fw-800">
+                <li
+                  className="colorWhite fw-800"
+                  onMouseEnter={props.onMouseEnterSmall}
+                  onMouseLeave={props.onMouseLeaveSmall}
+                >
                   <a href="/clients" onClick={props.closeModal}>
                     Clients &nbsp;
                     <img
@@ -62,7 +75,11 @@ const Menu = (props) => {
                     />
                   </a>
                 </li>
-                <li className="colorWhite fw-800">
+                <li
+                  className="colorWhite fw-800"
+                  onMouseEnter={props.onMouseEnterSmall}
+                  onMouseLeave={props.onMouseLeaveSmall}
+                >
                   <a href="/about-us" onClick={props.closeModal}>
                     About Us &nbsp;
                     <img

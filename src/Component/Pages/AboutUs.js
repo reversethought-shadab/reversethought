@@ -32,7 +32,11 @@ const AboutUs = (props) => {
               Unleash Your Brand's Potential with Our Strategic and Creative
               Expertise in the Beautiful Online Space
             </p>
-            <p className="watch_reel_txt mb-0 mt-0 wow animate__animated animate__fadeInUp animation_delay_200ms">
+            <p
+              className="watch_reel_txt mb-0 mt-0 wow animate__animated animate__fadeInUp animation_delay_200ms"
+              onMouseEnter={props.onMouseEnterSmall}
+              onMouseLeave={props.onMouseLeaveSmall}
+            >
               <img
                 src="/images/icons/play.svg"
                 alt="play"
@@ -123,6 +127,17 @@ const AboutUs = (props) => {
                   <span className="fw-800">05</span>
                   Digital Activations
                 </li>
+                <li
+                  onClick={() => handleTabClick(5)}
+                  className={
+                    activeTab === 5
+                      ? "wow animate__animated animate__fadeInUp active"
+                      : "wow animate__animated animate__fadeInUp"
+                  }
+                >
+                  <span className="fw-800">06</span>
+                  Photography
+                </li>
               </ul>
             </div>
             <div className="col-sm-6 p-0 whatwedoTabsR">
@@ -154,6 +169,8 @@ const AboutUs = (props) => {
                     href="/websiteDesign"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -189,6 +206,8 @@ const AboutUs = (props) => {
                     href="/Video-production-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -227,6 +246,8 @@ const AboutUs = (props) => {
                     href="/Digital-Marketing-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -262,6 +283,8 @@ const AboutUs = (props) => {
                     href="/Creative-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -296,6 +319,44 @@ const AboutUs = (props) => {
                     href="/Digital-Activation-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    <span className="commonViewAll">View Our Projects</span>
+                    <Icon icon="clarity:arrow-line" />
+                  </a>
+                </div>
+              )}
+              {activeTab === 5 && (
+                <div
+                  className={
+                    activeTab === 5
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
+                      : "whatWeDoTabsResult"
+                  }
+                >
+                  <ul className="d-flex">
+                    <li className="colorBlack fw-800">AR Filters</li>
+                    <li className="colorBlack fw-800">
+                      SMS & Whatsapp Campaigns
+                    </li>
+                    <li className="colorBlack fw-800">
+                      Digital Hoarding Video Ads
+                    </li>
+                  </ul>
+                  <p className="colorBlack fw-400">
+                    Break the clutter and engage your audience through custom
+                    developed digital activations in the form of apps, games,
+                    filters and more. We work closely with your team to develop
+                    concepts that add weight to your messaging and develop the
+                    assets to execute your campaign.
+                  </p>
+                  <a
+                    href="/Photography"
+                    className="unsetAll"
+                    onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -322,7 +383,7 @@ const AboutUs = (props) => {
           <div className="gridSystem">
             <div className="gridSystemInner wow animate__animated animate__fadeInUp animation_delay_100ms">
               <img
-                src="/images/value-3.svg"
+                src="/images/about/pN3.png"
                 alt="Our Value"
                 className="img-fluid"
               />
@@ -335,7 +396,7 @@ const AboutUs = (props) => {
             </div>
             <div className="gridSystemInner wow animate__animated animate__fadeInUp animation_delay_200ms">
               <img
-                src="/images/value-1.svg"
+                src="/images/about/pn4.png"
                 alt="Our Value"
                 className="img-fluid"
               />
@@ -347,7 +408,7 @@ const AboutUs = (props) => {
             </div>
             <div className="gridSystemInner wow animate__animated animate__fadeInUp animation_delay_300ms">
               <img
-                src="/images/value-2.svg"
+                src="/images/about/pn2.png"
                 alt="Our Value"
                 className="img-fluid"
               />

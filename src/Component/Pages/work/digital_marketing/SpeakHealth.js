@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import Slider from "react-slick";
-import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
 import WOW from "wowjs";
+import { Icon } from "@iconify/react";
 
-const WelpsunGroupCorpFilm = (props) => {
+const SpeakHealth = (props) => {
   useEffect(() => {
     const wow = new WOW.WOW({
       live: false,
@@ -52,18 +52,13 @@ const WelpsunGroupCorpFilm = (props) => {
       <section className="ourWork">
         <div className="content_container">
           <h1 className="projectHeading colorBlack fw-800 text-center wow animate__animated animate__fadeIn">
-            Welpsun Group (Corp Film)
+            Speak Health
           </h1>
-          <div className="position-relative wow animate__animated animate__fadeIn">
-            <div className="playButton">
-              <Icon icon="ph:play-fill" />
-            </div>
-            <img
-              src="/images/our-work/CSR/mainCSR.svg"
-              alt="welspun-group"
-              className="img-fluid w-100"
-            />
-          </div>
+          <img
+            src="/images/our-work/digital_marketing/main.png"
+            alt="IndusInd banner"
+            className="img-fluid wow animate__animated animate__fadeIn"
+          />
           <div className="gridSystem">
             <div className="gridSystemInner">
               <h2 className="colorRed fw-800 wow animate__animated animate__fadeIn">
@@ -80,48 +75,33 @@ const WelpsunGroupCorpFilm = (props) => {
               <div className="row m-0 briefDetails wow animate__animated animate__fadeIn">
                 <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
                   <h4 className="colorBlack fw-800">Client</h4>
-                  <span className="colorGrey fw-400">Welspun CSR</span>
+                  <span className="colorGrey fw-400">Speak Health</span>
                 </div>
                 <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
                   <h4 className="colorBlack fw-800">Industry</h4>
-                  <span className="colorGrey fw-400">Corporate</span>
+                  <span className="colorGrey fw-400">Pharmaceuticals</span>
                 </div>
                 <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
                   <h4 className="colorBlack fw-800">Work</h4>
                   <span className="colorGrey fw-400">
-                    Video Production & Still Photography
+                    Creative Design & Digital Marketing
                   </span>
                 </div>
-                <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
-                  <h4 className="colorBlack fw-800">Technology</h4>
-                  <span className="colorGrey fw-400">Sony Camera</span>
-                </div>
               </div>
-              <Link
-                to="https://www.youtube.com/watch?v=UXfW-FAZgZE"
-                className="unsetAll"
-                target="_blank"
-              >
-                <span className="commonViewAll">Check Videos</span>
-                <Icon icon="clarity:arrow-line" />
-              </Link>
             </div>
             <div className="gridSystemInner">
-              <div className="row m-0 imageView">
-                <div className="col-12 p-0 text-start imageViewL wow animate__animated animate__fadeInRight">
-                  <img
-                    src="/images/our-work/CSR/secondCSR.svg"
-                    alt="CSR-1"
-                    className="img-fluid w-100"
-                  />
-                </div>
-                <div className="col-12 p-0 text-end imageViewR wow animate__animated animate__fadeInRight">
-                  <img
-                    src="/images/our-work/CSR/thirdCSR.png"
-                    alt="CSR-2"
-                    className="img-fluid w-100"
-                  />
-                </div>
+              <div className="d-flex customGap">
+                <img
+                  src="/images/our-work/digital_marketing/s1.png"
+                  alt="Speak Health"
+                  className="img-fluid w-100 wow animate__animated animate__fadeInRight"
+                />
+                <img
+                  src="/images/our-work/digital_marketing/s2.png"
+                  alt="Speak Health"
+                  className="img-fluid w-100 wow animate__animated animate__fadeInRight  animate__delay-0.9s"
+                  style={{ marginTop: 220 }}
+                />
               </div>
             </div>
           </div>
@@ -134,33 +114,12 @@ const WelpsunGroupCorpFilm = (props) => {
         onMouseLeave={props.mouseLeaveOnBlack}
       >
         <div className="content_container">
-          <div className="row m-0 zigZagImageSection">
-            <div className="col-12 p-0 zigZagImageSection1 wow animate__animated animate__fadeInRight">
+          <div className="row m-0">
+            <div className="col-12 p-0 fullWidth wow animate__animated animate__slideInDown">
               <img
-                src="/images/our-work/CSR/forthCSR.png"
-                alt="CSR"
-                className="img-fluid w-100"
-              />
-            </div>
-            <div className="col-12 p-0 text-end zigZagImageSection2 wow animate__animated animate__fadeInLeft">
-              <img
-                src="/images/our-work/CSR/fifthCSR.png"
-                alt="CSR"
-                className="img-fluid w-100"
-              />
-            </div>
-            <div className="col-12 p-0 zigZagImageSection3 wow animate__animated animate__fadeInRight">
-              <img
-                src="/images/our-work/CSR/sixthCSR.png"
-                alt="CSR"
-                className="img-fluid w-100"
-              />
-            </div>
-            <div className="col-12 p-0 text-end zigZagImageSection4 wow animate__animated animate__fadeInLeft">
-              <img
-                src="/images/our-work/CSR/seventhCSR.png"
-                alt="CSR"
-                className="img-fluid w-100"
+                src="/images/our-work/digital_marketing/mainsecond.png"
+                alt="service1"
+                className="w-100"
               />
             </div>
           </div>
@@ -169,7 +128,7 @@ const WelpsunGroupCorpFilm = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800">
+          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -178,7 +137,7 @@ const WelpsunGroupCorpFilm = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/welspunCSR"
+                    href="/tiger"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -190,17 +149,17 @@ const WelpsunGroupCorpFilm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/video/welpsuncsr.jpg" alt="work" />
+                  <img src="/images/cards/digital/tiger.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welspun CSR</h2>
-                <span className="colorGrey fw-400">Video Production</span>
+                <h2 className="colorBlack fw-800">Tiger</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/vijaysales"
+                    href="/indusind"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -212,17 +171,17 @@ const WelpsunGroupCorpFilm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/video/vijaysales.jpg" alt="work" />
+                  <img src="/images/cards/digital/indus.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">vijay sales</h2>
-                <span className="colorGrey fw-400">Video Production</span>
+                <h2 className="colorBlack fw-800">IndusInd Bank</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/welspunBKG"
+                    href="/one-gaming-arcade"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -234,17 +193,17 @@ const WelpsunGroupCorpFilm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/video/welpsun.jpg" alt="work" />
+                  <img src="/images/cards/digital/gaming.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welspun BKG</h2>
-                <span className="colorGrey fw-400">Video Production</span>
+                <h2 className="colorBlack fw-800">One Gaming Arcade</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/recipe"
+                    href="/jindalSAW"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -256,14 +215,13 @@ const WelpsunGroupCorpFilm = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/video/recipe.jpg" alt="work" />
+                  <img src="/images/cards/digital/hed.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Recipe</h2>
-                <span className="colorGrey fw-400">Video Production</span>
+                <h2 className="colorBlack fw-800">Jidal SAW</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
               </div>
             </div>
           </Slider>
-
           <Link
             to="/our-work"
             className="unsetAll"
@@ -280,4 +238,4 @@ const WelpsunGroupCorpFilm = (props) => {
   );
 };
 
-export default WelpsunGroupCorpFilm;
+export default SpeakHealth;
