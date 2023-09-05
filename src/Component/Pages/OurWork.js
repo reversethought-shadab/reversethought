@@ -285,7 +285,7 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          Icici Pension Fund{" "}
+                          ICICI Pension Fund{" "}
                         </h2>
                         <p className="proj_type text-black">
                           Digital Marketing
@@ -623,7 +623,7 @@ const OurWork = (props) => {
                           <br />
                           Logistics
                         </h2>
-                        <p className="proj_type text-black">Logistics</p>
+                        <p className="proj_type text-black">Web Developement</p>
                       </div>
                       <div className="bottom_overview">
                         <a
@@ -2076,7 +2076,7 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          Icici Prudential
+                          ICICI Prudential
                         </h2>
                         <p className="proj_type text-black">
                           Digital Marketing
@@ -2114,7 +2114,7 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          Icici Pension Fund
+                          ICICI Pension Fund
                         </h2>
                         <p className="proj_type text-black">
                           Digital Marketing
@@ -2417,7 +2417,7 @@ const OurWork = (props) => {
             <div className="projectGalleryMain">
               <div className="projectsGalleryL">
                 <a
-                  href="/aym-syntex"
+                  href="/aym-syntex-brochure"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -2437,7 +2437,7 @@ const OurWork = (props) => {
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/aym-syntex"
+                          href="/aym-syntex-brochure"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >

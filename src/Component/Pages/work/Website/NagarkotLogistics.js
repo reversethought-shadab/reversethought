@@ -219,7 +219,7 @@ const NagarkotLogistics = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/texprocile" className="colorWhite fw-800">
+                  <a href="/texprocil" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"

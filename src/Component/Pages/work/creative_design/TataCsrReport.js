@@ -90,7 +90,7 @@ const TataCsrReport = (props) => {
             <div className="gridSystemInner">
               <div className="d-flex customGap">
                 <img
-                  src="/images/our-work/creative_design/aymbrochure/second.svg"
+                  src="/images/our-work/creative_design/tata/second.svg"
                   alt="Aym"
                   className="img-fluid w-100 wow animate__animated animate__fadeInRight"
                 />

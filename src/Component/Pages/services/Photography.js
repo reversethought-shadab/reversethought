@@ -158,6 +158,8 @@ const FilmsService = (props) => {
                     href="/our-work"
                     className="unsetAll"
                     // onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -185,6 +187,8 @@ const FilmsService = (props) => {
                     href="/our-work"
                     className="unsetAll"
                     // onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -212,6 +216,8 @@ const FilmsService = (props) => {
                     href="/our-work"
                     className="unsetAll"
                     // onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -239,6 +245,8 @@ const FilmsService = (props) => {
                     href="/our-work"
                     className="unsetAll"
                     // onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />

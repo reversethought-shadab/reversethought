@@ -106,7 +106,7 @@ const DoradoIvory = (props) => {
               <div className="row m-0 imageView">
                 <div className="col-12 p-0 text-start imageViewL wow animate__animated animate__fadeInRight">
                   <img
-                    src="/images/our-work/videography/dorado/245.svg"
+                    src="/images/our-work/videography/dorado/245.png"
                     alt="CSR-1"
                     className="img-fluid w-100"
                   />

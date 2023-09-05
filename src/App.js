@@ -201,6 +201,8 @@ function App() {
           mouseLeaveOnRed={handleMouseLeaveRed}
           mouseEnterOnBlack={handleMouseEnterBlack}
           mouseLeaveOnBlack={handleMouseLeaveBlack}
+          mouseEnterOnFooter={handleMouseEnterFooter}
+          mouseLeaveOnFooter={handleMouseLeaveFooter}
         />
         {/* {modalActive === true ? (
           <Menu
@@ -233,8 +235,8 @@ function App() {
             path="/servicesMain"
             element={
               <Services
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -270,8 +272,8 @@ function App() {
             path="/terms-of-use"
             element={
               <TermsOfUse
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -279,8 +281,8 @@ function App() {
             path="/websiteDesign"
             element={
               <WebService
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -288,8 +290,8 @@ function App() {
             path="/Video-production-Services"
             element={
               <FilmsService
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -297,8 +299,8 @@ function App() {
             path="/Digital-Marketing-Services"
             element={
               <DigitalMarketingServices
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -306,8 +308,8 @@ function App() {
             path="/Creative-Services"
             element={
               <CreativeServices
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -315,8 +317,8 @@ function App() {
             path="/Digital-Activation-Services"
             element={
               <DigitalActivationServices
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -324,8 +326,8 @@ function App() {
             path="/Photography"
             element={
               <Photography
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -333,8 +335,8 @@ function App() {
             path="/notandas"
             element={
               <Notandas
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -342,8 +344,8 @@ function App() {
             path="/vardhman"
             element={
               <Vardhman
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -351,8 +353,8 @@ function App() {
             path="/welpsun"
             element={
               <Welpsun
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -360,8 +362,8 @@ function App() {
             path="/alkemlaboratories"
             element={
               <AlkemLaboratories
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -369,8 +371,8 @@ function App() {
             path="/canadian-woods"
             element={
               <CanadianWoods
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -378,8 +380,8 @@ function App() {
             path="/DHCinternational"
             element={
               <DHCInternational
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -387,8 +389,8 @@ function App() {
             path="/DHCinternational-teaser"
             element={
               <DHCInternationalTeaser
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -396,8 +398,8 @@ function App() {
             path="/dodhiachemicals"
             element={
               <DodhiaChemicals
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -405,8 +407,8 @@ function App() {
             path="/dodhia-corporate-film"
             element={
               <DodhiaCorporateFilm
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -414,8 +416,8 @@ function App() {
             path="/dodhia-textiles"
             element={
               <DodhiaTextiles
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -423,8 +425,8 @@ function App() {
             path="/tatacsr-report"
             element={
               <TataCsrReport
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -432,8 +434,8 @@ function App() {
             path="/aymstall-design"
             element={
               <AymStallDesign
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -441,8 +443,8 @@ function App() {
             path="/ljmlogo"
             element={
               <LjmLogo
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -450,8 +452,8 @@ function App() {
             path="/aymleaflets"
             element={
               <AymLeafLets
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -459,8 +461,8 @@ function App() {
             path="/dorado-ivory"
             element={
               <DoradoIvory
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -468,8 +470,8 @@ function App() {
             path="/icici-prundential-life-insurance"
             element={
               <IciciPrundentialLifeInsurance
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -477,8 +479,8 @@ function App() {
             path="/isolus"
             element={
               <ISolus
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -486,8 +488,8 @@ function App() {
             path="/jesons-tech-centre"
             element={
               <JesonsTechCentre
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -495,8 +497,8 @@ function App() {
             path="/kukufm"
             element={
               <KukuFm
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -504,8 +506,8 @@ function App() {
             path="/neo-niche"
             element={
               <NeoNiche
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -513,8 +515,8 @@ function App() {
             path="/qr678"
             element={
               <QR678
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -522,8 +524,8 @@ function App() {
             path="/recipe2"
             element={
               <Recipe2
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -531,8 +533,8 @@ function App() {
             path="/recipe"
             element={
               <Recipe
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -540,8 +542,8 @@ function App() {
             path="/rockman-advance-comp"
             element={
               <RockmanAdvancedComp
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -549,8 +551,8 @@ function App() {
             path="/rockman-industries"
             element={
               <RockmanIndustries
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -558,8 +560,8 @@ function App() {
             path="/rockman-values-film"
             element={
               <RockmanValuesFilm
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -567,8 +569,8 @@ function App() {
             path="/speak-health"
             element={
               <SpeakHealth
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -576,8 +578,8 @@ function App() {
             path="/speak-event"
             element={
               <SpeakEvent
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -585,8 +587,8 @@ function App() {
             path="/vijay-sales2"
             element={
               <VijaySales2
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -594,8 +596,8 @@ function App() {
             path="/vijay-sales"
             element={
               <VijaySales
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -603,8 +605,8 @@ function App() {
             path="/aym-syntex-brochure"
             element={
               <AymSyntexBrochure
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -612,8 +614,8 @@ function App() {
             path="/rsbl-calendar"
             element={
               <RsblCalendar
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -621,8 +623,8 @@ function App() {
             path="/aym-syntex-annual-report"
             element={
               <AymSyntexAnnualReport
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -630,8 +632,8 @@ function App() {
             path="/vardhman"
             element={
               <Vardhman
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -639,8 +641,8 @@ function App() {
             path="/aym-syntex"
             element={
               <AymSyntex
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -648,8 +650,8 @@ function App() {
             path="/continuum-india"
             element={
               <ContinuumIndia
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -657,8 +659,8 @@ function App() {
             path="/goodricke"
             element={
               <Goodricke
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -666,8 +668,8 @@ function App() {
             path="/256grays"
             element={
               <Grays256
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -675,8 +677,8 @@ function App() {
             path="/I2M"
             element={
               <I2M
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -684,8 +686,8 @@ function App() {
             path="/local2030"
             element={
               <Local2030
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -693,8 +695,8 @@ function App() {
             path="/malik-architecture"
             element={
               <MalikArchitecture
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -702,8 +704,8 @@ function App() {
             path="/nagarkot-logistics"
             element={
               <NagarkotLogistics
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -711,8 +713,8 @@ function App() {
             path="/texprocil"
             element={
               <Texprocile
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -721,8 +723,8 @@ function App() {
             path="/creative-memoria"
             element={
               <CreativeMemoria
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -730,8 +732,8 @@ function App() {
             path="/dabur"
             element={
               <Dabur
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -739,8 +741,8 @@ function App() {
             path="/speed-of-sound"
             element={
               <SpeedOfSound
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -748,8 +750,8 @@ function App() {
             path="/sunpharma"
             element={
               <Sunpharma
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -757,8 +759,8 @@ function App() {
             path="/advance-solution"
             element={
               <AdvanceSolution
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -766,8 +768,8 @@ function App() {
             path="/icici-pension-fund"
             element={
               <IciciPensionFund
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -775,8 +777,8 @@ function App() {
             path="/icici-prudential"
             element={
               <IciciPrudential
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -784,8 +786,8 @@ function App() {
             path="/jindal-SAW"
             element={
               <JindalSAW
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -793,8 +795,8 @@ function App() {
             path="/one-gaming-arcade"
             element={
               <OneGamingArcade
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -802,8 +804,8 @@ function App() {
             path="/mpuh"
             element={
               <PatelUrologyHospital
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -811,8 +813,8 @@ function App() {
             path="/sky-greens"
             element={
               <SkyGreens
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -820,8 +822,8 @@ function App() {
             path="/tiger"
             element={
               <Tiger
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -829,8 +831,8 @@ function App() {
             path="/indusind"
             element={
               <IndusInd
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -838,8 +840,8 @@ function App() {
             path="/about-us"
             element={
               <AboutUs
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -847,8 +849,8 @@ function App() {
             path="/clients"
             element={
               <Clients
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -857,8 +859,8 @@ function App() {
             path="/elleyselectrics"
             element={
               <ElleysElectrics
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -866,8 +868,8 @@ function App() {
             path="/Memoria"
             element={
               <Memoria
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -875,8 +877,8 @@ function App() {
             path="/welspunGroup"
             element={
               <WelspunGroup
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -884,8 +886,8 @@ function App() {
             path="/welspunCSR"
             element={
               <WelspunCSR
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -893,8 +895,8 @@ function App() {
             path="/welpsunGroupCorpFilm"
             element={
               <WelspunGroupCorpFilm
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -902,8 +904,8 @@ function App() {
             path="/welspunBKG"
             element={
               <WelspunBKG
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -911,8 +913,8 @@ function App() {
             path="/iciciprudential"
             element={
               <ICICIPrudential
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -920,8 +922,8 @@ function App() {
             path="/mcdowell"
             element={
               <McDowellNo1
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -929,8 +931,8 @@ function App() {
             path="/alkem-ar-filters"
             element={
               <AlkemArFilters
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -938,8 +940,8 @@ function App() {
             path="/amazon-sambhav"
             element={
               <AmazonSambav
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -947,8 +949,8 @@ function App() {
             path="/commercial"
             element={
               <Commercial
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -956,8 +958,8 @@ function App() {
             path="/loreal-matrix"
             element={
               <LorealMatrix
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
           />
@@ -976,15 +978,17 @@ function App() {
             path="/contact-us"
             element={
               <ContactUs
-                mouseEnterOnBlack={handleMouseEnterBlack}
-                mouseLeaveOnBlack={handleMouseLeaveBlack}
+                mouseEnterOnRed={handleMouseEnterRed}
+                mouseLeaveOnRed={handleMouseLeaveRed}
               />
             }
           />
         </Routes>
         <Footer
-          mouseEnterOnBlack={handleMouseEnterBlack}
-          mouseLeaveOnBlack={handleMouseLeaveBlack}
+          mouseEnterOnRed={handleMouseEnterRed}
+          mouseLeaveOnRed={handleMouseLeaveRed}
+          //  mouseEnterOnBlack={handleMouseEnterBlack}
+          //  mouseLeaveOnBlack={handleMouseLeaveBlack}
           mouseEnterOnFooter={handleMouseEnterFooter}
           mouseLeaveOnFooter={handleMouseLeaveFooter}
         />

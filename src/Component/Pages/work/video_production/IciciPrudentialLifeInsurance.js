@@ -190,7 +190,7 @@ const IciciPrudentialLifeInsurance = (props) => {
                   <img src="/images/cards/video/hyd.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">
-                  ROckman Advanced Composites{" "}
+                  Rockman Advanced Composites{" "}
                 </h2>
                 <span className="colorGrey fw-400">Video Production</span>
               </div>

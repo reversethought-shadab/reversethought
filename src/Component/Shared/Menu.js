@@ -176,16 +176,25 @@ const Menu = (props) => {
           </div>
           <div
             className="menuMainR position-relative"
-            onMouseEnter={props.mouseEnterOnBlack}
-            onMouseLeave={props.mouseLeaveOnBlack}
+            onMouseEnter={(e) => {
+              e.stopPropagation();
+              props.mouseEnterOnFooter();
+            }}
+            onMouseLeave={(e) => {
+              e.stopPropagation();
+              props.mouseLeaveOnFooter();
+            }}
           >
-            <img src="/images/icons/wave-shape.svg" alt="wave-shape" />
-            <p className="colorWhite fw-800">
-              Starting a new project <br />
-              or want to collaborate <br />
-              with us? <br />
-              <span className="fw-800"> Let’s Talk?</span>
-            </p>
+            <a href="/contact-us" className="text-decoration-none">
+              {" "}
+              <img src="/images/icons/wave-shape.svg" alt="wave-shape" />
+              <p className="colorWhite fw-800 ">
+                Starting a new project <br />
+                or want to collaborate <br />
+                with us? <br />
+                <span className="fw-800 "> Let’s Talk?</span>
+              </p>
+            </a>
           </div>
         </div>
       </div>

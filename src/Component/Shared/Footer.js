@@ -49,8 +49,8 @@ const Footer = (props) => {
 
         <div
           className="parentMainFooterContent"
-          onMouseEnter={props.mouseEnterOnBlack}
-          onMouseLeave={props.mouseLeaveOnBlack}
+          onMouseEnter={props.mouseEnterOnRed}
+          onMouseLeave={props.mouseLeaveOnRed}
         >
           <div className="content_container">
             <div className="row m-0 footerDetails">
@@ -246,8 +246,8 @@ const Footer = (props) => {
 
         <div
           className="parentCopyRightarea"
-          onMouseEnter={props.mouseEnterOnBlack}
-          onMouseLeave={props.mouseLeaveOnBlack}
+          onMouseEnter={props.mouseEnterOnRed}
+          onMouseLeave={props.mouseLeaveOnRed}
         >
           <div className="content_container">
             <div className="footerEnd">

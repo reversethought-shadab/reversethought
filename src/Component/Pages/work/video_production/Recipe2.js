@@ -190,7 +190,7 @@ const Recipe2 = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/vijaysales" className="colorWhite fw-800">
+                  <a href="/vijay-sales" className="colorWhite fw-800">
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"

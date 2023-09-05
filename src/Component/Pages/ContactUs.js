@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 import WOW from "wowjs";
 import axios from "axios";
 import $ from "jquery";
-import {ThreeCircles} from 'react-loader-spinner'
+import { ThreeCircles } from "react-loader-spinner";
 
 const ContactUs = (props) => {
   const [fullName, setFullName] = useState("");
@@ -85,63 +85,60 @@ const ContactUs = (props) => {
     };
 
     let data = new FormData();
-      Object.keys(formData).forEach(key => data.append(key,formData[key]));
-      const headers = {
-        'Content-Type': 'multipart/form-data'
+    Object.keys(formData).forEach((key) => data.append(key, formData[key]));
+    const headers = {
+      "Content-Type": "multipart/form-data",
     };
 
     // const url = "http://111.118.212.37/mail/"
-    const url = "https://uat.reversethought.com/mail/"
+    const url = "https://uat.reversethought.com/mail/";
 
     axios
-    .post(url, data, {
-        headers
+      .post(url, data, {
+        headers,
       })
-      .then(response => {
+      .then((response) => {
         // Handle successful response
-        if(response.status === 200){
-          setSuccessMessage('Thanks for contacting us. We will reach you very soon.');
+        if (response.status === 200) {
+          setSuccessMessage(
+            "Thanks for contacting us. We will reach you very soon."
+          );
+        } else {
+          setSuccessMessage("");
         }
-        else{
-          setSuccessMessage('')
-        }
-          
 
         setTimeout(() => {
-          setSuccessMessage('');
+          setSuccessMessage("");
         }, 3000);
-        
-        setErrorMessage('');
-        setFullName('');
-        setCompanyName('');
-        setEmail('');
-        setMobNo('');
-        setSource('');
-        setBudget('');
-        setInterestedIn('');
-        setActiveItems('')
+
+        setErrorMessage("");
+        setFullName("");
+        setCompanyName("");
+        setEmail("");
+        setMobNo("");
+        setSource("");
+        setBudget("");
+        setInterestedIn("");
+        setActiveItems("");
         setIsLoading(false);
-        
       })
-      .catch(error => {
+      .catch((error) => {
         if (error.response.status === 400) {
           const errorList = error.response.data.errors;
-          const errorMessages = Object.entries(errorList).map((value) => value[1]);
+          const errorMessages = Object.entries(errorList).map(
+            (value) => value[1]
+          );
           setErrorMessage(errorMessages.join(", "));
+        } else {
+          setErrorMessage("");
         }
-        
-        else{
-          setErrorMessage('')
-        }
-        
-        setTimeout(() => {
-          setErrorMessage('');
-        }, 3000);
-        setSuccessMessage('');
-        setIsLoading(false);
-    });
 
-    
+        setTimeout(() => {
+          setErrorMessage("");
+        }, 3000);
+        setSuccessMessage("");
+        setIsLoading(false);
+      });
 
     // axios
     // .post("https://uat.reversethought.com/mail/", formData)
@@ -155,19 +152,19 @@ const ContactUs = (props) => {
     //     setErrorMessage('Error fetching data: ' + error.message);
     //     setSuccessMessage('');
     // });
-
-    
   };
 
   return (
     <>
       <section className="contactUsSection">
         <div className="content_container">
-        {
-          
-        }
-        {successMessage && <div className="alert alert-success">{successMessage}</div>}
-        {errorMessage && <div className="alert alert-danger">{errorMessage}</div>}
+          {}
+          {successMessage && (
+            <div className="alert alert-success">{successMessage}</div>
+          )}
+          {errorMessage && (
+            <div className="alert alert-danger">{errorMessage}</div>
+          )}
           {/* {successfulMsg === true ? (
             <div class="alert alert-success" role="alert">
               A simple success alert—check it out!
@@ -266,7 +263,13 @@ const ContactUs = (props) => {
                 </div>
               </div>
               <div className="text-center wow animate__animated animate__slideInUp">
-                <button className="colorWhite fw-800">Send Message</button>
+                <button
+                  className="colorWhite fw-800"
+                  onMouseEnter={props.mouseEnterOnRed}
+                  onMouseLeave={props.mouseLeaveOnRed}
+                >
+                  Send Message
+                </button>
               </div>
             </form>
           </div>
@@ -312,7 +315,9 @@ const ContactUs = (props) => {
               </div>
               <div className="col-sm-6 pe-0 officeLocationR">
                 <div className="officeLocationDetails">
-                  <h4 className="colorWhite fw-800 wow animate__animated animate__fadeInUp animation_delay_100ms">Office Address</h4>
+                  <h4 className="colorWhite fw-800 wow animate__animated animate__fadeInUp animation_delay_100ms">
+                    Office Address
+                  </h4>
                   <p className="colorWhite fw-400 wow animate__animated animate__fadeInUp animation_delay_200ms">
                     C 601, Kingston Heights, Chincholi <br /> Bunder Road, Malad
                     West, <br />
@@ -320,14 +325,25 @@ const ContactUs = (props) => {
                   </p>
                 </div>
                 <div className="officeLocationDetails">
-                  <h4 className="colorWhite fw-800 wow animate__animated animate__fadeInUp animation_delay_300ms">Contact</h4>
-                  <a href="tel:+91 9930658107" className="colorWhite fw-400 wow animate__animated animate__fadeInUp animation_delay_400ms">
+                  <h4 className="colorWhite fw-800 wow animate__animated animate__fadeInUp animation_delay_300ms">
+                    Contact
+                  </h4>
+                  <a
+                    href="tel:+91 9930658107"
+                    className="colorWhite fw-400 wow animate__animated animate__fadeInUp animation_delay_400ms"
+                  >
                     +91 9930658107 (Tushar)
                   </a>
-                  <a href="tel:+91 9769733134" className="colorWhite fw-400 wow animate__animated animate__fadeInUp animation_delay_400ms">
+                  <a
+                    href="tel:+91 9769733134"
+                    className="colorWhite fw-400 wow animate__animated animate__fadeInUp animation_delay_400ms"
+                  >
                     +91 9769733134 (Sunidhi)
                   </a>
-                  <a href="tel:+91 8291862924" className="colorWhite fw-400 wow animate__animated animate__fadeInUp animation_delay_400ms">
+                  <a
+                    href="tel:+91 8291862924"
+                    className="colorWhite fw-400 wow animate__animated animate__fadeInUp animation_delay_400ms"
+                  >
                     +91 8291862924 (Office)
                   </a>
                 </div>
@@ -446,8 +462,7 @@ const ContactUs = (props) => {
           </div>
         </div>
       </section>
-      {
-      isLoading && 
+      {isLoading && (
         <>
           <div className="spinnerCss"></div>
           <ThreeCircles
@@ -463,8 +478,7 @@ const ContactUs = (props) => {
             middleCircleColor=""
           />
         </>
-      }
-      
+      )}
     </>
   );
 };

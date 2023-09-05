@@ -84,7 +84,6 @@ const DigitalMarketingServices = (props) => {
           </div>
         </div>
       </section>
-
       <section className="webServiceWhatWeDo whatWeDo">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
@@ -154,6 +153,8 @@ const DigitalMarketingServices = (props) => {
                     href="/our-work"
                     className="unsetAll"
                     // onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -181,6 +182,8 @@ const DigitalMarketingServices = (props) => {
                     href="/our-work"
                     className="unsetAll"
                     // onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -208,6 +211,8 @@ const DigitalMarketingServices = (props) => {
                     href="/our-work"
                     className="unsetAll"
                     // onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -235,6 +240,8 @@ const DigitalMarketingServices = (props) => {
                     href="/our-work"
                     className="unsetAll"
                     // onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -245,7 +252,6 @@ const DigitalMarketingServices = (props) => {
           </div>
         </div>
       </section>
-
       <section
         className="ourExpertiseSection wow animate__animated animate__slideInUp"
         onMouseEnter={props.mouseEnterOnBlack}
@@ -378,7 +384,6 @@ const DigitalMarketingServices = (props) => {
           </div>
         </div>
       </section>
-
       <section className="webServicePageClient ourRecentClients">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
@@ -388,7 +393,6 @@ const DigitalMarketingServices = (props) => {
           <ClientLogo client="digiMarketClient" />
         </div>
       </section>
-
       <section className="pt-0 creativeThoughts position-relative">
         <div className="content_container">
           <img
@@ -411,7 +415,6 @@ const DigitalMarketingServices = (props) => {
           </div>
         </div>
       </section>
-
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
@@ -422,7 +425,12 @@ const DigitalMarketingServices = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/mpuh" className="colorWhite fw-800">
+                  <a
+                    href="/mpuh"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -439,7 +447,12 @@ const DigitalMarketingServices = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/speak-health" className="colorWhite fw-800">
+                  <a
+                    href="/speak-health"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -456,7 +469,12 @@ const DigitalMarketingServices = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/sky-greens" className="colorWhite fw-800">
+                  <a
+                    href="/sky-greens"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -473,7 +491,12 @@ const DigitalMarketingServices = (props) => {
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
-                  <a href="/speed-of-sound" className="colorWhite fw-800">
+                  <a
+                    href="/speed-of-sound"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
                     View Projects &nbsp;
                     <img
                       src="/images/icons/toparrowWhite.svg"
@@ -492,12 +515,16 @@ const DigitalMarketingServices = (props) => {
             to="/our-work"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />
           </Link>
         </div>
-      </section>
+      </section>{" "}
+      onMouseEnter={props.onMouseEnterSmall}
+      onMouseLeave={props.onMouseLeaveSmall}
     </>
   );
 };

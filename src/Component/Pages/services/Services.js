@@ -34,11 +34,7 @@ const Services = (props) => {
   return (
     <>
       {watchReel === true ? <Popup close_reel={close_reel} /> : ""}
-      <section
-        className="servicePageSection"
-        onMouseEnter={props.mouseEnterOnBlack}
-        onMouseLeave={props.mouseLeaveOnBlack}
-      >
+      <section className="servicePageSection">
         <div className="content_container">
           <div className="servicePageBanner">
             <h1 className="colorWhite fw-800 projectHeading wow animate__animated animate__fadeInUp">
@@ -51,6 +47,8 @@ const Services = (props) => {
             <p
               className="watch_reel_txt mb-0 mt-0 wow animate__animated animate__fadeInUp animation_delay_500ms"
               onClick={watch_reel}
+              onMouseEnter={props.onMouseEnterSmall}
+              onMouseLeave={props.onMouseLeaveSmall}
             >
               <img
                 src="/images/icons/play-white.svg"
@@ -183,6 +181,8 @@ const Services = (props) => {
                     href="/websiteDesign"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -218,6 +218,8 @@ const Services = (props) => {
                     href="/Video-production-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -256,6 +258,8 @@ const Services = (props) => {
                     href="/Digital-Marketing-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -291,6 +295,8 @@ const Services = (props) => {
                     href="/Creative-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -325,6 +331,8 @@ const Services = (props) => {
                     href="/Digital-Activation-Services"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />
@@ -359,6 +367,8 @@ const Services = (props) => {
                     href="/Photography"
                     className="unsetAll"
                     onClick={() => window.scrollTo(0, 0)}
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     <span className="commonViewAll">View Our Projects</span>
                     <Icon icon="clarity:arrow-line" />

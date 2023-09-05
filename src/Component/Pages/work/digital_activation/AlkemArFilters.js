@@ -189,7 +189,7 @@ const AlkemArFilters = (props) => {
                     alt="work"
                   />
                 </div>
-                <h2 className="colorBlack fw-800">Ar Filers</h2>
+                <h2 className="colorBlack fw-800"> Alkem Ar Filers</h2>
                 <span className="colorGrey fw-400">
                   Ar Filter Design & Development
                 </span>

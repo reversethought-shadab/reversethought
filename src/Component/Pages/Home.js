@@ -339,6 +339,8 @@ const Home = (props) => {
             href="/our-work"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View All Projects</span>
             <Icon icon="clarity:arrow-line" />
