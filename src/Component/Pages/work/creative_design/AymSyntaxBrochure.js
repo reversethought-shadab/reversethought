@@ -242,7 +242,7 @@ const AymSyntexBrochure = (props) => {
                   </a>
                   <img src="/images/cards/Creative/scaling.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">AYM Leaf Lets</h2>
+                <h2 className="colorBlack fw-800">AYM Leaflets</h2>
                 <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>
