@@ -99,6 +99,8 @@ const AymSyntex = (props) => {
                 to="https://www.aymsyntex.com/"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />

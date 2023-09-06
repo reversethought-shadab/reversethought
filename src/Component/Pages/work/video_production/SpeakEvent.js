@@ -101,6 +101,8 @@ const SpeakEvent = (props) => {
                 to="https://www.youtube.com/watch?v=vKkmBCRFWYQ"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />

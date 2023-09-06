@@ -98,6 +98,8 @@ const Local2030 = (props) => {
                 to="https://www.local2030.org/"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />

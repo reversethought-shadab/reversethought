@@ -104,17 +104,18 @@ const McDowellNo1 = (props) => {
               <div className="d-flex align-items-center customGap">
                 {/* <div> */}
                 <img
-                  src="/images/our-work/mcdowell-2.svg"
+                  src="/images/thumbnails/all_projects/mcd.jpg"
                   alt="mcdowell"
                   className="img-fluid w-100 wow animate__animated animate__fadeInRight"
+                  style={{ height: "500px", width: "315px" }}
                 />
                 {/* </div> */}
                 {/* <div> */}
-                <img
+                {/* <img
                   src="/images/our-work/mcdowell-1.svg"
                   alt="mcdowell"
                   className="img-fluid w-100 m-0 wow animate__animated animate__fadeInRight"
-                />
+                /> */}
                 {/* </div> */}
               </div>
             </div>

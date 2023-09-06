@@ -101,6 +101,8 @@ const DHCInternational = (props) => {
                 to="https://www.youtube.com/watch?v=4CAbI5WQNis&list=PLxUEiGuaWBw9Ny5EajTgz5z0zdVt1YgCb"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />

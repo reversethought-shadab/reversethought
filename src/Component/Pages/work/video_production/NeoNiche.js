@@ -101,6 +101,8 @@ const NeoNiche = (props) => {
                 to="https://www.youtube.com/watch?v=zg_yrClb_mQ"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />

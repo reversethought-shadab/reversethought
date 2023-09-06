@@ -101,6 +101,8 @@ const WelspunBKG = (props) => {
                 to="http://youtube.com/watch?v=4afBNIp1uGQ"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />

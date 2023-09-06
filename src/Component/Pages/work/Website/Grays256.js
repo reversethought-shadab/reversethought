@@ -98,6 +98,8 @@ const Grays256 = (props) => {
                 to="https://www.256grays.com/"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />

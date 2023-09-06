@@ -98,6 +98,8 @@ const I2M = (props) => {
                 to="https://www.bizdesignlab.com/lab.html"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />

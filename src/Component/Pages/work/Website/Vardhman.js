@@ -52,7 +52,7 @@ const Vardhman = (props) => {
       <section className="ourWork">
         <div className="content_container">
           <h1 className="projectHeading colorBlack fw-800 text-center wow animate__animated animate__fadeIn">
-            Vardhman Website
+            Vardhman
           </h1>
           <img
             src="/images/our-work/vardhman/mainv.svg"
@@ -98,6 +98,8 @@ const Vardhman = (props) => {
                 to="https://www.vardhman.com/"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />

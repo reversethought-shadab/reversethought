@@ -101,6 +101,8 @@ const RockmanValuesFilm = (props) => {
                 to="https://www.youtube.com/watch?v=dboRWFOiiJA&list=PLxUEiGuaWBw9Ny5EajTgz5z0zdVt1YgCb"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />
@@ -110,7 +112,7 @@ const RockmanValuesFilm = (props) => {
               <div className="row m-0 imageView">
                 <div className="col-12 p-0 text-start imageViewL wow animate__animated animate__fadeInRight">
                   <img
-                    src="/images/our-work/videography/rockmanvalue/image245.png"
+                    src="/images/our-work/videography/rockmanvalue/rvf2.png"
                     alt="CSR-1"
                     className="img-fluid w-100"
                   />

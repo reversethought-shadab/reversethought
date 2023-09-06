@@ -265,7 +265,7 @@ const WebService = (props) => {
         onMouseLeave={props.mouseLeaveOnBlack}
       >
         <div className="content_container">
-          <h2 className="sectionHead colorWhite fw-800 wow">
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
             <img src="/images/icons/line-white.svg" alt="line" />
             Our Expertise
           </h2>
@@ -361,7 +361,7 @@ const WebService = (props) => {
               </p>
             </Accordion>
           </div>
-          <h2 className="sectionHead colorWhite fw-800 wow">
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
             <img src="/images/icons/line-white.svg" alt="line" />
             Why Choose Us
           </h2>
@@ -514,8 +514,6 @@ const WebService = (props) => {
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     View Projects &nbsp;
                     <img
@@ -536,8 +534,6 @@ const WebService = (props) => {
                   <a
                     href="/malik-architecture"
                     className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
                   >
@@ -562,8 +558,6 @@ const WebService = (props) => {
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
                   >
                     View Projects &nbsp;
                     <img
@@ -584,8 +578,6 @@ const WebService = (props) => {
                   <a
                     href="/texprocile"
                     className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
                   >

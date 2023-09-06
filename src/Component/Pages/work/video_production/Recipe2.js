@@ -97,7 +97,13 @@ const Recipe2 = (props) => {
                   <span className="colorGrey fw-400">Sony Camera</span>
                 </div>
               </div>
-              <Link to="/" className="unsetAll" target="_blank">
+              <Link
+                to="/"
+                className="unsetAll"
+                target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />
               </Link>

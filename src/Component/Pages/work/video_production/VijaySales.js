@@ -101,6 +101,8 @@ const VijaySales2 = (props) => {
                 to="https://www.youtube.com/watch?v=AQ9rj-QaC1Q"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />

@@ -101,6 +101,8 @@ const SpeakHealth = (props) => {
                 to="https://www.youtube.com/watch?v=_2GVdjVj4zY"
                 className="unsetAll"
                 target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
               >
                 <span className="commonViewAll">Check Videos</span>
                 <Icon icon="clarity:arrow-line" />

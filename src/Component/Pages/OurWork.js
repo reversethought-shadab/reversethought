@@ -178,14 +178,14 @@ const OurWork = (props) => {
                 >
                   <div className="project_box wow animate__animated animate__fadeInUp">
                     <img
-                      src="/images/thumbnails/all_projects/aym2.webp"
+                      src="/images/thumbnails/all_projects/aymwebsite.jpg"
                       alt="Project"
                       className="img-fluid w-100"
                     />
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          Aym Syntex <br />
+                          AYM <br />
                         </h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
@@ -540,7 +540,6 @@ const OurWork = (props) => {
                     </div>
                   </div>
                 </a>
-
                 <a
                   href="/dorado-ivory"
                   onMouseEnter={props.onMouseEnter}
@@ -589,7 +588,9 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">Tiger</h2>
-                        <p className="proj_type text-black">Video production</p>
+                        <p className="proj_type text-black">
+                          Digital Marketing
+                        </p>
                       </div>
                       <div className="bottom_overview">
                         <a
@@ -733,7 +734,7 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          Aym Syntex <br />
+                          AYM <br />
                         </h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
@@ -1050,7 +1051,7 @@ const OurWork = (props) => {
                   </div>
                 </a>
                 <a
-                  href="/texprocile"
+                  href="/texprocil"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -1067,7 +1068,7 @@ const OurWork = (props) => {
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/texprocile"
+                          href="/texprocil"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -1424,7 +1425,7 @@ const OurWork = (props) => {
                   </div>
                 </a>
                 <a
-                  href="/vijay-sale"
+                  href="/vijay-sales2"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -1443,7 +1444,7 @@ const OurWork = (props) => {
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/vijay-sales"
+                          href="/vijay-sales2"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -1923,7 +1924,7 @@ const OurWork = (props) => {
                   </div>
                 </a>
                 <a
-                  href="/vijay-sales2"
+                  href="/vijay-sales"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -1940,7 +1941,7 @@ const OurWork = (props) => {
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/vijay-sales2"
+                          href="/vijay-sales"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >

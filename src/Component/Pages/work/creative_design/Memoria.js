@@ -224,7 +224,7 @@ const Memoria = (props) => {
                   </a>
                   <img src="/images/cards/Creative/empower.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">TATA CSR Report</h2>
+                <h2 className="colorBlack fw-800">Tata CSR Report</h2>
                 <span className="colorGrey fw-400">Creative Design</span>
               </div>
             </div>

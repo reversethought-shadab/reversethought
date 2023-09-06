@@ -218,7 +218,7 @@ const CreativeServices = (props) => {
         onMouseLeave={props.mouseLeaveOnBlack}
       >
         <div className="content_container">
-          <h2 className="sectionHead colorWhite fw-800 wow">
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
             <img src="/images/icons/line-white.svg" alt="line" />
             Our Expertise
           </h2>
@@ -313,7 +313,7 @@ const CreativeServices = (props) => {
               </p>
             </Accordion>
           </div>
-          <h2 className="sectionHead colorWhite fw-800 wow">
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
             <img src="/images/icons/line-white.svg" alt="line" />
             Why Choose Us
           </h2>
