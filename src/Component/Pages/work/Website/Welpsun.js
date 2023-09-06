@@ -52,7 +52,7 @@ const Welpsun = (props) => {
       <section className="ourWork">
         <div className="content_container">
           <h1 className="projectHeading colorBlack fw-800 text-center wow animate__animated animate__fadeIn">
-            Welpsun
+            Welspun
           </h1>
           <img
             src="/images/our-work/websites/welpsun/OnPaste1.svg"
@@ -152,7 +152,7 @@ const Welpsun = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
+          <h2 className="sectionHead colorBlack  fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -161,7 +161,7 @@ const Welpsun = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/welspunGroup"
+                    href="/welspun"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -175,7 +175,7 @@ const Welpsun = (props) => {
                   </a>
                   <img src="/images/cards/web/welpsunindia.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welpsun Group</h2>
+                <h2 className="colorBlack fw-800">Welpsun</h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

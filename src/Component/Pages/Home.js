@@ -243,7 +243,7 @@ const Home = (props) => {
 
             <div className="projectsGalleryR">
               <a
-                href="/welspunGroup"
+                href="/welspun"
                 onMouseEnter={props.onMouseEnter}
                 onMouseLeave={props.onMouseLeave}
               >
@@ -255,12 +255,12 @@ const Home = (props) => {
                   />
                   <div className="project_overview">
                     <div className="top_overview">
-                      <h2 className="proj_name text-dark">Welspun Group</h2>
+                      <h2 className="proj_name text-dark">Welspun </h2>
                       <p className="proj_type  text-dark">Web Development</p>
                     </div>
                     <div className="bottom_overview">
                       <a
-                        href="/welspunGroup"
+                        href="/welspun"
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >

@@ -477,7 +477,7 @@ const OurWork = (props) => {
 
               <div className="projectsGalleryR">
                 <a
-                  href="/welspunGroup"
+                  href="/welspun"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -489,12 +489,12 @@ const OurWork = (props) => {
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">Welspun Group</h2>
+                        <h2 className="proj_name text-black">Welspun </h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/welspunGroup"
+                          href="/welspun"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -806,7 +806,7 @@ const OurWork = (props) => {
                           <br />
                           Logistics
                         </h2>
-                        <p className="proj_type text-black">Logistics</p>
+                        <p className="proj_type text-black">Web Development </p>
                       </div>
                       <div className="bottom_overview">
                         <a
@@ -954,7 +954,7 @@ const OurWork = (props) => {
 
               <div className="projectsGalleryR">
                 <a
-                  href="/welspunGroup"
+                  href="/welspun"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -966,12 +966,12 @@ const OurWork = (props) => {
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">Welspun Group</h2>
+                        <h2 className="proj_name text-black">Welspun </h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/welspunGroup"
+                          href="/welspun"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >

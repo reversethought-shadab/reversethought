@@ -352,7 +352,7 @@ function App() {
             }
           />
           <Route
-            path="/welpsun"
+            path="/welspun"
             element={
               <Welpsun
                 onMouseEnterSmall={handleMouseEnterRedSmall}

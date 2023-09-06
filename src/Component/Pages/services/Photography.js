@@ -545,6 +545,124 @@ const FilmsService = (props) => {
           </a>
         </div>
       </section> */}
+      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800">
+            <img src="/images/icons/line.svg" alt="line" />
+            More Works
+          </h2>
+          <Slider {...settings}>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/commercial"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/commercial.png" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Commercial</h2>
+                <span className="colorGrey fw-400">Photography</span>
+              </div>
+            </div>
+            {/* <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="#"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/digital_activation/alkemar/Maskgroup2.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Ar Filers</h2>
+                <span className="colorGrey fw-400">
+                  Ar Filter Design & Development
+                </span>
+              </div>
+            </div> */}
+            {/* <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="#"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img
+                    src="/images/our-work/digital_activation/alkemar/Maskgroup1.svg"
+                    alt="work"
+                  />
+                </div>
+                <h2 className="colorBlack fw-800">Canadian Woods</h2>
+                <span className="colorGrey fw-400">
+                  Ar Filter Design & Development
+                </span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="#"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/work.png" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Malikh Architecture</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div> */}
+          </Slider>
+          <Link
+            to="/our-work"
+            className="unsetAll"
+            onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
+          >
+            <span className="commonViewAll">View Our Projects</span>
+            <Icon icon="clarity:arrow-line" />
+          </Link>
+        </div>
+      </section>
     </>
   );
 };

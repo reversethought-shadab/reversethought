@@ -162,7 +162,7 @@ const Texprocile = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/welspunGroup"
+                    href="/welspun"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -176,7 +176,7 @@ const Texprocile = (props) => {
                   </a>
                   <img src="/images/cards/web/welpsunindia.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Welpsun Group</h2>
+                <h2 className="colorBlack fw-800">Welpsun </h2>
                 <span className="colorGrey fw-400">Website Design</span>
               </div>
             </div>

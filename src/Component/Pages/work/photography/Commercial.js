@@ -55,7 +55,7 @@ const Commercial = (props) => {
             Commercial
           </h1>
           <img
-            src="/images/our-work/photography/commercial/main.svg"
+            src="/images/our-work/photography/commercial/main.png"
             alt="Commercial"
             className="img-fluid wow animate__animated animate__fadeIn"
           />
@@ -90,7 +90,7 @@ const Commercial = (props) => {
             <div className="gridSystemInner">
               <div className="d-flex customGap">
                 <img
-                  src="/images/our-work/photography/commercial/101.svg"
+                  src="/images/our-work/photography/commercial/small.png"
                   alt="photography"
                   className="img-fluid w-100 wow animate__animated animate__fadeInRight"
                 />
@@ -119,24 +119,19 @@ const Commercial = (props) => {
           <div className="row m-0">
             <div className="col-12 p-0 fullWidth wow animate__animated animate__slideInDown">
               <img
-                src="/images/our-work/photography/commercial/100.svg"
+                src="/images/our-work/photography/commercial/bigone.png"
                 alt="service1"
                 className="w-100 "
               />
               <img
-                src="/images/our-work/photography/commercial/102.svg"
+                src="/images/our-work/photography/commercial/bigtwo.png"
                 alt="service1"
                 className="w-100 my-3 "
               />
               <img
-                src="/images/our-work/photography/commercial/103.svg"
+                src="/images/our-work/photography/commercial/bigthree.png"
                 alt="service1"
                 className="w-100 my-3 "
-              />
-              <img
-                src="/images/our-work/photography/commercial/1031.svg"
-                alt="service1"
-                className="w-100 "
               />
             </div>
           </div>
