@@ -4137,13 +4137,13 @@ header.blackBg {
   }
 }
 .serviceImageSection .leftImg img {
-  padding-right: 3.074670571vw;
+  padding-right: 2.0497803807vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (min-width: 1440px) {
   .serviceImageSection .leftImg img {
-    padding-right: 42px;
+    padding-right: 28px;
   }
 }
 .serviceImageSection .rightImg img:nth-child(1) {

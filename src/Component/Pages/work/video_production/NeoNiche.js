@@ -54,16 +54,22 @@ const NeoNiche = (props) => {
           <h1 className="projectHeading colorBlack fw-800 text-center wow animate__animated animate__fadeIn">
             Neo Niche
           </h1>
-          <div className="position-relative wow animate__animated animate__fadeIn">
-            <div className="playButton">
-              <Icon icon="ph:play-fill" />
+          <a
+            href="https://www.youtube.com/watch?v=zg_yrClb_mQ"
+            onMouseEnter={props.onMouseEnter}
+            onMouseLeave={props.onMouseLeave}
+          >
+            <div className="position-relative wow animate__animated animate__fadeIn">
+              <div className="playButton">
+                <Icon icon="ph:play-fill" />
+              </div>
+              <img
+                src="/images/our-work/videography/neoniche/214.svg"
+                alt="Neo Niche"
+                className="img-fluid w-100"
+              />
             </div>
-            <img
-              src="/images/our-work/videography/neoniche/214.svg"
-              alt="Neo Niche"
-              className="img-fluid w-100"
-            />
-          </div>
+          </a>
           <div className="gridSystem">
             <div className="gridSystemInner">
               <h2 className="colorRed fw-800 wow animate__animated animate__fadeIn">

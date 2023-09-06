@@ -4040,10 +4040,10 @@ header.blackBg {
   }
   .leftImg {
     img {
-      padding-right: 42 * $desk + vw;
+      padding-right: 28 * $desk + vw;
       object-fit: cover;
       @media #{$md_lg_desk} {
-        padding-right: 42px;
+        padding-right:28px;
       }
     }
   }

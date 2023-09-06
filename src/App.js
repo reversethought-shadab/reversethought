@@ -348,6 +348,8 @@ function App() {
               <Vardhman
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -366,6 +368,8 @@ function App() {
               <AlkemLaboratories
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -375,6 +379,8 @@ function App() {
               <CanadianWoods
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -384,6 +390,8 @@ function App() {
               <DHCInternational
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -393,6 +401,8 @@ function App() {
               <DHCInternationalTeaser
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -402,6 +412,8 @@ function App() {
               <DodhiaChemicals
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -411,6 +423,8 @@ function App() {
               <DodhiaCorporateFilm
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -420,6 +434,8 @@ function App() {
               <DodhiaTextiles
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -465,6 +481,8 @@ function App() {
               <DoradoIvory
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -474,6 +492,8 @@ function App() {
               <IciciPrundentialLifeInsurance
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -483,6 +503,8 @@ function App() {
               <ISolus
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -492,6 +514,8 @@ function App() {
               <JesonsTechCentre
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -501,6 +525,8 @@ function App() {
               <KukuFm
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -510,6 +536,8 @@ function App() {
               <NeoNiche
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -519,6 +547,8 @@ function App() {
               <QR678
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -528,6 +558,8 @@ function App() {
               <Recipe2
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -537,6 +569,8 @@ function App() {
               <Recipe
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -546,6 +580,8 @@ function App() {
               <RockmanAdvancedComp
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -555,6 +591,8 @@ function App() {
               <RockmanIndustries
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -564,6 +602,8 @@ function App() {
               <RockmanValuesFilm
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -572,6 +612,8 @@ function App() {
             element={
               <SpeakHealth
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -582,6 +624,8 @@ function App() {
               <SpeakHealthDigital
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -591,6 +635,8 @@ function App() {
               <SpeakEvent
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -600,6 +646,8 @@ function App() {
               <VijaySales2
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -608,6 +656,8 @@ function App() {
             element={
               <VijaySales
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -645,6 +695,8 @@ function App() {
               <Vardhman
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />

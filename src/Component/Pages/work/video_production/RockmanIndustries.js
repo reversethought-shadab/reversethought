@@ -54,16 +54,22 @@ const RockmanIndustries = (props) => {
           <h1 className="projectHeading colorBlack fw-800 text-center wow animate__animated animate__fadeIn">
             Rockman Industries
           </h1>
-          <div className="position-relative wow animate__animated animate__fadeIn">
-            <div className="playButton">
-              <Icon icon="ph:play-fill" />
+          <a
+            href="https://www.youtube.com/watch?v=wQpzrXo2_NQ&list=PLxUEiGuaWBw9Ny5EajTgz5z0zdVt1YgCb"
+            onMouseEnter={props.onMouseEnter}
+            onMouseLeave={props.onMouseLeave}
+          >
+            <div className="position-relative wow animate__animated animate__fadeIn">
+              <div className="playButton">
+                <Icon icon="ph:play-fill" />
+              </div>
+              <img
+                src="/images/our-work/videography/rockmanindustries/243.svg"
+                alt="rockman"
+                className="img-fluid w-100"
+              />
             </div>
-            <img
-              src="/images/our-work/videography/rockmanindustries/243.svg"
-              alt="rockman"
-              className="img-fluid w-100"
-            />
-          </div>
+          </a>
           <div className="gridSystem">
             <div className="gridSystemInner">
               <h2 className="colorRed fw-800 wow animate__animated animate__fadeIn">

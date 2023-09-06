@@ -54,11 +54,23 @@ const Vardhman = (props) => {
           <h1 className="projectHeading colorBlack fw-800 text-center wow animate__animated animate__fadeIn">
             Vardhman
           </h1>
-          <img
-            src="/images/our-work/vardhman/mainv.svg"
-            alt="elleys-electrics"
-            className="img-fluid wow animate__animated animate__fadeIn"
-          />
+          <a
+            href="https://youtu.be/bdZZSjFKszs?si=ACZlBWsAhA6MbiZ4"
+            onMouseEnter={props.onMouseEnter}
+            onMouseLeave={props.onMouseLeave}
+          >
+            <div className="position-relative wow animate__animated animate__fadeIn">
+              <div className="playButton">
+                <Icon icon="ph:play-fill" />
+              </div>
+              <img
+                src="/images/our-work/vardhman/mainv.svg"
+                alt="vardhman"
+                className="img-fluid w-100"
+              />
+            </div>
+          </a>
+
           <div className="gridSystem">
             <div className="gridSystemInner">
               <h2 className="colorRed fw-800 wow animate__animated animate__fadeIn">
@@ -72,38 +84,51 @@ const Vardhman = (props) => {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur.
               </p>
-              <div className="row m-0 briefDetails wow animate__animated animate__fadeIn">
-                <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
-                  <h4 className="colorBlack fw-800">Client</h4>
-                  <span className="colorGrey fw-400">Vardhman</span>
-                </div>
-                <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
-                  <h4 className="colorBlack fw-800">Industry</h4>
-                  <span className="colorGrey fw-400">Textile</span>
-                </div>
-                <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
-                  <h4 className="colorBlack fw-800">Work</h4>
-                  <span className="colorGrey fw-400">
-                    Web design and Development
-                  </span>
-                </div>
-                <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
-                  <h4 className="colorBlack fw-800">Technology</h4>
-                  <span className="colorGrey fw-400">
-                    HTML5, PHP, CSS3, JS, MySQL
-                  </span>
+              <div className="gridSystem">
+                <div className="gridSystemInner">
+                  <h2 className="colorRed fw-800 wow animate__animated animate__fadeIn">
+                    Brief
+                  </h2>
+                  <p className="colorGrey fw-400 wow animate__animated animate__fadeInLeft">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                  <div className="row m-0 briefDetails wow animate__animated animate__fadeIn">
+                    <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
+                      <h4 className="colorBlack fw-800">Client</h4>
+                      <span className="colorGrey fw-400">Vardhman</span>
+                    </div>
+                    <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
+                      <h4 className="colorBlack fw-800">Industry</h4>
+                      <span className="colorGrey fw-400">Corporate</span>
+                    </div>
+                    <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
+                      <h4 className="colorBlack fw-800">Work</h4>
+                      <span className="colorGrey fw-400">
+                        Video Production & Still Photography
+                      </span>
+                    </div>
+                    <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
+                      <h4 className="colorBlack fw-800">Technology</h4>
+                      <span className="colorGrey fw-400">Sony Camera</span>
+                    </div>
+                  </div>
+                  <Link
+                    to="https://youtu.be/bdZZSjFKszs?si=ACZlBWsAhA6MbiZ4"
+                    className="unsetAll"
+                    target="_blank"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    <span className="commonViewAll">Check Videos</span>
+                    <Icon icon="clarity:arrow-line" />
+                  </Link>
                 </div>
               </div>
-              <Link
-                to="https://www.vardhman.com/"
-                className="unsetAll"
-                target="_blank"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
-              >
-                <span className="commonViewAll">Check website</span>
-                <Icon icon="clarity:arrow-line" />
-              </Link>
             </div>
             <div className="gridSystemInner">
               <div className="d-flex customGap">
@@ -171,7 +196,7 @@ const Vardhman = (props) => {
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/i2m"
+                    href="/canadian-woods"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -183,17 +208,17 @@ const Vardhman = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/web/i2m.jpg" alt="work" />
+                  <img src="/images/cards/video/cw.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">I2M</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">Canadian Woods</h2>
+                <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/malik-architecture"
+                    href="/DHCinternational"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -205,17 +230,17 @@ const Vardhman = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/web/malik.jpg" alt="work" />
+                  <img src="/images/cards/video/DHCI.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">DHC International</h2>
+                <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/notandas"
+                    href="/dorado-ivory"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -227,34 +252,13 @@ const Vardhman = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/web/notandas.jpg" alt="work" />
+                  <img src="/images/cards/video/dorado.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Notandas</h2>
-                <span className="colorGrey fw-400">Website Design</span>
+                <h2 className="colorBlack fw-800">Dorado Ivory</h2>
+                <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/texprocil"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/web/texprocile.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Texprocile</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
+            <div></div>
           </Slider>
 
           <Link

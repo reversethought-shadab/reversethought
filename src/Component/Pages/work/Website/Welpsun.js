@@ -135,7 +135,7 @@ const Welpsun = (props) => {
             </div>
             <div className="col-sm-6 p-0 leftImg wow animate__animated animate__slideInLeft">
               <img
-                src="/images/our-work/websites/welpsun/012.svg"
+                src="/images/our-work/websites/welpsun/long.png"
                 alt="service2"
                 className="w-100 h-100"
               />
