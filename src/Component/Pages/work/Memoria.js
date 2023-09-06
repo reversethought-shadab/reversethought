@@ -79,35 +79,27 @@ const Memoria = (props) => {
                 </div>
                 <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
                   <h4 className="colorBlack fw-800">Industry</h4>
-                  <span className="colorGrey fw-400">Corporate</span>
+                  <span className="colorGrey fw-400">Restaurant</span>
                 </div>
                 <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
                   <h4 className="colorBlack fw-800">Work</h4>
-                  <span className="colorGrey fw-400">
-                    Web design and Development
-                  </span>
-                </div>
-                <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
-                  <h4 className="colorBlack fw-800">Technology</h4>
-                  <span className="colorGrey fw-400">
-                    HTML5, PHP, CSS3, JS, MySQL
-                  </span>
+                  <span className="colorGrey fw-400">Creative Design</span>
                 </div>
               </div>
-              <Link
+              {/* <Link
                 to="/https://www.memoriagroup.in/"
                 className="unsetAll"
                 target="_blank"
               >
                 <span className="commonViewAll">Check website</span>
                 <Icon icon="clarity:arrow-line" />
-              </Link>
+              </Link> */}
             </div>
             <div className="gridSystemInner">
               <div className="d-flex customGap">
                 <img
-                  src="/images/our-work/memoria-2.svg"
-                  alt="elleys-1"
+                  src="/images/our-work/creative_design/mside.png"
+                  alt="Memoria"
                   className="img-fluid w-100 wow animate__animated animate__fadeInRight"
                 />
                 {/* <img

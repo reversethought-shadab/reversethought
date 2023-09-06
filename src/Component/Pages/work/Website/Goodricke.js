@@ -160,7 +160,7 @@ const Goodricke = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800">
+          <h2 className="sectionHead colorBlack wow fw-800">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
