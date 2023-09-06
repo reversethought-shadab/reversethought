@@ -49,6 +49,7 @@ import DodhiaTextiles from "./Component/Pages/work/video_production/DodhiaTextil
 import DoradoIvory from "./Component/Pages/work/video_production/DoradoIvory";
 import IciciPrundentialLifeInsurance from "./Component/Pages/work/video_production/IciciPrudentialLifeInsurance";
 import ISolus from "./Component/Pages/work/video_production/ISolus";
+import Vardhmaan from "./Component/Pages/work/video_production/Vardhman";
 import JesonsTechCentre from "./Component/Pages/work/video_production/JesonsTechCentre";
 import KukuFm from "./Component/Pages/work/video_production/KukuFm";
 import NeoNiche from "./Component/Pages/work/video_production/NeoNiche";
@@ -701,6 +702,17 @@ function App() {
             }
           />
           <Route
+            path="/vardhman2"
+            element={
+              <Vardhmaan
+                onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              />
+            }
+          />
+          <Route
             path="/aym-syntex"
             element={
               <AymSyntex
@@ -941,6 +953,8 @@ function App() {
             element={
               <WelspunGroup
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -951,6 +965,8 @@ function App() {
               <WelspunCSR
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
             }
           />
@@ -959,6 +975,8 @@ function App() {
             element={
               <WelspunGroupCorpFilm
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -968,6 +986,8 @@ function App() {
             element={
               <WelspunBKG
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }

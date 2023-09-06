@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import WOW from "wowjs";
 import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
+import WOW from "wowjs";
 
-const OneGamingArcade = (props) => {
+const Vardhman = (props) => {
   useEffect(() => {
     const wow = new WOW.WOW({
       live: false,
@@ -52,13 +52,24 @@ const OneGamingArcade = (props) => {
       <section className="ourWork">
         <div className="content_container">
           <h1 className="projectHeading colorBlack fw-800 text-center wow animate__animated animate__fadeIn">
-            One Gaming Arcade
+            Vardhman
           </h1>
-          <img
-            src="/images/our-work/gaming/mainbanner.svg"
-            alt="Gaming banner"
-            className="img-fluid wow animate__animated animate__fadeIn"
-          />
+          <a
+            href="https://youtu.be/bdZZSjFKszs?si=ACZlBWsAhA6MbiZ4"
+            onMouseEnter={props.onMouseEnter}
+            onMouseLeave={props.onMouseLeave}
+          >
+            <div className="position-relative wow animate__animated animate__fadeIn">
+              <div className="playButton">
+                <Icon icon="ph:play-fill" />
+              </div>
+              <img
+                src="/images/our-work/videography/vardhman/1st.png"
+                alt="vardhman"
+                className="img-fluid w-100"
+              />
+            </div>
+          </a>
           <div className="gridSystem">
             <div className="gridSystemInner">
               <h2 className="colorRed fw-800 wow animate__animated animate__fadeIn">
@@ -75,33 +86,50 @@ const OneGamingArcade = (props) => {
               <div className="row m-0 briefDetails wow animate__animated animate__fadeIn">
                 <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
                   <h4 className="colorBlack fw-800">Client</h4>
-                  <span className="colorGrey fw-400">One Gaming Arcade</span>
+                  <span className="colorGrey fw-400">Vardhman </span>
                 </div>
                 <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInLeft">
                   <h4 className="colorBlack fw-800">Industry</h4>
-                  <span className="colorGrey fw-400">Gaming</span>
+                  <span className="colorGrey fw-400">Video Production</span>
                 </div>
                 <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
                   <h4 className="colorBlack fw-800">Work</h4>
                   <span className="colorGrey fw-400">
-                    Creative Design & Digital Marketing
+                    Video Production & Still Photography
                   </span>
                 </div>
+                <div className="col-sm-6 p-0 briefDetailsInner wow animate__animated animate__fadeInRight">
+                  <h4 className="colorBlack fw-800">Technology</h4>
+                  <span className="colorGrey fw-400">Sony Camera</span>
+                </div>
               </div>
+              <Link
+                to="https://youtu.be/bdZZSjFKszs?si=ACZlBWsAhA6MbiZ4"
+                className="unsetAll"
+                target="_blank"
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                <span className="commonViewAll">Check Videos</span>
+                <Icon icon="clarity:arrow-line" />
+              </Link>
             </div>
             <div className="gridSystemInner">
-              <div className="d-flex customGap">
-                <img
-                  src="/images/our-work/gaming/ssc2.svg"
-                  alt="gaming"
-                  className="img-fluid w-100 wow animate__animated animate__fadeInRight"
-                />
-                <img
-                  src="/images/our-work/gaming/ssc.svg"
-                  alt="gaming"
-                  className="img-fluid w-100 wow animate__animated animate__fadeInRight  animate__delay-0.9s"
-                  style={{ marginTop: 220 }}
-                />
+              <div className="row m-0 imageView">
+                <div className="col-12 p-0 text-start imageViewL wow animate__animated animate__fadeInRight">
+                  <img
+                    src="/images/our-work/videography/vardhman/2nd.png"
+                    alt="CSR-1"
+                    className="img-fluid w-100"
+                  />
+                </div>
+                <div className="col-12 p-0 text-end imageViewR wow animate__animated animate__fadeInRight">
+                  <img
+                    src="/images/our-work/videography/vardhman/3rd.png"
+                    alt="CSR-2"
+                    className="img-fluid w-100"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -114,12 +142,33 @@ const OneGamingArcade = (props) => {
         onMouseLeave={props.mouseLeaveOnBlack}
       >
         <div className="content_container">
-          <div className="row m-0">
-            <div className="col-12 p-0 fullWidth wow animate__animated animate__slideInDown">
+          <div className="row m-0 zigZagImageSection">
+            <div className="col-12 p-0 zigZagImageSection1 wow animate__animated animate__fadeInRight">
               <img
-                src="/images/our-work/gaming/secondbanner.svg"
-                alt="service1"
-                className="w-100"
+                src="/images/our-work/videography/vardhman/4th.png"
+                alt="CSR"
+                className="img-fluid w-100"
+              />
+            </div>
+            <div className="col-12 p-0 text-end zigZagImageSection2 wow animate__animated animate__fadeInLeft">
+              <img
+                src="/images/our-work/videography/vardhman/5th.png"
+                alt="CSR"
+                className="img-fluid w-100"
+              />
+            </div>
+            <div className="col-12 p-0 zigZagImageSection3 wow animate__animated animate__fadeInRight">
+              <img
+                src="/images/our-work/videography/vardhman/6th.png"
+                alt="CSR"
+                className="img-fluid w-100"
+              />
+            </div>
+            <div className="col-12 p-0 text-end zigZagImageSection4 wow animate__animated animate__fadeInLeft">
+              <img
+                src="/images/our-work/videography/vardhman/7th.png"
+                alt="CSR"
+                className="img-fluid w-100"
               />
             </div>
           </div>
@@ -128,55 +177,11 @@ const OneGamingArcade = (props) => {
 
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
+          <h2 className="sectionHead colorBlack wow fw-800">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
           <Slider {...settings}>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/speed-of-sound"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/digital/sos.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Speed Of Sounds</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/indusind"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/digital/indus.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">IndusInd Bank</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
@@ -193,17 +198,17 @@ const OneGamingArcade = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/digital/icici.jpg" alt="work" />
+                  <img src="/images/cards/video/icicipru.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">Icici Prundential</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
+                <h2 className="colorBlack fw-800">Icici Prudential</h2>
+                <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
             <div>
               <div className="sliderInner">
                 <div className="imgHoverEffect position-relative">
                   <a
-                    href="/icici-pension-fund"
+                    href="/recipe"
                     className="colorWhite fw-800"
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
@@ -215,13 +220,58 @@ const OneGamingArcade = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/digital/yoga.jpg" alt="work" />
+                  <img src="/images/cards/video/recipe.jpg" alt="work" />
                 </div>
-                <h2 className="colorBlack fw-800">ICICI Pension Fund</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
+                <h2 className="colorBlack fw-800">Recipe</h2>
+                <span className="colorGrey fw-400">Video Production</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/speak-event"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/video/speakevent.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Speak Event</h2>
+                <span className="colorGrey fw-400">Video Production</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/qr678"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/video/car.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">QR678</h2>
+                <span className="colorGrey fw-400">Video Production</span>
               </div>
             </div>
           </Slider>
+
           <Link
             to="/our-work"
             className="unsetAll"
@@ -238,4 +288,4 @@ const OneGamingArcade = (props) => {
   );
 };
 
-export default OneGamingArcade;
+export default Vardhman;

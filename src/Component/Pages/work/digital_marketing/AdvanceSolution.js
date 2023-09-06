@@ -217,7 +217,7 @@ const AdvanceSolution = (props) => {
                       className="img-fluid"
                     />
                   </a>
-                  <img src="/images/cards/digital/yoga.svg" alt="work" />
+                  <img src="/images/cards/digital/yoga.jpg" alt="work" />
                 </div>
                 <h2 className="colorBlack fw-800">Jindal SAW</h2>
                 <span className="colorGrey fw-400">Digital Marketing</span>

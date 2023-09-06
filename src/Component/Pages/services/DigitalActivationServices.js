@@ -140,7 +140,7 @@ const DigitalActivationServices = (props) => {
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
                   >
-                    <span className="commonViewAll">View Our Projects</span>
+                    <span className="commonViewAll">Learn More</span>
                     <Icon icon="clarity:arrow-line" />
                   </a>
                 </div>
@@ -169,7 +169,7 @@ const DigitalActivationServices = (props) => {
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
                   >
-                    <span className="commonViewAll">View Our Projects</span>
+                    <span className="commonViewAll">Learn More</span>
                     <Icon icon="clarity:arrow-line" />
                   </a>
                 </div>
@@ -198,7 +198,7 @@ const DigitalActivationServices = (props) => {
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
                   >
-                    <span className="commonViewAll">View Our Projects</span>
+                    <span className="commonViewAll">Learn More</span>
                     <Icon icon="clarity:arrow-line" />
                   </a>
                 </div>
@@ -227,7 +227,7 @@ const DigitalActivationServices = (props) => {
                     onMouseEnter={props.onMouseEnterSmall}
                     onMouseLeave={props.onMouseLeaveSmall}
                   >
-                    <span className="commonViewAll">View Our Projects</span>
+                    <span className="commonViewAll">Learn More</span>
                     <Icon icon="clarity:arrow-line" />
                   </a>
                 </div>

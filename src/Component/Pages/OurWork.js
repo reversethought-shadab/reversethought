@@ -185,7 +185,8 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          AYM <br />
+                          AYM Syntex
+                          <br />
                         </h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
@@ -390,7 +391,7 @@ const OurWork = (props) => {
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">Vardhaman</h2>
+                        <h2 className="proj_name text-black">Vardhman</h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
                       <div className="bottom_overview">
@@ -734,7 +735,7 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          AYM <br />
+                          AYM Syntex <br />
                         </h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
@@ -872,7 +873,7 @@ const OurWork = (props) => {
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">Vardhaman</h2>
+                        <h2 className="proj_name text-black">Vardhman</h2>
                         <p className="proj_type text-black">Web Development</p>
                       </div>
                       <div className="bottom_overview">
@@ -1174,7 +1175,7 @@ const OurWork = (props) => {
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/welpsunBKG"
+                          href="/welspunBKG"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -1394,7 +1395,7 @@ const OurWork = (props) => {
 
               <div className="projectsGalleryM">
                 <a
-                  href="/vardhman"
+                  href="/vardhman2"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -1411,7 +1412,7 @@ const OurWork = (props) => {
                       </div>
                       <div className="bottom_overview">
                         <a
-                          href="/vardhman"
+                          href="/vardhman2"
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
@@ -1528,7 +1529,7 @@ const OurWork = (props) => {
                   </div>
                 </a>
                 <a
-                  href="/icici-prudential"
+                  href="/icici-prundential-life-insurance"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
