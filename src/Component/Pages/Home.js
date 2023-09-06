@@ -243,7 +243,7 @@ const Home = (props) => {
 
             <div className="projectsGalleryR">
               <a
-                href="/Welspun"
+                href="/welpsun"
                 onMouseEnter={props.onMouseEnter}
                 onMouseLeave={props.onMouseLeave}
               >
