@@ -477,7 +477,7 @@ const OurWork = (props) => {
 
               <div className="projectsGalleryR">
                 <a
-                  href="/welspunGroup"
+                  href="/welspun"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
