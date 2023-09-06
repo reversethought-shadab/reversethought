@@ -477,7 +477,7 @@ const OurWork = (props) => {
 
               <div className="projectsGalleryR">
                 <a
-                  href="/welspun"
+                  href="/welspunGroup"
                   onMouseEnter={props.onMouseEnter}
                   onMouseLeave={props.onMouseLeave}
                 >
@@ -2567,7 +2567,7 @@ const OurWork = (props) => {
                     />
                     <div className="project_overview">
                       <div className="top_overview">
-                        <h2 className="proj_name text-black">AYM Leaf Lets</h2>
+                        <h2 className="proj_name text-black">AYM Leaflets</h2>
                         <p className="proj_type text-black">Creative Design</p>
                       </div>
                       <div className="bottom_overview">
