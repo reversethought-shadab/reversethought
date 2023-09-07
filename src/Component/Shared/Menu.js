@@ -143,7 +143,7 @@ const Menu = (props) => {
                   </a>
                 </li>
                 <li className="colorWhite fw-300">Blogs</li>
-                <li className="colorWhite fw-300">In news</li>
+                
                 <li className="colorWhite fw-300">
                   <a href="/contact-us" onClick={props.closeModal}>
                     Contact Us
