@@ -239,6 +239,8 @@ function App() {
             element={
               <Services
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                mouseEnterOnRed={handleMouseEnterRed}
+                mouseLeaveOnRed={handleMouseLeaveRed}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -285,6 +287,10 @@ function App() {
             element={
               <WebService
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseEnterOnRed={handleMouseEnterRed}
+                mouseLeaveOnRed={handleMouseLeaveRed}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -295,6 +301,10 @@ function App() {
               <FilmsService
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                mouseEnterOnRed={handleMouseEnterRed}
+                mouseLeaveOnRed={handleMouseLeaveRed}
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
               />
             }
           />
@@ -303,6 +313,10 @@ function App() {
             element={
               <DigitalMarketingServices
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseEnterOnRed={handleMouseEnterRed}
+                mouseLeaveOnRed={handleMouseLeaveRed}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -312,6 +326,10 @@ function App() {
             element={
               <CreativeServices
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseEnterOnRed={handleMouseEnterRed}
+                mouseLeaveOnRed={handleMouseLeaveRed}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -321,6 +339,10 @@ function App() {
             element={
               <DigitalActivationServices
                 onMouseEnterSmall={handleMouseEnterRedSmall}
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseEnterOnRed={handleMouseEnterRed}
+                mouseLeaveOnRed={handleMouseLeaveRed}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
               />
             }
@@ -331,6 +353,10 @@ function App() {
               <Photography
                 onMouseEnterSmall={handleMouseEnterRedSmall}
                 onMouseLeaveSmall={handleMouseLeaveRedSmall}
+                mouseEnterOnRed={handleMouseEnterRed}
+                mouseLeaveOnRed={handleMouseLeaveRed}
+                mouseEnterOnBlack={handleMouseEnterBlack}
+                mouseLeaveOnBlack={handleMouseLeaveBlack}
               />
             }
           />

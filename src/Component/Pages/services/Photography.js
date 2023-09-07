@@ -373,85 +373,85 @@ const FilmsService = (props) => {
             <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 CSS
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 HTML 5
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 JavaScript
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 PHP
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 Microsoft.net
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 AngularJS
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 MySQL.
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 IOS
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 Android
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 Prestashop
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 Magento
               </li>
               <li
                 className="colorWhite fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
               >
                 WordPress
               </li>

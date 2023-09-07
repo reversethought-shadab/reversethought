@@ -101,7 +101,7 @@ const Clients = (props) => {
         onMouseLeave={props.mouseLeaveOnBlack}
       >
         <div className="content_container">
-          <h2 className="sectionHead colorWhite fw-800 wow">
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
             <img src="/images/icons/line-white.svg" alt="line" />
             What people say
           </h2>
@@ -237,11 +237,13 @@ const Clients = (props) => {
               />
               <p className="colorBlack fw-800">Css Design Winner</p>
             </div>
+
             <div className="gridSystemInner text-center wow">
               <img
-                src="/images/achievements/achievement-1.svg"
+                src="/images/achievements/achievement-2.svg"
                 alt="achievements"
                 className="img-fluid"
+                style={{ height: "25px" }}
               />
               <p className="colorBlack fw-800">Oscars of Indian Ad Awards</p>
             </div>
@@ -250,16 +252,12 @@ const Clients = (props) => {
                 src="/images/achievements/achievement-2.svg"
                 alt="achievements"
                 className="img-fluid"
+                style={{ height: "25px" }}
               />
               <p className="colorBlack fw-800">Oscars of Indian Ad Awards</p>
             </div>
           </div>
           <div className="creativeThoughts position-relative">
-            <img
-              src="/images/icons/circle-l.svg"
-              alt="circle-l"
-              className="wow animate__animated animate__rotateIn"
-            />
             <div className="colorBlack fw-800 company">
               <p className="mb-0 wow">
                 <span>Reverse Thought</span> creates
