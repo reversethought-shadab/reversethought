@@ -2716,80 +2716,6 @@ header.blackBg {
   text-decoration: none;
 }
 
-.aboutscroll {
-  padding: 8.7115666179vw 0 8.7115666179vw;
-}
-.aboutscroll .sliderInnerabout {
-  margin-right: 1.4641288433vw;
-}
-.aboutscroll .sliderInnerabout img {
-  width: 100%;
-  height: 26.3543191801vw;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.aboutscroll .sectionHead {
-  padding-bottom: 5.4904831625vw;
-}
-.aboutscroll .slick-next,
-.aboutscroll .slick-prev {
-  width: 4.0995607613vw;
-  height: 4.0995607613vw;
-  background: #000;
-  border-radius: 100%;
-  z-index: 9;
-  top: -4.2459736457vw;
-}
-@media (min-width: 1440px) {
-  .aboutscroll .slick-next,
-  .aboutscroll .slick-prev {
-    width: 56px;
-    height: 56px;
-  }
-}
-@media (max-width: 576px) {
-  .aboutscroll .slick-next,
-  .aboutscroll .slick-prev {
-    display: none;
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-.aboutscroll .slick-prev {
-  right: 13.5431918009vw;
-  left: unset;
-}
-@media (min-width: 1440px) {
-  .aboutscroll .slick-prev {
-    right: 185px;
-  }
-}
-.aboutscroll .slick-prev::before {
-  content: url("https://api.iconify.design/ooui/next-rtl.svg?color=white");
-}
-.aboutscroll .slick-next {
-  right: 7.2474377745vw;
-}
-@media (min-width: 1440px) {
-  .aboutscroll .slick-next {
-    right: 99px;
-  }
-}
-.aboutscroll .slick-next::before {
-  content: url("https://api.iconify.design/ooui/next-ltr.svg?color=white");
-}
-.aboutscroll .slick-slider .slick-dots {
-  display: none !important;
-}
-.aboutscroll a {
-  font-size: 1.0248901903vw;
-  line-height: 1.756954612vw;
-  letter-spacing: -0.015em;
-  margin-top: 3.074670571vw;
-  display: inline-block;
-  text-decoration: none;
-}
-
 .webServicePageClient {
   padding: 8.1991215227vw 0 9.5168374817vw;
 }
@@ -3572,7 +3498,7 @@ header.blackBg {
 }
 .ourValueSection .imageScrollBar {
   width: calc(100vw - 118px);
-  overflow-x: auto;
+  overflow-x: overlay;
   display: flex;
   align-items: start;
   justify-content: start;
@@ -3597,6 +3523,11 @@ header.blackBg {
 }
 .ourValueSection .imageScrollBar::-webkit-scrollbar {
   width: 0;
+  height: 8px;
+}
+.ourValueSection .imageScrollBar::-webkit-scrollbar-thumb {
+  background-color: #202020;
+  border-radius: 5px;
 }
 .ourValueSection .joinOurTribe {
   margin-top: -5.270863836vw;
