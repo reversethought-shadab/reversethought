@@ -225,6 +225,7 @@ input[type="number"]::-webkit-outer-spin-button {
   will-change: width, height, transform, border;
   transition: all cubic-bezier(0.19, 1, 0.22, 1);
   z-index: 999;
+  
   &.active {
     
     width: 80px;
@@ -283,11 +284,11 @@ input[type="number"]::-webkit-outer-spin-button {
 html,
 body {
   overflow-x: hidden;
+
 }
 
 body {
   font-family: "Manrope", sans-serif !important;
-  cursor:alias;
 }
 
 .spacing {
@@ -812,7 +813,8 @@ input {
             padding: 40 * $desk + vw;
             border-radius: 3 * $desk + vw;
             position: absolute;
-            left: 50%;
+            left: 10%;
+            z-index: 1;
             top: 50 * $desk + vw;
             transform: scaleY(0) translateX(-38%);
             transform-origin: top;
@@ -887,7 +889,8 @@ input {
                   border-radius: 10px;
                   flex: 0 0 10%;
                   max-width: 10%;
-                  height: 100%;
+                  width: 100%;
+                  max-height: 100%;
                   object-fit: cover;
                   transition: 0.5s ease all;
 
@@ -925,7 +928,7 @@ input {
 
               img {
                 width: 600px;
-                height: 379px;
+                height: 400px;
                 border-radius: 15px;
                 object-fit: cover;
                 transition: 0.5s;
@@ -2694,6 +2697,76 @@ header.blackBg {
       }
       @include for-phone-only-576 {
         font-size: 11px;
+      }
+    }
+  }
+  .sectionHead {
+    padding-bottom: 75 * $desk + vw;
+  }
+  .slick-next,
+  .slick-prev {
+    width: 56 * $desk + vw;
+    height: 56 * $desk + vw;
+    background: #000;
+    border-radius: 100%;
+    z-index: 9;
+    top: -58 * $desk + vw;
+
+    @media #{$md_lg_desk} {
+      width: 56px;
+      height: 56px;
+    }
+    @include for-phone-only-576 {
+      display: none;
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  .slick-prev {
+    right: 185 * $desk + vw;
+    left: unset;
+
+    @media #{$md_lg_desk} {
+      right: 185px;
+    }
+    &::before {
+      content: url("https://api.iconify.design/ooui/next-rtl.svg?color=white");
+    }
+  }
+  .slick-next {
+    right: 99 * $desk + vw;
+    @media #{$md_lg_desk} {
+      right: 99px;
+    }
+    &::before {
+      content: url("https://api.iconify.design/ooui/next-ltr.svg?color=white");
+    }
+  }
+  .slick-slider {
+    .slick-dots {
+      display: none !important;
+    }
+  }
+
+  a {
+    font-size: 14 * $desk + vw;
+    line-height: 24 * $desk + vw;
+    letter-spacing: -0.015em;
+    margin-top: 42 * $desk + vw;
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+.aboutscroll {
+  padding: 119 * $desk + vw 0 119 * $desk + vw;
+  .sliderInnerabout {
+    margin-right: 20 * $desk + vw;
+    img {
+      width: 100%;
+      height:360 * $desk + vw;
+      object-fit: cover;
+      @include for-phone-only {
+        // max-height: 200px;
       }
     }
   }

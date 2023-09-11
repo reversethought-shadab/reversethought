@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import WOW from "wowjs";
 import News from "../Shared/News";
+import Slider from "react-slick";
 import WhatWeHaveDone from "../Shared/WhatWeHaveDone";
 import ClientLogo from "../Shared/ClientLogo";
 import { Icon } from "@iconify/react";
@@ -19,7 +20,40 @@ const AboutUs = (props) => {
     });
     wow.init();
   }, []);
-
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 2.2,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       <section className="aboitUsSection">
@@ -419,22 +453,13 @@ const AboutUs = (props) => {
               </p>
             </div>
           </div>
-          <div className="imageScrollBar wow animate__animated animate__slideInUp">
+          {/* <div className="imageScrollBar wow animate__animated animate__slideInUp">
             <img
               src="/images/about/group.png"
               alt="Our Team"
               className="img-fluid"
             />
-            <img
-              src="/images/about/office.jpg"
-              alt="Our Team"
-              className="img-fluid"
-            />
-            <img
-              src="/images/about/tushar-sunidhi.jpg"
-              alt="Our Team"
-              className="img-fluid"
-            />
+
             <img
               src="/images/team-3.svg"
               alt="Our Team"
@@ -450,7 +475,45 @@ const AboutUs = (props) => {
               alt="Our Team"
               className="img-fluid"
             />
-          </div>
+          </div> */}
+
+          <section className="aboutscroll">
+            <div className="content_container">
+              <Slider
+                {...settings}
+                className="wow animate__animated animate__slideInUp"
+              >
+                <div>
+                  <div className="sliderInnerabout">
+                    <img
+                      src="/images/about/group.png"
+                      alt="Our Team"
+                      className="img-fluid"
+                      style={{ height: "520px" }}
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="sliderInnerabout">
+                    <img
+                      src="/images/about/office.jpg"
+                      alt="Our Team"
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="sliderInnerabout">
+                    <img
+                      src="/images/about/tushar-sunidhi.jpg"
+                      alt="Our Team"
+                    />
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          </section>
+
           <div className="joinOurTribe wow animate__animated animate__slideInUp">
             <h2 className="sectionHead colorBlack fw-800">
               <img src="/images/icons/line.svg" alt="line" />

@@ -101,7 +101,7 @@ const Header = (props) => {
                     Services <Icon icon="uis:angle-down" />
                   </Link>
                   <div className="openServiceMenu ">
-                    <div className="service_menu">
+                    <div className="service_menu ">
                       <ul>
                         <li>
                           <a href="/websiteDesign">Website / App</a>
