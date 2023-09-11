@@ -3498,7 +3498,7 @@ header.blackBg {
 }
 .ourValueSection .imageScrollBar {
   width: calc(100vw - 118px);
-  overflow-x: overlay;
+  overflow-x: auto;
   display: flex;
   align-items: start;
   justify-content: start;
@@ -3523,14 +3523,14 @@ header.blackBg {
 }
 .ourValueSection .imageScrollBar::-webkit-scrollbar {
   width: 0;
-  height: 8px;
+  height: 18px;
 }
 .ourValueSection .imageScrollBar::-webkit-scrollbar-thumb {
   background-color: #202020;
   border-radius: 5px;
 }
 .ourValueSection .joinOurTribe {
-  margin-top: -5.270863836vw;
+  margin-top: -1.6105417277vw;
 }
 .ourValueSection .joinOurTribe p {
   margin: 3.2210834553vw 0 1.756954612vw;

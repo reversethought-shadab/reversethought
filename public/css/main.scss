@@ -3487,7 +3487,7 @@ header.blackBg {
   }
   .imageScrollBar {
     width: calc(100vw - 118px);
-    overflow-x: overlay;
+    overflow-x: auto;
     display: flex;
     align-items: start;
     justify-content: start;
@@ -3507,7 +3507,7 @@ header.blackBg {
     }
     &::-webkit-scrollbar {
       width: 0;
-      height:8px;
+      height:18px;
     }
   
     &::-webkit-scrollbar-thumb {
@@ -3516,7 +3516,7 @@ header.blackBg {
     }
   }
   .joinOurTribe {
-    margin-top: -72 * $desk + vw;
+    margin-top: -22 * $desk + vw;
     p {
       margin: 44 * $desk + vw 0 24 * $desk + vw;
       font-size: 40 * $desk + vw;
