@@ -292,20 +292,6 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 16px;
   font-weight: 500;
 }
-.custom-cursor.active_small {
-  width: 50px;
-  height: 50px;
-}
-.custom-cursor.active_small::after {
-  content: "View";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-}
 @media (max-width: 767px) {
   .custom-cursor {
     display: none;
@@ -335,6 +321,7 @@ body {
 
 body {
   font-family: "Manrope", sans-serif !important;
+  cursor: alias;
 }
 
 .spacing {
@@ -886,8 +873,8 @@ input {
   justify-content: space-between;
 }
 .header_content_container header nav ul li .openServiceMenu .service_menu {
-  flex: 0 0 35%;
-  max-width: 35%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 .header_content_container header nav ul li .openServiceMenu .service_menu ul {
   display: block;
@@ -927,8 +914,8 @@ input {
   color: #e31e24;
 }
 .header_content_container header nav ul li .openServiceMenu .service_img {
-  flex: 0 0 65%;
-  max-width: 65%;
+  flex: 0 0 75%;
+  max-width: 75%;
 }
 .header_content_container header nav ul li .openServiceMenu .service_img .service_img_flex {
   display: flex;

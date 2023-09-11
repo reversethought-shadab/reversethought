@@ -162,9 +162,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -196,9 +194,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -229,9 +225,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -263,9 +257,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -298,9 +290,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -334,9 +324,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -369,9 +357,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -400,9 +386,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -434,9 +418,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -465,9 +447,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -499,9 +479,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -532,9 +510,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -566,9 +542,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -599,9 +573,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -634,9 +606,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -669,9 +639,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -712,9 +680,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -745,9 +711,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -779,9 +743,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -817,9 +779,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -851,9 +811,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -882,9 +840,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -913,9 +869,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -944,9 +898,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -978,9 +930,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1011,9 +961,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1042,9 +990,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1073,9 +1019,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1104,9 +1048,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1146,9 +1088,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1179,9 +1119,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1214,9 +1152,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1248,9 +1184,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1281,9 +1215,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1314,9 +1246,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1348,9 +1278,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1382,9 +1310,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1416,9 +1342,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1449,9 +1373,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1484,9 +1406,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1519,9 +1439,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1553,9 +1471,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1587,9 +1503,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1621,9 +1535,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1655,9 +1567,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1689,9 +1599,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1720,9 +1628,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1756,9 +1662,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1789,9 +1693,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1820,9 +1722,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1851,9 +1751,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1884,9 +1782,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1915,9 +1811,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1946,9 +1840,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -1980,9 +1872,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2023,9 +1913,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2056,9 +1944,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2091,9 +1977,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2129,9 +2013,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2164,9 +2046,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2199,9 +2079,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2232,9 +2110,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2265,9 +2141,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2301,9 +2175,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2334,9 +2206,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2369,9 +2239,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2402,9 +2270,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2444,9 +2310,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2477,9 +2341,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2515,9 +2377,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2548,9 +2408,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2579,9 +2437,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2613,9 +2469,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2645,9 +2499,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2678,9 +2530,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2722,9 +2572,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2758,9 +2606,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2796,9 +2642,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2829,9 +2673,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>
@@ -2871,9 +2713,7 @@ const OurWork = (props) => {
                           className="unsetAll"
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="commonViewAll">
-                            View Our Projects
-                          </span>
+                          <span className="commonViewAll">View Project</span>
                           <Icon icon="clarity:arrow-line" />
                         </a>
                       </div>

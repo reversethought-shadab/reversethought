@@ -226,6 +226,7 @@ input[type="number"]::-webkit-outer-spin-button {
   transition: all cubic-bezier(0.19, 1, 0.22, 1);
   z-index: 999;
   &.active {
+    
     width: 80px;
     height: 80px;
     background-color: $colorRed;
@@ -243,21 +244,21 @@ input[type="number"]::-webkit-outer-spin-button {
     }
   }
 
-  &.active_small{
-    width: 50px;
-    height: 50px;
+  // &.active_small{
+  //   width: 50px;
+  //   height: 50px;
 
-    &::after {
-      content: "View";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      font-size: 14px;
-      font-weight: 500;
-    }
-  }
+  //   &::after {
+  //     content: "View";
+  //     position: absolute;
+  //     top: 50%;
+  //     left: 50%;
+  //     transform: translate(-50%, -50%);
+  //     color: #fff;
+  //     font-size: 14px;
+  //     font-weight: 500;
+  //   }
+  // }
   @include for-phone-only {
     display: none;
   }
@@ -286,6 +287,7 @@ body {
 
 body {
   font-family: "Manrope", sans-serif !important;
+  cursor:alias;
 }
 
 .spacing {
@@ -824,8 +826,8 @@ input {
             justify-content: space-between;
 
             .service_menu{
-              flex: 0 0 35%;
-              max-width: 35%;
+              flex: 0 0 25%;
+              max-width: 25%;
 
               ul{
                 display: block;
@@ -873,8 +875,8 @@ input {
             }
 
             .service_img{
-              flex: 0 0 65%;
-              max-width: 65%;
+              flex: 0 0 75%;
+               max-width: 75%;
 
               .service_img_flex{
                 display: flex;
