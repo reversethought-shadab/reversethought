@@ -42,7 +42,7 @@ const EnquiryForm = (props) => {
     };
 
     // const url = "http://111.118.212.37/mail/"
-    const url = "https://uat.reversethought.com/mail/";
+    const url = "contact@reversethought.com";
 
     axios
       .post(url, data, {
