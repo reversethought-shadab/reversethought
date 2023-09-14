@@ -229,7 +229,7 @@ const DigitalActivationServices = (props) => {
           </div>
         </div>
       </section>
-      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
+      <section className=" ourWorkSlider ourWorkslider2 wow animate__animated animate__slideInLeft">
         <div className="content_container">
           <h2 className="sectionHead colorBlack wow fw-800">
             <img src="/images/icons/line.svg" alt="line" />

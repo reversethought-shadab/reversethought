@@ -1486,7 +1486,7 @@ header.blackBg {
 }
 // What we do
 .whatWeDo {
-  padding: 113 * $desk + vw 0 119 * $desk + vw;
+  padding: 113 * $desk + vw 0 70 * $desk + vw;
   @media #{$md_lg_desk} {
     padding: 113px 0 119px;
   }
@@ -4128,7 +4128,10 @@ header.blackBg {
     gap: 16 * $desk + vw;
   }
 }
+.ourWorkslider2{
 
+  padding: 60 * $desk + vw 0 60 * $desk + vw !important;
+}
 .ourWorkSlider {
   padding: 132 * $desk + vw 0 150 * $desk + vw;
   .sectionHead {

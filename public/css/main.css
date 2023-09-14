@@ -1459,7 +1459,7 @@ header.blackBg {
 }
 
 .whatWeDo {
-  padding: 8.2723279649vw 0 8.7115666179vw;
+  padding: 8.2723279649vw 0 5.1244509517vw;
 }
 @media (min-width: 1440px) {
   .whatWeDo {
@@ -4208,6 +4208,10 @@ header.blackBg {
 }
 .serviceImageSection .iciciImageView {
   gap: 1.1713030747vw;
+}
+
+.ourWorkslider2 {
+  padding: 4.39238653vw 0 4.39238653vw !important;
 }
 
 .ourWorkSlider {

@@ -197,7 +197,7 @@ const CreativeServices = (props) => {
           </div>
         </div>
       </section>
-      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
+      <section className=" ourWorkSlider ourWorkslider2 wow animate__animated animate__slideInLeft">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
