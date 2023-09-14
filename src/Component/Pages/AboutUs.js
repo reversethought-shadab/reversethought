@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Mousewheel, Pagination } from 'swiper/modules';
 import WOW from "wowjs";
 import News from "../Shared/News";
 import WhatWeHaveDone from "../Shared/WhatWeHaveDone";
@@ -419,7 +423,7 @@ const AboutUs = (props) => {
               </p>
             </div>
           </div>
-          <div className="imageScrollBar wow animate__animated animate__slideInUp">
+          {/* <div className="imageScrollBar wow animate__animated animate__slideInUp">
             <img
               src="/images/about/group.png"
               alt="Our Team"
@@ -450,7 +454,28 @@ const AboutUs = (props) => {
               alt="Our Team"
               className="img-fluid"
             />
-          </div>
+          </div> */}
+            <Swiper
+        direction={'vertical'}
+        slidesPerView={1}
+        spaceBetween={30}
+        mousewheel={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Mousewheel, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper>
           <div className="joinOurTribe wow animate__animated animate__slideInUp">
             <h2 className="sectionHead colorBlack fw-800">
               <img src="/images/icons/line.svg" alt="line" />
