@@ -427,6 +427,7 @@ body {
   font-size: 1.0248901903vw;
   line-height: 1.756954612vw;
   position: relative;
+  cursor: pointer;
   z-index: 2;
   width: -moz-max-content;
   width: max-content;
@@ -1214,6 +1215,7 @@ header.blackBg {
   transform: translateY(150px);
   transition: 0.95s all 0.7s;
   opacity: 0;
+  cursor: pointer;
   visibility: hidden;
   overflow: hidden;
 }
@@ -2520,6 +2522,7 @@ header.blackBg {
 }
 .servicePageSection .servicePageBanner p {
   margin: 5.6368960469vw 0 1.5373352855vw;
+  cursor: pointer;
 }
 @media (min-width: 1440px) {
   .servicePageSection .servicePageBanner p {
@@ -3369,6 +3372,7 @@ header.blackBg {
 .aboitUsSection .servicePageBanner .watch_reel_txt {
   padding: 3.2942898975vw 0;
   position: relative;
+  cursor: pointer;
   z-index: 2;
 }
 @media (min-width: 1440px) {
@@ -3601,6 +3605,7 @@ header.blackBg {
 }
 .clientsMainSection .servicePageBanner p.watch_reel_txt {
   padding-top: 2.8550512445vw;
+  cursor: pointer;
 }
 @media (min-width: 1440px) {
   .clientsMainSection .servicePageBanner p.watch_reel_txt {

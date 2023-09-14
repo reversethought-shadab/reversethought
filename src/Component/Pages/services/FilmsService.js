@@ -148,9 +148,11 @@ const FilmsService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Got a new product or idea that needs to be explained? Our
-                    explainer videos pack information, engagement and energy to
-                    create a fluid narrative to drive home the message.
+                    Demonstrate the convenience that your product or service
+                    provides, easily impart user instructions, training and many
+                    more things with intelligently scripted and executed 2D & 3D
+                    explainer videos. We have the capability to execute films in
+                    20 international languages and all major Indian languages.
                   </p>
                   <a
                     href="/our-work"
@@ -173,13 +175,10 @@ const FilmsService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Document the progress of your projects and create an impact
+                    with our time lapse videos. Help customers understand your
+                    manufacturing and service delivery process with process
+                    videos.
                   </p>
                   <a
                     href="/our-work"
@@ -202,13 +201,11 @@ const FilmsService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    If you are trying to establish an emotional connection with
+                    your audience on social media, it doesn’t get more effective
+                    than a beautiful story tied into your product. Leave the
+                    story, concept and execution to us and just get ready for
+                    the accolades.
                   </p>
                   <a
                     href="/our-work"
@@ -231,13 +228,9 @@ const FilmsService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Unlock the power of storytelling with our service, turning
+                    your moments into captivating cinematic experiences that
+                    leave a lasting impression on your audience.
                   </p>
                   <a
                     href="/our-work"
@@ -255,245 +248,6 @@ const FilmsService = (props) => {
           </div>
         </div>
       </section>
-
-      <section
-        className="ourExpertiseSection wow animate__animated animate__slideInUp"
-        onMouseEnter={props.mouseEnterOnBlack}
-        onMouseLeave={props.mouseLeaveOnBlack}
-      >
-        <div className="content_container">
-          <h2 className="sectionHead text-white colorWhite fw-800 wow">
-            <img src="/images/icons/line-white.svg" alt="line" />
-            Our Expertise
-          </h2>
-          <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
-            <Accordion title="Project & Process Mapping Videos">
-              <p>
-                Document the progress of your projects and create an impact with
-                our timelapse videos. Help customers understand your
-                manufacturing and service delivery process with process videos.
-              </p>
-            </Accordion>
-            <Accordion title="Annual Report Videos">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Video Ads">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Corporate Videos & Documentaries">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Social Project Documentaries / CSR Videos">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Sales / Training Videos">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Case Study Videos">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Storyboarding">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="2D/3D Animation">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-          </div>
-          <h2 className="sectionHead colorWhite text-white fw-800 wow">
-            <img src="/images/icons/line-white.svg" alt="line" />
-            Why Choose Us
-          </h2>
-          <div className="whyChooseUsDetails">
-            <p className="colorWhite fw-400 wow animate__animated animate__fadeInUp">
-              We have always broken moulds and pushed the limits of possibility
-              to bring higher cohesion between your goals and the users’
-              aspirations. Interactive tools, rich content, stunning visuals and
-              intuitive UI combined with latest technologies like HTML5, CSS3,
-              Bootstrap, PHP Laravel & more make for an immersive experience.
-            </p>
-            {/* <div className="d-flex align-items-center"> */}
-            <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                CSS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                HTML 5
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                JavaScript
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                PHP
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Microsoft.net
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                AngularJS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                MySQL.
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                IOS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Android
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Prestashop
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Magento
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                WordPress
-              </li>
-            </ul>
-            {/* </div> */}
-          </div>
-        </div>
-      </section>
-
-      <section className="webServicePageClient ourRecentClients">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
-            <img src="/images/icons/line.svg" alt="line" />
-            Our Recent Clients
-          </h2>
-          <ClientLogo client="videoClient" />
-        </div>
-      </section>
-
-      <section className="pt-0 creativeThoughts position-relative">
-        <div className="content_container">
-          <img
-            src="/images/icons/circle-l.svg"
-            alt="circle-l"
-            className="wow animate__animated animate__rotateIn"
-          />
-
-          <div className="colorBlack fw-800 company">
-            <p className="mb-0 wow">We combines cinematic</p>
-            <p className="mb-0 wow">storytelling with cutting-</p>
-            <p className="mb-0 wow">edge technology to create</p>
-            <p className="mb-0 wow">unforgettable visual</p>
-            <p className="mb-0 wow">experiences</p>
-          </div>
-          <div className="text-end">
-            <img
-              src="/images/icons/circle-r.svg"
-              alt="circle-r"
-              className="wow animate__animated animate__rotateIn"
-            />
-          </div>
-        </div>
-      </section>
-
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
           <h2 className="sectionHead colorBlack wow fw-800">
@@ -602,6 +356,240 @@ const FilmsService = (props) => {
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />
           </Link>
+        </div>
+      </section>
+      <section
+        className="ourExpertiseSection wow animate__animated animate__slideInUp"
+        onMouseEnter={props.mouseEnterOnBlack}
+        onMouseLeave={props.mouseLeaveOnBlack}
+      >
+        <div className="content_container">
+          <h2 className="sectionHead text-white colorWhite fw-800 wow">
+            <img src="/images/icons/line-white.svg" alt="line" />
+            Our Expertise
+          </h2>
+          <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
+            <Accordion title="Project & Process Mapping Videos">
+              <p>
+                Elevate your project documentation with our time-lapse videos,
+                enabling you to showcase the journey of your projects and
+                enhance customer comprehension of your manufacturing and service
+                delivery processes through informative process videos.
+              </p>
+            </Accordion>
+            <Accordion title="Annual Report Videos">
+              <p>
+                We specialise in crafting engaging Annual Report Videos that
+                effectively convey your company's achievements, milestones, and
+                vision, providing stakeholders with a comprehensive overview of
+                your organisation's annual performance.
+              </p>
+            </Accordion>
+            <Accordion title="Video Ads">
+              <p>
+                Most social platforms are now allowing for a variety of ad
+                formats with unique advantages. We help you create quick,
+                interesting, attention-grabbing video ads that will supercharge
+                your advertising efforts.
+              </p>
+            </Accordion>
+            <Accordion title="Corporate Videos & Documentaries">
+              <p>
+                We have helped several companies showcase their manufacturing,
+                technical and people strengths in an immersive, story-based
+                narrative. An entire team of highly creative and technical
+                people come together to script, shoot, edit and package your
+                video. Beautiful drone assisted and ground level photography,
+                slick animation and sharp editing create an outstanding product.
+                We have proven expertise in conducting shoots at international
+                locations within affordable budgets.
+              </p>
+            </Accordion>
+            <Accordion title="Social Project Documentaries / CSR Videos">
+              <p>
+                Translate and communicate the impact you’ve made on-ground and
+                spread the word with a social initiative documentary. Whether as
+                an NGO or an organisation dedicated to Corporate Social
+                Responsibility (CSR) initiatives, just reach out to us and we
+                will deliver.
+              </p>
+            </Accordion>
+            <Accordion title="Sales / Training Videos">
+              <p>
+                When managing a large sales team, how do you ensure that
+                everyone is on the same page? Supporting your training modules
+                with an intelligently crafted, shareable video can drastically
+                improve the performance of your team.
+              </p>
+            </Accordion>
+            <Accordion title="Case Study Videos">
+              <p>
+                Showcase your successes on a broader canvas with case study
+                videos created with passion and creativity. Companies have
+                observed that compelling case studies boost customer confidence
+                manifold and provide a tangible edge over competition.
+              </p>
+            </Accordion>
+            <Accordion title="Storyboarding">
+              <p>
+                Storyboarding is a creative and time-consuming process which we
+                plan and execute meticulously. We specialise in both Photoshop
+                based storyboards and hand-sketched illustrations based on
+                individual project requirements.
+              </p>
+            </Accordion>
+            <Accordion title="2D/3D Animation">
+              <p>
+                Challenging concepts become simple and engaging when visualised.
+                From engineering to medical, our 3d animated videos have helped
+                companies explain complex topics in a simple and visually
+                engaging manner. 2d animation can turn any AV into an enjoyable
+                experience – be it explainer videos, testimonial videos or
+                finance videos for investors.
+              </p>
+            </Accordion>
+          </div>
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
+            <img src="/images/icons/line-white.svg" alt="line" />
+            Why Choose Us
+          </h2>
+          <div className="whyChooseUsDetails">
+            <p className="colorWhite fw-400 wow animate__animated animate__fadeInUp">
+              In the realm of video production, we've consistently shattered
+              conventions and stretched the boundaries of creativity to bridge
+              the gap between your objectives and the audience's desires. Our
+              video production expertise incorporates interactive tools,
+              compelling content, captivating visuals, and user-friendly
+              interfaces, seamlessly fused with cutting-edge technologies such
+              as High tech cameras, Graphics and Animation Software, Virtual
+              Reality (VR) and Augmented Reality (AR) Tools, Streaming and
+              Delivery Platforms, and more, to craft immersive cinematic
+              experiences.
+            </p>
+            {/* <div className="d-flex align-items-center"> */}
+            <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Motion Capture
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Drone Technology
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Live Streaming Tools
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                360-Degree Video Cameras
+              </li>
+              {/* <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                
+              </li> */}
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Audio and Video Codecs
+              </li>
+              {/* <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                
+              </li> */}
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Cloud-Based Collaboration Tools
+              </li>
+              {/* <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Collaboration Tools
+              </li> */}
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                3D Modeling and Rendering
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Audio Editing Software
+              </li>
+              {/* <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                WordPress
+              </li> */}
+            </ul>
+            {/* </div> */}
+          </div>
+        </div>
+      </section>
+
+      <section className="webServicePageClient ourRecentClients">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Recent Clients
+          </h2>
+          <ClientLogo client="videoClient" />
+        </div>
+      </section>
+
+      <section className="pt-0 creativeThoughts position-relative">
+        <div className="content_container">
+          <img
+            src="/images/icons/circle-l.svg"
+            alt="circle-l"
+            className="wow animate__animated animate__rotateIn"
+          />
+
+          <div className="colorBlack fw-800 company">
+            <p className="mb-0 wow">We combines cinematic</p>
+            <p className="mb-0 wow">storytelling with cutting-</p>
+            <p className="mb-0 wow">edge technology to create</p>
+            <p className="mb-0 wow">unforgettable visual</p>
+            <p className="mb-0 wow">experiences</p>
+          </div>
+          <div className="text-end">
+            <img
+              src="/images/icons/circle-r.svg"
+              alt="circle-r"
+              className="wow animate__animated animate__rotateIn"
+            />
+          </div>
         </div>
       </section>
     </>

@@ -129,9 +129,9 @@ const DigitalActivationServices = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Facebook, LinkedIn, Twitter, Instagram, Whatsapp- Whatever
-                    is the medium you choose, we blend the right creative style
-                    and message to create posts.
+                    We create custom filters that work with the basic elements
+                    and value proposition of your brand that can be accessed
+                    through Instagram or even through an independent app.
                   </p>
                   <a
                     href="/our-work"
@@ -154,13 +154,10 @@ const DigitalActivationServices = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Quick games customised to your brand are a great way to run
+                    promotions and create a buzz around your brand. We can
+                    implement these on your website for your users or even run
+                    them on social media for you.
                   </p>
                   <a
                     href="/our-work"
@@ -183,13 +180,11 @@ const DigitalActivationServices = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    How cool would it be if you could celebrate festivals or
+                    play games with your friends virtually? Now you can do just
+                    that with custom apps that allow you to share, play and win
+                    with your friends. As a brand, this is a fantastic way to
+                    build brand loyalty with your customers.
                   </p>
                   <a
                     href="/our-work"
@@ -212,13 +207,11 @@ const DigitalActivationServices = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Give your sales force the tools that create an impact!
+                    Business Presentations, collaterals, videos or a combination
+                    of these go a long way in delivering a powerful message. Our
+                    team can conceptualise and create innovative, customised
+                    sales tools around any business requirement.
                   </p>
                   <a
                     href="/our-work"
@@ -236,244 +229,6 @@ const DigitalActivationServices = (props) => {
           </div>
         </div>
       </section>
-
-      <section
-        className="ourExpertiseSection wow animate__animated animate__slideInUp"
-        onMouseEnter={props.mouseEnterOnBlack}
-        onMouseLeave={props.mouseLeaveOnBlack}
-      >
-        <div className="content_container">
-          <h2 className="sectionHead text-white colorWhite fw-800 wow">
-            <img src="/images/icons/line-white.svg" alt="line" />
-            Our Expertise
-          </h2>
-          <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
-            <Accordion title="Infographics">
-              <p>
-                Visualizing information requires not just creativity, but also a
-                keen understanding of the data and an analytical approach that
-                can best present it. As audiences move increasingly away from
-                intense use of words, our infographics will help you create
-                shareable, easy to comprehend content.
-              </p>
-            </Accordion>
-            <Accordion title="Emailers & Newsletters">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="GIFs Creatives">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="WhatsApp Creatives">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Logo & Stationery">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Brochures & Flyers">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Graphic Design">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Giveaway Kit Design">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Outdoor Ads">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-          </div>
-          <h2 className="sectionHead colorWhite text-white fw-800 wow">
-            <img src="/images/icons/line-white.svg" alt="line" />
-            Why Choose Us
-          </h2>
-          <div className="whyChooseUsDetails">
-            <p className="colorWhite fw-400 wow animate__animated animate__fadeInUp">
-              Our team has end-to-end capabilities in all aspects of digital
-              marketing and advertising, right from strategy to execution and
-              everything in between. We believe in discovering ground truths and
-              applying them to our ideas so that they are reflective of the
-              society’s aspirations and thought processes.
-            </p>
-            <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                CSS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                HTML 5
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                JavaScript
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                PHP
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Microsoft.net
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                AngularJS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                MySQL.
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                IOS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Android
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Prestashop
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Magento
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                WordPress
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="webServicePageClient ourRecentClients">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
-            <img src="/images/icons/line.svg" alt="line" />
-            Our Recent Clients
-          </h2>
-          <ClientLogo client="digitalActivationClient" />
-        </div>
-      </section>
-
-      <section className="pt-0 creativeThoughts position-relative">
-        <div className="content_container">
-          <img
-            src="/images/icons/circle-l.svg"
-            alt="circle-l"
-            className="wow animate__animated animate__rotateIn"
-          />
-
-          <div className="colorBlack fw-800 company">
-            <p className="mb-0 wow">We transform your vision</p>
-            <p className="mb-0 wow">into creative, compelling,</p>
-            <p className="mb-0 wow">and visually stunning</p>
-            <p className="mb-0 wow">designs.</p>
-          </div>
-          <div className="text-end">
-            <img
-              src="/images/icons/circle-r.svg"
-              alt="circle-r"
-              className="wow animate__animated animate__rotateIn"
-            />
-          </div>
-        </div>
-      </section>
-
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
           <h2 className="sectionHead colorBlack wow fw-800">
@@ -598,6 +353,217 @@ const DigitalActivationServices = (props) => {
             <span className="commonViewAll">View Our Projects</span>
             <Icon icon="clarity:arrow-line" />
           </Link>
+        </div>
+      </section>
+      <section
+        className="ourExpertiseSection wow animate__animated animate__slideInUp"
+        onMouseEnter={props.mouseEnterOnBlack}
+        onMouseLeave={props.mouseLeaveOnBlack}
+      >
+        <div className="content_container">
+          <h2 className="sectionHead text-white colorWhite fw-800 wow">
+            <img src="/images/icons/line-white.svg" alt="line" />
+            Our Expertise
+          </h2>
+          <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
+            <Accordion title="Infographics">
+              <p>
+                Visualizing information requires not just creativity, but also a
+                keen understanding of the data and an analytical approach that
+                can best present it. As audiences move increasingly away from
+                intense use of words, our infographics will help you create
+                shareable, easy to comprehend content.
+              </p>
+            </Accordion>
+            <Accordion title="Emailers & Newsletters">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </Accordion>
+            <Accordion title="GIFs Creatives">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </Accordion>
+            <Accordion title="WhatsApp Creatives">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </Accordion>
+            <Accordion title="Logo & Stationery">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </Accordion>
+            <Accordion title="Brochures & Flyers">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </Accordion>
+            <Accordion title="Graphic Design">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </Accordion>
+            <Accordion title="Giveaway Kit Design">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </Accordion>
+            <Accordion title="Outdoor Ads">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </Accordion>
+          </div>
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
+            <img src="/images/icons/line-white.svg" alt="line" />
+            Why Choose Us
+          </h2>
+          <div className="whyChooseUsDetails">
+            <p className="colorWhite fw-400 wow animate__animated animate__fadeInUp">
+              When it comes to digital activation creation, choosing us means
+              partnering with a team that thrives on innovation and creativity.
+              Our approach is rooted in delivering tailored solutions that align
+              perfectly with your project's unique goals and your target
+              audience's preferences. With a firm grasp of storytelling
+              Real-time Graphics Processing, including web design and
+              development tools, ARCore and ARKit, and 3D modelling and
+              rendering, we're equipped to transform your vision into reality.
+            </p>
+            <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Computer Vision
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                3D Modeling and Rendering
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                ARCore and ARKit
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Motion Tracking
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                VR Platforms
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                WebXR
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Sensors
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Audio Technology
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="webServicePageClient ourRecentClients">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Recent Clients
+          </h2>
+          <ClientLogo client="digitalActivationClient" />
+        </div>
+      </section>
+
+      <section className="pt-0 creativeThoughts position-relative">
+        <div className="content_container">
+          <img
+            src="/images/icons/circle-l.svg"
+            alt="circle-l"
+            className="wow animate__animated animate__rotateIn"
+          />
+
+          <div className="colorBlack fw-800 company">
+            <p className="mb-0 wow">We transform your vision</p>
+            <p className="mb-0 wow">into creative, compelling,</p>
+            <p className="mb-0 wow">and visually stunning</p>
+            <p className="mb-0 wow">designs.</p>
+          </div>
+          <div className="text-end">
+            <img
+              src="/images/icons/circle-r.svg"
+              alt="circle-r"
+              className="wow animate__animated animate__rotateIn"
+            />
+          </div>
         </div>
       </section>
     </>

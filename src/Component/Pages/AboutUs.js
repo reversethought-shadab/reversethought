@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Mousewheel, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Mousewheel, Pagination } from "swiper/modules";
 import WOW from "wowjs";
 import News from "../Shared/News";
 import WhatWeHaveDone from "../Shared/WhatWeHaveDone";
@@ -161,9 +161,9 @@ const AboutUs = (props) => {
                     <li className="colorBlack fw-800">WordPress Development</li>
                   </ul>
                   <p className="colorBlack fw-400">
-                    Let’s energize and elevate your website presence, with the
+                    Let’s energise and elevate your website presence, with the
                     right balance of business strategy and user excitement. We
-                    conceptualize, strategise, design and develop websites and
+                    conceptualise, strategise, design and develop websites and
                     apps that establish new design standards in the industry,
                     while performing flawlessly on various devices. We focus
                     heavily on user experience & brand upliftment by leveraging
@@ -190,17 +190,15 @@ const AboutUs = (props) => {
                   }
                 >
                   <ul className="d-flex">
-                    <li className="colorBlack fw-800">Concept & Scripting</li>
-                    <li className="colorBlack fw-800">
-                      On-ground & Drone Shoot
-                    </li>
-                    <li className="colorBlack fw-800">Graphics & Animation</li>
-                    <li className="colorBlack fw-800">Motion Graphics</li>
-                    <li className="colorBlack fw-800">2d Animation</li>
+                    <li className="colorBlack fw-800">Corporate Profiles</li>
+                    <li className="colorBlack fw-800">Corporate Profiles</li>
+                    <li className="colorBlack fw-800">AVs </li>
+                    <li className="colorBlack fw-800">Video Editing</li>
+                    {/* <li className="colorBlack fw-800">2d Animation</li> */}
                   </ul>
                   <p className="colorBlack fw-400">
                     A video is the best marketing tool for business. We
-                    conceptualize and produce a broad range of videos from
+                    conceptualise and produce a broad range of videos from
                     corporate profiles to specific application videos. Through a
                     mix of on-ground & aerial photography, graphics, animation
                     and many more styles we can produce any kind of film for any
@@ -233,10 +231,10 @@ const AboutUs = (props) => {
                     </li>
                     <li className="colorBlack fw-800">Performance Marketing</li>
                     <li className="colorBlack fw-800">Integrated Marketing</li>
-                    <li className="colorBlack fw-800">Google Advertising</li>
-                    <li className="colorBlack fw-800">
+                    {/* <li className="colorBlack fw-800">Integrated Marketing  </li> */}
+                    {/* <li className="colorBlack fw-800">
                       SMS & Whatsapp Campaigns
-                    </li>
+                    </li> */}
                   </ul>
                   <p className="colorBlack fw-400">
                     If your business isn’t online and visible to your customers,
@@ -268,20 +266,18 @@ const AboutUs = (props) => {
                 >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">Print design</li>
-                    <li className="colorBlack fw-800">
-                      Social Media Creatives
-                    </li>
-                    <li className="colorBlack fw-800">Logo & Identity</li>
-                    <li className="colorBlack fw-800">
+                    <li className="colorBlack fw-800">Branding</li>
+                    <li className="colorBlack fw-800"> Creative Design</li>
+                    {/* <li className="colorBlack fw-800">
                       Internal Communication
-                    </li>
+                    </li> */}
                   </ul>
                   <p className="colorBlack fw-400">
                     Creativity is the backbone of our agency and the reason for
                     us to do what we do. We design all kinds of branding
                     materials as well as collaterals that captivate and
                     effectively send the message across. We handle the design
-                    and content for all kinds of digital and print creatives .
+                    and content for all kinds of digital and print creatives
                   </p>
                   <a
                     href="/Creative-Services"
@@ -305,11 +301,9 @@ const AboutUs = (props) => {
                 >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">AR Filters</li>
+                    <li className="colorBlack fw-800">Games</li>
                     <li className="colorBlack fw-800">
                       SMS & Whatsapp Campaigns
-                    </li>
-                    <li className="colorBlack fw-800">
-                      Digital Hoarding Video Ads
                     </li>
                   </ul>
                   <p className="colorBlack fw-400">
@@ -335,25 +329,24 @@ const AboutUs = (props) => {
                 <div
                   className={
                     activeTab === 5
-                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                      : "whatWeDoTabsResult"
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft fifth "
+                      : "whatWeDoTabsResult "
                   }
                 >
                   <ul className="d-flex">
-                    <li className="colorBlack fw-800">AR Filters</li>
+                    <li className="colorBlack fw-800">Profile Shoot</li>
+                    <li className="colorBlack fw-800">Corporate Shoot</li>
                     <li className="colorBlack fw-800">
-                      SMS & Whatsapp Campaigns
-                    </li>
-                    <li className="colorBlack fw-800">
-                      Digital Hoarding Video Ads
+                      Drone Assisted Photography
                     </li>
                   </ul>
                   <p className="colorBlack fw-400">
-                    Break the clutter and engage your audience through custom
-                    developed digital activations in the form of apps, games,
-                    filters and more. We work closely with your team to develop
-                    concepts that add weight to your messaging and develop the
-                    assets to execute your campaign.
+                    Capture the essence of your brand with our photography
+                    service, where we bring your vision to life through expertly
+                    crafted visuals that resonate with your audience. We craft
+                    captivating images that not only capture moments but also
+                    engage your audience, adding a unique and compelling
+                    dimension to your brand.
                   </p>
                   <a
                     href="/Photography"
@@ -455,27 +448,27 @@ const AboutUs = (props) => {
               className="img-fluid"
             />
           </div> */}
-            <Swiper
-        direction={'vertical'}
-        slidesPerView={1}
-        spaceBetween={30}
-        mousewheel={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Mousewheel, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
+          <Swiper
+            direction={"vertical"}
+            slidesPerView={1}
+            spaceBetween={30}
+            mousewheel={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Mousewheel, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>Slide 5</SwiperSlide>
+            <SwiperSlide>Slide 6</SwiperSlide>
+            <SwiperSlide>Slide 7</SwiperSlide>
+            <SwiperSlide>Slide 8</SwiperSlide>
+            <SwiperSlide>Slide 9</SwiperSlide>
+          </Swiper>
           <div className="joinOurTribe wow animate__animated animate__slideInUp">
             <h2 className="sectionHead colorBlack fw-800">
               <img src="/images/icons/line.svg" alt="line" />

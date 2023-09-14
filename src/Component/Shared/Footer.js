@@ -199,26 +199,14 @@ const Footer = (props) => {
                     >
                       Instagram
                     </a>
-                    <a
-                      href="https://twitter.com/rthoughtindia"
-                      className="unsetAll"
-                      target="_blank"
-                    >
-                      Dribbble
+                    <a href="" className="unsetAll" target="_blank">
+                      Linkedin
                     </a>
-                    <a
-                      href="https://twitter.com/rthoughtindia"
-                      className="unsetAll"
-                      target="_blank"
-                    >
-                      Behance
+                    <a href="" className="unsetAll" target="_blank">
+                      Facebook
                     </a>
-                    <a
-                      href="https://twitter.com/rthoughtindia"
-                      className="unsetAll"
-                      target="_blank"
-                    >
-                      Twitter
+                    <a href="" className="unsetAll" target="_blank">
+                      Youtube
                     </a>
                   </ul>
                 </div>

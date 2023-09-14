@@ -143,7 +143,7 @@ const Menu = (props) => {
                   </a>
                 </li>
                 <li className="colorWhite fw-300">Blogs</li>
-                
+
                 <li className="colorWhite fw-300">
                   <a href="/contact-us" onClick={props.closeModal}>
                     Contact Us
@@ -178,14 +178,10 @@ const Menu = (props) => {
                     Facebook
                   </Link>
                 </li>
+
                 <li className="colorWhite fw-300">
-                  <a href="/" target="_blank">
-                    Dribble
-                  </a>
-                </li>
-                <li className="colorWhite fw-300">
-                  <a href="https://twitter.com/rthoughtindia" target="_blank">
-                    Twitter
+                  <a href="" target="_blank">
+                    Youtube
                   </a>
                 </li>
               </ul>

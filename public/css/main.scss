@@ -395,6 +395,7 @@ body {
   font-size: 14 * $desk + vw;
   line-height: 24 * $desk + vw;
   position: relative;
+  cursor: pointer;
   z-index: 2;
   width: max-content;
 
@@ -1214,6 +1215,7 @@ header.blackBg {
       transform: translateY(150px);
       transition: 0.95s all 0.7s;
       opacity: 0;
+      cursor: pointer;
       visibility: hidden;
       overflow: hidden;
 
@@ -2586,6 +2588,7 @@ header.blackBg {
   .servicePageBanner {
     p {
       margin: 77 * $desk + vw 0 21 * $desk + vw;
+      cursor: pointer;
       @media #{$md_lg_desk} {
         margin: 77px 0 21px;
       }
@@ -3376,6 +3379,7 @@ header.blackBg {
     .watch_reel_txt {
       padding: 45 * $desk + vw 0;
       position: relative;
+      cursor: pointer;
       z-index: 2;
 
       @media #{$md_lg_desk} {
@@ -3583,6 +3587,7 @@ header.blackBg {
 
       &.watch_reel_txt {
         padding-top: 39 * $desk + vw;
+        cursor: pointer;
         @media #{$md_lg_desk} {
           padding-top: 39px;
         }

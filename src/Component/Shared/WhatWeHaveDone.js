@@ -16,28 +16,30 @@ const WhatWeHaveDone = (props) => {
           <div className="gridSystem">
             <div className="gridSystemInner">
               <h4 className="colorWhite fw-800 wow count_parent">
-                <div className="wow count_child">150+</div>
+                <div className="wow count_child">150+ Clients </div>
               </h4>
               <div className="wow count_text_parent">
                 <p className="colorWhite fw-800 wow count_text_child">
-                  Featuring some of the biggest players in their domain.
+                  Featuring some of the biggest players in their domain
                 </p>
               </div>
             </div>
             <div className="gridSystemInner">
               <h4 className="colorWhite fw-800 wow count_parent">
-                <div className="wow count_child">1000+</div>
+                <div className="wow count_child">
+                  1000+ <br /> Films
+                </div>
               </h4>
               <div className="wow count_text_parent">
                 <p className="colorWhite fw-800 wow count_text_child">
                   Shot across the globe and counting. Includes 2d explainer
-                  videos and videos for social media.
+                  videos and videos for social media
                 </p>
               </div>
             </div>
             <div className="gridSystemInner">
               <h4 className="colorWhite fw-800 wow count_parent">
-                <div className="wow count_child">10000+</div>
+                <div className="wow count_child">10000+ Creatives</div>
               </h4>
               <div className="wow count_text_parent">
                 <p className="colorWhite fw-800 wow count_text_child">

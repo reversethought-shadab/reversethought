@@ -131,7 +131,7 @@ const DigitalMarketingServices = (props) => {
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
-                  Lead Generation
+                  Whatsapp Campaign
                 </li>
               </ul>
             </div>
@@ -145,9 +145,12 @@ const DigitalMarketingServices = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Got a new product or idea that needs to be explained? Our
-                    explainer videos pack information, engagement and energy to
-                    create a fluid narrative to drive home the message.
+                    Boost your online presence with our expert search engine
+                    marketing (SEM) and search engine optimization (SEO)
+                    services. We ensure your website ranks high on Google and
+                    other search engines, driving increased traffic and leads
+                    through targeted campaigns and comprehensive optimization
+                    techniques.
                   </p>
                   <a
                     href="/our-work"
@@ -170,13 +173,12 @@ const DigitalMarketingServices = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    We specialise in running online campaigns that are aimed to
+                    maximise your ROI. From bidding for the right keywords,
+                    detailed audience segmentation, experimentation and
+                    adaptation- we do it all to ensure relevant and quality
+                    traffic to your site or app that has enough reason to
+                    convert into a lead.
                   </p>
                   <a
                     href="/our-work"
@@ -199,13 +201,12 @@ const DigitalMarketingServices = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Let us use our content creation skills to leverage your
+                    domain expertise as a business-building tool. Through
+                    thoughtfully written, insightful blogs, articles and
+                    emailers, be viewed as an authority in your field, gain
+                    customer confidence and build your business. As a plus, your
+                    Search rankings will also take a leap.
                   </p>
                   <a
                     href="/our-work"
@@ -228,13 +229,12 @@ const DigitalMarketingServices = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Using inbound marketing strategies that include reaching
+                    people on social media, connecting with them through
+                    interesting, thought-provoking articles and blogs,
+                    organising webinars and using a wide range of techniques, we
+                    help you build leads. Going a step further, we can also help
+                    you nurture them through various means.
                   </p>
                   <a
                     href="/our-work"
@@ -252,6 +252,114 @@ const DigitalMarketingServices = (props) => {
           </div>
         </div>
       </section>
+      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
+            <img src="/images/icons/line.svg" alt="line" />
+            More Works
+          </h2>
+          <Slider {...settings}>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/mpuh"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/mpuh.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">MPUH</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/speak-health2"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/sh.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Speak Health</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/sky-greens"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/skygreens.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Skygreens</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/speed-of-sound"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/digital/sos.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Speed Of Sound</h2>
+                <span className="colorGrey fw-400">Digital Marketing</span>
+              </div>
+            </div>
+          </Slider>
+          <Link
+            to="/our-work"
+            className="unsetAll"
+            onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
+          >
+            <span className="commonViewAll">View Our Projects</span>
+            <Icon icon="clarity:arrow-line" />
+          </Link>
+        </div>
+      </section>{" "}
       <section
         className="ourExpertiseSection wow animate__animated animate__slideInUp"
         onMouseEnter={props.mouseEnterOnBlack}
@@ -265,54 +373,53 @@ const DigitalMarketingServices = (props) => {
           <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
             <Accordion title="Search Engine Marketing (SEM)">
               <p>
-                A shorter route to the top is pushing search ads to ensure that
-                your users see your website when searching for the products /
-                services that you offer. With carefully crafted and closely
-                monitored campaigns, we have helped several businesses gain a
-                significant increase in traffic, resulting in more leads.
+                Fast-track your success with compelling search ads. Our
+                meticulously managed campaigns have driven businesses to the
+                top, delivering a surge in traffic and quality leads.
               </p>
             </Accordion>
             <Accordion title="Search Engine Optimization (SEO)">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Unlock global visibility with Google as the paramount search
+                engine worldwide, excluding China. Ensure prime first-page
+                rankings for your business-critical keywords. SEO, although
+                gradual, wields undeniable power, making it an essential
+                strategy. Our arsenal includes on-page & off-page wizardry,
+                enriched content & compelling blogs, strategic directory
+                listings, potent backlinks, and a myriad of tactics that propel
+                your website skyward in search rankings.
               </p>
             </Accordion>
             <Accordion title="PPC / PPM Campaigns">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Our expertise lies in orchestrating online campaigns with one
+                clear goal: to optimise your return on investment (ROI). Whether
+                it's strategic keyword bidding, precise audience segmentation,
+                iterative experimentation, or seamless adaptation, we execute
+                every step. The result? Driving valuable, conversion-ready
+                traffic to your website or app, ensuring a compelling incentive
+                for lead generation.
               </p>
             </Accordion>
             <Accordion title="Video Advertising & Marketing">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Here's a YouTube insight: when your video gains substantial
+                views within its first hour, YouTube boosts its visibility.
+                Elevate your video success by securing a strong viewership
+                during that crucial first hour. Additionally, we specialise in
+                expanding the reach of your older videos, ensuring they resonate
+                with a broader audience over time.
               </p>
             </Accordion>
             <Accordion title="Media Buying">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Our team of experts engages with you to understand your target
+                audience and carefully identifies the right media plan for you.
+                Our bulk buying helps get you good deals and more value for your
+                dollars.
               </p>
             </Accordion>
-            <Accordion title="Campaign Microsites">
+            {/* <Accordion title="Campaign Microsites">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -351,7 +458,7 @@ const DigitalMarketingServices = (props) => {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur.
               </p>
-            </Accordion>
+            </Accordion> */}
           </div>
           <h2 className="sectionHead colorWhite text-white fw-800 wow">
             <img src="/images/icons/line-white.svg" alt="line" />
@@ -487,114 +594,6 @@ const DigitalMarketingServices = (props) => {
           </div>
         </div>
       </section>
-      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
-            <img src="/images/icons/line.svg" alt="line" />
-            More Works
-          </h2>
-          <Slider {...settings}>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/mpuh"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/digital/mpuh.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">MPUH</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/speak-health2"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/digital/sh.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Speak Health</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/sky-greens"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/digital/skygreens.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Skygreens</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/speed-of-sound"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/digital/sos.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Speed Of Sound</h2>
-                <span className="colorGrey fw-400">Digital Marketing</span>
-              </div>
-            </div>
-          </Slider>
-          <Link
-            to="/our-work"
-            className="unsetAll"
-            onClick={() => window.scrollTo(0, 0)}
-            onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
-          >
-            <span className="commonViewAll">View Our Projects</span>
-            <Icon icon="clarity:arrow-line" />
-          </Link>
-        </div>
-      </section>{" "}
     </>
   );
 };

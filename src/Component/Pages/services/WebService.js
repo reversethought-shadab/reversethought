@@ -176,13 +176,11 @@ const WebService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Lead the market with ecommerce sites that are user-tested
+                    for a great experience. All our sites are responsive. Let
+                    your catalogues do the talking and pull out a wide range of
+                    reports that will help you identify your best customers,
+                    traffic sources and many more business building insights.
                   </p>
                   <a
                     href="/our-work"
@@ -205,13 +203,10 @@ const WebService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Designing the UI and UX of a site is a combination of user
+                    behaviour insights, technology, design and lots of user
+                    feedback. Through years of experience, we have mastered this
+                    process which is reflected in the success of our projects.
                   </p>
                   <a
                     href="/our-work"
@@ -234,13 +229,10 @@ const WebService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Update your website at your convenience with a Content
+                    Management System (CMS) that helps you manage the text and
+                    image content on your website. Having a CMS also enables the
+                    search feature for users.
                   </p>
                   <a
                     href="/our-work"
@@ -258,7 +250,115 @@ const WebService = (props) => {
           </div>
         </div>
       </section>
+      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack wow fw-800">
+            <img src="/images/icons/line.svg" alt="line" />
+            More Works
+          </h2>
+          <Slider {...settings}>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/i2m"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/i2m.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">I2M</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/malik-architecture"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/malik.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/notandas"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/notandas.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Notandas</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <div className="imgHoverEffect position-relative">
+                  <a
+                    href="/texprocile"
+                    className="colorWhite fw-800"
+                    onMouseEnter={props.onMouseEnterSmall}
+                    onMouseLeave={props.onMouseLeaveSmall}
+                  >
+                    View Projects &nbsp;
+                    <img
+                      src="/images/icons/toparrowWhite.svg"
+                      alt="toparrow"
+                      className="img-fluid"
+                    />
+                  </a>
+                  <img src="/images/cards/web/texprocile.jpg" alt="work" />
+                </div>
+                <h2 className="colorBlack fw-800">Texprocile</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+          </Slider>
 
+          <Link
+            to="/our-work"
+            className="unsetAll"
+            onClick={() => window.scrollTo(0, 0)}
+            onMouseEnter={props.onMouseEnterSmall}
+            onMouseLeave={props.onMouseLeaveSmall}
+          >
+            <span className="commonViewAll">View Our Projects</span>
+            <Icon icon="clarity:arrow-line" />
+          </Link>
+        </div>
+      </section>
       <section
         className="ourExpertiseSection wow"
         onMouseEnter={props.mouseEnterOnBlack}
@@ -272,92 +372,72 @@ const WebService = (props) => {
           <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
             <Accordion title="Web Applications and Portals">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                No two apps or portals are the same. We custom design and code
+                websites that can perform the functions that you envision and
+                create a winning product of global standards.
               </p>
             </Accordion>
             <Accordion title="Campaign Landing Pages">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Connect with the users who click on your ads with a compelling
+                landing page that converts interest into action. A landing page
+                can give the user an expanded sales pitch and hook them with
+                exciting offers and other reasons to act now.
               </p>
             </Accordion>
             <Accordion title="Microsites">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Walk down the unusual path with a microsite that can have the
+                personality you want. Whether it is engaging deeper with your
+                users, or telling an interesting new story, a good microsite
+                enables all that and more.
               </p>
             </Accordion>
             <Accordion title="Blogs">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                One of the most effective ways to turn your expertise into
+                leads, blogs help you connect with your users beyond the limits
+                of a website. They also drive traffic to your site. We help you
+                create blogs that look great and can be tagged and formatted to
+                derive maximum advantage.
               </p>
             </Accordion>
-            <Accordion title="Marketplace Product Pages">
+            <Accordion
+              title="Marketplace Product Pages (Amazon, Flipkart, Nykaa + Everything else)
+"
+            >
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Stand out on top marketplaces with custom designed pages for
+                your products. We help you develop the content and also design
+                the pages that stand true to the marketplace guidelines.
               </p>
             </Accordion>
             <Accordion title="Drive Traffic">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Through campaigns, advanced SEO, SEM we help you generate
+                traffic for your website, which is the first step to business
+                development.
               </p>
             </Accordion>
             <Accordion title="Lead Generation">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Through inbound marketing strategies and activities, we generate
+                and provide qualified leads for your business.
               </p>
             </Accordion>
             <Accordion title="Website Maintenance">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Allow us to take regular backups of your website, troubleshoot
+                bugs and errors and maintain the speed of your website at a
+                nominal fee.
               </p>
             </Accordion>
             <Accordion title="Analytics">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                How many visitors are coming to you every month? Who are they?
+                Where do they discover you? What keywords are bringing them to
+                you? We will answer all this for you and offer inputs for
+                improvement.
               </p>
             </Accordion>
           </div>
@@ -496,116 +576,6 @@ const WebService = (props) => {
               className="wow animate__animated animate__rotateIn"
             />
           </div>
-        </div>
-      </section>
-
-      <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack wow fw-800">
-            <img src="/images/icons/line.svg" alt="line" />
-            More Works
-          </h2>
-          <Slider {...settings}>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/i2m"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/web/i2m.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">I2M</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/malik-architecture"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/web/malik.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/notandas"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/web/notandas.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Notandas</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <div className="imgHoverEffect position-relative">
-                  <a
-                    href="/texprocile"
-                    className="colorWhite fw-800"
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    View Projects &nbsp;
-                    <img
-                      src="/images/icons/toparrowWhite.svg"
-                      alt="toparrow"
-                      className="img-fluid"
-                    />
-                  </a>
-                  <img src="/images/cards/web/texprocile.jpg" alt="work" />
-                </div>
-                <h2 className="colorBlack fw-800">Texprocile</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-          </Slider>
-
-          <Link
-            to="/our-work"
-            className="unsetAll"
-            onClick={() => window.scrollTo(0, 0)}
-            onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
-          >
-            <span className="commonViewAll">View Our Projects</span>
-            <Icon icon="clarity:arrow-line" />
-          </Link>
         </div>
       </section>
     </>

@@ -100,8 +100,8 @@ const FilmsService = (props) => {
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
-                  {/* <span className="fw-800">01</span> */}
-                  Products Videos
+                  {/* <span className="fw-800">02</span> */}
+                  Profile Shoot
                 </li>
                 <li
                   onClick={() => handleTabClick(1)}
@@ -111,8 +111,8 @@ const FilmsService = (props) => {
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
-                  {/* <span className="fw-800">02</span> */}
-                  Profile Videos
+                  {/* <span className="fw-800">03</span> */}
+                  Corporate Shoot
                 </li>
                 <li
                   onClick={() => handleTabClick(2)}
@@ -122,19 +122,8 @@ const FilmsService = (props) => {
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
-                  {/* <span className="fw-800">03</span> */}
-                  Corporate
-                </li>
-                <li
-                  onClick={() => handleTabClick(3)}
-                  className={
-                    activeTab === 3
-                      ? "wow animate__animated animate__fadeInUp active"
-                      : "wow animate__animated animate__fadeInUp"
-                  }
-                >
                   {/* <span className="fw-800">04</span> */}
-                  Drone Assist Photography
+                  Drone Assisted Photography
                 </li>
               </ul>
             </div>
@@ -148,11 +137,10 @@ const FilmsService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Professionally shot pictures can attract attention, shape
-                    customer opinions and create a positive image of the
-                    organisation. Whether your product is for retail or
-                    institutional use, a good image makes the difference between
-                    acceptance and rejection.
+                    Get powerful shots of people in your organisation with
+                    professional profile shoots. Everything from creating the
+                    right compositions to styling and dressing the team, we
+                    handle it all.
                   </p>
                   <a
                     href="/our-work"
@@ -175,13 +163,9 @@ const FilmsService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Showcase your corporate, manufacturing, research and
+                    distribution facilities with powerful imagery shot and
+                    treated by experienced professionals.
                   </p>
                   <a
                     href="/our-work"
@@ -204,42 +188,9 @@ const FilmsService = (props) => {
                   }
                 >
                   <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
-                  </p>
-                  <a
-                    href="/our-work"
-                    className="unsetAll"
-                    // onClick={() => window.scrollTo(0, 0)}
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    <span className="commonViewAll">Learn More</span>
-                    <Icon icon="clarity:arrow-line" />
-                  </a>
-                </div>
-              )}
-              {activeTab === 3 && (
-                <div
-                  className={
-                    activeTab === 3
-                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                      : "whatWeDoTabsResult"
-                  }
-                >
-                  <p className="colorBlack fw-400">
-                    Let’s energise and elevate your website presence, with the
-                    right balance of business strategy and user excitement. We
-                    conceptualise, strategise, design and develop websites and
-                    apps that establish new design standards in the industry,
-                    while performing flawlessly on various devices. We focus
-                    heavily on user experience & brand upliftment by leveraging
-                    design, content and technology.
+                    Scale creates impact and aerial photography opens up a world
+                    of creative avenues, offering the opportunity to capture
+                    true scale with breathtaking panoramas.
                   </p>
                   <a
                     href="/our-work"
@@ -257,294 +208,6 @@ const FilmsService = (props) => {
           </div>
         </div>
       </section>
-
-      <section
-        className="ourExpertiseSection wow animate__animated animate__slideInUp"
-        onMouseEnter={props.mouseEnterOnBlack}
-        onMouseLeave={props.mouseLeaveOnBlack}
-      >
-        <div className="content_container">
-          <h2 className="sectionHead colorWhite text-white fw-800 wow">
-            <img src="/images/icons/line-white.svg" alt="line" />
-            Our Expertise
-          </h2>
-          <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
-            <Accordion title="Project & Process Mapping Videos">
-              <p>
-                Document the progress of your projects and create an impact with
-                our timelapse videos. Help customers understand your
-                manufacturing and service delivery process with process videos.
-              </p>
-            </Accordion>
-            <Accordion title="Annual Report Videos">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Video Ads">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Corporate Videos & Documentaries">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Social Project Documentaries / CSR Videos">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Sales / Training Videos">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Case Study Videos">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="Storyboarding">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-            <Accordion title="2D/3D Animation">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </Accordion>
-          </div>
-          <h2 className="sectionHead colorWhite text-white fw-800 wow">
-            <img src="/images/icons/line-white.svg" alt="line" />
-            Why Choose Us
-          </h2>
-          <div className="whyChooseUsDetails">
-            <p className="colorWhite fw-400 wow animate__animated animate__fadeInUp">
-              We have always broken moulds and pushed the limits of possibility
-              to bring higher cohesion between your goals and the users’
-              aspirations. Interactive tools, rich content, stunning visuals and
-              intuitive UI combined with latest technologies like HTML5, CSS3,
-              Bootstrap, PHP Laravel & more make for an immersive experience.
-            </p>
-            {/* <div className="d-flex align-items-center"> */}
-            <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                CSS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                HTML 5
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                JavaScript
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                PHP
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Microsoft.net
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                AngularJS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                MySQL.
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                IOS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Android
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Prestashop
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Magento
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                WordPress
-              </li>
-            </ul>
-            {/* </div> */}
-          </div>
-        </div>
-      </section>
-
-      <section className="webServicePageClient ourRecentClients">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
-            <img src="/images/icons/line.svg" alt="line" />
-            Our Recent Clients
-          </h2>
-          <ClientLogo client="videoClient" />
-        </div>
-      </section>
-
-      <section className="pt-0 creativeThoughts position-relative">
-        <div className="content_container">
-          <img
-            src="/images/icons/circle-l.svg"
-            alt="circle-l"
-            className="wow animate__animated animate__rotateIn"
-          />
-
-          <div className="colorBlack fw-800 company">
-            <p className="mb-0 wow">We combines cinematic</p>
-            <p className="mb-0 wow">storytelling with cutting-</p>
-            <p className="mb-0 wow">edge technology to create</p>
-            <p className="mb-0 wow">unforgettable visual</p>
-            <p className="mb-0 wow">experiences</p>
-          </div>
-          <div className="text-end">
-            <img
-              src="/images/icons/circle-r.svg"
-              alt="circle-r"
-              className="wow animate__animated animate__rotateIn"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* <section className="ourWorkSection">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
-            <img src="/images/icons/line.svg" alt="line" />
-            Our Works
-          </h2>
-          <Slider
-            {...settings}
-            className="wow animate__animated animate__slideInUp"
-          >
-            <div>
-              <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-            <div>
-              <div className="sliderInner">
-                <img src="/images/work.png" alt="work" />
-                <h2 className="colorBlack fw-800">Malik Architecture</h2>
-                <span className="colorGrey fw-400">Website Design</span>
-              </div>
-            </div>
-          </Slider>
-          <a
-            href="/our-work"
-            className="unsetAll"
-            // onClick={() => window.scrollTo(0, 0)}
-          >
-            <span className="commonViewAll">View Our Projects</span>
-            <Icon icon="clarity:arrow-line" />
-          </a>
-        </div>
-      </section> */}
       <section className="ourWorkSlider wow animate__animated animate__slideInLeft">
         <div className="content_container">
           <h2 className="sectionHead colorBlack wow fw-800">
@@ -663,6 +326,226 @@ const FilmsService = (props) => {
           </Link>
         </div>
       </section>
+      <section
+        className="ourExpertiseSection wow animate__animated animate__slideInUp"
+        onMouseEnter={props.mouseEnterOnBlack}
+        onMouseLeave={props.mouseLeaveOnBlack}
+      >
+        <div className="content_container">
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
+            <img src="/images/icons/line-white.svg" alt="line" />
+            Our Expertise
+          </h2>
+          <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
+            <Accordion title="Portrait Photography">
+              <p>
+                Get professionally shot impressive headshots of key people
+                within your organisation with our portrait photography. We set
+                up the studio at your premise and get the output you need
+              </p>
+            </Accordion>
+            <Accordion title="Event Photography">
+              <p>
+                Get extensive coverage of your event through video or photos or
+                both through our professional event photography services.
+              </p>
+            </Accordion>
+            <Accordion
+              title="Product Photography
+"
+            >
+              <p>
+                Building a catalogue or setting up an online store? Get
+                high-quality aesthetically shot pictures for your products
+                through our product photography services
+              </p>
+            </Accordion>
+            <Accordion title="Fashion Photography">
+              <p>
+                If you’re dealing in fashion, creating the right look and feel
+                that does justice to your brand is our forte. We work with
+                leading fashion photographers and stylists who can give an edge
+                to your brand
+              </p>
+            </Accordion>
+            <Accordion title="Architectural Photography">
+              <p>
+                For new buildings, sample flats or showcases of designed work by
+                interior designers- we cover the details of any space in a way
+                that sets the right mood and reflects the vision of the
+                designer.
+              </p>
+            </Accordion>
+            <Accordion title="Aerial and Drone Photography">
+              <p>
+                Add a new dimension to your video or brochure, conduct
+                land-mapping or even create timelapse videos of your project
+                using our drone photography services
+              </p>
+            </Accordion>
+            <Accordion title="360-Degree and Virtual Reality (VR) Photography">
+              <p>
+                Take viewers on a journey into your premises, home or factory
+                with 360 degree photography that can be controlled by the viewer
+                as per his choice
+              </p>
+            </Accordion>
+          </div>
+          <h2 className="sectionHead colorWhite text-white fw-800 wow">
+            <img src="/images/icons/line-white.svg" alt="line" />
+            Why Choose Us
+          </h2>
+          <div className="whyChooseUsDetails">
+            <p className="colorWhite fw-400 wow animate__animated animate__fadeInUp">
+              In the world of creative photography, we've consistently pushed
+              the boundaries of artistic expression to connect your vision with
+              your audience's desires. Our photography expertise blends
+              compelling compositions, captivating visuals, and user-friendly
+              aesthetics, all combined with cutting-edge technology. This fusion
+              of artistry and innovation results in stunning visual experiences
+              that leave a lasting impression.
+            </p>
+            {/* <div className="d-flex align-items-center"> */}
+            <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Digital Cameras
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Image Sensors
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Image Processing Software
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Drone Photography
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Facial Recognition
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Printing Technology
+              </li>
+              <li
+                className="colorWhite fw-800"
+                onMouseEnter={props.mouseEnterOnBlack}
+                onMouseLeave={props.mouseLeaveOnBlack}
+              >
+                Studio Lighting
+              </li>
+            </ul>
+            {/* </div> */}
+          </div>
+        </div>
+      </section>
+
+      <section className="webServicePageClient ourRecentClients">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Recent Clients
+          </h2>
+          <ClientLogo client="videoClient" />
+        </div>
+      </section>
+
+      <section className="pt-0 creativeThoughts position-relative">
+        <div className="content_container">
+          <img
+            src="/images/icons/circle-l.svg"
+            alt="circle-l"
+            className="wow animate__animated animate__rotateIn"
+          />
+
+          <div className="colorBlack fw-800 company">
+            <p className="mb-0 wow">We combines cinematic</p>
+            <p className="mb-0 wow">storytelling with cutting-</p>
+            <p className="mb-0 wow">edge technology to create</p>
+            <p className="mb-0 wow">unforgettable visual</p>
+            <p className="mb-0 wow">experiences</p>
+          </div>
+          <div className="text-end">
+            <img
+              src="/images/icons/circle-r.svg"
+              alt="circle-r"
+              className="wow animate__animated animate__rotateIn"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="ourWorkSection">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Works
+          </h2>
+          <Slider
+            {...settings}
+            className="wow animate__animated animate__slideInUp"
+          >
+            <div>
+              <div className="sliderInner">
+                <img src="/images/work.png" alt="work" />
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <img src="/images/work.png" alt="work" />
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <img src="/images/work.png" alt="work" />
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+            <div>
+              <div className="sliderInner">
+                <img src="/images/work.png" alt="work" />
+                <h2 className="colorBlack fw-800">Malik Architecture</h2>
+                <span className="colorGrey fw-400">Website Design</span>
+              </div>
+            </div>
+          </Slider>
+          <a
+            href="/our-work"
+            className="unsetAll"
+            // onClick={() => window.scrollTo(0, 0)}
+          >
+            <span className="commonViewAll">View Our Projects</span>
+            <Icon icon="clarity:arrow-line" />
+          </a>
+        </div>
+      </section> */}
     </>
   );
 };
