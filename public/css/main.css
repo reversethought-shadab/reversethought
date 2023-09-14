@@ -1283,15 +1283,15 @@ header.blackBg {
   opacity: 0;
 }
 .projectGalleryMain .project_box .project_overview .top_overview .proj_name {
-  font-size: 2.9282576867vw;
-  line-height: 3.6603221083vw;
+  font-size: 2.5622254758vw;
+  line-height: 2.9282576867vw;
   font-weight: 800;
   margin-bottom: 0.2928257687vw;
 }
 @media (min-width: 1440px) {
   .projectGalleryMain .project_box .project_overview .top_overview .proj_name {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 40px;
     margin-bottom: 4px;
   }
 }

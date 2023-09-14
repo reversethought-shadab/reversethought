@@ -627,9 +627,8 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          DHC International
+                          DHC International Teaser
                           <br />
-                          Teaser
                         </h2>
                         <p className="proj_type text-black">Video Production</p>
                       </div>
@@ -2630,7 +2629,7 @@ const OurWork = (props) => {
                     <div className="project_overview">
                       <div className="top_overview">
                         <h2 className="proj_name text-black">
-                          lo'real Matrix{" "}
+                          Lo'real Matrix{" "}
                         </h2>
                         <p className="proj_type text-black">
                           Digital Activation

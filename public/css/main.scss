@@ -1292,14 +1292,14 @@ header.blackBg {
 
       .top_overview {
         .proj_name {
-          font-size: 40 * $desk + vw;
-          line-height: 50 * $desk + vw;
+          font-size: 35 * $desk + vw;
+          line-height: 40 * $desk + vw;
           font-weight: $fw-800;
           margin-bottom: 4 * $desk + vw;
 
           @media #{$md_lg_desk} {
-            font-size: 40px;
-            line-height: 50px;
+            font-size: 35px;
+            line-height: 40px;
             margin-bottom: 4px;
           }
         }

@@ -107,7 +107,7 @@ const Home = (props) => {
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        <span className="commonViewAll">View Our Projects</span>
+                        <span className="commonViewAll">View Projects</span>
                         <Icon icon="clarity:arrow-line" />
                       </a>
                     </div>
@@ -138,7 +138,7 @@ const Home = (props) => {
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        <span className="commonViewAll">View Our Projects</span>
+                        <span className="commonViewAll">View Projects</span>
                         <Icon icon="clarity:arrow-line" />
                       </a>
                     </div>
@@ -171,7 +171,7 @@ const Home = (props) => {
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        <span className="commonViewAll">View Our Projects</span>
+                        <span className="commonViewAll">View Projects</span>
                         <Icon icon="clarity:arrow-line" />
                       </a>
                     </div>
@@ -203,7 +203,7 @@ const Home = (props) => {
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        <span className="commonViewAll">View Our Projects</span>
+                        <span className="commonViewAll">View Projects</span>
                         <Icon icon="clarity:arrow-line" />
                       </a>
                     </div>
@@ -232,7 +232,7 @@ const Home = (props) => {
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        <span className="commonViewAll">View Our Projects</span>
+                        <span className="commonViewAll">View Projects</span>
                         <Icon icon="clarity:arrow-line" />
                       </a>
                     </div>
@@ -264,7 +264,7 @@ const Home = (props) => {
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        <span className="commonViewAll">View Our Projects</span>
+                        <span className="commonViewAll">View Projects</span>
                         <Icon icon="clarity:arrow-line" />
                       </a>
                     </div>
@@ -295,7 +295,7 @@ const Home = (props) => {
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        <span className="commonViewAll">View Our Projects</span>
+                        <span className="commonViewAll">View Projects</span>
                         <Icon icon="clarity:arrow-line" />
                       </a>
                     </div>
@@ -326,7 +326,7 @@ const Home = (props) => {
                         className="unsetAll"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        <span className="commonViewAll">View Our Projects</span>
+                        <span className="commonViewAll">View Projects</span>
                         <Icon icon="clarity:arrow-line" />
                       </a>
                     </div>
@@ -757,19 +757,11 @@ const Home = (props) => {
           </h2>
           <div className="gridSystem">
             <div className="gridSystemInner wow animate__animated animate__fadeInUp">
-              <a
-                href="/"
-                onMouseEnter={props.onMouseEnter}
-                onMouseLeave={props.onMouseLeave}
-              >
+              <a href="/">
                 <img src="/images/blogs.svg" alt="blog" className="w-100" />
               </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
-              <h4
-                className="colorBlack fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
-              >
+              <h4 className="colorBlack fw-800">
                 What are the differences in designing B2B & B2C websites?
               </h4>
               <div className="d-flex align-items-center blogs_archive_footer">
@@ -784,19 +776,11 @@ const Home = (props) => {
               </div>
             </div>
             <div className="gridSystemInner wow animate__animated animate__fadeInUp animation_delay_100ms">
-              <a
-                href="/"
-                onMouseEnter={props.onMouseEnter}
-                onMouseLeave={props.onMouseLeave}
-              >
+              <a href="/">
                 <img src="/images/blogs.svg" alt="blog" className="w-100" />
               </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
-              <h4
-                className="colorBlack fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
-              >
+              <h4 className="colorBlack fw-800">
                 What are the differences in designing B2B & B2C websites?
               </h4>
               <div className="d-flex align-items-center blogs_archive_footer">
@@ -811,19 +795,11 @@ const Home = (props) => {
               </div>
             </div>
             <div className="gridSystemInner wow animate__animated animate__fadeInUp animation_delay_200ms">
-              <a
-                href="/"
-                onMouseEnter={props.onMouseEnter}
-                onMouseLeave={props.onMouseLeave}
-              >
+              <a href="/">
                 <img src="/images/blogs.svg" alt="blog" className="w-100" />
               </a>
               <h5 className="colorGrey fw-800">16 may | Accessibility</h5>
-              <h4
-                className="colorBlack fw-800"
-                onMouseEnter={props.onMouseEnterSmall}
-                onMouseLeave={props.onMouseLeaveSmall}
-              >
+              <h4 className="colorBlack fw-800">
                 What are the differences in designing B2B & B2C websites?
               </h4>
               <div className="d-flex align-items-center blogs_archive_footer">
@@ -842,8 +818,6 @@ const Home = (props) => {
             href="/blogs"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
-            onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
           >
             <span className="commonViewAll">View All Blogs</span>
             <Icon icon="clarity:arrow-line" />
