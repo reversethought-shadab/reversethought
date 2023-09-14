@@ -40,7 +40,7 @@ const EnquiryForm = (props) => {
     const headers = {
       "Content-Type": "multipart/form-data",
     };
-    const url = "mailto:tushargarg79@gmail.com";
+    const url = "mailto:rt.developer.shadab@gmail.com";
 
     axios
       .post(url, data, {
