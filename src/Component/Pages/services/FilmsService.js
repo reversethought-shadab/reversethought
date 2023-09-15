@@ -252,7 +252,7 @@ const FilmsService = (props) => {
         <div className="content_container">
           <h2 className="sectionHead text-dark colorBlack wow fw-800">
             <img src="/images/icons/line.svg" alt="line" />
-            More Works
+            Video Production Work
           </h2>
           <Slider {...settings}>
             <div>

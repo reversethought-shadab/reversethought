@@ -254,7 +254,7 @@ const WebService = (props) => {
         <div className="content_container">
           <h2 className="sectionHead colorBlack wow fw-800">
             <img src="/images/icons/line.svg" alt="line" />
-            More Works
+            Website Work
           </h2>
           <Slider {...settings}>
             <div>

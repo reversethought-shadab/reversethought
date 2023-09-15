@@ -354,7 +354,7 @@ const Home = (props) => {
         </div>
       </section>
 
-      <section className="whatWeDo">
+      <section className="whatWeDo ">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
             <img src="/images/icons/line.svg" alt="line" />

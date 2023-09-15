@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Mousewheel, Pagination } from "swiper/modules";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import { Mousewheel, Pagination } from "swiper/modules";
 import WOW from "wowjs";
 import News from "../Shared/News";
 import WhatWeHaveDone from "../Shared/WhatWeHaveDone";

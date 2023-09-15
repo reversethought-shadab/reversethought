@@ -878,8 +878,8 @@ input {
   justify-content: space-between;
 }
 .header_content_container header nav ul li .openServiceMenu .service_menu {
-  flex: 0 0 20%;
-  max-width: 20%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 .header_content_container header nav ul li .openServiceMenu .service_menu ul {
   display: block;
@@ -887,13 +887,13 @@ input {
 }
 .header_content_container header nav ul li .openServiceMenu .service_menu ul li:not(:last-child) {
   margin-bottom: 1.4641288433vw;
-  font-size: 1.9033674963vw;
+  font-size: 2.635431918vw;
   line-height: 2.3426061493vw;
   height: unset;
 }
 @media (min-width: 1440px) {
   .header_content_container header nav ul li .openServiceMenu .service_menu ul li:not(:last-child) {
-    font-size: 26px;
+    font-size: 36px;
     line-height: 32px;
     height: unset;
     margin-bottom: 20px;
@@ -903,15 +903,17 @@ input {
   display: none;
 }
 .header_content_container header nav ul li .openServiceMenu .service_menu ul li a {
-  font-size: 1.756954612vw;
-  line-height: 2.0497803807vw;
+  font-size: 2.196193265vw;
+  line-height: 2.7818448023vw;
   display: block;
+  font-weight: 800;
   color: #000000;
 }
 @media (min-width: 1440px) {
   .header_content_container header nav ul li .openServiceMenu .service_menu ul li a {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 800;
     height: unset;
   }
 }
@@ -919,8 +921,8 @@ input {
   color: #e31e24;
 }
 .header_content_container header nav ul li .openServiceMenu .service_img {
-  flex: 0 0 80%;
-  max-width: 80%;
+  flex: 0 0 75%;
+  max-width: 75%;
 }
 .header_content_container header nav ul li .openServiceMenu .service_img .service_img_flex {
   display: flex;
@@ -940,8 +942,8 @@ input {
 .header_content_container header nav ul li .openServiceMenu .service_img .service_img_flex img.inner_service_img_pill_big {
   flex: 0 0 42%;
   max-width: 42%;
-  -o-object-fit: inherit;
-     object-fit: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .header_content_container header nav ul li .openServiceMenu .image-box {
   width: 100px;

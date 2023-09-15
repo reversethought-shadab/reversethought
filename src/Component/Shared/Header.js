@@ -23,10 +23,26 @@ const Header = (props) => {
 
   const isServicesMainPage = location.pathname === "/servicesMain";
   const isOurWorkPage = location.pathname === "/our-work";
+  const isAllProjects = location.pathname === "/our-work/all-projects";
+  const isDigitalMarketing =
+    location.pathname === "/our-work/digital-marketing";
+  const isDigitalActivation =
+    location.pathname === "/our-work/digital-activation";
+  const isCreativeDesign = location.pathname === "/our-work/creative-design";
+  const isPhotography = location.pathname === "/our-work/photography";
+  const isWebsiteApp = location.pathname === "/our-work/website-app";
+  const isVideoProduction = location.pathname === "/our-work/video-production";
 
   const pageClassNames = {
     "/servicesMain": "blackBg",
     "/our-work": "blackBg",
+    "/our-work/all-projects": "blackBg",
+    "/our-work/digital-marketing": "blackBg",
+    "/our-work/digital-activation": "blackBg",
+    "/our-work/creative-design": "blackBg",
+    "/our-work/photography": "blackBg",
+    "/our-work/website-app": "blackBg",
+    "/our-work/video-production": "blackBg",
     "/websiteDesign": "Website-Design",
     "/Video-production-Services": "Video-production-Services",
     "/Digital-Marketing-Services": "Digital-Marketing-Services",
@@ -66,6 +82,48 @@ const Header = (props) => {
                   alt="RT Logo"
                   className="rt_logo"
                 />
+              ) : isAllProjects ? (
+                <img
+                  src="/images/icons/rt-footer-logo.svg"
+                  alt="RT Logo"
+                  className="rt_logo"
+                />
+              ) : isDigitalMarketing ? (
+                <img
+                  src="/images/icons/rt-footer-logo.svg"
+                  alt="RT Logo"
+                  className="rt_logo"
+                />
+              ) : isDigitalActivation ? (
+                <img
+                  src="/images/icons/rt-footer-logo.svg"
+                  alt="RT Logo"
+                  className="rt_logo"
+                />
+              ) : isCreativeDesign ? (
+                <img
+                  src="/images/icons/rt-footer-logo.svg"
+                  alt="RT Logo"
+                  className="rt_logo"
+                />
+              ) : isPhotography ? (
+                <img
+                  src="/images/icons/rt-footer-logo.svg"
+                  alt="RT Logo"
+                  className="rt_logo"
+                />
+              ) : isWebsiteApp ? (
+                <img
+                  src="/images/icons/rt-footer-logo.svg"
+                  alt="RT Logo"
+                  className="rt_logo"
+                />
+              ) : isVideoProduction ? (
+                <img
+                  src="/images/icons/rt-footer-logo.svg"
+                  alt="RT Logo"
+                  className="rt_logo"
+                />
               ) : (
                 <img
                   src="/images/icons/rt-logo.svg"
@@ -79,10 +137,24 @@ const Header = (props) => {
                 <li
                   className={
                     isServicesMainPage
-                      ? "colorWhite fw-500"
+                      ? "colorWhite fw-400"
                       : isOurWorkPage
-                      ? "colorWhite fw-500"
-                      : "colorGrey fw-500"
+                      ? "colorWhite fw-400"
+                      : isAllProjects
+                      ? "colorWhite fw-400"
+                      : isDigitalMarketing
+                      ? "colorWhite fw-400"
+                      : isDigitalActivation
+                      ? "colorWhite fw-400"
+                      : isCreativeDesign
+                      ? "colorWhite fw-400"
+                      : isPhotography
+                      ? "colorWhite fw-400"
+                      : isWebsiteApp
+                      ? "colorWhite fw-400"
+                      : isVideoProduction
+                      ? "colorWhite fw-400"
+                      : "colorGrey fw-500 service_link"
                   }
                 ></li>
                 <li
@@ -94,6 +166,20 @@ const Header = (props) => {
                       ? "colorWhite fw-500 service_link"
                       : isOurWorkPage
                       ? "colorWhite fw-500 service_link"
+                      : isAllProjects
+                      ? "colorWhite fw-500 service_link"
+                      : isDigitalMarketing
+                      ? "colorWhite fw-500 service_link"
+                      : isDigitalActivation
+                      ? "colorWhite fw-500 service_link"
+                      : isCreativeDesign
+                      ? "colorWhite fw-500 service_link"
+                      : isPhotography
+                      ? "colorWhite fw-500 service_link"
+                      : isWebsiteApp
+                      ? "colorWhite fw-500 service_link"
+                      : isVideoProduction
+                      ? "colorWhite fw-500 service_link"
                       : "colorGrey fw-500 service_link"
                   }
                 >
@@ -103,28 +189,28 @@ const Header = (props) => {
                   <div className="openServiceMenu ">
                     <div className="service_menu ">
                       <ul>
-                        <li>
+                        <li className="fw-bold">
                           <a href="/websiteDesign">Website / App</a>
                         </li>
-                        <li>
+                        <li className="fw-800">
                           <a href="/Video-production-Services">
                             Video Production
                           </a>
                         </li>
-                        <li>
+                        <li className="fw-800">
                           <a href="/Digital-Marketing-Services">
                             Digital Marketing
                           </a>
                         </li>
-                        <li>
+                        <li className="fw-800">
                           <a href="/Creative-Services">Creative Design</a>
                         </li>
-                        <li>
+                        <li className="fw-800">
                           <a href="/Digital-Activation-Services">
                             Digital Activations
                           </a>
                         </li>
-                        <li>
+                        <li className="fw-800">
                           <a href="/Photography">Photography</a>
                         </li>
                       </ul>
@@ -133,7 +219,7 @@ const Header = (props) => {
                       <div className="service_img_flex">
                         <img
                           className="inner_service_img_pill inner_service_img_pill_big"
-                          src="/images/menu/app.jpg"
+                          src="/images/menu/ui.jpg"
                           alt=""
                         />
                         <img
@@ -143,7 +229,7 @@ const Header = (props) => {
                         />
                         <img
                           className="inner_service_img_pill"
-                          src="/images/menu/print.jpg"
+                          src="/images/menu/brand.png"
                           alt=""
                         />
                         <img
@@ -168,10 +254,24 @@ const Header = (props) => {
                 <li
                   className={
                     isServicesMainPage
-                      ? "colorWhite fw-400"
+                      ? "colorWhite fw-500 service_link"
                       : isOurWorkPage
-                      ? "colorWhite fw-400"
-                      : "colorGrey fw-400"
+                      ? "colorWhite fw-500 service_link"
+                      : isAllProjects
+                      ? "colorWhite fw-500 service_link"
+                      : isDigitalMarketing
+                      ? "colorWhite fw-500 service_link"
+                      : isDigitalActivation
+                      ? "colorWhite fw-500 service_link"
+                      : isCreativeDesign
+                      ? "colorWhite fw-500 service_link"
+                      : isPhotography
+                      ? "colorWhite fw-500 service_link"
+                      : isWebsiteApp
+                      ? "colorWhite fw-500 service_link"
+                      : isVideoProduction
+                      ? "colorWhite fw-500 service_link"
+                      : "colorGrey fw-500 service_link"
                   }
                 >
                   <Link to="/our-work">Our Work</Link>
@@ -179,10 +279,24 @@ const Header = (props) => {
                 <li
                   className={
                     isServicesMainPage
-                      ? "colorWhite fw-400"
+                      ? "colorWhite fw-500 service_link"
                       : isOurWorkPage
-                      ? "colorWhite fw-400"
-                      : "colorGrey fw-400"
+                      ? "colorWhite fw-500 service_link"
+                      : isAllProjects
+                      ? "colorWhite fw-500 service_link"
+                      : isDigitalMarketing
+                      ? "colorWhite fw-500 service_link"
+                      : isDigitalActivation
+                      ? "colorWhite fw-500 service_link"
+                      : isCreativeDesign
+                      ? "colorWhite fw-500 service_link"
+                      : isPhotography
+                      ? "colorWhite fw-500 service_link"
+                      : isWebsiteApp
+                      ? "colorWhite fw-500 service_link"
+                      : isVideoProduction
+                      ? "colorWhite fw-500 service_link"
+                      : "colorGrey fw-500 service_link"
                   }
                 >
                   <Link to="/clients">Clients</Link>
@@ -190,10 +304,24 @@ const Header = (props) => {
                 <li
                   className={
                     isServicesMainPage
-                      ? "colorWhite fw-400"
+                      ? "colorWhite fw-500 service_link"
                       : isOurWorkPage
-                      ? "colorWhite fw-400"
-                      : "colorGrey fw-400"
+                      ? "colorWhite fw-500 service_link"
+                      : isAllProjects
+                      ? "colorWhite fw-500 service_link"
+                      : isDigitalMarketing
+                      ? "colorWhite fw-500 service_link"
+                      : isDigitalActivation
+                      ? "colorWhite fw-500 service_link"
+                      : isCreativeDesign
+                      ? "colorWhite fw-500 service_link"
+                      : isPhotography
+                      ? "colorWhite fw-500 service_link"
+                      : isWebsiteApp
+                      ? "colorWhite fw-500 service_link"
+                      : isVideoProduction
+                      ? "colorWhite fw-500 service_link"
+                      : "colorGrey fw-500 service_link"
                   }
                 >
                   <Link to="about-us">About Us </Link>

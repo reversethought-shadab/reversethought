@@ -111,12 +111,6 @@ const DigitalActivationServices = (props) => {
                 >
                   Engagement Apps
                 </li>
-                <li
-                  onClick={() => handleTabClick(3)}
-                  className={activeTab === 3 ? "active" : ""}
-                >
-                  Sales Solutions
-                </li>
               </ul>
             </div>
             <div className="col-sm-6 p-0 whatwedoTabsR wow animate__animated animate__fadeInUp animation_delay_300ms">
@@ -198,33 +192,6 @@ const DigitalActivationServices = (props) => {
                   </a>
                 </div>
               )}
-              {activeTab === 3 && (
-                <div
-                  className={
-                    activeTab === 3
-                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                      : "whatWeDoTabsResult"
-                  }
-                >
-                  <p className="colorBlack fw-400">
-                    Give your sales force the tools that create an impact!
-                    Business Presentations, collaterals, videos or a combination
-                    of these go a long way in delivering a powerful message. Our
-                    team can conceptualise and create innovative, customised
-                    sales tools around any business requirement.
-                  </p>
-                  <a
-                    href="/our-work"
-                    className="unsetAll"
-                    // onClick={() => window.scrollTo(0, 0)}
-                    onMouseEnter={props.onMouseEnterSmall}
-                    onMouseLeave={props.onMouseLeaveSmall}
-                  >
-                    <span className="commonViewAll">Learn More</span>
-                    <Icon icon="clarity:arrow-line" />
-                  </a>
-                </div>
-              )}
             </div>
           </div>
         </div>
@@ -233,7 +200,7 @@ const DigitalActivationServices = (props) => {
         <div className="content_container">
           <h2 className="sectionHead text-dark colorBlack wow fw-800">
             <img src="/images/icons/line.svg" alt="line" />
-            More Works
+            Digital Activation Work
           </h2>
           <Slider {...settings}>
             <div>
@@ -366,79 +333,22 @@ const DigitalActivationServices = (props) => {
             Our Expertise
           </h2>
           <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
-            <Accordion title="Infographics">
+            <Accordion title="Live video streaming">
               <p>
-                Visualising information requires not just creativity, but also a
-                keen understanding of the data and an analytical approach that
-                can best present it. As audiences move increasingly away from
-                intense use of words, our infographics will help you create
-                shareable, easy to comprehend content.
+                Live video streaming services have revolutionised the way people
+                connect and share moments, allowing individuals and businesses
+                to broadcast events, webinars, and content in real-time to a
+                global audience.
               </p>
             </Accordion>
-            <Accordion title="Emailers & Newsletters">
+            <Accordion
+              title="3d pop-up posters
+"
+            >
               <p>
-                Stay in touch with your customers and forge meaningful
-                conversations with mailers that are both engaging and
-                informative. Bonus: our content creation teams help you craft
-                compelling headlines proven to improve open rate.
-              </p>
-            </Accordion>
-            <Accordion title="GIFs Creatives">
-              <p>
-                Crafting captivating GIF creatives goes beyond creativity; it
-                demands a deep grasp of data and an analytical finesse for
-                optimal presentation. As audiences gravitate towards more visual
-                content, our GIFs service empowers you to share information
-                effortlessly with eye-catching, easy-to-understand visuals.
-              </p>
-            </Accordion>
-            <Accordion title="WhatsApp Creatives">
-              <p>
-                Elevate your WhatsApp Creatives with a blend of creativity and
-                data-driven insight. Our infographics turn complex information
-                into easily shareable, visually engaging content, aligning
-                perfectly with the evolving preferences of today's audience.
-              </p>
-            </Accordion>
-            <Accordion title="Logo & Stationery">
-              <p>
-                Crafting a memorable logo and stationery design demands more
-                than just creativity; it requires a deep comprehension of your
-                brand's essence and an analytical approach to visually represent
-                it. In a world where visual communication reigns, our designs
-                ensure your brand is not only memorable but also easily
-                recognizable and shareable.
-              </p>
-            </Accordion>
-            <Accordion title="Brochures & Flyers">
-              <p>
-                Transform your Brochures & Flyers with a fusion of artistic
-                ingenuity and data-driven precision. Our designs convert
-                intricate information into visually captivating content,
-                perfectly aligned with the dynamic tastes of modern audiences.
-              </p>
-            </Accordion>
-            <Accordion title="Graphic Design">
-              <p>
-                Elevate your brand's visual identity and captivate your audience
-                with our meticulous and innovative graphic design, where
-                creativity meets precision to deliver compelling, tailor-made
-                visuals that leave a lasting impression.
-              </p>
-            </Accordion>
-            <Accordion title="Giveaway Kit Design">
-              <p>
-                Transform your brand's image and captivate your audience with
-                our expertly crafted Giveaway Kit, where creativity knows no
-                bounds, and every detail is a masterpiece waiting to leave a
-                lasting impression.
-              </p>
-            </Accordion>
-            <Accordion title="Outdoor Ads">
-              <p>
-                Elevate your brand's visibility and captivate your audience with
-                Outdoor Ads, where creativity meets the great outdoors, turning
-                heads and sparking conversations at every corner.
+                Transform your advertising and events with our stunning 3D
+                pop-up posters, designed to captivate and engage your audience
+                like never before.
               </p>
             </Accordion>
           </div>

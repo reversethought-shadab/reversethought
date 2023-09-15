@@ -836,8 +836,8 @@ input {
             justify-content: space-between;
 
             .service_menu{
-              flex: 0 0 20%;
-              max-width: 20%;
+              flex: 0 0 25%;
+              max-width: 25%;
 
               ul{
                 display: block;
@@ -846,12 +846,12 @@ input {
                 li{
                   &:not(:last-child){
                     margin-bottom: 20 * $desk + vw;
-                    font-size: 26 * $desk + vw;
+                    font-size: 36 * $desk + vw;
                     line-height: 32 * $desk + vw;
                     height: unset;
 
                     @media #{$md_lg_desk}{
-                      font-size: 26px;
+                      font-size: 36px;
                       line-height: 32px;
                       height: unset;
                       margin-bottom: 20px
@@ -865,14 +865,16 @@ input {
                   }
 
                   a{
-                    font-size: 24 * $desk + vw;
-                    line-height: 28 * $desk + vw;
+                    font-size: 30 * $desk + vw;
+                    line-height: 38 * $desk + vw;
                     display: block;
+                    font-weight: 800;
                     color: $colorBlack;
 
                     @media #{$md_lg_desk}{
-                      font-size: 24px;
-                      line-height: 28px;
+                      font-size: 30px;
+                      line-height: 38px;
+                      font-weight: 800;
                       height: unset;
                     }
 
@@ -885,8 +887,8 @@ input {
             }
 
             .service_img{
-              flex: 0 0 80%;
-               max-width: 80%;
+              flex: 0 0 75%;
+               max-width: 75%;
 
               .service_img_flex{
                 display: flex;
@@ -905,7 +907,7 @@ input {
                   &.inner_service_img_pill_big{
                     flex: 0 0 42%;
                     max-width: 42%;
-                    object-fit: inherit;
+                    object-fit:cover;
                   }
 
                   
