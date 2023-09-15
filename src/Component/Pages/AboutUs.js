@@ -80,7 +80,7 @@ const AboutUs = (props) => {
                   onClick={() => handleTabClick(0)}
                   className={
                     activeTab === 0
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -91,7 +91,7 @@ const AboutUs = (props) => {
                   onClick={() => handleTabClick(1)}
                   className={
                     activeTab === 1
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -102,7 +102,7 @@ const AboutUs = (props) => {
                   onClick={() => handleTabClick(2)}
                   className={
                     activeTab === 2
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp     tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -113,7 +113,7 @@ const AboutUs = (props) => {
                   onClick={() => handleTabClick(3)}
                   className={
                     activeTab === 3
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp    tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -124,7 +124,7 @@ const AboutUs = (props) => {
                   onClick={() => handleTabClick(4)}
                   className={
                     activeTab === 4
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp   tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -135,7 +135,7 @@ const AboutUs = (props) => {
                   onClick={() => handleTabClick(5)}
                   className={
                     activeTab === 5
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp  tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -364,7 +364,15 @@ const AboutUs = (props) => {
           </div>
         </div>
       </section>
-
+      <section className="webServicePageClient ourRecentClients">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Recent Clients
+          </h2>
+          <ClientLogo client="commonClient" />
+        </div>
+      </section>
       <WhatWeHaveDone />
 
       <section className="ourValueSection">
@@ -462,16 +470,6 @@ const AboutUs = (props) => {
               we’ll figure out if <br /> you’re a good fit!
             </span>
           </div>
-        </div>
-      </section>
-
-      <section className="webServicePageClient ourRecentClients">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
-            <img src="/images/icons/line.svg" alt="line" />
-            Our Recent Clients
-          </h2>
-          <ClientLogo client="commonClient" />
         </div>
       </section>
 

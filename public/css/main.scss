@@ -31,7 +31,7 @@ $desk_height: "(max-height: 768px)";
 
 @mixin grid-six-col {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
 }
 
@@ -1518,7 +1518,15 @@ header.blackBg {
         position: relative;
         padding-left: 30 * $desk + vw;
         cursor: pointer;
+&:hover{
+  color: #212121;
+  transition:cubic-bezier(0.175, 0.885, 0.32, 1.275) ease-in-out;
+}
+&:hover span{
+  color: #fa323d;
+  transition:cubic-bezier(0.175, 0.885, 0.32, 1.275) ease-in-out;
 
+}
         @media #{$md_lg_desk} {
           font-size: 56px;
           line-height: 74px;
@@ -1552,6 +1560,7 @@ header.blackBg {
 
       li.active {
         color: #fa323d;
+        
         span {
           color: $colorBlack;
           
@@ -1559,12 +1568,7 @@ header.blackBg {
       }
     }
   }
-.animate__animated:hover{
-  color:#212121;
-} 
-.animate__animated:hover span{
-  color:#fa323d ;
-}
+
   .whatwedoTabsR {
     overflow: hidden;
     .whatWeDoTabsResult {
@@ -2164,8 +2168,10 @@ header.blackBg {
 // We are in the News
 .weareintheNews {
   padding-bottom: 125 * $desk + vw;
+  padding-top:90 * $desk + vw;
   .sectionHead {
     padding-bottom: 72 * $desk + vw;
+    padding-top: 72 * $desk + vw;
   }
   .gridSystem {
     display: grid;

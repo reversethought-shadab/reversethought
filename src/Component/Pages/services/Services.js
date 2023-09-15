@@ -88,7 +88,7 @@ const Services = (props) => {
                   onClick={() => handleTabClick(0)}
                   className={
                     activeTab === 0
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -99,7 +99,7 @@ const Services = (props) => {
                   onClick={() => handleTabClick(1)}
                   className={
                     activeTab === 1
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -110,7 +110,7 @@ const Services = (props) => {
                   onClick={() => handleTabClick(2)}
                   className={
                     activeTab === 2
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp     tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -121,7 +121,7 @@ const Services = (props) => {
                   onClick={() => handleTabClick(3)}
                   className={
                     activeTab === 3
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp    tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -132,7 +132,7 @@ const Services = (props) => {
                   onClick={() => handleTabClick(4)}
                   className={
                     activeTab === 4
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp   tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -143,7 +143,7 @@ const Services = (props) => {
                   onClick={() => handleTabClick(5)}
                   className={
                     activeTab === 5
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp  tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -169,9 +169,9 @@ const Services = (props) => {
                     <li className="colorBlack fw-800">WordPress Development</li>
                   </ul>
                   <p className="colorBlack fw-400">
-                    Let’s energize and elevate your website presence, with the
+                    Let’s energise and elevate your website presence, with the
                     right balance of business strategy and user excitement. We
-                    conceptualize, strategise, design and develop websites and
+                    conceptualise, strategise, design and develop websites and
                     apps that establish new design standards in the industry,
                     while performing flawlessly on various devices. We focus
                     heavily on user experience & brand upliftment by leveraging
@@ -198,17 +198,15 @@ const Services = (props) => {
                   }
                 >
                   <ul className="d-flex">
-                    <li className="colorBlack fw-800">Concept & Scripting</li>
-                    <li className="colorBlack fw-800">
-                      On-ground & Drone Shoot
-                    </li>
-                    <li className="colorBlack fw-800">Graphics & Animation</li>
-                    <li className="colorBlack fw-800">Motion Graphics</li>
-                    <li className="colorBlack fw-800">2d Animation</li>
+                    <li className="colorBlack fw-800">Corporate Profiles</li>
+                    <li className="colorBlack fw-800">Corporate Profiles</li>
+                    <li className="colorBlack fw-800">AVs </li>
+                    <li className="colorBlack fw-800">Video Editing</li>
+                    {/* <li className="colorBlack fw-800">2d Animation</li> */}
                   </ul>
                   <p className="colorBlack fw-400">
                     A video is the best marketing tool for business. We
-                    conceptualize and produce a broad range of videos from
+                    conceptualise and produce a broad range of videos from
                     corporate profiles to specific application videos. Through a
                     mix of on-ground & aerial photography, graphics, animation
                     and many more styles we can produce any kind of film for any
@@ -241,10 +239,10 @@ const Services = (props) => {
                     </li>
                     <li className="colorBlack fw-800">Performance Marketing</li>
                     <li className="colorBlack fw-800">Integrated Marketing</li>
-                    <li className="colorBlack fw-800">Google Advertising</li>
-                    <li className="colorBlack fw-800">
+                    {/* <li className="colorBlack fw-800">Integrated Marketing  </li> */}
+                    {/* <li className="colorBlack fw-800">
                       SMS & Whatsapp Campaigns
-                    </li>
+                    </li> */}
                   </ul>
                   <p className="colorBlack fw-400">
                     If your business isn’t online and visible to your customers,
@@ -276,20 +274,18 @@ const Services = (props) => {
                 >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">Print design</li>
-                    <li className="colorBlack fw-800">
-                      Social Media Creatives
-                    </li>
-                    <li className="colorBlack fw-800">Logo & Identity</li>
-                    <li className="colorBlack fw-800">
+                    <li className="colorBlack fw-800">Branding</li>
+                    <li className="colorBlack fw-800"> Creative Design</li>
+                    {/* <li className="colorBlack fw-800">
                       Internal Communication
-                    </li>
+                    </li> */}
                   </ul>
                   <p className="colorBlack fw-400">
                     Creativity is the backbone of our agency and the reason for
                     us to do what we do. We design all kinds of branding
                     materials as well as collaterals that captivate and
                     effectively send the message across. We handle the design
-                    and content for all kinds of digital and print creatives .
+                    and content for all kinds of digital and print creatives
                   </p>
                   <a
                     href="/Creative-Services"
@@ -313,11 +309,9 @@ const Services = (props) => {
                 >
                   <ul className="d-flex">
                     <li className="colorBlack fw-800">AR Filters</li>
+                    <li className="colorBlack fw-800">Games</li>
                     <li className="colorBlack fw-800">
                       SMS & Whatsapp Campaigns
-                    </li>
-                    <li className="colorBlack fw-800">
-                      Digital Hoarding Video Ads
                     </li>
                   </ul>
                   <p className="colorBlack fw-400">
@@ -343,25 +337,24 @@ const Services = (props) => {
                 <div
                   className={
                     activeTab === 5
-                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft"
-                      : "whatWeDoTabsResult"
+                      ? "whatWeDoTabsResult wow animate__animated animate__fadeInLeft fifth "
+                      : "whatWeDoTabsResult "
                   }
                 >
                   <ul className="d-flex">
-                    <li className="colorBlack fw-800">AR Filters</li>
+                    <li className="colorBlack fw-800">Profile Shoot</li>
+                    <li className="colorBlack fw-800">Corporate Shoot</li>
                     <li className="colorBlack fw-800">
-                      SMS & Whatsapp Campaigns
-                    </li>
-                    <li className="colorBlack fw-800">
-                      Digital Hoarding Video Ads
+                      Drone Assisted Photography
                     </li>
                   </ul>
                   <p className="colorBlack fw-400">
-                    Break the clutter and engage your audience through custom
-                    developed digital activations in the form of apps, games,
-                    filters and more. We work closely with your team to develop
-                    concepts that add weight to your messaging and develop the
-                    assets to execute your campaign.
+                    Capture the essence of your brand with our photography
+                    service, where we bring your vision to life through expertly
+                    crafted visuals that resonate with your audience. We craft
+                    captivating images that not only capture moments but also
+                    engage your audience, adding a unique and compelling
+                    dimension to your brand.
                   </p>
                   <a
                     href="/Photography"
@@ -379,7 +372,6 @@ const Services = (props) => {
           </div>
         </div>
       </section>
-      <WhatWeHaveDone />
 
       <section className="webServicePageClient ourRecentClients">
         <div className="content_container">
@@ -391,6 +383,7 @@ const Services = (props) => {
         </div>
       </section>
 
+      <WhatWeHaveDone />
       <section className="pt-0 creativeThoughts position-relative">
         <div className="content_container">
           <img

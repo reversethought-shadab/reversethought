@@ -367,7 +367,7 @@ const Home = (props) => {
                   onClick={() => handleTabClick(0)}
                   className={
                     activeTab === 0
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -378,7 +378,7 @@ const Home = (props) => {
                   onClick={() => handleTabClick(1)}
                   className={
                     activeTab === 1
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -389,7 +389,7 @@ const Home = (props) => {
                   onClick={() => handleTabClick(2)}
                   className={
                     activeTab === 2
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp     tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -400,7 +400,7 @@ const Home = (props) => {
                   onClick={() => handleTabClick(3)}
                   className={
                     activeTab === 3
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp    tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -411,7 +411,7 @@ const Home = (props) => {
                   onClick={() => handleTabClick(4)}
                   className={
                     activeTab === 4
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp   tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -422,7 +422,7 @@ const Home = (props) => {
                   onClick={() => handleTabClick(5)}
                   className={
                     activeTab === 5
-                      ? "wow animate__animated animate__fadeInUp active"
+                      ? "wow animate__animated animate__fadeInUp  tabhover active"
                       : "wow animate__animated animate__fadeInUp"
                   }
                 >
@@ -696,15 +696,6 @@ const Home = (props) => {
             <div className="gridSystemInner text-center wow">
               <img
                 src="/images/achievements/achievement-1.svg"
-                alt="achievements"
-                className="img-fluid"
-                style={{ height: "25px" }}
-              />
-              <p className="colorBlack fw-800">Oscars of Indian Ad Awards</p>
-            </div>
-            <div className="gridSystemInner text-center wow">
-              <img
-                src="/images/achievements/achievement-2.svg"
                 alt="achievements"
                 className="img-fluid"
                 style={{ height: "25px" }}

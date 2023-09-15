@@ -1498,6 +1498,14 @@ header.blackBg {
   padding-left: 2.196193265vw;
   cursor: pointer;
 }
+.whatWeDo .whatwedoTabsL ul li:hover {
+  color: #212121;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) ease-in-out;
+}
+.whatWeDo .whatwedoTabsL ul li:hover span {
+  color: #fa323d;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) ease-in-out;
+}
 @media (min-width: 1440px) {
   .whatWeDo .whatwedoTabsL ul li {
     font-size: 56px;
@@ -1537,12 +1545,6 @@ header.blackBg {
 }
 .whatWeDo .whatwedoTabsL ul li.active span {
   color: #000000;
-}
-.whatWeDo .animate__animated:hover {
-  color: #212121;
-}
-.whatWeDo .animate__animated:hover span {
-  color: #fa323d;
 }
 .whatWeDo .whatwedoTabsR {
   overflow: hidden;
@@ -1613,7 +1615,7 @@ header.blackBg {
 }
 .ourRecentClients .gridSystem {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   gap: 1.4641288433vw 7.1010248902vw;
 }
@@ -1902,7 +1904,7 @@ header.blackBg {
 }
 .ourAchievements .gridSystem {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   gap: 1.0980966325vw;
   justify-content: center;
@@ -2136,9 +2138,11 @@ header.blackBg {
 
 .weareintheNews {
   padding-bottom: 9.1508052709vw;
+  padding-top: 6.588579795vw;
 }
 .weareintheNews .sectionHead {
   padding-bottom: 5.270863836vw;
+  padding-top: 5.270863836vw;
 }
 .weareintheNews .gridSystem {
   display: grid;

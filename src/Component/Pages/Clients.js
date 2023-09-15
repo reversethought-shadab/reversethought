@@ -247,15 +247,6 @@ const Clients = (props) => {
               />
               <p className="colorBlack fw-800">Oscars of Indian Ad Awards</p>
             </div>
-            <div className="gridSystemInner text-center wow">
-              <img
-                src="/images/achievements/achievement-2.svg"
-                alt="achievements"
-                className="img-fluid"
-                style={{ height: "25px" }}
-              />
-              <p className="colorBlack fw-800">Oscars of Indian Ad Awards</p>
-            </div>
           </div>
           <div className="creativeThoughts position-relative">
             <div className="colorBlack fw-800 company">

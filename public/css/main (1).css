@@ -1606,7 +1606,7 @@ header.blackBg {
 }
 .ourRecentClients .gridSystem {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   gap: 1.4641288433vw 7.1010248902vw;
 }
@@ -1895,7 +1895,7 @@ header.blackBg {
 }
 .ourAchievements .gridSystem {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   gap: 1.0980966325vw;
   justify-content: center;
