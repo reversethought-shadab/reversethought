@@ -2166,12 +2166,13 @@ header.blackBg {
 }
 
 // We are in the News
+.weareintheNews2 {
+  padding-bottom: 125 * $desk + vw;
+  padding-top:90 * $desk + vw;}
 .weareintheNews {
   padding-bottom: 125 * $desk + vw;
-  padding-top:90 * $desk + vw;
   .sectionHead {
     padding-bottom: 72 * $desk + vw;
-    padding-top: 72 * $desk + vw;
   }
   .gridSystem {
     display: grid;

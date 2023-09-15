@@ -2136,13 +2136,16 @@ header.blackBg {
   }
 }
 
-.weareintheNews {
+.weareintheNews2 {
   padding-bottom: 9.1508052709vw;
   padding-top: 6.588579795vw;
 }
+
+.weareintheNews {
+  padding-bottom: 9.1508052709vw;
+}
 .weareintheNews .sectionHead {
   padding-bottom: 5.270863836vw;
-  padding-top: 5.270863836vw;
 }
 .weareintheNews .gridSystem {
   display: grid;

@@ -353,7 +353,15 @@ const Home = (props) => {
           </a>
         </div>
       </section>
-
+      {/* <section className="ourRecentClients">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Recent Clients
+          </h2>
+          <ClientLogo client="commonClient" />
+        </div>
+      </section> */}
       <section className="whatWeDo ">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
@@ -651,7 +659,15 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-
+      <section className="ourRecentClients">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Recent Clients
+          </h2>
+          <ClientLogo client="commonClient" />
+        </div>
+      </section>
       <WhatWeHaveDone />
 
       <section className="ourAchievements">
@@ -737,7 +753,7 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-      <section className="ourRecentClients">
+      {/* <section className="ourRecentClients">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
             <img src="/images/icons/line.svg" alt="line" />
@@ -745,7 +761,7 @@ const Home = (props) => {
           </h2>
           <ClientLogo client="commonClient" />
         </div>
-      </section>
+      </section> */}
 
       <section className="blogsSection">
         <div className="content_container">

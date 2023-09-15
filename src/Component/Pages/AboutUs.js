@@ -473,7 +473,7 @@ const AboutUs = (props) => {
         </div>
       </section>
 
-      <section className="weareintheNews">
+      <section className="weareintheNews weareintheNews2">
         <div className="content_container">
           <News />
         </div>
