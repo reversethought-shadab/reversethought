@@ -347,7 +347,7 @@ const FilmsService = (props) => {
           </Slider>
 
           <Link
-            to="/our-work"
+            to="/our-work/video-production"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
             onMouseEnter={props.onMouseEnterSmall}

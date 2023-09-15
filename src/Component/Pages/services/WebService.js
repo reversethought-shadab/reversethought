@@ -348,7 +348,7 @@ const WebService = (props) => {
           </Slider>
 
           <Link
-            to="/our-work"
+            to="/our-work/website-app"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
             onMouseEnter={props.onMouseEnterSmall}

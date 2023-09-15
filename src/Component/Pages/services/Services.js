@@ -400,7 +400,9 @@ const Services = (props) => {
           />
 
           <div className="colorBlack fw-800 company">
-            <p className="mb-0 wow">Partner with Reverse Thought</p>
+            <p className="mb-0 wow">
+              Partner with <br /> Reverse Thought
+            </p>
             <p className="mb-0 wow"> for inspiring design solutions</p>
             <p className="mb-0 wow">
               A digital agency that will make you proud

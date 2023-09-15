@@ -294,7 +294,7 @@ const CreativeServices = (props) => {
             </div>
           </Slider>
           <Link
-            to="/our-work"
+            to="/our-work/creative-design"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
             onMouseEnter={props.onMouseEnterSmall}

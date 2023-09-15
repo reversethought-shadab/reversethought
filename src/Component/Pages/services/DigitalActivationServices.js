@@ -344,7 +344,7 @@ const DigitalActivationServices = (props) => {
             </div>
           </Slider>
           <Link
-            to="/our-work"
+            to="/our-work/digital-activation"
             className="unsetAll"
             onClick={() => window.scrollTo(0, 0)}
             onMouseEnter={props.onMouseEnterSmall}
