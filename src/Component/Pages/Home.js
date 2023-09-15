@@ -652,16 +652,6 @@ const Home = (props) => {
         </div>
       </section>
 
-      <section className="ourRecentClients">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
-            <img src="/images/icons/line.svg" alt="line" />
-            Our Recent Clients
-          </h2>
-          <ClientLogo client="commonClient" />
-        </div>
-      </section>
-
       <WhatWeHaveDone />
 
       <section className="ourAchievements">
@@ -745,6 +735,15 @@ const Home = (props) => {
               />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="ourRecentClients">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Recent Clients
+          </h2>
+          <ClientLogo client="commonClient" />
         </div>
       </section>
 

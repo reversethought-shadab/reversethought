@@ -1463,7 +1463,7 @@ header.blackBg {
 }
 
 .whatWeDo {
-  padding: 8.2723279649vw 0 2.196193265vw;
+  padding: 8.2723279649vw 0 5.1244509517vw;
 }
 @media (min-width: 1440px) {
   .whatWeDo {
@@ -1538,6 +1538,12 @@ header.blackBg {
 .whatWeDo .whatwedoTabsL ul li.active span {
   color: #000000;
 }
+.whatWeDo .animate__animated:hover {
+  color: #212121;
+}
+.whatWeDo .animate__animated:hover span {
+  color: #fa323d;
+}
 .whatWeDo .whatwedoTabsR {
   overflow: hidden;
 }
@@ -1599,6 +1605,7 @@ header.blackBg {
 @media (min-width: 1440px) {
   .ourRecentClients {
     padding-bottom: 109px;
+    padding-top: 50px;
   }
 }
 .ourRecentClients .sectionHead {

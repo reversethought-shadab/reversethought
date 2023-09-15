@@ -1,14 +1,19 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Icon } from "@iconify/react";
 import WOW from "wowjs";
+import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+// import ClientLogo from "../Shared/ClientLogo";
 import ClientLogo from "../Shared/ClientLogo";
 import News from "../Shared/News";
 import Popup from "../Shared/Popup";
 import WhatWeHaveDone from "../Shared/WhatWeHaveDone";
 
-export const Home = (props) => {
+const Home = (props) => {
   const [activeTab, setActiveTab] = useState(0);
   const [watchReel, setWatchReel] = useState(false);
   gsap.registerPlugin(ScrollTrigger);
@@ -69,6 +74,11 @@ export const Home = (props) => {
               className="img-fluid hero_reel_play"
             />
             &nbsp; Watch the Agency Reel!
+          </span>
+          <span className="d-flex">
+            <div className="dots"></div>
+            <div className="dots"></div>
+            <div className="dots"></div>
           </span>
         </div>
       </section>
@@ -344,7 +354,7 @@ export const Home = (props) => {
         </div>
       </section>
 
-      <section className="whatWeDo">
+      <section className="whatWeDo ">
         <div className="content_container">
           <h2 className="sectionHead colorBlack fw-800 wow">
             <img src="/images/icons/line.svg" alt="line" />
@@ -642,16 +652,6 @@ export const Home = (props) => {
         </div>
       </section>
 
-      <section className="ourRecentClients">
-        <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow">
-            <img src="/images/icons/line.svg" alt="line" />
-            Our Recent Clients
-          </h2>
-          <ClientLogo client="commonClient" />
-        </div>
-      </section>
-
       <WhatWeHaveDone />
 
       <section className="ourAchievements">
@@ -735,6 +735,15 @@ export const Home = (props) => {
               />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="ourRecentClients">
+        <div className="content_container">
+          <h2 className="sectionHead colorBlack fw-800 wow">
+            <img src="/images/icons/line.svg" alt="line" />
+            Our Recent Clients
+          </h2>
+          <ClientLogo client="commonClient" />
         </div>
       </section>
 
