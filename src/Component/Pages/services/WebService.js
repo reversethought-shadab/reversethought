@@ -365,7 +365,7 @@ const WebService = (props) => {
         onMouseLeave={props.mouseLeaveOnBlack}
       >
         <div className="content_container">
-          <h2 className="sectionHead colorWhite text-white fw-800 wow">
+          <h2 className="sectionHead text-dark colorWhite text-white fw-800 wow">
             <img src="/images/icons/line-white.svg" alt="line" />
             Our Expertise
           </h2>

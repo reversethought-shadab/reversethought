@@ -231,7 +231,7 @@ const DigitalActivationServices = (props) => {
       </section>
       <section className=" ourWorkSlider ourWorkslider2 wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack wow fw-800">
+          <h2 className="sectionHead text-dark colorBlack wow fw-800">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>
@@ -368,7 +368,7 @@ const DigitalActivationServices = (props) => {
           <div className="accordianParent wow animate__animated animate__fadeIn animation_delay_300ms">
             <Accordion title="Infographics">
               <p>
-                Visualizing information requires not just creativity, but also a
+                Visualising information requires not just creativity, but also a
                 keen understanding of the data and an analytical approach that
                 can best present it. As audiences move increasingly away from
                 intense use of words, our infographics will help you create
@@ -377,82 +377,68 @@ const DigitalActivationServices = (props) => {
             </Accordion>
             <Accordion title="Emailers & Newsletters">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Stay in touch with your customers and forge meaningful
+                conversations with mailers that are both engaging and
+                informative. Bonus: our content creation teams help you craft
+                compelling headlines proven to improve open rate.
               </p>
             </Accordion>
             <Accordion title="GIFs Creatives">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Crafting captivating GIF creatives goes beyond creativity; it
+                demands a deep grasp of data and an analytical finesse for
+                optimal presentation. As audiences gravitate towards more visual
+                content, our GIFs service empowers you to share information
+                effortlessly with eye-catching, easy-to-understand visuals.
               </p>
             </Accordion>
             <Accordion title="WhatsApp Creatives">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Elevate your WhatsApp Creatives with a blend of creativity and
+                data-driven insight. Our infographics turn complex information
+                into easily shareable, visually engaging content, aligning
+                perfectly with the evolving preferences of today's audience.
               </p>
             </Accordion>
             <Accordion title="Logo & Stationery">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Crafting a memorable logo and stationery design demands more
+                than just creativity; it requires a deep comprehension of your
+                brand's essence and an analytical approach to visually represent
+                it. In a world where visual communication reigns, our designs
+                ensure your brand is not only memorable but also easily
+                recognizable and shareable.
               </p>
             </Accordion>
             <Accordion title="Brochures & Flyers">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Transform your Brochures & Flyers with a fusion of artistic
+                ingenuity and data-driven precision. Our designs convert
+                intricate information into visually captivating content,
+                perfectly aligned with the dynamic tastes of modern audiences.
               </p>
             </Accordion>
             <Accordion title="Graphic Design">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Elevate your brand's visual identity and captivate your audience
+                with our meticulous and innovative graphic design, where
+                creativity meets precision to deliver compelling, tailor-made
+                visuals that leave a lasting impression.
               </p>
             </Accordion>
             <Accordion title="Giveaway Kit Design">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Transform your brand's image and captivate your audience with
+                our expertly crafted Giveaway Kit, where creativity knows no
+                bounds, and every detail is a masterpiece waiting to leave a
+                lasting impression.
               </p>
             </Accordion>
             <Accordion title="Outdoor Ads">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Elevate your brand's visibility and captivate your audience with
+                Outdoor Ads, where creativity meets the great outdoors, turning
+                heads and sparking conversations at every corner.
               </p>
             </Accordion>
           </div>

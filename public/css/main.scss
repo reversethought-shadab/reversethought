@@ -1486,9 +1486,9 @@ header.blackBg {
 }
 // What we do
 .whatWeDo {
-  padding: 113 * $desk + vw 0 70 * $desk + vw;
+  padding: 113 * $desk + vw 0 30 * $desk + vw;
   @media #{$md_lg_desk} {
-    padding: 113px 0 119px;
+    padding: 113px 0 30px;
   }
   @include for-phone-only {
     padding: 50px 0;

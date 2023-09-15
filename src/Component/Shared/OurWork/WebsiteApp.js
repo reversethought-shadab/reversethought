@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import $ from "jquery";
 import WOW from "wowjs";
-import News from "../Shared/News";
+// import News from "../Shared/News";
+import News from "../../Shared/News";
 import { Icon } from "@iconify/react";
 
-const OurWork = (props) => {
+const WebsiteApp = (props) => {
   const [isACtive, setisACtive] = useState(0);
 
   const handleTabClick = (i) => {
@@ -93,7 +94,7 @@ const OurWork = (props) => {
             <a href="/our-work/all-projects" className="text-decoration-none">
               {" "}
               <li
-                className="colorLightGrey fw-800 active"
+                className="colorLightGrey fw-800 "
                 onClick={() => handleTabClick(0)}
               >
                 All Project
@@ -102,7 +103,7 @@ const OurWork = (props) => {
             <a href="/our-work/website-app" className="text-decoration-none">
               {" "}
               <li
-                className="colorLightGrey fw-800"
+                className="colorLightGrey fw-800 active"
                 onClick={() => handleTabClick(1)}
               >
                 Websites/App
@@ -2770,4 +2771,4 @@ const OurWork = (props) => {
   );
 };
 
-export default OurWork;
+export default WebsiteApp;

@@ -254,7 +254,7 @@ const DigitalMarketingServices = (props) => {
       </section>
       <section className="ourWorkSlider ourWorkslider2 wow animate__animated animate__slideInLeft">
         <div className="content_container">
-          <h2 className="sectionHead colorBlack fw-800 wow animate__animated animate__fadeIn">
+          <h2 className="sectionHead text-dark colorBlack fw-800 wow animate__animated animate__fadeIn">
             <img src="/images/icons/line.svg" alt="line" />
             More Works
           </h2>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Home from "./Component/Pages/Home";
+import Home from "./Component/Pages/Home.1";
 import Footer from "./Component/Shared/Footer";
 import Header from "./Component/Shared/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -90,6 +90,13 @@ import AymLeafLets from "./Component/Pages/work/creative_design/AymLeafLets";
 import LjmLogo from "./Component/Pages/work/creative_design/LjmLogo";
 import AymStallDesign from "./Component/Pages/work/creative_design/AymStallDesign";
 import TataCsrReport from "./Component/Pages/work/creative_design/TataCsrReport";
+import AllProjects from "./Component/Shared/OurWork/AllProjects";
+import WebsiteApp2 from "./Component/Shared/OurWork/WebsiteApp";
+import VideoProduction2 from "./Component/Shared/OurWork/VideoProduction";
+import CreativeDesign2 from "./Component/Shared/OurWork/CreativeDesign";
+import DigitalActivation2 from "./Component/Shared/OurWork/DigitalActivation";
+import DigitalMarketing2 from "./Component/Shared/OurWork/DigitalMarketing";
+import Photography2 from "./Component/Shared/OurWork/Photography";
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -380,15 +387,27 @@ function App() {
               />
             }
           />
+          <Route path="/welspun" element={<Welpsun />} />
+          <Route path="/our-work/all-projects" element={<AllProjects />} />
+          <Route path="/our-work/photography" element={<Photography2 />} />
+          <Route path="/our-work/website-app" element={<WebsiteApp2 />} />
           <Route
-            path="/welspun"
-            element={
-              <Welpsun
-              // onMouseEnterSmall={handleMouseEnterRedSmall}
-              // onMouseLeaveSmall={handleMouseLeaveRedSmall}
-              />
-            }
+            path="/our-work/video-production"
+            element={<VideoProduction2 />}
           />
+          <Route
+            path="/our-work/digital-activation"
+            element={<DigitalActivation2 />}
+          />
+          <Route
+            path="/our-work/digital-marketing"
+            element={<DigitalMarketing2 />}
+          />
+          <Route
+            path="/our-work/creative-design"
+            element={<CreativeDesign2 />}
+          />
+
           <Route
             path="/alkemlaboratories"
             element={

@@ -1,19 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Icon } from "@iconify/react";
 import WOW from "wowjs";
-import "animate.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
-// import ClientLogo from "../Shared/ClientLogo";
 import ClientLogo from "../Shared/ClientLogo";
 import News from "../Shared/News";
 import Popup from "../Shared/Popup";
 import WhatWeHaveDone from "../Shared/WhatWeHaveDone";
 
-const Home = (props) => {
+export const Home = (props) => {
   const [activeTab, setActiveTab] = useState(0);
   const [watchReel, setWatchReel] = useState(false);
   gsap.registerPlugin(ScrollTrigger);
@@ -74,11 +69,6 @@ const Home = (props) => {
               className="img-fluid hero_reel_play"
             />
             &nbsp; Watch the Agency Reel!
-          </span>
-          <span className="d-flex">
-            <div className="dots"></div>
-            <div className="dots"></div>
-            <div className="dots"></div>
           </span>
         </div>
       </section>
