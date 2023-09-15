@@ -1207,8 +1207,10 @@ header.blackBg {
 
     img {
       height: 2 * $desk + vw;
+      margin-top: 9 * $desk + vw;
       @include for-phone-only {
         height: 1px;
+        margin-top: 5px;
       }
     }
 
@@ -1250,7 +1252,8 @@ header.blackBg {
   }
 
   .hero_year {
-    display: block;
+    display: flex;
+    text-align: center;
     transform: translateY(150px);
     transition: 0.95s all 0.3s;
     opacity: 0;
@@ -1270,7 +1273,48 @@ header.blackBg {
     }
   }
 }
-
+.slick-dots {
+  bottom: -40px;
+    width: 100%;
+    left: -46%;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  @include for-phone-only {
+    bottom: -25px;
+    width: 100%;
+    left: -41%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: 0 0;
+  &::before{
+    font-size: 14px;
+    line-height: 23px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #000;
+  }
+}
 .projectGalleryMain {
   .project_box {
     position: relative;

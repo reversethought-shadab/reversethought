@@ -7,6 +7,7 @@ import WOW from "wowjs";
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Slider from "react-slick";
 // import ClientLogo from "../Shared/ClientLogo";
 import ClientLogo from "../Shared/ClientLogo";
 import News from "../Shared/News";
@@ -40,46 +41,117 @@ const Home = (props) => {
   const close_reel = () => {
     setWatchReel(false);
   };
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    // responsive: [
 
+    // ],
+  };
   return (
     <>
       {watchReel === true ? <Popup close_reel={close_reel} /> : ""}
       <section className="homeIntro">
         <div className="content_container">
-          <h1 className="colorBlack fw-800 wow">
-            Trusted for stunning design since 2008
-            {/* Strategy & design for extraordinary organizations  */}
-          </h1>
-          <span className="colorBlack fw-400 hero_year wow ">
-            2008&nbsp; <img src="/images/icons/line.svg" alt="line" />{" "}
-            &nbsp;2023
-          </span>
-          <h2 className="colorBlack fw-400 wow">
-            For the last 15 years{" "}
-            <span className="colorRed fw-400">
-              we have leveraged strategy, design and technology &nbsp;
-            </span>
-            to help leading Indian and multinational organizations achieve their
-            objectives.
-          </h2>
-          <span
-            className="colorBlack fw-500 watch_reel_txt wow"
-            onClick={watch_reel}
-            onMouseEnter={props.onMouseEnterSmall}
-            onMouseLeave={props.onMouseLeaveSmall}
-          >
-            <img
-              src="/images/icons/play.svg"
-              alt="play"
-              className="img-fluid hero_reel_play"
-            />
-            &nbsp; Watch the Agency Reel!
-          </span>
-          <span className="d-flex">
-            <div className="dots"></div>
-            <div className="dots"></div>
-            <div className="dots"></div>
-          </span>
+          <Slider {...settings}>
+            <div>
+              <h1 className="colorBlack fw-800 wow">
+                Trusted for stunning design since 2008
+                {/* Strategy & design for extraordinary organizations  */}
+              </h1>
+              <span className="colorBlack fw-400 hero_year wow ">
+                2008&nbsp; <img src="/images/icons/line.svg" alt="line" />{" "}
+                &nbsp;2023
+              </span>
+              <h2 className="colorBlack fw-400 wow">
+                For the last 15 years{" "}
+                <span className="colorRed fw-400">
+                  we have leveraged strategy, design and technology &nbsp;
+                </span>
+                to help leading Indian and multinational organizations achieve
+                their objectives.
+              </h2>
+              <span
+                className="colorBlack fw-500 watch_reel_txt wow"
+                onClick={watch_reel}
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                <img
+                  src="/images/icons/play.svg"
+                  alt="play"
+                  className="img-fluid hero_reel_play"
+                />
+                &nbsp; Watch the Agency Reel!
+              </span>
+            </div>
+            <div>
+              <h1 className="colorBlack fw-800 wow">
+                Trusted for stunning design since 2008
+                {/* Strategy & design for extraordinary organizations  */}
+              </h1>
+              <span className="colorBlack fw-400 hero_year wow ">
+                2008&nbsp; <img src="/images/icons/line.svg" alt="line" />{" "}
+                &nbsp;2023
+              </span>
+              <h2 className="colorBlack fw-400 wow">
+                For the last 15 years{" "}
+                <span className="colorRed fw-400">
+                  we have leveraged strategy, design and technology &nbsp;
+                </span>
+                to help leading Indian and multinational organizations achieve
+                their objectives.
+              </h2>
+              <span
+                className="colorBlack fw-500 watch_reel_txt wow"
+                onClick={watch_reel}
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                <img
+                  src="/images/icons/play.svg"
+                  alt="play"
+                  className="img-fluid hero_reel_play"
+                />
+                &nbsp; Watch the Agency Reel!
+              </span>
+            </div>
+            <div>
+              <h1 className="colorBlack fw-800 wow">
+                Trusted for stunning design since 2008
+                {/* Strategy & design for extraordinary organizations  */}
+              </h1>
+              <span className="colorBlack fw-400 hero_year wow ">
+                2008&nbsp; <img src="/images/icons/line.svg" alt="line" />{" "}
+                &nbsp;2023
+              </span>
+              <h2 className="colorBlack fw-400 wow">
+                For the last 15 years{" "}
+                <span className="colorRed fw-400">
+                  we have leveraged strategy, design and technology &nbsp;
+                </span>
+                to help leading Indian and multinational organizations achieve
+                their objectives.
+              </h2>
+              <span
+                className="colorBlack fw-500 watch_reel_txt wow"
+                onClick={watch_reel}
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                <img
+                  src="/images/icons/play.svg"
+                  alt="play"
+                  className="img-fluid hero_reel_play"
+                />
+                &nbsp; Watch the Agency Reel!
+              </span>
+            </div>
+          </Slider>
         </div>
       </section>
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -1207,10 +1208,12 @@ header.blackBg {
 }
 .homeIntro span img {
   height: 0.1464128843vw;
+  margin-top: 0.6588579795vw;
 }
 @media (max-width: 767px) {
   .homeIntro span img {
     height: 1px;
+    margin-top: 5px;
   }
 }
 .homeIntro span.watch_reel_txt {
@@ -1246,7 +1249,8 @@ header.blackBg {
   }
 }
 .homeIntro .hero_year {
-  display: block;
+  display: flex;
+  text-align: center;
   transform: translateY(150px);
   transition: 0.95s all 0.3s;
   opacity: 0;
@@ -1264,6 +1268,52 @@ header.blackBg {
     font-size: 14px;
     line-height: 24px;
   }
+}
+
+.slick-dots {
+  bottom: -40px;
+  width: 100%;
+  left: -46%;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .slick-dots {
+    bottom: -25px;
+    width: 100%;
+    left: -41%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: 0 0;
+}
+.slick-dots li button::before {
+  font-size: 14px;
+  line-height: 23px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: #000;
 }
 
 .projectGalleryMain .project_box {
