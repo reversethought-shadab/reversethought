@@ -429,6 +429,7 @@ const AboutUs = (props) => {
               src="/images/about/group.png"
               alt="Our Team"
               className="img-fluid"
+              style={{ height: "768px", objectFit: "cover" }}
             />
             <img
               src="/images/about/office.jpg"
@@ -444,6 +445,7 @@ const AboutUs = (props) => {
               src="/images/about/group.png"
               alt="Our Team"
               className="img-fluid"
+              style={{ height: "768px", objectFit: "cover" }}
             />
             <img
               src="/images/about/office.jpg"
