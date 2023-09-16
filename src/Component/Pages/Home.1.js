@@ -65,7 +65,7 @@ const Home = (props) => {
                 Trusted for stunning design since 2008
                 {/* Strategy & design for extraordinary organizations  */}
               </h1>
-              <span className="colorBlack fw-400 hero_year wow ">
+              <span className="colorBlack fw-400 hero_year wow align-items-center">
                 2008&nbsp; <img src="/images/icons/line.svg" alt="line" />{" "}
                 &nbsp;2023
               </span>
@@ -78,7 +78,7 @@ const Home = (props) => {
                 their objectives.
               </h2>
               <span
-                className="colorBlack fw-500 watch_reel_txt wow text-center"
+                className="colorBlack fw-500 watch_reel_txt wow text-center d-flex"
                 onClick={watch_reel}
                 onMouseEnter={props.onMouseEnterSmall}
                 onMouseLeave={props.onMouseLeaveSmall}
@@ -86,7 +86,7 @@ const Home = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play mb-2 mb-xxl-3 mb-2"
+                  className="img-fluid hero_reel_play"
                 />
                 &nbsp; Watch the Agency Reel!
               </span>
@@ -96,7 +96,7 @@ const Home = (props) => {
                 Trusted for stunning design since 2008
                 {/* Strategy & design for extraordinary organizations  */}
               </h1>
-              <span className="colorBlack fw-400 hero_year wow ">
+              <span className="colorBlack fw-400 hero_year wow align-items-center">
                 2008&nbsp; <img src="/images/icons/line.svg" alt="line" />{" "}
                 &nbsp;2023
               </span>
@@ -109,7 +109,7 @@ const Home = (props) => {
                 their objectives.
               </h2>
               <span
-                className="colorBlack fw-500 watch_reel_txt wow"
+                className="colorBlack fw-500 watch_reel_txt wow text-center d-flex"
                 onClick={watch_reel}
                 onMouseEnter={props.onMouseEnterSmall}
                 onMouseLeave={props.onMouseLeaveSmall}
@@ -117,7 +117,7 @@ const Home = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play mb-2 mb-xxl-3"
+                  className="img-fluid hero_reel_play "
                 />
                 &nbsp; Watch the Agency Reel!
               </span>
@@ -127,7 +127,7 @@ const Home = (props) => {
                 Trusted for stunning design since 2008
                 {/* Strategy & design for extraordinary organizations  */}
               </h1>
-              <span className="colorBlack fw-400 hero_year wow ">
+              <span className="colorBlack fw-400 hero_year wow align-items-center ">
                 2008&nbsp; <img src="/images/icons/line.svg" alt="line" />{" "}
                 &nbsp;2023
               </span>
@@ -140,7 +140,7 @@ const Home = (props) => {
                 their objectives.
               </h2>
               <span
-                className="colorBlack fw-500 watch_reel_txt wow"
+                className="colorBlack fw-500 watch_reel_txt wow text-center d-flex"
                 onClick={watch_reel}
                 onMouseEnter={props.onMouseEnterSmall}
                 onMouseLeave={props.onMouseLeaveSmall}
@@ -148,7 +148,7 @@ const Home = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play mb-2 mb-xxl-3"
+                  className="img-fluid hero_reel_play "
                 />
                 &nbsp; Watch the Agency Reel!
               </span>

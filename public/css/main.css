@@ -1208,12 +1208,10 @@ header.blackBg {
 }
 .homeIntro span img {
   height: 0.0732064422vw;
-  margin-top: 0.6588579795vw;
 }
 @media (max-width: 767px) {
   .homeIntro span img {
     height: 1px;
-    margin-top: 5px;
   }
 }
 .homeIntro span.watch_reel_txt {
@@ -3592,14 +3590,14 @@ header.blackBg {
 }
 .ourValueSection .imageScrollBar img {
   margin-right: 1.1713030747vw;
-  max-width: 46.7057101025vw;
-  max-height: 41.4348462665vw;
+  max-width: 87.8477306003vw;
+  max-height: 56.0761346999vw;
   width: 100%;
   height: 100%;
 }
 .ourValueSection .imageScrollBar::-webkit-scrollbar {
   width: 0;
-  height: 18px;
+  height: 9px;
 }
 .ourValueSection .imageScrollBar::-webkit-scrollbar-thumb {
   background-color: #202020;

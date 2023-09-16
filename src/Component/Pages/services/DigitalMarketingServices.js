@@ -466,13 +466,14 @@ const DigitalMarketingServices = (props) => {
           </h2>
           <div className="whyChooseUsDetails">
             <p className="colorWhite fw-400 wow animate__animated animate__fadeInUp">
-              Get discovered, get preferred. Your website remains a secret
-              unless people are able to discover it. Of course, you want people
-              outside of your current ecosystem to view your site and act
-              favorably. Consistent ROI, a strong creative and strategic vision
-              and fabulous execution make us an excellent partner for companies
-              of all sizes and budgets. Our development skills help you execute
-              multi-dimensional strategies with speed and perfection.
+              In the realm of digital marketing, we've consistently pushed the
+              limits and defied conventions to connect your goals with the
+              desires of your target audience. Our digital marketing expertise
+              combines interactive strategies, compelling content, engaging
+              visuals, and user-friendly interfaces, seamlessly integrated with
+              state-of-the-art technologies including advanced analytics,
+              AI-driven marketing tools, social media platforms, and more, to
+              create immersive and captivating online experiences.
             </p>
             <ul className="d-flex align-items-center wow animate__animated animate__fadeInUp animation_delay_300ms">
               <li
@@ -480,84 +481,49 @@ const DigitalMarketingServices = (props) => {
                 onMouseEnter={props.mouseEnterOnBlack}
                 onMouseLeave={props.mouseLeaveOnBlack}
               >
-                CSS
+                Data Analytics and Insights
               </li>
               <li
                 className="colorWhite fw-800"
                 onMouseEnter={props.mouseEnterOnBlack}
                 onMouseLeave={props.mouseLeaveOnBlack}
               >
-                HTML 5
+                Search Engine Optimization (SEO)
               </li>
               <li
                 className="colorWhite fw-800"
                 onMouseEnter={props.mouseEnterOnBlack}
                 onMouseLeave={props.mouseLeaveOnBlack}
               >
-                JavaScript
+                Whatsapp Campaign
               </li>
               <li
                 className="colorWhite fw-800"
                 onMouseEnter={props.mouseEnterOnBlack}
                 onMouseLeave={props.mouseLeaveOnBlack}
               >
-                PHP
+                Email Marketing Automation
               </li>
               <li
                 className="colorWhite fw-800"
                 onMouseEnter={props.mouseEnterOnBlack}
                 onMouseLeave={props.mouseLeaveOnBlack}
               >
-                Microsoft.net
+                E-commerce Platforms
               </li>
               <li
                 className="colorWhite fw-800"
                 onMouseEnter={props.mouseEnterOnBlack}
                 onMouseLeave={props.mouseLeaveOnBlack}
               >
-                AngularJS
+                Conversion Rate Optimization
               </li>
               <li
                 className="colorWhite fw-800"
                 onMouseEnter={props.mouseEnterOnBlack}
                 onMouseLeave={props.mouseLeaveOnBlack}
               >
-                MySQL.
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                IOS
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Android
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Prestashop
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                Magento
-              </li>
-              <li
-                className="colorWhite fw-800"
-                onMouseEnter={props.mouseEnterOnBlack}
-                onMouseLeave={props.mouseLeaveOnBlack}
-              >
-                WordPress
+                Pay-Per-Click (PPC) Advertising
               </li>
             </ul>
           </div>

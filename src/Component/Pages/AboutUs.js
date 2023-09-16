@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 // import "swiper/css/pagination";
 // import { Mousewheel, Pagination } from "swiper/modules";
 import WOW from "wowjs";
+// import Slider from "react-slick";
 import News from "../Shared/News";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -53,7 +54,7 @@ const AboutUs = (props) => {
               onMouseLeave={props.onMouseLeaveSmall}
             >
               <span
-                className="colorBlack fw-500 watch_reel_txt wow text-center"
+                className="colorBlack fw-500 watch_reel_txt wow text-center d-flex"
                 onClick={watch_reel}
                 onMouseEnter={props.onMouseEnterSmall}
                 onMouseLeave={props.onMouseLeaveSmall}
@@ -61,7 +62,7 @@ const AboutUs = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play mb-1"
+                  className="img-fluid hero_reel_play "
                 />
                 &nbsp; Watch the Agency Reel!
               </span>
@@ -470,11 +471,11 @@ const AboutUs = (props) => {
               alt="Our Team"
               className="img-fluid"
             />
-            {/* <img
+            <img
               src="/images/about/tushar-sunidhi.jpg"
               alt="Our Team"
               className="img-fluid"
-            /> */}
+            />
           </div>
 
           <div className="joinOurTribe wow animate__animated animate__slideInUp">

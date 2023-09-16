@@ -78,7 +78,7 @@ const Home = (props) => {
                 their objectives.
               </h2>
               <span
-                className="colorBlack fw-500 watch_reel_txt wow"
+                className="colorBlack fw-500 watch_reel_txt wow text-center d-flex"
                 onClick={watch_reel}
                 onMouseEnter={props.onMouseEnterSmall}
                 onMouseLeave={props.onMouseLeaveSmall}
@@ -109,7 +109,7 @@ const Home = (props) => {
                 their objectives.
               </h2>
               <span
-                className="colorBlack fw-500 watch_reel_txt wow "
+                className="colorBlack fw-500 watch_reel_txt wow  text-center d-flex"
                 onClick={watch_reel}
                 onMouseEnter={props.onMouseEnterSmall}
                 onMouseLeave={props.onMouseLeaveSmall}
@@ -117,7 +117,7 @@ const Home = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play mb-2"
+                  className="img-fluid hero_reel_play "
                 />
                 &nbsp; Watch the Agency Reel!
               </span>
@@ -140,7 +140,7 @@ const Home = (props) => {
                 their objectives.
               </h2>
               <span
-                className="colorBlack fw-500 watch_reel_txt wow"
+                className="colorBlack fw-500 watch_reel_txt wow text-center d-flex"
                 onClick={watch_reel}
                 onMouseEnter={props.onMouseEnterSmall}
                 onMouseLeave={props.onMouseLeaveSmall}

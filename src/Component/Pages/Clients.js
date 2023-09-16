@@ -79,7 +79,7 @@ const Clients = (props) => {
               onMouseLeave={props.onMouseLeaveSmall}
             >
               <span
-                className="colorBlack fw-500 watch_reel_txt wow text-center"
+                className="colorBlack fw-500 watch_reel_txt wow text-center d-flex"
                 onClick={watch_reel}
                 onMouseEnter={props.onMouseEnterSmall}
                 onMouseLeave={props.onMouseLeaveSmall}
@@ -87,7 +87,7 @@ const Clients = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play mb-1"
+                  className="img-fluid hero_reel_play "
                 />
                 &nbsp; Watch the Agency Reel!
               </span>

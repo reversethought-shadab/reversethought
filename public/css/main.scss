@@ -1207,14 +1207,14 @@ header.blackBg {
 
     img {
       height: 1 * $desk + vw;
-      margin-top: 9 * $desk + vw;
+      // margin-top: 9 * $desk + vw;
       // @media #{$md_lg_desk} {
       //   font-size: 14px;
       //   line-height: 24px;
       // }
       @include for-phone-only {
         height: 1px;
-        margin-top: 5px;
+        // margin-top: 5px;
       }
     }
 
@@ -3577,14 +3577,16 @@ header.blackBg {
     }
     img {
       margin-right: 16 * $desk + vw;
-      max-width: 638 * $desk + vw;
-      max-height: 566 * $desk + vw;
+      max-width: 1200 * $desk + vw;
+      max-height: 766 * $desk + vw;
       width: 100%;
       height: 100%;
     }
+    // max-width: 100.70571vw;
+    // max-height: 73.434846vw;
     &::-webkit-scrollbar {
       width: 0;
-      height:18px;
+      height:9px;
     }
   
     &::-webkit-scrollbar-thumb {
