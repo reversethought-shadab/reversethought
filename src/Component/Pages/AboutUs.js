@@ -61,7 +61,7 @@ const AboutUs = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play mb-2"
+                  className="img-fluid hero_reel_play mb-1"
                 />
                 &nbsp; Watch the Agency Reel!
               </span>
