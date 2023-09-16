@@ -904,7 +904,7 @@ input {
   display: none;
 }
 .header_content_container header nav ul li .openServiceMenu .service_menu ul li a {
-  font-size: 2.0497803807vw;
+  font-size: 1.756954612vw;
   line-height: 2.4890190337vw;
   display: block;
   font-weight: 700;
@@ -1207,7 +1207,7 @@ header.blackBg {
   }
 }
 .homeIntro span img {
-  height: 0.1464128843vw;
+  height: 0.0732064422vw;
   margin-top: 0.6588579795vw;
 }
 @media (max-width: 767px) {
@@ -3573,7 +3573,7 @@ header.blackBg {
   }
 }
 .ourValueSection .imageScrollBar {
-  width: calc(100vw - 118px);
+  width: 100vw;
   overflow-x: auto;
   display: flex;
   align-items: start;
@@ -3592,7 +3592,7 @@ header.blackBg {
 }
 .ourValueSection .imageScrollBar img {
   margin-right: 1.1713030747vw;
-  max-width: 68.6676427526vw;
+  max-width: 46.7057101025vw;
   max-height: 41.4348462665vw;
   width: 100%;
   height: 100%;
@@ -4630,6 +4630,7 @@ header.blackBg {
   border-bottom: 1px solid #545454;
   font-size: 1.0248901903vw;
   line-height: 1.756954612vw;
+  cursor: pointer;
   letter-spacing: -0.0666178624vw;
 }
 .contactUsSection .contactUsForm form .interestedIn ul li.active {

@@ -1,17 +1,28 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import WOW from "wowjs";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Popup from "../Shared/Popup";
 import ClientLogo from "../Shared/ClientLogo";
 import News from "../Shared/News";
 
 const Clients = (props) => {
+  const [watchReel, setWatchReel] = useState(false);
+  gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     const wow = new WOW.WOW({
       live: false,
     });
     wow.init();
   }, []);
+  const watch_reel = () => {
+    setWatchReel(true);
+  };
 
+  const close_reel = () => {
+    setWatchReel(false);
+  };
   const settings = {
     dots: true,
     infinite: false,
@@ -48,6 +59,7 @@ const Clients = (props) => {
   };
   return (
     <>
+      {watchReel === true ? <Popup close_reel={close_reel} /> : ""}
       <section className="aboitUsSection clientsMainSection position-relative">
         <div className="content_container">
           <div className="servicePageBanner">
@@ -66,12 +78,19 @@ const Clients = (props) => {
               onMouseEnter={props.onMouseEnterSmall}
               onMouseLeave={props.onMouseLeaveSmall}
             >
-              <img
-                src="/images/icons/play.svg"
-                alt="play"
-                className="img-fluid hero_reel_play"
-              />
-              <span className="colorBlack">Watch the Agency Reel!</span>
+              <span
+                className="colorBlack fw-500 watch_reel_txt wow text-center"
+                onClick={watch_reel}
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                <img
+                  src="/images/icons/play.svg"
+                  alt="play"
+                  className="img-fluid hero_reel_play mb-2"
+                />
+                &nbsp; Watch the Agency Reel!
+              </span>
             </p>
             {/* <span className="colorBlack fw-500 reelLine">
               <img

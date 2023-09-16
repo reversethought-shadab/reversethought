@@ -86,7 +86,7 @@ const Home = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play mb-2"
+                  className="img-fluid hero_reel_play mb-2 mb-xxl-3 mb-2"
                 />
                 &nbsp; Watch the Agency Reel!
               </span>
@@ -117,7 +117,7 @@ const Home = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play"
+                  className="img-fluid hero_reel_play mb-2 mb-xxl-3"
                 />
                 &nbsp; Watch the Agency Reel!
               </span>
@@ -148,7 +148,7 @@ const Home = (props) => {
                 <img
                   src="/images/icons/play.svg"
                   alt="play"
-                  className="img-fluid hero_reel_play"
+                  className="img-fluid hero_reel_play mb-2 mb-xxl-3"
                 />
                 &nbsp; Watch the Agency Reel!
               </span>

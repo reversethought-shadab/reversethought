@@ -6,17 +6,27 @@ import React, { useEffect, useState } from "react";
 // import { Mousewheel, Pagination } from "swiper/modules";
 import WOW from "wowjs";
 import News from "../Shared/News";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Popup from "../Shared/Popup";
 import WhatWeHaveDone from "../Shared/WhatWeHaveDone";
 import ClientLogo from "../Shared/ClientLogo";
 import { Icon } from "@iconify/react";
 
 const AboutUs = (props) => {
   const [activeTab, setActiveTab] = useState(0);
-
+  const [watchReel, setWatchReel] = useState(false);
+  gsap.registerPlugin(ScrollTrigger);
   const handleTabClick = (index) => {
     setActiveTab(index);
   };
+  const watch_reel = () => {
+    setWatchReel(true);
+  };
 
+  const close_reel = () => {
+    setWatchReel(false);
+  };
   useEffect(() => {
     const wow = new WOW.WOW({
       live: false, // Set to false if you want to trigger the animations only once
@@ -26,6 +36,7 @@ const AboutUs = (props) => {
 
   return (
     <>
+      {watchReel === true ? <Popup close_reel={close_reel} /> : ""}
       <section className="aboitUsSection">
         <div className="content_container position-relative">
           <div className="servicePageBanner">
@@ -41,12 +52,19 @@ const AboutUs = (props) => {
               onMouseEnter={props.onMouseEnterSmall}
               onMouseLeave={props.onMouseLeaveSmall}
             >
-              <img
-                src="/images/icons/play.svg"
-                alt="play"
-                className="img-fluid hero_reel_play"
-              />
-              <span>Watch the Agency Reel!</span>
+              <span
+                className="colorBlack fw-500 watch_reel_txt wow text-center"
+                onClick={watch_reel}
+                onMouseEnter={props.onMouseEnterSmall}
+                onMouseLeave={props.onMouseLeaveSmall}
+              >
+                <img
+                  src="/images/icons/play.svg"
+                  alt="play"
+                  className="img-fluid hero_reel_play mb-2"
+                />
+                &nbsp; Watch the Agency Reel!
+              </span>
             </p>
 
             <h4 className="serviceKeyPoints colorBlack fw-800 wow animate__animated animate__fadeInUp animation_delay_300ms">
@@ -429,7 +447,7 @@ const AboutUs = (props) => {
               src="/images/about/group.png"
               alt="Our Team"
               className="img-fluid"
-              style={{ height: "768px", objectFit: "cover" }}
+              style={{ height: "523px", objectFit: "cover" }}
             />
             <img
               src="/images/about/office.jpg"
@@ -445,18 +463,18 @@ const AboutUs = (props) => {
               src="/images/about/group.png"
               alt="Our Team"
               className="img-fluid"
-              style={{ height: "768px", objectFit: "cover" }}
+              style={{ height: "523px", objectFit: "cover" }}
             />
             <img
               src="/images/about/office.jpg"
               alt="Our Team"
               className="img-fluid"
             />
-            <img
+            {/* <img
               src="/images/about/tushar-sunidhi.jpg"
               alt="Our Team"
               className="img-fluid"
-            />
+            /> */}
           </div>
 
           <div className="joinOurTribe wow animate__animated animate__slideInUp">

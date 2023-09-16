@@ -865,7 +865,7 @@ input {
                   }
 
                   a{
-                    font-size: 28 * $desk + vw;
+                    font-size: 24 * $desk + vw;
                     line-height: 34 * $desk + vw;
                     display: block;
                     font-weight: 700;
@@ -1206,8 +1206,12 @@ header.blackBg {
     }
 
     img {
-      height: 2 * $desk + vw;
+      height: 1 * $desk + vw;
       margin-top: 9 * $desk + vw;
+      // @media #{$md_lg_desk} {
+      //   font-size: 14px;
+      //   line-height: 24px;
+      // }
       @include for-phone-only {
         height: 1px;
         margin-top: 5px;
@@ -3559,7 +3563,7 @@ header.blackBg {
     }
   }
   .imageScrollBar {
-    width: calc(100vw - 118px);
+    width: 100vw;
     overflow-x: auto;
     display: flex;
     align-items: start;
@@ -3573,7 +3577,7 @@ header.blackBg {
     }
     img {
       margin-right: 16 * $desk + vw;
-      max-width: 938 * $desk + vw;
+      max-width: 638 * $desk + vw;
       max-height: 566 * $desk + vw;
       width: 100%;
       height: 100%;
@@ -4496,6 +4500,7 @@ header.blackBg {
             border-bottom: 1px solid $colorGrey;
             font-size: 14 * $desk + vw;
             line-height: 24 * $desk + vw;
+            cursor:pointer;
             letter-spacing: -0.91 * $desk + vw;
             &.active {
               color: $colorRed;
